@@ -36,6 +36,7 @@ jobs:
           python3 -m py_compile scripts/sync_phase1_website.py
           python3 -m py_compile scripts/sanitize_public_html.py
           python3 -m py_compile scripts/validate_public_site.py
+          python3 -m py_compile scripts/verify_pages_rendering_controls.py
 
       - name: Reconcile source-ledger ID control set
         shell: bash
@@ -56,6 +57,9 @@ jobs:
       - name: Apply production accessibility and responsive overrides
         shell: bash
         run: cat website/assets/site-overrides.css >> website/assets/site.css
+
+      - name: Verify Pages rendering controls
+        run: python3 scripts/verify_pages_rendering_controls.py
 
       - name: Sanitize generated public HTML
         run: python3 scripts/sanitize_public_html.py
