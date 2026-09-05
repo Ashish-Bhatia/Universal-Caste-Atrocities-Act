@@ -75,7 +75,11 @@ The 377-ID discrepancy remains unresolved as a historical classification/integra
 
 ## Central and Transition Residuals
 
-Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Existing State residuals remain jurisdiction-specific. Search silence is not treated as absence.
+The SC/ST Act current consolidated text has now reached a controlled closure outcome for the Act-version question. India Code's 21-09-2025 consolidation was verified and a targeted 2026 search located no later Central amending Act. This closes PH1-ISSUE-001 with qualification, while PH1-ISSUE-008 remains open for the broader later-instrument search.
+
+The SC/ST Rules Annexure-II apparent 1986/2001 source discrepancy is resolved by the official Ministry of Tribal Affairs-hosted Rules PDF, which identifies the attached Annexure-II as the 01-06-2001 notification and explains the 06-08-1986 instrument as the earlier guideline being reviewed. PH1-ISSUE-014 is closed.
+
+Central Rules final source freeze remains open. PCR Act/Rules, Manual Scavengers Act/Rules, bonded-labour interfaces and Priority 2 Central legislation remain subject to their recorded closure criteria. BNS/BNSS/BSA transition verification remains open. Existing State residuals remain jurisdiction-specific. Search silence is not treated as absence.
 
 ## Puducherry Phase 1 Position
 
@@ -111,6 +115,10 @@ CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PASS, run #438 and independent artifact 
 
 LIVE PAGES HTTP/SETTINGS VERIFICATION: OPEN, connector limitation.
 
+SC/ST ACT CURRENT-TEXT/VERSION QUESTION: CLOSED WITH QUALIFICATION.
+
+SC/ST RULES ANNEXURE-II SOURCE DISCREPANCY: CLOSED.
+
 CENTRAL CURRENT-LAW COMPLETENESS: OPEN.
 
 BNS/BNSS/BSA TRANSITION FREEZE: OPEN.
@@ -124,3 +132,5 @@ Next authorized workstream: controlled closure of remaining Phase 1 acceptance d
 ## Latest Controlled Update
 
 2026-09-06: completed Puducherry Phase 1 State/UT inventory as the 36th jurisdiction; reconciled the master State/UT inventory to 36/36; completed the cumulative Phase 1 acceptance audit; added the Phase 1 website count synchronization control; fixed the hard-coded 33-page validation defect; verified the current 36-jurisdiction Pages artifact in run #438; recorded the post-baseline source-ledger filesystem delta; did not modify the master State Implementation Source Ledger.
+
+2026-09-06: closed the SC/ST Act current-text/version residual on a qualified controlled basis and resolved the SC/ST Rules Annexure-II 1986/2001 source discrepancy using the official Ministry-hosted Rules PDF. Remaining Central and transition dependencies remain open.
