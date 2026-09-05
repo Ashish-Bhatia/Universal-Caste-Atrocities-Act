@@ -28,17 +28,21 @@ jobs:
       - name: Prepare repository path compatibility
         run: ln -sf DELHI.md legislation/states/DELHI_NCT.md
 
-      - name: Validate website builders
+      - name: Validate website builders and controls
         run: |
           python3 -m py_compile scripts/build_website.py
           python3 -m py_compile scripts/build_website_v2.py
           python3 -m py_compile scripts/verify_website_source_sync.py
+          python3 -m py_compile scripts/sanitize_public_html.py
 
       - name: Reconcile source-ledger ID control set
         run: python3 scripts/verify_website_source_sync.py
 
       - name: Build research site
         run: python3 scripts/build_website_v2.py
+
+      - name: Sanitize generated public HTML
+        run: python3 scripts/sanitize_public_html.py
 
       - name: Validate generated site
         shell: bash
