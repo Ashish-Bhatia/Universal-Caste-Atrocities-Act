@@ -25,8 +25,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Build site from repository data
+      - name: Validate website builder
+        run: python3 -m py_compile scripts/build_website.py
+
+      - name: Build research site
         run: python3 scripts/build_website.py
+
+      - name: Validate generated site
+        shell: bash
+        run: |
+          test -f website/index.html
+          test -f website/states.html
+          test -f website/law.html
+          test -f website/sources.html
+          test -f website/methodology.html
+          test -f website/404.html
+          test -f website/sitemap.xml
+          if grep -R -n "github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act" website --include='*.html'; then
+            echo "Public site contains a repository-navigation link. Build rejected."
+            exit 1
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
