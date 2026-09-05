@@ -23,13 +23,13 @@ These findings advance the later-instrument evidence but do not establish a comp
 
 ## SC/ST Act transition issues
 
-PH1-ISSUE-003 remains ADVANCED WITH QUALIFICATION. BNS primary text confirms material differences relevant to the existing section 3 crosswalk, including BNS section 116's 15-day grievous-hurt threshold, BNS section 115's current simple-hurt punishment, BNS section 146 unlawful compulsory labour, and BNS section 358 repeal/savings. Full punishment-threshold correspondence under section 3(2)(v) and all Schedule entries remains open.
+PH1-ISSUE-003 remains ADVANCED WITH QUALIFICATION. Section 3(2)(v) is now expressly controlled as an offence-specific BNS punishment-threshold question. The ten-year threshold must be tested against the applicable BNS offence and subsection, including changed punishment ceilings/floors. The Schedule control now identifies material BNS mergers, punishment changes and element changes, including IPC 148 -> BNS 191(3), IPC 320 -> BNS 116, IPC 323 -> BNS 115(2), IPC 332 -> BNS 121(1)-(2), and reorganised sexual/kidnapping/trespass/intimidation provisions.
 
-PH1-ISSUE-004 remains ADVANCED WITH QUALIFICATION. BNSS primary structure confirms sections 3-5, sections 173-193, Chapter XXII sections 283-289, and section 531 as relevant transition architecture. Rule 7's special-law investigation requirements and the consequences of its 60-day framework remain open.
+PH1-ISSUE-004 remains ADVANCED WITH QUALIFICATION. BNSS primary structure confirms sections 3-5, sections 173-193, Chapter XXII sections 283-289, and section 531 as relevant transition architecture. Rule 7 is now mapped by subject matter to BNSS sections 173, 175, 176, 180, 181, 183, 193 and 187. Rule 7's 60-day investigation/charge-sheet requirement remains a special-law duty. The primary text does not itself convert breach into automatic default bail or invalidate the investigation. Judicial consequences remain a later case-law question.
 
-PH1-ISSUE-005 remains ADVANCED WITH QUALIFICATION. BSA primary structure confirms sections 104-109 as the general burden-of-proof sequence and section 115 as a general presumption provision. This does not establish an equivalent to SC/ST Act section 8. Judicial operation remains reserved.
+PH1-ISSUE-005 remains ADVANCED WITH QUALIFICATION. BSA primary structure confirms sections 104-109 as the general burden-of-proof sequence and section 115 as a distinct disturbed-area/public-order presumption. These provisions do not reproduce SC/ST Act section 8(a)-(c), which contains special rebuttable presumptions concerning financial assistance/abetment, group offences following disputes/common intention or common object, and knowledge of caste or tribal identity. Judicial operation remains reserved.
 
-PH1-ISSUE-009 remains ADVANCED WITH QUALIFICATION. S.O. 2790(E), dated 16-07-2024, is reaffirmed as the controlling construction-of-references instrument. No blanket numerical substitution is permitted.
+PH1-ISSUE-009 remains ADVANCED WITH QUALIFICATION. S.O. 2790(E), dated 16-07-2024, is reaffirmed as the controlling construction-of-references instrument. No blanket numerical substitution is permitted, and special-law provisions remain preserved.
 
 ## Scope protection
 
