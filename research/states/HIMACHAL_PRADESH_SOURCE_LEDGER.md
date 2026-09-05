@@ -1,0 +1,52 @@
+# Himachal Pradesh State Source Ledger
+
+Phase 1, State-by-State official-source inventory
+Inventory date: 2026-09-05
+
+| ID | Source | Finding | Grade | Verification status |
+|---|---|---|---|---|
+| HP-STATE-001 | Government of Himachal Pradesh, Department of Social Justice & Empowerment, Annual Report on PoA/PCR implementation for calendar year 2024, transmitted 17-05-2025 | Official State annual report covering 2024. Records Rule 9 nodal officer, Protection Cell, Rule 10 Special Officers, courts, prosecutors, V&MCs, relief, investigation and contingency-plan architecture. | A | Verified from State-origin document; hosted on CVMC mirror, provenance retained |
+| HP-STATE-002 | Government of Himachal Pradesh, Department of Social Justice & Empowerment, current official website, updated April 2026 | Current department identifies Director ESOMSA, publishes annual reports, notifications, office orders/appointments, schemes and related-law links. | A | Current official State source verified |
+| HP-STATE-003 | Government of Himachal Pradesh, Department of Personnel, notification dated October 2024 concerning additional charge | Identifies an Additional Director in ESOMSA and current administrative structure, but does not establish the Rule 9 appointment instrument. | A | Current/recent official source; corroborative only |
+| HP-STATE-004 | 2024 State PoA annual report, Annexure XVII, Rule 9 | Director, Empowerment of Scheduled Castes, OBCs, Minorities and Specially Abled, Himachal Pradesh is identified as the Rule 9 nodal officer; quarterly Protection Cell reports were received, but review of those reports was recorded as not undertaken. | A for underlying State report | Verified for 2024 reporting period; current 2026 appointment instrument remains open |
+| HP-STATE-005 | 2024 State PoA annual report, Annexure XIV, Rule 8 | SC/ST Protection Cell exists at State CID Headquarters, Shimla, under DGP supervision; composition includes DGP, ADGP/CID and ADGP Law & Order. | A | Verified for 2024 reporting period; current staffing/order remains open |
+| HP-STATE-006 | 2024 State PoA annual report, Annexure XV | No Special Police Station was set up in any of the 12 districts; all listed districts show nil. | A | Verified for 2024 reporting period; current 2026 unit status remains open |
+| HP-STATE-007 | 2024 State PoA annual report, Rule 7/Section 15A response | PoA cases were to be investigated by police officers not below DSP rank; district SPs were directed to complete investigation within 60 days and higher officers monitored progress. | A | Verified for 2024 reporting period |
+| HP-STATE-008 | 2024 State PoA annual report, Annexure XVIII, Rule 10 | All 12 districts reported Special Officers; designation was Additional District Magistrates of the concerned districts. | A | Verified for 2024 reporting period; current appointment orders remain open |
+| HP-STATE-009 | 2024 State PoA annual report, Annexure XII | No atrocity-prone area was identified in any district in the 2024 report. | A | Verified for 2024 reporting period; no current notification census established |
+| HP-STATE-010 | 2024 State PoA annual report, Annexure IX and State-level section | State V&MC was constituted under CM chairmanship but held no meeting in 2024; 12 District V&MCs were reported, with 32 district meetings in 2024. Sub-divisional committees were also listed, with meeting activity recorded for some sub-divisions. | A | Verified for 2024 reporting period; current constitutions/membership remain open |
+| HP-STATE-011 | 2024 State PoA annual report, Annexure XII-XIII | All District and Sessions Judge courts were reported as designated Special Courts under section 14; specified Family Courts were also described as designated Special Courts. The report states all District Attorneys-cum-Public Prosecutors were designated Special Public Prosecutors within respective jurisdictions. | A | Verified for 2024 reporting period; complete current notification/jurisdiction matrix remains open |
+| HP-STATE-012 | 2024 State PoA annual report, Annexure XIII and performance-review material | No Exclusive Special Public Prosecutors were specified; review of Special/Exclusive Special Prosecutor performance was nil. | A | Verified for 2024 reporting period |
+| HP-STATE-013 | 2024 State PoA annual report, relief sections and Annexure VII | Rs.2,70,80,639 was provided as immediate relief to 415 victims during 2024. The State report states relief provision within seven days and State authorization to District Magistrates for immediate treasury withdrawal. Annexure VII states 415 cases received relief and majority were paid within the stipulated period. | A | Verified for 2024 reporting period; current rate/order and case workflow remain open |
+| HP-STATE-014 | 2024 State PoA annual report, Annexure XIX | State contingency plan under Rule 15 was reported as formulated, based on the Model Contingency Plan, describing roles of departments/officers, local bodies, NGOs and relief measures. | A | Verified for 2024 reporting period; operative Gazette/SOP copy not independently frozen |
+| HP-STATE-015 | HP Police Citizen Portal, current CCTNS portal | Current official portal provides online complaint, citizen tip, FIR view, FIR/complaint status search and other CCTNS services. It does not identify a PoA-specific online FIR/case workflow in the retrieved public material. | A | Current official police source verified; PoA-specific workflow remains unestablished |
+| HP-STATE-016 | HP Police Citizen Portal, Crime Review 2024 | Current police crime review provides district-wise incidents under SC/ST (Prevention of Atrocities) Act and PCR Act for 2024. | A | Current official police source verified |
+| HP-STATE-017 | HP Police Citizen Portal, SC/ST atrocities information page | Police publication states no particular area was notorious for SC/ST atrocity offences and publishes a head-wise historical series through 2024. | A | Official police source; geography statement is descriptive, not a substitute for a legal atrocity-prone-area notification |
+| HP-STATE-018 | Government of Himachal Pradesh Economics & Statistics Department, Economic Survey 2018-19 | Reports District and Sub-Division Vigilance Committees under Bonded Labour System (Abolition) Act and a State Level Standing Committee on bonded labour. | A | Official State source; historical implementation evidence |
+| HP-STATE-019 | Government of Himachal Pradesh current Dastavez/Document Management System, Panchayati Raj | Current repository records the HP Panchayati Raj Act 1994, 2025 amendment and 2026 reservation-rule amendment. | A | Current official State repository verified |
+| HP-STATE-020 | Government of Himachal Pradesh Urban Development Department current Acts page | Current urban-law interface publishes HP Municipal Act 1994, Municipal Corporation Act 1994 and amendments through 2023. | A | Current official State source verified |
+| HP-STATE-021 | Government of Himachal Pradesh Land Code / Transfer of Land Regulation material | State legal compilation records the Himachal Pradesh Transfer of Land (Regulation) Act 1968 and Rules 1969, with the Act updated through 2023; section 3 restricts transfer of land interests by Scheduled Tribes without prior State permission and requires consultation with Gram Sabha/Panchayats in the stated cases. | A | Current/recent official State legal compilation verified |
+| HP-STATE-022 | National Commission for Safai Karamcharis Annual Report 2021-22 | State Government reported nil manual scavengers in Himachal Pradesh for the reporting period. | A | Official Central statutory-commission report; historical reporting evidence |
+| HP-STATE-023 | Government of India PIB, Manual Scavenging response 2015 | Records Himachal Pradesh as one of the States with its own legislation on manual scavenging before the 2013 Central Act framework. | A | Historical official Central source |
+| HP-STATE-024 | Himachal Pradesh High Court, current official judgment record concerning manual scavenging | Court applies section 5 of the 2013 Manual Scavengers Act and recognizes its prohibition on employment/engagement of manual scavengers. | A | Current official judicial source verified; case-specific interface evidence |
+| HP-STATE-025 | Government of Himachal Pradesh current Social Justice/ESOMSA site | Current department links to National Commission for Safai Karamcharis and Manual Scavengers material, confirming continuing administrative interface. | A | Current official State source verified |
+| HP-STATE-026 | Government of Himachal Pradesh official 2024 PoA annual report | PCR implementation is reviewed by State and District V&MCs; three PCR cases were registered in 2024, two put in court, one pending investigation and one pending court. | A | Verified 2024 State reporting evidence |
+
+## Open closure items
+
+1. Current 2026 Rule 9 designation/appointment instrument and individual office-holder.
+2. Current Protection Cell establishment/order, staffing and any district units or special police machinery.
+3. Current Rule 10 Special Officer appointment orders.
+4. Current atrocity-prone-area notifications, if any, and operative status.
+5. Complete current Special/Exclusive Special Court notification and jurisdiction matrix, including post-reorganisation changes.
+6. Current PoA-specific SPP/ESPP appointment orders/register and replacements.
+7. Current relief-rate/order, treasury authorization, payment/DBT and case-processing workflow.
+8. Current PoA-specific Gazette/SOP/circular/manual set, including operative contingency-plan notification copy.
+9. Current PoA-specific digital/FIR/case-management workflow beyond general CCTNS public services.
+10. Current State/District/Sub-Divisional V&MC constitution orders, membership and meeting records.
+11. Current Manual Scavengers State/District/local implementation instruments and post-2013 State-law status.
+12. Current bonded-labour implementation orders, vigilance-committee constitution and post-2018 operational records.
+
+## Status
+
+Himachal Pradesh is sufficiently inventoried for progression with qualifications. The 2024 State annual report provides unusually detailed implementation architecture, including Rule 9, Rule 10, Protection Cell, investigation rank, courts, prosecutors, V&MCs, relief and contingency planning. Current 2026 primary instruments remain incomplete. Search silence is not treated as proof of absence.
