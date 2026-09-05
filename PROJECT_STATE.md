@@ -20,24 +20,39 @@ Remaining unresearched jurisdictions:
 2. Lakshadweep
 3. Puducherry
 
+## Control Remediation Status, 2026-09-06
+
+The project has entered a control-remediation workstream before any new substantive Phase 1 jurisdiction research.
+
+Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
+
+It formally defines:
+- COMPLETED
+- VERIFIED
+- CURRENT
+- OPEN
+- QUALIFIED
+- PROCEED/CLOSE WITH LIMITATIONS
+- source-of-truth hierarchy
+- conflict-resolution rule
+- universal search stopping rule
+- reopening rule
+- master-index reconciliation standard
+
+The master State Implementation Inventory has been reconciled against the 33 substantive jurisdiction artifacts and now identifies 33 completed jurisdictions and the three unresearched jurisdictions.
+
+The master State Implementation Source Ledger remains substantively integrated through Maharashtra. A controlled reconciliation record has been created at `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`. It verifies the existence and disposition of later jurisdiction-specific source ledgers without falsely claiming their substantive rows are already integrated. A controlled master-ledger integration write remains open and must preserve all existing source rows and IDs.
+
 ## Cumulative Control Layer
 
-The 2026-09-06 cumulative state-control reconciliation was repaired and then independently re-read after write.
+The 2026-09-06 cumulative state-control reconciliation was repaired and independently re-read after write.
 
-The three previously lagging cumulative controls now contain explicit reconciliation-only indexes:
+The three cumulative controls contain explicit reconciliation-only indexes:
 - `RESEARCH_LEDGER.md` contains the cumulative 33-jurisdiction artifact-control index through Jammu and Kashmir.
 - `ISSUES_REGISTER.md` contains the cumulative residual-control index covering the later jurisdiction-specific issue sets without renumbering existing IDs.
 - `DECISIONS_LOG.md` contains the cumulative jurisdiction-decision control index through Jammu and Kashmir without fabricating cumulative IDs.
 
 The jurisdiction-specific records remain the substantive records. The indexes are control metadata only.
-
-## Master State Files
-
-`legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` were not modified during this reconciliation and remain controlled consolidation targets. The master source ledger's last verified controlled integration point remains Maharashtra.
-
-## Historical Baseline Control
-
-`BASELINE_AUDIT.md` now contains an explicit warning that it is a historical 2026-09-05 Phase 0 initialization record. Its historical `Phase 1: NOT STARTED` wording is not current project state.
 
 ## Central and Transition Residuals
 
@@ -59,9 +74,15 @@ No reopening of completed jurisdiction baselines absent a genuine evidentiary/co
 
 CUMULATIVE CONTROL RECONCILIATION: PASS.
 
-The cumulative control synchronization gate is satisfied. This is not Phase 1 substantive closure. It only confirms that the cumulative state-control layer is synchronized and traceable through Jammu and Kashmir.
+CONTROL REMEDIATION: IN PROGRESS.
 
-No substantive next-jurisdiction work is started in this reconciliation. The later sequencing point remains Ladakh, but Ladakh is not authorized or researched in this workstream.
+Master State Implementation Inventory reconciliation: COMPLETE.
+
+Master State Implementation Source Ledger reconciliation: CONTROLLED RECONCILIATION RECORDED; substantive later-row integration remains open.
+
+Phase 1 substantive acceptance remains NOT YET SATISFIED.
+
+No substantive next-jurisdiction work is authorized until the required control-remediation workstream is closed. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
 
 ## Latest Controlled Update
-2026-09-06: repaired `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md`; added historical-state warning to `BASELINE_AUDIT.md`; re-verified `PROJECT_STATE.md`, `NEXT_CHAT.md`, master State-file non-modification and the 33-jurisdiction control index. Cumulative reconciliation is PASS; Phase 1 remains ACTIVE and incomplete.
+2026-09-06: established the authoritative Phase 1 control matrix; reconciled the master State Implementation Inventory against 33 jurisdiction artifacts; created a controlled master-source-ledger reconciliation record; preserved the existing cumulative state-control result and prohibitions. The master source ledger's substantive integration point remains Maharashtra pending a controlled later-row integration write and independent re-read.
