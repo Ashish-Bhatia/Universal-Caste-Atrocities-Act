@@ -27,7 +27,7 @@
 7. Preserve previous versions of substantive drafts.
 8. GitHub is the authoritative project record.
 9. No conclusion of necessity, constitutionality, superiority, or policy desirability is presumed.
-10. State-by-State inventory is jurisdiction-specific. Do not infer one State's arrangements for another.
+10. State-by-State inventory is jurisdiction-specific. Do not infer one State's arrangements for another jurisdiction.
 
 ## Phase Status
 
@@ -49,21 +49,33 @@
 - Priority 2 Central screening completed at screening level.
 - PH1-AUDIT-001 closed.
 - Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana and Himachal Pradesh inventories completed with qualifications.
-- Jharkhand independent official-source inventory completed with qualifications.
-- Public website architecture upgraded to a multi-page static research site; Himachal Pradesh and Jharkhand jurisdiction pages are present.
+- Jharkhand, Karnataka and Kerala independent official-source inventories completed with qualifications.
+- Jharkhand and Karnataka source/control staging records have been integrated into the authoritative research, issues and decisions ledgers where safe complete-file replacement was available.
+- Kerala source ledger and jurisdiction inventory have been created.
+- Multi-page static website architecture continues; Kerala jurisdiction page added.
 
 ## Exact Current Position
 
-Phase 1 remains active. Jharkhand is now the current completed jurisdiction in this sequence. Its state inventory is `legislation/states/JHARKHAND.md`, source ledger is `research/states/JHARKHAND_SOURCE_LEDGER.md`, and controlled master-ledger append is `research/states/JHARKHAND_MASTER_LEDGER_APPEND.md`. The Jharkhand evidence base includes current 2026 Police district profiles listing SC/ST Police Stations/units in multiple districts, current High Court Special Court assignments, a 15-04-2026 Cabinet decision approving three District Judge-level posts for Special Courts in Ranchi, Dhanbad and Daltonganj, and a 22-11-2023 Cabinet decision authorizing Inspector/Sub-Inspector-level investigation of PoA cases. The latter is a high-priority unresolved interaction with Rule 7 and is not treated as automatically displacing the Central Rules. Current State DBT, treasury and UDDP infrastructure is documented, while PoA-specific payment, digital case-management, current Rule 9/10 instruments, V&MC matrix, prosecutor register and several related-law instruments remain open.
+Phase 1 remains active. Kerala is the latest completed jurisdiction in the state-inventory sequence. Kerala's inventory is `legislation/states/KERALA.md` and source ledger is `research/states/KERALA_SOURCE_LEDGER.md`. Current State Planning Board, Scheduled Tribes Development Department, Kerala Police, LSGD, State Election Commission, Law Department and official Central sources establish a continuing implementation architecture with Special Courts/benches, Scheduled Castes Protection Cell, Special Police Stations, dedicated SC/ST atrocity-petition handling, relief/rehabilitation and related-law interfaces. Kerala Police reports statewide SC/ST PoA-related cognizable-crime figures through July 2026. Current Rule 9/10 instruments, Protection Cell staffing, complete police-unit matrix, V&MC matrix, current court/prosecutor matrix, relief-payment workflow, PoA-specific executive/digital instruments and post-BNSS instructions remain open.
 
-Residual issues for AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat and Himachal Pradesh remain separate and must not be reopened without new evidence directly changing recorded status. Jharkhand residual issues are PH1-ISSUE-101 through PH1-ISSUE-116 in the controlled append pending authoritative ledger integration.
+Jharkhand residual issues remain PH1-ISSUE-101 through PH1-ISSUE-116. Karnataka residual issues remain PH1-ISSUE-117 through PH1-ISSUE-130. Kerala residual issues remain PH1-ISSUE-131 through PH1-ISSUE-146. These jurisdictional residuals remain separate and must not be reopened without new evidence directly changing recorded status. The Jharkhand 22-11-2023 lower-rank investigation authorization remains unresolved and must not be treated as settled law without instrument-level verification.
 
-Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate closure workstreams. No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
+## Master-ledger integration status
+
+`RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` now contain the Jharkhand and Karnataka control entries and the Kerala research/control entries. The existing `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` was not safely replaced because the available connector response did not expose its complete existing contents for controlled complete-file preservation. The Jharkhand and Karnataka source ledgers therefore remain authoritative jurisdiction-specific records and their source-master integration remains an explicit open control task. No existing master-ledger content was overwritten on this point.
+
+## Separate closure workstreams
+
+- Final Central later-instrument completeness remains separate.
+- BNS/BNSS/BSA transition verification remains separate.
+- Completed State residual issues remain separate from the next jurisdiction inventory.
+- GitHub Pages configuration/live URL remains unverified.
+- No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Website Status
 
-The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Jharkhand jurisdiction page has been added. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
+The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Jharkhand and Kerala jurisdiction pages are present, alongside prior jurisdiction pages. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
 
 ## Next Discrete Workstream
 
-Proceed to Karnataka using the same independent official-source method. Before substantive continuation, integrate the Jharkhand staging entries into the authoritative control ledgers through controlled complete-file update when safe. Do not repeat completed jurisdictions. Carry all residual issues separately. Keep final Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Continue website/publication work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
+First complete safe integration of the Jharkhand and Karnataka source entries into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` without overwriting prior records, using a full-file preservation method or equivalent controlled repository operation. Then continue with the next uncompleted jurisdiction, Madhya Pradesh, using independent current/recent official-source research. Do not repeat Phase 0, initial source map, SC/ST Act/Rules extraction, BNS/BNSS/BSA crosswalks, PCR/Manual Scavengers/Bonded Labour comparisons, Central screening, PH1-AUDIT-001 remediation, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka or Kerala inventories. Preserve all residual issues separately. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence. Do not infer current State arrangements from another jurisdiction.
