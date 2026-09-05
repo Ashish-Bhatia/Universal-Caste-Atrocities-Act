@@ -113,78 +113,52 @@ Opened: 2026-09-05
 | CHG-STATE-018 | Government of Chhattisgarh Labour Department current portal | Current State labour-law/service portal is maintained and updated in 2026. Targeted search did not establish a distinct State-specific bonded-labour implementation instrument. | A | Current official State source; no absence conclusion |
 | CHG-STATE-019 | Government of Chhattisgarh Tribal and Scheduled Caste Development Department manual-scavenging publication | State publishes material concerning Prohibition of Employment as Manual Scavengers and their Rehabilitation Rules, 2014, including 2017 amendment notice on State-level survey committee structure. | A | Official State source; later/current status open |
 
+## Goa inventory, consolidated from research/states/GOA_SOURCE_LEDGER.md
+
+| ID | Source | Finding | Grade | Verification status |
+|---|---|---|---|---|
+| GOA-STATE-001 | Government of Goa 2023 State Annual Report on PoA Act implementation, "2023 SAR Goa", underlying State report copy hosted by CVMC | Rule 9 nodal officer: Government Order No. 58-9-97-BC-Vol.IV/5/645 dated 05-05-2023 nominated Shri Gopal A. Parsekar, Additional Secretary, as nodal officer. Report records Nil Protection Cells and no Special Police Station; complaints registered at police stations and investigated by DySP-rank officers. | A for underlying State record | Verified; host provenance separately recorded |
+| GOA-STATE-002 | Government of Goa 2023 State Annual Report, Annexure IX | State V&MC constituted, 1 meeting in 2023; DLVMCs in North Goa and South Goa constituted 04-08-2021 and 28-06-2017, with 3 and 2 meetings in 2023; SDVMC entries do not establish a current operating structure. | A for underlying State record | Verified; 2023 reporting-period evidence |
+| GOA-STATE-003 | Government of Goa, Goa Commission for Scheduled Castes and Scheduled Tribes current department page | Commission established under Goa Commission for Scheduled Castes and Scheduled Tribes Act, 2010; current functions include inquiries into PCR/PoA violations, public-servant negligence, monitoring safeguards, recommendations, complaints, awareness, research and reporting. | A | Current official State source verified |
+| GOA-STATE-004 | Government of Goa current Acts & Rules portal and Goa Police Acts & Rules page | Current State legal and police publication repositories identified. Targeted search did not freeze a later PoA-specific Protection Cell or Special Police Station instrument. | A | Current official repositories verified; search silence not treated as absence |
+| GOA-STATE-005 | Ministry of Social Justice and Empowerment official Goa section of PoA implementation report for 2021 | Principal District and Sessions Courts at Panaji and Margao designated as Special Courts; seven Special Public Prosecutors appointed for North and South Goa; police sensitization and free legal aid reported. | A | Official Central report; historical reporting period |
+| GOA-STATE-006 | Government of Goa Prosecution Citizen Charter 2023 | Public Prosecutors are appointed as Special Public Prosecutors before specially designated courts for special statutes including Prevention of Atrocities on SC/ST. | A | Official State source verified; current appointment register not established |
+| GOA-STATE-007 | Government of Goa Explanatory Memorandum 2025-26, Demand No.57 Social Welfare | Rs.40 lakh Budget Estimate under compensation to victims under SC/ST PoA Act, plus Rs.40 lakh under centrally sponsored PCR/PoA implementation component. | A | Current/recent official State budget verified |
+| GOA-STATE-008 | Government of Goa Social Welfare Citizen Charter, central implementation scheme | Victim relief procedure directs victim to approach respective District Magistrate; scheme purposes include Protection Cell/Special Police Stations, Exclusive Special Courts, relief/rehabilitation, inter-caste marriage incentive and awareness. | A | Official State source verified |
+| GOA-STATE-009 | Government of Goa Statistical Handbook 2023-24 | Combined scheme description for awards for encouraging persons with disabilities and PoA victim compensation records 3 beneficiaries and 1 NGO in 2023-24. | A | Official State statistics verified; combined scheme line |
+| GOA-STATE-010 | Government of Goa Economic Survey 2024-25, Annexure 60 | Combined CSS line for inter-caste marriage and PoA victim compensation records 10 beneficiaries/Rs.25 lakh in 2023-24 and 27 beneficiaries/Rs.68 lakh in 2024-25 up to Dec. 2024. | A | Official State survey verified; combined line not pure PoA count |
+| GOA-STATE-011 | Government of Goa Press Release, 10-07-2025, "Awareness On Laws For Prevention Of Atrocities Against SCs/STs" | Recent public awareness activity concerning SC/ST atrocity-prevention laws. | A | Official State source verified |
+| GOA-STATE-012 | Ministry of Social Justice and Empowerment official PCR implementation report, Goa section | Goa has State and District Level V&MC structures for PCR; Principal District and Sessions Courts at North and South Goa designated as PCR Special Courts; State and district prosecution supervision recorded. | A | Official Central report; historical reporting period |
+| GOA-STATE-013 | Government of Goa/official PCR implementation reporting, Goa section | District V&MCs under North and South Goa District Magistrates and PCR prosecution/investigation arrangements reported. | A | Historical State-specific corroboration |
+| GOA-STATE-014 | Government of Goa notification, 26-09-2024, State Level Survey Committee under Manual Scavengers Act | State-level survey committee notified under the Prohibition of Employment as Manual Scavengers and their Rehabilitation Act, 2013. | A | Current/recent official State source verified |
+| GOA-STATE-015 | Government of Goa notification, 26-09-2024, District Level Survey Committees and Social Welfare survey guideline | District survey committees and 2024 survey process identified. | A | Current/recent official State source verified |
+| GOA-STATE-016 | Government of Goa current Acts & Rules index | Current State repository lists Land Revenue Code and Rules, Agricultural Tenancy Act, Mundkars Protection from Eviction Act and Rules, and Goa Panchayat Raj Act. | A | Current official State source verified |
+| GOA-STATE-017 | Government of Goa notification bringing Goa Restriction on Transfer of Agricultural Land Act, 2023 into force | Act brought into force on 18-04-2023. | A | Official State notification verified |
+
 ## Verification findings
 
 ### Andhra Pradesh
-
-Andhra Pradesh is sufficiently verified for progression, with residual closure items retained separately.
+Andhra Pradesh is sufficiently verified for progression, with residual closure items retained separately. Current court, departmental and implementation evidence was preserved with the recorded qualifications.
 
 ### Arunachal Pradesh
+The 2023 State report establishes the reported Protection Cell, absence of a reported Rule 9 officer, absence of reported Rule 10 officers, committee and court/prosecutor reporting, and nil reported relief/payment for that period. Current 2026 appointment, court, prosecutor, committee and relief instruments remain open. Search silence is not treated as absence.
 
-- Rule 8/Protection Cell: verified from the State's 2023 annual report. SC/ST Cell at PHQ is identified under IGP (Crime)/SIT, citing order HMB(B) 25-2002 dated 30-09-2015.
-- Rule 9: the State's 2023 report expressly states no State Nodal Officer "till date". A later secondary handbook lists the SJETA department as nodal contact. Current 2026 appointment is unresolved.
-- Rule 10: no Special Officers and no identified atrocity-prone areas are recorded in the 2023 State report.
-- Courts: the 2023 State report records nil Special/Exclusive Special Courts. Current 2026 designation remains unverified because no later primary State court notification was located.
-- Prosecutors: the 2023 State report records nil Special/Exclusive Special Public Prosecutors. Current appointment register remains unverified.
-- Committees: no State-level V&MC in 2023; District V&MCs formed but nil meetings reported; SDVMC status not established. Current 2026 status remains open.
-- Relief: nil 2023 cases/payments. The report says treasury-withdrawal authorization had not been done. No later State-specific relief-rate/payment order was located.
-- SOP/digital workflow: only monthly SC/ST Cell reporting to Commissioner (Home) is established. No specific primary SOP/manual/digital workflow was located.
-- PCR: State 2022 report was NIL and said section 15A PCR mechanism was not applied.
-- Land/local government: Land Settlement and Records Act 2000 as amended and Panchayati Raj Act 1997/Rules/Manual are identified as relevant interfaces.
-- Bonded labour/manual scavenging: no Arunachal-specific implementing instrument was located in the targeted search; no absence conclusion is drawn.
+### Assam
+Historical official records establish the principal State implementation architecture. Current State department, police, budget and court material establishes continuing institutional activity, but current Rule 9, Protection Cell staffing, Rule 10, State-wide court/prosecutor, committee, relief and PoA-specific executive instruments remain open.
 
-## Assam
+### Bihar
+Current State evidence establishes an active PoA publication/resource layer and a 13-08-2026 State-level V&MC reconstitution notice. Current Patna High Court records establish continuing Exclusive Special Court operation at identified locations. Current appointment, staffing, court-wide, prosecutor, committee, relief and executive-instrument gaps remain open.
 
-- Rule 8/Protection Cell: historically and officially verified at State level under DGP, with ADGP CID, IGP, DIG Range and SP participation recorded in Ministry implementation reports. Current 2026 staffing remains unverified.
-- Rule 9: Director, Welfare of Scheduled Castes is historically and repeatedly identified as State Nodal Officer. Current 2026 individual appointment is not frozen from a current primary order.
-- Rule 10: Additional District Magistrates were historically designated Special Officers. Current district designation and any atrocity-prone-area notifications remain unverified.
-- Courts: historical official records move from 18 Special Courts/22 districts in 2013 to 33 designated Special Courts in 2017. A 2024 official Kamrup (Metro) court reporting form still includes an SC/ST PoA category. Current State-wide 2026 Special/Exclusive Special Court matrix remains unverified.
-- Prosecutors: historical official reports establish Special Public Prosecutor appointments. Current 2026 PoA-specific SPP/ESPP appointment orders were not located.
-- Committees: State V&MC chaired by Chief Minister and District V&MC structures are historically verified. 2018 State minutes contain detailed quarterly review/reporting and compensation directions. Current State-wide constitution and SDVMC status remain unverified.
-- Relief: State budgets in 2022-23, 2023-24 and 2025-26 establish continuing budgetary provision and machinery strengthening. Current rates, case-level payments and treasury/DBT workflow remain unverified.
-- SOP/digital workflow: 2018 State V&MC minutes provide operational directions. Current Assam Police CCTNS includes an SC/ST advisory compendium for district police and a general online complaint workflow. No consolidated PoA-specific SOP/manual was located.
-- Gazette: Assam has a functioning official Gazette publication system, but a current PoA-specific Gazette instrument set was not retrieved.
-- PCR: current State publication and mandate verified; historical official Ministry reports establish V&MC, Protection Cell and Special Court arrangements.
-- Interfaces: Assam Land and Revenue Regulation Chapter X, Panchayat Act/Rules, bonded-labour administration and Manual Scavengers Act implementation are identified. No PoA-specific State interface instrument was established for bonded labour/manual scavenging.
+### Chhattisgarh
+Official State reports establish Rule 9, V&MC, police, court and relief architecture for the relevant reporting periods, with current High Court evidence of continuing Special Judge operation. Current 2026 instrument census remains open.
 
-## Remaining Assam qualifications
+### Goa
+Goa is sufficiently inventoried for progression with qualifications. The 2023 State Annual Report, current/recent State budget and institutional sources, official Central implementation reporting and recent State awareness/manual-scavenging sources establish substantial implementation architecture without establishing a complete 2026 census. Current Rule 9, Protection Cell/police unit, Rule 10, atrocity-prone area, V&MC, Special/Exclusive Special Court, SPP/ESPP, relief/payment, PoA-specific executive/digital workflow and bonded-labour instruments remain final-closure items.
 
-1. Primary Rule 9 appointment/designation instrument and current 2026 office-holder.
-2. Primary SC/ST Protection Cell establishment/structure order and current staffing.
-3. Current Rule 10 Special Officer designations and atrocity-prone-area notifications.
-4. Current State-wide Special/Exclusive Special Court notification consolidation and judicial operation matrix.
-5. Current PoA-specific SPP/ESPP appointment orders.
-6. Current State/District/Sub-Divisional V&MC constitution orders and minutes.
-7. Primary retrieval of the 21-03-2018 State V&MC minutes.
-8. Current State relief-rate, payment, treasury/DBT and case-processing instruments.
-9. Current PoA-specific Gazette notifications and later executive instruments.
-10. Primary copy of the CCTNS SC/ST advisory compendium or associated Police order.
-11. Current State-specific bonded-labour/manual-scavenging interface instruments if later search locates them.
+## Residual closure rule
 
-## Bihar
-
-- Current State evidence establishes an active SC & ST Welfare Department PoA publication/resource layer and a 13-08-2026 State-level V&MC reconstitution notice.
-- Current Patna High Court evidence establishes continuing Exclusive Special Court under SC/ST Act postings and operation at identified locations.
-- Historical official reports establish the Protection Cell, Rule 9/10 architecture, sensitive districts, Special Courts and prosecutor arrangements.
-- Current Rule 9 designation, Protection Cell staffing, Rule 10 notifications, complete State-wide court matrix, current PoA-specific SPP/ESPP appointment register, full 2026 V&MC order and district/sub-divisional committee matrix, relief/payment workflow, operative contents of Margdarshika/Sankalp, and complete PoA-specific Gazette/SOP set remain open.
-- Search silence is not proof of absence.
-
-## Chhattisgarh
-
-- Administrative responsibility: current State department mandate expressly covers review of SC/ST PoA and PCR implementation. Rule 9 nodal designation is established by the 2022-23 State administrative report, which identifies the Commissioner, Tribal and Scheduled Caste Development as Nodal Officer.
-- Protection Cell/police: 2018-19 State reporting establishes 13 Special Police Stations and SC/ST cells in the remaining 14 districts. Historical Central reports corroborate a State Police Headquarters Cell. Current 2026 establishment, staffing and police-unit matrix remain open.
-- Rule 10: current Special Officer designations and atrocity-prone-area notifications are not frozen. Historical 2008 material is retained only as historical evidence.
-- Committees: 2022-23 State report records State V&MC chaired by Chief Minister and District V&MCs in all 28 districts. Official 2024 State notices establish continuing district-level V&MC activity in Raipur and Bilaspur. Current 2026 State/District/Sub-Divisional matrix remains open.
-- Courts: 2018-19 State report records 11 Special Courts. Official Central 2023-24 reporting records 11 districts with Exclusive Special Courts. Current 2026 High Court records establish operation at identified locations, including Korba, but do not replace a State-wide notification consolidation.
-- Prosecutors: historical SPP machinery is established; current 2026 PoA-specific SPP/ESPP appointments remain unverified.
-- Relief: State reports establish substantial relief allocation and recorded beneficiary activity. Current 2026 rates and payment workflow remain unverified.
-- Digital/SOP: historical DBT implementation material exists, but current PoA-specific case-management/digital workflow and consolidated SOP/Gazette set remain open.
-- Interfaces: Land Revenue Code, Panchayat Raj framework, manual-scavenging Rules and the State labour portal are identified. No State-specific bonded-labour instrument was established in the targeted search; no absence conclusion is drawn.
-
-## Progression decision
-
-Chhattisgarh is sufficiently inventoried for progression with qualifications. The evidence establishes a substantial State implementation architecture, but the record is not a complete 2026 implementation census. No absence conclusion is drawn from search gaps.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual items are carried separately into final Phase 1 verification. Completed jurisdictions must not be reopened unless new evidence directly changes recorded status. All residual items remain subject to the rule that search silence is not proof of absence.
 
 ## Next jurisdiction
 
-Proceed to Goa under the same independent official-source method. Preserve Andhra Pradesh, Arunachal Pradesh, Assam, Bihar and Chhattisgarh residual closure items separately from the next jurisdiction's research.
+Proceed to Gujarat using the same independent official-source method. Preserve all completed-jurisdiction residual qualifications separately and keep final Central later-instrument completeness and BNS/BNSS/BSA transition verification as a separate closure workstream.
