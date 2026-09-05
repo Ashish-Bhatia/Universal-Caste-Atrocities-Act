@@ -84,6 +84,11 @@ Priority 2 Central legislation remains screened rather than clause-level closed.
 
 `project-state/PH1_CENTRAL_LATER_INSTRUMENT_UPDATE_2026-09-06.md` records the latest targeted later-instrument extension. PH1-ISSUE-008 remains OPEN.
 
+New 2026-09-06 primary-source advance:
+- `project-state/PH1_CENTRAL_LATER_INSTRUMENT_SOURCE_ADVANCE_2026-09-06.md` records current Department of Social Justice and Empowerment publication-index evidence last updated 31-08-2026, including the active SC/ST Act 1989 record, 2018 Rules publication, 2016 Rules publication and 1995 Rules publication, plus the current PCR Rules record.
+- The advance independently verifies the identified 2018, 2016, 2013 and 2014 SC/ST Rules Gazette endpoints and strengthens the current-source endpoint without treating publication/index silence as legal absence.
+- PH1-ISSUE-008 remains OPEN.
+
 ## BNS/BNSS/BSA Transition Control
 
 The transition framework remains a CONTROLLED FREEZE WITH QUALIFICATIONS under `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`.
@@ -128,3 +133,5 @@ PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 ## Latest Controlled Update
 
 2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Advanced PH1-ISSUE-008 with current India Code SC/ST Rules registry evidence and reconciled the identified BLSA 1978/1983 Rules amendment instrument numbers/dates through a Government-hosted reproduction. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
+
+2026-09-06: added `project-state/PH1_CENTRAL_LATER_INSTRUMENT_SOURCE_ADVANCE_2026-09-06.md`. Current Department of Social Justice and Empowerment publication-index evidence last updated 31-08-2026 strengthens the SC/ST Rules and PCR current-source endpoint. Official India Code-hosted Gazette instruments independently corroborate the identified 2013, 2014, 2016 and 2018 SC/ST Rules amendments. PH1-ISSUE-008 remains open; no legal absence is inferred from search silence.
