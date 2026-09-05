@@ -1,0 +1,59 @@
+name: One-time Puducherry Phase 1 state reconciliation
+on:
+  push:
+    branches: [main]
+    paths: [project-state/puducherry-reconcile.trigger]
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with: {fetch-depth: 0}
+      - name: Update cumulative state and handoff
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('PROJECT_STATE.md'); s=p.read_text()
+          s=s.replace('- Phase 1 acceptance criteria: NOT YET SATISFIED.','- Phase 1 acceptance criteria: NOT YET SATISFIED. Puducherry is now the 36th completed jurisdiction; national Phase 1 acceptance remains subject to cumulative control criteria.')
+          s=s.replace('35 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.','36 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.')
+          s=s.replace('Ladakh is the 34th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LA-001 through PH1-ISSUE-LA-018 are recorded in `project-state/LADAKH_ISSUES_2026-09-06.md`.\n\nLakshadweep is the 35th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 are recorded in `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.\n\nRemaining unresearched jurisdiction:\n1. Puducherry','Ladakh is the 34th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LA-001 through PH1-ISSUE-LA-018 are recorded in `project-state/LADAKH_ISSUES_2026-09-06.md`.\n\nLakshadweep is the 35th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 are recorded in `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.\n\nPuducherry is the 36th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 are recorded in `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`.\n\nRemaining unresearched jurisdiction:\nNone')
+          s=s.replace('## Lakshadweep Phase 1 Position','## Puducherry Phase 1 Position\n\nPuducherry was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy and currentness rules. The jurisdiction has a dedicated PCR Cell, State and District V&MC architecture, a specified Special Judge framework, prosecution arrangements and relief instruments. It is PROCEED/CLOSE WITH LIMITATIONS. Sixteen residuals remain open, including current Rule 9/10 appointments, investigation-allocation conflict, current court/prosecution rosters, current meetings, current case/relief data and post-BNS/BNSS/BSA workflow verification.\n\n## Lakshadweep Phase 1 Position')
+          s=s.replace('No Puducherry research.','Puducherry Phase 1 research completed; no Phase 2 case-law research.')
+          s=s.replace('Next authorized substantive workstream: Puducherry Phase 1 State/UT research.','Next authorized substantive workstream: cumulative Phase 1 acceptance audit and reconciliation, not new jurisdiction research.')
+          s=s.rstrip()+"\n\n## Puducherry Completion Record\n\nArtifacts: `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`, `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`. The source ledger remains jurisdiction-specific and was not promoted into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.\n"
+          p.write_text(s)
+
+          p=Path('NEXT_CHAT.md'); s=p.read_text()
+          s=s.replace('35 of 36 States/UTs have substantive Phase 1 inventories. Ladakh is the 34th completed jurisdiction and Lakshadweep is the 35th. Both are classified PROCEED/CLOSE WITH LIMITATIONS. Their residuals remain in their jurisdiction-specific issue records.\n\nRemaining unresearched jurisdiction:\n1. Puducherry','36 of 36 States/UTs have substantive Phase 1 inventories. Ladakh is the 34th, Lakshadweep the 35th and Puducherry the 36th completed jurisdiction. All three are classified PROCEED/CLOSE WITH LIMITATIONS. Their residuals remain in jurisdiction-specific issue records.\n\nRemaining unresearched jurisdiction: None')
+          s=s.replace('## Next Authorized Workstream\nBegin the remaining Phase 1 State/UT inventory with Puducherry, using `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, the evidence hierarchy, currentness rules and reopening controls.','## Next Authorized Workstream\nBegin the cumulative Phase 1 acceptance audit and reconciliation using `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, the cumulative ledgers and all 36 jurisdiction records. Do not reopen completed jurisdiction research unless a qualifying defect is identified.')
+          s=s.replace('## Do NOT Repeat','## Puducherry Completion Record\n\nRead only if a qualifying defect is identified: `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`, `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`. Puducherry is the 36th completed jurisdiction and PROCEED/CLOSE WITH LIMITATIONS. Preserve all 16 residuals.\n\n## Do NOT Repeat')
+          s=s.replace('The next authorized workstream is substantive Phase 1 research for Puducherry.','The next authorized workstream is cumulative Phase 1 acceptance audit and reconciliation. Puducherry research is complete for its defined first-pass inventory.')
+          s=s.replace('Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed Jammu and Kashmir or Ladakh work. Do not repeat completed Lakshadweep work.','Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed Jammu and Kashmir, Ladakh, Lakshadweep or Puducherry work unless a qualifying reopening trigger is established.')
+          p.write_text(s)
+
+          for name, title, body in [
+            ('RESEARCH_LEDGER.md','Jurisdiction Control Index: Puducherry, 2026-09-06','| Puducherry | `legislation/states/PUDUCHERRY.md` | `research/states/PUDUCHERRY_SOURCE_LEDGER.md` | `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | PROCEED/CLOSE WITH LIMITATIONS | PU-001 through PU-018 | PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 |'),
+            ('ISSUES_REGISTER.md','Jurisdiction Residual-Control Index: Puducherry, 2026-09-06','| Puducherry | PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 | `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` | All 16 OPEN | PROCEED/CLOSE WITH LIMITATIONS |'),
+            ('DECISIONS_LOG.md','Jurisdiction Decision-Control Index: Puducherry, 2026-09-06','| Puducherry | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | ACTIVE |')]:
+              p=Path(name); s=p.read_text()
+              if title not in s:
+                s += f"\n\n## {title}\n\nControl-only reconciliation index. No cumulative ID is created, renumbered or promoted.\n\n| Jurisdiction | Record | Source | Status |\n|---|---|---|---|\n{body}\n"
+                p.write_text(s)
+
+          p=Path('legislation/STATE_IMPLEMENTATION_INVENTORY.md')
+          if p.exists():
+            s=p.read_text()
+            if 'Puducherry Phase 1 completion index, 2026-09-06' not in s:
+              p.write_text(s.rstrip()+"\n\n## Puducherry Phase 1 completion index, 2026-09-06\n\nPuducherry is the 36th completed Phase 1 jurisdiction, classified PROCEED/CLOSE WITH LIMITATIONS. See `legislation/states/PUDUCHERRY.md` and the jurisdiction-specific source ledger for the substantive inventory.\n")
+
+          Path('project-state/puducherry-reconcile.trigger').unlink()
+          Path('.github/workflows/_tmp_puducherry_reconcile.yml').unlink()
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add PROJECT_STATE.md NEXT_CHAT.md RESEARCH_LEDGER.md ISSUES_REGISTER.md DECISIONS_LOG.md legislation/STATE_IMPLEMENTATION_INVENTORY.md
+          git rm project-state/puducherry-reconcile.trigger .github/workflows/_tmp_puducherry_reconcile.yml
+          git commit -m 'Complete Puducherry Phase 1 state reconciliation'
+          git push origin main
