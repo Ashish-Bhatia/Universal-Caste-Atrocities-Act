@@ -29,7 +29,7 @@ Searches must distinguish current material from historical reports. Search silen
 |---|---|---|
 | Andhra Pradesh | IN PROGRESS | `legislation/states/ANDHRA_PRADESH.md` |
 | Arunachal Pradesh | IN PROGRESS | `legislation/states/ARUNACHAL_PRADESH.md` |
-| Assam | NOT STARTED | — |
+| Assam | IN PROGRESS | `legislation/states/ASSAM.md` |
 | Bihar | NOT STARTED | — |
 | Chhattisgarh | NOT STARTED | — |
 | Goa | NOT STARTED | — |
@@ -66,7 +66,7 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has now received a targeted official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
