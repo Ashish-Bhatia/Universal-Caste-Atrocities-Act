@@ -53,22 +53,21 @@
 - Goa inventory completed with qualifications.
 - Goa supplemental source ledger consolidated into the master State Implementation Source Ledger. All 17 Goa source entries were retained.
 - Gujarat independent official-source inventory completed with qualifications.
+- Haryana independent official-source inventory completed with qualifications.
 - Public website architecture upgraded from a single-page repository-link surface to a multi-page static research site with Research, States & UTs, Gujarat, Existing Law, Sources and Methodology pages plus shared CSS/JS.
 
 ## Exact Current Position
 
-Phase 1 remains active. Gujarat is the current completed jurisdiction, with residual verification items recorded separately. The current Gujarat official State source base establishes State nodal architecture, Police Protection Cell, Special Officers, sensitive districts, V&MC structures, 19 functional Special Courts as stated by the current BCK-64 page, SPP arrangements, published relief/Veer Megh Maya schemes, atrocity-data/statistics functions, PCR administration and Manual Scavengers implementation instruments. This does not establish a complete 2026 instrument census.
+Phase 1 remains active. Haryana is the current completed jurisdiction in this sequence, with residual verification items recorded separately as PH1-ISSUE-077 through PH1-ISSUE-088. The Haryana official source base establishes departmental PoA/PCR mandate, Rule 9 and Rule 10 architecture in official implementation reporting, reported Protection Cell/district-cell structure, formal State/District/Sub-Divisional V&MC instruments, the 08-09-2017 Special Court notification, current Prosecution Department publication, current victim-relief service, 2025 police reporting of 34 SC/ST PoA Act cases, and current Manual Scavengers and State SC institutional interfaces. The 2017 court notification is historical and is not treated as a complete 2026 court census.
 
-Goa's supplemental ledger is now integrated into the master ledger. Goa residual items PH1-ISSUE-054 through PH1-ISSUE-063 remain open and separate. AP, Arunachal Pradesh, Assam, Bihar and Chhattisgarh residual items remain separate and must not be reopened without new evidence directly changing status.
-
-Gujarat residual issues PH1-ISSUE-065 through PH1-ISSUE-076 remain open. They cover current primary appointments, Protection Cell staffing, Rule 10 orders, sensitive-area notifications, complete court notification matrix, SPP/ESPP register, relief/payment workflow, PoA-specific executive and digital instruments, V&MC records, bonded labour and later Manual Scavengers instruments.
+Gujarat residual issues PH1-ISSUE-065 through PH1-ISSUE-076 remain open. Goa residual items PH1-ISSUE-054 through PH1-ISSUE-063 remain open. AP, Arunachal Pradesh, Assam and Chhattisgarh residual items remain separate and must not be reopened without new evidence directly changing status.
 
 Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate closure workstreams. No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Website Status
 
-The repository now contains a multi-page static research website and GitHub Actions Pages deployment workflow. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
+The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
 
 ## Next Discrete Workstream
 
-Proceed to Haryana using the same independent official-source method. Do not repeat Gujarat or earlier completed jurisdictions. Preserve all residual closure items separately. Continue the multi-page website/publication work. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
+Proceed to Himachal Pradesh using the same independent official-source method. Do not repeat completed jurisdictions. Preserve Haryana residual issues separately. Carry AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual items separately into final Phase 1 verification, and carry Gujarat residual issues separately. Keep final Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Continue website/publication work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
