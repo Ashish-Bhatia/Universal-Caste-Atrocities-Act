@@ -66,6 +66,53 @@ Opened: 2026-09-05
 | ASM-STATE-022 | Ministry of Social Justice & Empowerment 2013 PoA report | Records 18 Special Courts covering 22 of 27 districts and appointment of Special Public Prosecutors; historical baseline only. | A | Official Central report, historical |
 | ASM-STATE-023 | 2026 Cachar District Commissioner communication on DLVMC meeting, retrieved from third-party social-media page | Reports a 27-07-2026 District Level V&MC meeting on PoA implementation and quarterly review. | C | Current lead only; primary minutes/order retrieval required |
 
+## Bihar inventory merged from research/states/BIHAR_SOURCE_LEDGER.md
+
+| ID | Source | Finding | Grade | Verification status |
+|---|---|---|---|---|
+| BIH-STATE-001 | Government of Bihar SC & ST Welfare Department current website | Current department publishes PoA resources, meetings/proceedings, office orders, guidelines and sanction/allotment material; current Secretary and Director are identified. | A | Verified current State source |
+| BIH-STATE-002 | Government of Bihar SC & ST Welfare Department notice page, notice dated 13-08-2026 | Current State-level V&MC reconstitution notice for effective implementation of the SC/ST PoA Act and Rules. | A | Verified current State source; full attachment not retrieved |
+| BIH-STATE-003 | Bihar Digital Repository, SC & ST Welfare Department | Current repository lists PoA Act amendments, PoA Rules Gazette, 2020 Margdarshika and 2023 PoA Sankalp. | A | Verified current State repository |
+| BIH-STATE-004 | Government of India Ministry of Social Justice and Empowerment, Bihar 2007 PoA implementation report | State SC/ST Protection Cell under IG (Weaker Section); State SC/ST police station at CID HQ; nine district special police stations; 33 sensitive districts; Special Courts and SPPs. | A | Official historical State-specific report |
+| BIH-STATE-005 | Government of India Ministry of Social Justice and Empowerment, Bihar 2013 PoA implementation report | State V&MC chaired by Chief Minister; District V&MCs; Protection Cell under IG (Weaker Section); Secretary Home as Nodal Officer; ADM as Special Officer; 38 district special police stations; Special Courts and SPP architecture. | A | Official historical State-specific report |
+| BIH-STATE-006 | Bihar State Annual Report 2019 on PoA implementation, underlying State record retrieved from CVMC mirror | Secretary Home as Nodal Officer; ADM in each district as Special Officer; 33 sensitive districts; district Special Court architecture; Rule 7 60-day reporting. | A for underlying State record; host C | Verified with host qualification |
+| BIH-STATE-007 | Government of India Ministry of Social Justice and Empowerment, Bihar 2017 PoA implementation report | Civil Rights Cell at Police HQ under ADG Civil Rights; 36 district SC/ST Cells headed by DSPs; 33 sensitive districts; Special Courts and five Exclusive Special Courts; SPP/ESPP appointments; State/District V&MC meetings. | A | Official historical State-specific report |
+| BIH-STATE-008 | Patna High Court current judicial officer directory | Current Exclusive Special Court under SC/ST Act postings identified at Samastipur, Nawada, Biharsharif, Muzaffarpur and other locations. | A | Current official court source verified |
+| BIH-STATE-009 | Patna High Court officer records | Individual judicial officers posted as P.O., Exclusive Special Court under SC/ST Act at Nawada and Samastipur from 2025 onward. | A | Current official court source verified |
+| BIH-STATE-010 | Patna High Court, Vashudev Bind v. State of Bihar, order 16-04-2026 | Appeal under SC/ST Act s.14A(2) from order of Exclusive Special Judge SC/ST, Patna; matter involved BNS offences and SC/ST Act ss.3(1)(r),(s). | A | Current official judicial source verified |
+| BIH-STATE-011 | Government of Bihar Law Department current law-officer page | Current administrative category for Special Public Prosecutor exists. | A | Current official State source; not PoA-specific appointment proof |
+| BIH-STATE-012 | Government of India Department of Social Justice and Empowerment current PCR/PoA scheme table | Bihar persons provided relief: 9,825 in 2021-22; 7,243 in 2022-23; 14,795 in 2023-24; 15,443 in 2024-25. Central assistance: Rs.35.00 crore, Rs.44.89 crore, Rs.37.63 crore, Rs.46.34 crore respectively. | A | Current official Central source verified |
+| BIH-STATE-013 | Bihar State Election Commission current Acts/Rules page | Bihar Panchayat Raj Act, 2006 and amendments are officially maintained. | A | Current official State source verified |
+| BIH-STATE-014 | Bihar Digital Repository current land-law records | Bihar Land Reforms Act 1950, Land Reforms Rules 1951, Special Survey and Settlement Rules and related land instruments are listed. | A | Current official State repository verified |
+| BIH-STATE-015 | Bihar Digital Repository current Manual Scavengers records | "Manual Scavengers- Acts & Rules" and "Manual Scavengers" are listed under SC & ST Welfare Department. | A | Current official State repository verified |
+| BIH-STATE-016 | Bihar Digital Repository current PoA guidance records | 2020 Margdarshika and 2023 PoA Sankalp are listed under SC & ST Welfare Department. | A | Existence verified; operative contents not yet retrieved |
+| BIH-STATE-017 | National Commission for Scheduled Castes monitoring record concerning Bihar | Historical record identifies State SC/ST Protection Cell under IG (Weaker Section), 33 sensitive districts, DySP-level investigation and victim/witness TA/DA measures. | A | Official historical corroboration |
+| BIH-STATE-018 | Government of Bihar current SC & ST Welfare Department site office-holder data | Current department page identifies Dr. Sandeep Kumar R Pudakalkatti, IAS as Secretary and Smt. Priyanka Rani, IAS as Director. | A | Current State office-holder source; not Rule 9 appointment proof |
+
+## Chhattisgarh inventory
+
+| ID | Source | Finding | Grade | Verification status |
+|---|---|---|---|---|
+| CHG-STATE-001 | Government of Chhattisgarh Department of Tribal and Scheduled Caste Development, Departmental liability and work | Current department mandate includes review of implementation of the SC/ST PoA Act and Protection of Civil Rights Act. Page last updated 30-07-2024; department site contains 2026 material. | A | Current official State source verified |
+| CHG-STATE-002 | Government of Chhattisgarh Administrative Report 2022-23 | In compliance with Rule 9, Commissioner, Tribal and Scheduled Caste Development was declared Nodal Officer; State V&MC constituted under Rule 16 with Chief Minister as Chairperson and meeting recorded on 25-08-2022. | A | Official State report; 2026 appointment not frozen |
+| CHG-STATE-003 | Government of Chhattisgarh Administrative Report 2018-19 | 13 districts had Special Police Stations and remaining 14 had SC/ST cells; State implementation machinery and relief architecture recorded. | A | Official State report; historical/currentness qualified |
+| CHG-STATE-004 | Ministry of Social Justice and Empowerment PoA implementation reports 2008 and 2010 | Historical PCR/SC-ST Protection Cell at Police Headquarters under IG with supporting staff; 2008 report records twelve Special Police Thanas and identified atrocity-prone locations. | A | Official Central historical corroboration |
+| CHG-STATE-005 | Government of Chhattisgarh Administrative Report 2022-23 | All 28 districts reported to have District-level V&MCs; district meetings reported under Rule 17. | A | Official State report; current 2026 matrix remains open |
+| CHG-STATE-006 | Chhattisgarh Directorate of Public Relations, Raipur district notice 23-09-2024 | District-level V&MC meeting chaired by Collector reviewed PoA pending cases and relief/rehabilitation. | A | Official State current/recent source |
+| CHG-STATE-007 | Chhattisgarh Directorate of Public Relations, Bilaspur notice 24-06-2024 | District-level V&MC meeting scheduled for 25-06-2024 to review 2024-25 PoA cases and pending court matters. | A | Official State current/recent source |
+| CHG-STATE-008 | Ministry of Social Justice and Empowerment 2023-24 PoA implementation report | Chhattisgarh recorded 27 districts and 11 districts with Exclusive Special Courts. | A | Official Central implementation report; not a substitute for current State notification matrix |
+| CHG-STATE-009 | Chhattisgarh High Court current judicial officer records | Current 2026 Special Judge under SC/ST (P.A.) Act posting identified at Korba; other recent Special Judge postings identify continuing operation. | A | Current official judicial source verified |
+| CHG-STATE-010 | Chhattisgarh High Court, Premprasad Gupta v. State of Chhattisgarh, CRA No.669/2022, judgment 11-04-2025 | Judgment records conviction by Special Judge under SC/ST (P.A.) Act, Raigarh, under SC/ST Act s.3(2)(va) with IPC offences. | A | Current official judicial source verified |
+| CHG-STATE-011 | Government of Chhattisgarh Administrative Report 2021-22 | Rs.577.40 lakh allocated for PoA relief/rehabilitation was released to districts; Finance Department letter dated 26-05-2016 concerning treasury withdrawal of relief claims where budget allocation was unavailable. | A | Official State report verified |
+| CHG-STATE-012 | Government of Chhattisgarh Administrative Report 2022-23 | 1,093 persons received relief in 2021-22; 560 victims had relief approved as of November 2022 for 2022-23; relief rates had been increased. | A | Official State report; reporting-period evidence |
+| CHG-STATE-013 | Government of India official implementation table | 1,115 Chhattisgarh atrocity victims recorded as provided relief in 2020-21. | A | Official Central reported activity; not proof of case-level payment compliance |
+| CHG-STATE-014 | Government of Chhattisgarh DBT implementation page, 2017 | State-hosted implementation material for SC/ST PoA/PCR benefits through DBT and Central instructions concerning relief delivery. | A | Historical State source |
+| CHG-STATE-015 | Government of Chhattisgarh current Department of Tribal and Scheduled Caste Development website | Current public department publication layer and 2026 notice-board activity identified. | A | Current official State source |
+| CHG-STATE-016 | Government of Chhattisgarh Land Revenue Code sources and current High Court material | Chhattisgarh Land Revenue Code, 1959 is a relevant land/tribal land-transfer interface; High Court continues to apply section 170-B. | A | Official State/judicial source |
+| CHG-STATE-017 | Government of Chhattisgarh State Finance Commission material | Chhattisgarh Panchayat Raj Adhiniyam and rural local-government framework identified. | A | Official State source |
+| CHG-STATE-018 | Government of Chhattisgarh Labour Department current portal | Current State labour-law/service portal is maintained and updated in 2026. Targeted search did not establish a distinct State-specific bonded-labour implementation instrument. | A | Current official State source; no absence conclusion |
+| CHG-STATE-019 | Government of Chhattisgarh Tribal and Scheduled Caste Development Department manual-scavenging publication | State publishes material concerning Prohibition of Employment as Manual Scavengers and their Rehabilitation Rules, 2014, including 2017 amendment notice on State-level survey committee structure. | A | Official State source; later/current status open |
+
 ## Verification findings
 
 ### Andhra Pradesh
@@ -114,10 +161,30 @@ Andhra Pradesh is sufficiently verified for progression, with residual closure i
 10. Primary copy of the CCTNS SC/ST advisory compendium or associated Police order.
 11. Current State-specific bonded-labour/manual-scavenging interface instruments if later search locates them.
 
+## Bihar
+
+- Current State evidence establishes an active SC & ST Welfare Department PoA publication/resource layer and a 13-08-2026 State-level V&MC reconstitution notice.
+- Current Patna High Court evidence establishes continuing Exclusive Special Court under SC/ST Act postings and operation at identified locations.
+- Historical official reports establish the Protection Cell, Rule 9/10 architecture, sensitive districts, Special Courts and prosecutor arrangements.
+- Current Rule 9 designation, Protection Cell staffing, Rule 10 notifications, complete State-wide court matrix, current PoA-specific SPP/ESPP appointment register, full 2026 V&MC order and district/sub-divisional committee matrix, relief/payment workflow, operative contents of Margdarshika/Sankalp, and complete PoA-specific Gazette/SOP set remain open.
+- Search silence is not proof of absence.
+
+## Chhattisgarh
+
+- Administrative responsibility: current State department mandate expressly covers review of SC/ST PoA and PCR implementation. Rule 9 nodal designation is established by the 2022-23 State administrative report, which identifies the Commissioner, Tribal and Scheduled Caste Development as Nodal Officer.
+- Protection Cell/police: 2018-19 State reporting establishes 13 Special Police Stations and SC/ST cells in the remaining 14 districts. Historical Central reports corroborate a State Police Headquarters Cell. Current 2026 establishment, staffing and police-unit matrix remain open.
+- Rule 10: current Special Officer designations and atrocity-prone-area notifications are not frozen. Historical 2008 material is retained only as historical evidence.
+- Committees: 2022-23 State report records State V&MC chaired by Chief Minister and District V&MCs in all 28 districts. Official 2024 State notices establish continuing district-level V&MC activity in Raipur and Bilaspur. Current 2026 State/District/Sub-Divisional matrix remains open.
+- Courts: 2018-19 State report records 11 Special Courts. Official Central 2023-24 reporting records 11 districts with Exclusive Special Courts. Current 2026 High Court records establish operation at identified locations, including Korba, but do not replace a State-wide notification consolidation.
+- Prosecutors: historical SPP machinery is established; current 2026 PoA-specific SPP/ESPP appointments remain unverified.
+- Relief: State reports establish substantial relief allocation and recorded beneficiary activity. Current 2026 rates and payment workflow remain unverified.
+- Digital/SOP: historical DBT implementation material exists, but current PoA-specific case-management/digital workflow and consolidated SOP/Gazette set remain open.
+- Interfaces: Land Revenue Code, Panchayat Raj framework, manual-scavenging Rules and the State labour portal are identified. No State-specific bonded-labour instrument was established in the targeted search; no absence conclusion is drawn.
+
 ## Progression decision
 
-Assam is sufficiently inventoried for progression with qualifications. The record contains substantial State and official Central evidence for the implementation architecture, but it is not a complete 2026 implementation census. No absence conclusion is drawn from search gaps. Residual Assam verification belongs to final Phase 1 closure unless new evidence materially changes the recorded position.
+Chhattisgarh is sufficiently inventoried for progression with qualifications. The evidence establishes a substantial State implementation architecture, but the record is not a complete 2026 implementation census. No absence conclusion is drawn from search gaps.
 
 ## Next jurisdiction
 
-Proceed to the next State/UT jurisdiction after Assam under the same independent-source method. Preserve Assam residual closure items separately from Andhra Pradesh and Arunachal Pradesh closure items.
+Proceed to Goa under the same independent official-source method. Preserve Andhra Pradesh, Arunachal Pradesh, Assam, Bihar and Chhattisgarh residual closure items separately from the next jurisdiction's research.
