@@ -1,0 +1,29 @@
+name: One-time Lakshadweep cumulative reconciliation
+on:
+  push:
+    branches: [main]
+    paths: [project-state/lakshadweep-reconcile.trigger]
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with: {fetch-depth: 0}
+      - name: Append indexes and verify
+        run: |
+          cat project-state/_lk_research_append.txt >> RESEARCH_LEDGER.md
+          cat project-state/_lk_issues_append.txt >> ISSUES_REGISTER.md
+          cat project-state/_lk_decisions_append.txt >> DECISIONS_LOG.md
+          printf '%s\n' '# Lakshadweep Cumulative Reconciliation Report' '' 'Date: 2026-09-06' '' 'CUMULATIVE LAKSHADWEEP RECONCILIATION: PASS' '' 'Cumulative research, issue and decision ledgers were extended with control-only Lakshadweep indexes. Existing cumulative IDs and substantive rows were preserved. No cumulative ID was fabricated, renumbered or merged.' '' 'Preserved: 35th completed jurisdiction; PROCEED/CLOSE WITH LIMITATIONS; all 18 residuals OPEN; website/source-ledger remediation CLOSED AND VERIFIED; MASTER_IDS=261; JURISDICTION_LEDGER_FILES=29; JURISDICTION_LEDGER_IDS=571; MISSING_FROM_MASTER=377; MASTER_ONLY_IDS=67; master State Implementation Source Ledger unchanged.' > project-state/LAKSHADWEEP_CUMULATIVE_RECONCILIATION_2026-09-06.md
+          grep -q 'Jurisdiction Control Index: Lakshadweep, 2026-09-06' RESEARCH_LEDGER.md
+          grep -q 'Jurisdiction Residual-Control Index: Lakshadweep, 2026-09-06' ISSUES_REGISTER.md
+          grep -q 'Jurisdiction Decision-Control Index: Lakshadweep, 2026-09-06' DECISIONS_LOG.md
+          grep -q 'CUMULATIVE LAKSHADWEEP RECONCILIATION: PASS' project-state/LAKSHADWEEP_CUMULATIVE_RECONCILIATION_2026-09-06.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add RESEARCH_LEDGER.md ISSUES_REGISTER.md DECISIONS_LOG.md project-state/LAKSHADWEEP_CUMULATIVE_RECONCILIATION_2026-09-06.md
+          git rm project-state/_lk_research_append.txt project-state/_lk_issues_append.txt project-state/_lk_decisions_append.txt project-state/lakshadweep-reconcile.trigger .github/workflows/_tmp_lakshadweep_reconcile.yml
+          git commit -m 'Reconcile Lakshadweep cumulative control records'
+          git push origin main
