@@ -3,7 +3,7 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; Arunachal Pradesh targeted official-source inventory completed with qualifications; Assam independent official-source inventory completed with qualifications; Bihar independent official-source inventory completed with qualifications; Chhattisgarh independent official-source inventory completed with qualifications; Goa independent official-source inventory completed with qualifications; State/UT inventory continues; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, State/UT inventory continues; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
@@ -11,15 +11,7 @@
 - Phase 1 control remediation: `project-state/PH1_AUTHORITATIVE_RECORD_REMEDIATION.md`
 - Central screening artifact: `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`
 - State inventory master: `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
-- Andhra Pradesh record: `legislation/states/ANDHRA_PRADESH.md`
-- Arunachal Pradesh record: `legislation/states/ARUNACHAL_PRADESH.md`
-- Assam record: `legislation/states/ASSAM.md`
-- Bihar record: `legislation/states/BIHAR.md`
-- Chhattisgarh record: `legislation/states/CHHATTISGARH.md`
-- Goa record: `legislation/states/GOA.md`
 - State source ledger: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`
-- Bihar supplemental source ledger: `research/states/BIHAR_SOURCE_LEDGER.md`
-- Goa supplemental source ledger: `research/states/GOA_SOURCE_LEDGER.md`
 - Website source: `website/index.html`
 - Pages workflow: `.github/workflows/pages.yml`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
@@ -51,38 +43,32 @@
 - Phase 9, Publication and Advocacy Package: NOT STARTED.
 - Phase 10, Final Closure: NOT STARTED.
 
-## Current Completed Workstreams
+## Completed Workstreams
 
-- SC/ST Act clause extraction and source/version mapping, qualified pending final completeness pass.
-- SC/ST Rules version matrix and clause extraction, qualified by Annexure-II source discrepancy.
-- BNS, BNSS and BSA crosswalks advanced with qualifications.
-- PCR, Manual Scavengers and Bonded Labour comparisons complete with qualifications.
-- Priority 2 Central legislation screening complete at screening level.
-- PH1-AUDIT-001 closed through authoritative-record remediation.
-- Andhra Pradesh State/UT inventory targeted verification completed with qualifications.
-- Arunachal Pradesh State/UT inventory targeted official-source verification completed with qualifications.
-- Assam State/UT inventory independently completed from State and official Central sources with qualifications.
-- Bihar State/UT inventory independently completed from current Bihar State sources, current Patna High Court material and official Central corroboration, with qualifications.
-- Chhattisgarh State/UT inventory independently completed from current/recent Chhattisgarh State sources, current High Court material and official Central corroboration, with qualifications.
-- Bihar supplemental State source ledger merged into the master State Implementation Source Ledger without loss of prior jurisdiction entries.
-- Goa State/UT inventory independently completed from the 2023 Goa State Annual Report, current/recent Goa State sources, official Central implementation reports and related-law implementation sources, with explicit currentness qualifications.
-- Goa supplemental source ledger created as `research/states/GOA_SOURCE_LEDGER.md`; master-ledger consolidation remains open.
-- GitHub Pages source and deployment workflow prepared, publication enablement remains externally unverified.
+- SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
+- Priority 2 Central screening completed at screening level.
+- PH1-AUDIT-001 closed.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar and Chhattisgarh inventories completed with qualifications.
+- Bihar supplemental source ledger merged into the master ledger.
+- Goa inventory completed with qualifications.
+- Goa supplemental source ledger consolidated into the master State Implementation Source Ledger. All 17 Goa source entries were retained.
+- Gujarat independent official-source inventory completed with qualifications.
+- Public website architecture upgraded from a single-page repository-link surface to a multi-page static research site with Research, States & UTs, Gujarat, Existing Law, Sources and Methodology pages plus shared CSS/JS.
 
 ## Exact Current Position
 
-Phase 1 remains active. Andhra Pradesh, Arunachal Pradesh, Assam, Bihar and Chhattisgarh retain separate residual closure qualifications. Goa has now been independently inventoried with qualifications.
+Phase 1 remains active. Gujarat is the current completed jurisdiction, with residual verification items recorded separately. The current Gujarat official State source base establishes State nodal architecture, Police Protection Cell, Special Officers, sensitive districts, V&MC structures, 19 functional Special Courts as stated by the current BCK-64 page, SPP arrangements, published relief/Veer Megh Maya schemes, atrocity-data/statistics functions, PCR administration and Manual Scavengers implementation instruments. This does not establish a complete 2026 instrument census.
 
-For Goa, the strongest evidence includes the 2023 State Annual Report identifying the 05-05-2023 Rule 9 nodal designation; its report of no dedicated SC/ST Protection Cell or Special Police Station at that reporting point; State and District V&MC activity in 2023; official Central reporting of Panaji and Margao Principal District and Sessions Courts as PoA Special Courts and seven SPPs in the relevant reporting period; current 2025-26 Goa budget provision of Rs.40 lakh for PoA victim compensation and a further Rs.40 lakh central-scheme component; the current Goa Commission for SC/ST statutory oversight page; recent 2025 awareness activity; and 2024 manual-scavenging survey committee notifications.
+Goa's supplemental ledger is now integrated into the master ledger. Goa residual items PH1-ISSUE-054 through PH1-ISSUE-063 remain open and separate. AP, Arunachal Pradesh, Assam, Bihar and Chhattisgarh residual items remain separate and must not be reopened without new evidence directly changing status.
 
-Current 2026 Goa Rule 9 appointment, Protection Cell/police-unit matrix, Rule 10 designations, atrocity-prone-area notifications, V&MC matrix, complete Special/Exclusive Special Court notifications, SPP/ESPP register, relief/payment workflow, PoA-specific Gazette/SOP set, digital workflow and bonded-labour implementation instruments remain incompletely frozen.
+Gujarat residual issues PH1-ISSUE-065 through PH1-ISSUE-076 remain open. They cover current primary appointments, Protection Cell staffing, Rule 10 orders, sensitive-area notifications, complete court notification matrix, SPP/ESPP register, relief/payment workflow, PoA-specific executive and digital instruments, V&MC records, bonded labour and later Manual Scavengers instruments.
 
-Bihar's supplemental source ledger remains a jurisdiction-specific artifact and is consolidated into the master State source ledger. Goa's supplemental source ledger is currently separate and requires controlled consolidation into the master ledger.
+Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate closure workstreams. No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
-Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; residual Andhra Pradesh closure items; Arunachal primary/currentness closure items; Assam currentness and primary-instrument closure items; Bihar currentness and primary-instrument closure items; Chhattisgarh currentness and primary-instrument closure items; Goa currentness and primary-instrument closure items; and Pages verification.
+## Website Status
 
-No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
+The repository now contains a multi-page static research website and GitHub Actions Pages deployment workflow. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
 
 ## Next Discrete Workstream
 
-Proceed to Gujarat using the same independent official-source method. Preserve Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual closure qualifications separately. Carry final Central later-instrument completeness and BNS/BNSS/BSA transition verification separately. Consolidate Goa's supplemental source ledger into the master ledger in a controlled follow-up before final Phase 1 source-ledger closure. Continue website/live-research publication work without claiming GitHub Pages is live until independently verified.
+Proceed to Haryana using the same independent official-source method. Do not repeat Gujarat or earlier completed jurisdictions. Preserve all residual closure items separately. Continue the multi-page website/publication work. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
