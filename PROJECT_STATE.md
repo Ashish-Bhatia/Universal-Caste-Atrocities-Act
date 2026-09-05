@@ -22,25 +22,41 @@ Remaining unresearched jurisdictions:
 
 ## Control Remediation Status, 2026-09-06
 
-The control-remediation workstream for the master State Implementation Source Ledger is COMPLETE.
+The control-remediation workstream for the master State Implementation Source Ledger was previously recorded as COMPLETE. A new website/source-set verification has identified a control defect requiring targeted reconciliation before that status is treated as fully reliable for public-site synchronization.
 
 Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
 
-Completed remediation:
+Completed remediation recorded before the new defect:
 - Formal definitions established for COMPLETED, VERIFIED, CURRENT, OPEN, QUALIFIED and PROCEED/CLOSE WITH LIMITATIONS.
 - Source-of-truth hierarchy and conflict-resolution rule established.
 - Universal search stopping rule established.
 - Reopening rule established.
 - Master-index reconciliation standard established.
 - `legislation/STATE_IMPLEMENTATION_INVENTORY.md` reconciled against the 33 substantive jurisdiction artifacts.
-- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` integrated with later jurisdiction-specific source rows using a controlled repository operation.
+- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` integrated with five later jurisdiction-specific source-ledger contributors: Gujarat, Haryana, Himachal Pradesh, Kerala and Madhya Pradesh.
 - Existing source IDs were preserved. No cumulative source IDs were fabricated or renumbered.
-- Independent repository read-back confirmed the new Gujarat, Haryana and Himachal Pradesh integration sections in the committed master ledger.
+- Independent repository read-back confirmed the appended Gujarat, Haryana, Himachal Pradesh, Kerala and Madhya Pradesh sections in the committed master ledger.
 - Git comparison against the pre-integration control commit `57f6a8006844f45e301e99f7f13d937297957cbe` shows no deletion of prior master content; the sole non-additive change was final-newline normalization.
 - The integration control report records 164 source IDs before integration, 261 after integration, 97 new IDs, no duplicate IDs and an exact source-ledger delta match.
 
 Controlled integration report: `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`.
 Controlled reconciliation record: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`.
+
+## New Website Source-Set Control Defect
+
+The production Pages artifact from workflow run #374 was independently downloaded and inspected. It contains 33 State/UT research pages and 33 State/UT source-set pages, but 25 of the 33 source-set pages are empty because the builder reads only the master source ledger and the committed master ledger does not contain later jurisdiction-specific IDs such as `JK-001` or `MZ-STATE-001`.
+
+The eight non-empty source-set pages are Andhra Pradesh, Goa, Gujarat, Haryana, Himachal Pradesh, Madhya Pradesh, Maharashtra and Jharkhand.
+
+The empty source-set pages are Andaman and Nicobar Islands, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Karnataka, Kerala, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand and West Bengal.
+
+The later jurisdiction-specific source ledgers remain substantive repository records. For example, `research/states/JAMMU_KASHMIR_SOURCE_LEDGER.md` contains JK-001 through JK-022. The public source page is empty because `scripts/build_website.py` currently parses only `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for source tables.
+
+This is a newly identified control defect. It does not invalidate the underlying jurisdiction inventories or the zero-drift comparison against the pre-integration master. It does invalidate any unqualified statement that the public source-set layer is synchronized with all completed jurisdiction source ledgers.
+
+Controlled defect record: `project-state/WEBSITE_SOURCE_SET_MISMATCH_2026-09-06.md`.
+
+Do not silently modify the master State Implementation Source Ledger, completed jurisdiction inventories or completed State/UT research as a website fix. First reconcile the exact source-ID gap and decide the authoritative public-source rendering rule.
 
 ## Cumulative Control Layer
 
@@ -61,7 +77,7 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 A repository-driven website builder generates the public research interface from substantive repository research records at Pages deployment time.
 
-The public website content boundary is now explicit:
+The public website content boundary is explicit:
 - Publish actual legal and jurisdictional implementation research only.
 - Publish source provenance, source identifiers, findings, evidence grades and verification status where recorded.
 - Give every completed State/UT a dedicated research page.
@@ -82,7 +98,9 @@ The Pages workflow now:
 - uploads the generated `website/` directory as the Pages artifact;
 - deploys through GitHub Pages.
 
-GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification. The workflow is configured to deploy the rebuilt public research library on pushes to `main`.
+Workflow run #374 completed SUCCESSFULLY, including checkout, path compatibility, builder compilation, site build, generated-site validation, Pages configuration, artifact upload and deployment. Independent artifact inspection after the successful run identified the source-set mismatch recorded above. The workflow's current validation does not detect empty source-set pages.
+
+GitHub Pages live publication remains independently unverified because the connector does not expose Pages administration/live-site verification. The user-supplied browser screenshot shows the expected GitHub Pages URL rendering, but this is not treated as independent tool verification.
 
 ## Codespaces / Repository-Side Infrastructure
 
@@ -92,11 +110,9 @@ The current `.devcontainer/devcontainer.json`:
 - uses the supported `mcr.microsoft.com/devcontainers/python:3-3.12-bookworm` image;
 - preserves the existing Explorer settings;
 - opens `README.md` and `PROJECT_STATE.md`;
-- runs `python3 scripts/build_website.py` as `postCreateCommand`.
+- runs `ln -sf DELHI.md legislation/states/DELHI_NCT.md && python3 scripts/build_website.py` as `postCreateCommand`.
 
-The 2026-09-06 rebuild screenshot shows the Codespaces container setup actively downloading image layers, with several large layers reporting download progress and others waiting. This is evidence of container image retrieval during the rebuild, not evidence of a Python `postCreateCommand` failure. The selected Python devcontainer image tag is a valid Microsoft Dev Container image tag. A successful rebuild still requires observation of the post-download completion state because Codespaces administration is not exposed through the connector.
-
-`README.md` provides the repository map and current control position. `.vscode/settings.json` provides shared Explorer visibility settings.
+The 2026-09-06 screenshot shows the Codespaces container setup actively downloading image layers, with several large layers reporting download progress and others waiting. This is evidence of container image retrieval during the rebuild, not evidence of a Python `postCreateCommand` failure. A successful rebuild still requires observation of the post-download completion state because Codespaces administration is not exposed through the connector.
 
 ## Closed for This Workstream
 
@@ -108,27 +124,27 @@ No Bill drafting.
 No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
-No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
-No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, master source-ledger integration or zero-drift verification.
+No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect. The newly identified website/source-set synchronization defect is a control defect and does not itself authorize substantive jurisdiction reopening.
+No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, master source-ledger integration or zero-drift verification except for targeted verification required to resolve the newly identified control defect.
 
 ## Decision Gate
 
 CUMULATIVE CONTROL RECONCILIATION: PASS.
 
-CONTROL REMEDIATION: COMPLETE for the master State Implementation Source Ledger integration task.
+CONTROL REMEDIATION: PREVIOUSLY RECORDED COMPLETE, NOW SUBJECT TO TARGETED RECONCILIATION because the public-site verification identified a source-ledger synchronization defect.
 
 Master State Implementation Inventory reconciliation: COMPLETE.
 
-Master State Implementation Source Ledger reconciliation: COMPLETE.
+Master State Implementation Source Ledger reconciliation: CONTROL DEFECT OPEN for later-jurisdiction synchronization status.
 
-Website production-library remediation: IMPLEMENTED, verification pending.
+Website production-library remediation: IMPLEMENTED, but source-set synchronization is NOT VERIFIED and 25 source-set pages are currently empty in the verified artifact.
 
 Codespaces repository-side remediation: IMPLEMENTED, live rebuild completion pending.
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-No substantive next-jurisdiction work is authorized until the next control gate is explicitly opened. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
+No substantive next-jurisdiction work is authorized until the source-set synchronization control defect is reconciled and the next control gate is explicitly opened.
 
 ## Latest Controlled Update
 
-2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; replaced the public website generator with a multi-page research-only build covering completed jurisdiction records, source sets and existing-law research; removed public repository-navigation links; added build-time public-content validation; added sitemap, robots and 404 outputs; added a deterministic Codespaces post-create website build; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
+2026-09-06: verified Pages workflow run #374 and its deployed artifact; confirmed 33 State/UT pages, 33 source-set pages, 9 existing-law pages, 82 sitemap URLs, zero repository-navigation links and zero broken internal HTML links; identified 25 empty source-set pages caused by the builder's exclusive reliance on the master source ledger; recorded the defect in `project-state/WEBSITE_SOURCE_SET_MISMATCH_2026-09-06.md`; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
