@@ -48,26 +48,22 @@ Searches distinguish current material from historical reports. Search silence is
 | Delhi (NCT) | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/DELHI_NCT.md` |
 | Jammu and Kashmir | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/JAMMU_KASHMIR.md` |
 | Ladakh | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/LADAKH.md` |
-| Lakshadweep | NOT STARTED | — |
+| Lakshadweep | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/LAKSHADWEEP.md` |
 | Puducherry | NOT STARTED | — |
 
 ## Coverage Status
 
-34 of 36 jurisdictions have completed substantive Phase 1 inventories. Ladakh is the 34th completed jurisdiction in the sequence after Jammu and Kashmir. The remaining jurisdictions are Lakshadweep and Puducherry, which remain deliberately unresearched.
+35 of 36 jurisdictions have completed substantive Phase 1 inventories. Lakshadweep is the 35th completed jurisdiction in the sequence after Ladakh. Puducherry remains the only deliberately unresearched jurisdiction.
 
 A status of COMPLETED WITH QUALIFICATION or PROCEED/CLOSE WITH LIMITATIONS records workstream completion with stated residuals. It does not mean a complete 2026 implementation census or elimination of currentness/instrument-level issues.
 
 ## Control Reconciliation
 
-The jurisdiction matrix is a cumulative control index. Jurisdiction-specific files remain the substantive authority for findings, evidence grades and residual issues. Ladakh's substantive record is `legislation/states/LADAKH.md`, its source ledger is `research/states/LADAKH_SOURCE_LEDGER.md`, and its residual record is `project-state/LADAKH_ISSUES_2026-09-06.md`.
+The jurisdiction matrix is a cumulative control index. Jurisdiction-specific files remain the substantive authority for findings, evidence grades and residual issues. Ladakh's substantive record remains `legislation/states/LADAKH.md`, its source ledger is `research/states/LADAKH_SOURCE_LEDGER.md`, and its residual record is `project-state/LADAKH_ISSUES_2026-09-06.md`. Lakshadweep's substantive record is `legislation/states/LAKSHADWEEP.md`, its source ledger is `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, and its residual record is `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.
 
-## Maharashtra Status Summary
+## Lakshadweep Status Summary
 
-Maharashtra is sufficiently inventoried for progression with qualifications. Current/recent official State sources establish a dedicated Civil Rights Protection police function, a 27-03-2026 temporary ADGP Civil Rights Protection extension through 31-08-2026, current State publication of the PoA Act and Maharashtra Atrocities Rules 1995, prevention guidance, victim-relief scheme architecture, current Police statistical publication and SC/ST institutional oversight. Official Central reports establish Rule 9, Special Court, Exclusive Special Court and sensitive-area arrangements for specified reporting periods. Current 2026 instrument census remains incomplete, including post-31-08-2026 Civil Rights Protection status, current Protection Cell/police-unit matrix, current committees/courts/prosecutors, relief workflow and post-BNS/BNSS/BSA State instructions.
-
-## Madhya Pradesh Status Summary
-
-Madhya Pradesh is sufficiently inventoried for progression with qualifications. Current official State sources establish an active PoA scheme/service layer through the CM Helpline directory, current Special Judge postings through the High Court of Madhya Pradesh, current PoA-related police/prosecution training in Datia, and State legal/service repositories. Official Central State-specific reports establish an ADGP-led Protection Cell, 51 Special Police Stations, State/District monitoring committees, Secretary-level Rule 9 nodal architecture and DSP-level Rule 7 investigation for their respective reporting periods. Current primary Rule 9, Protection Cell, police-unit, Rule 10, atrocity-prone-area, V&MC, court, prosecutor, relief/payment, SOP/digital, related-law and post-BNSS instruments remain open.
+Lakshadweep is sufficiently inventoried for progression with qualifications. The constitutional ST Order provides the primary beneficiary definition, while the current UT Administration states that the indigenous population is classified as ST and that there are no SCs in the UT. Historical official Central PoA reports establish earlier Protection Cell, Rule 9, Rule 10, Special Court and SPP arrangements, but these are not treated as a 2026 census. Current 2026 UT sources establish Social Welfare & Tribal Affairs, island police stations, the Kavaratti District and Sessions Court, DLSA activity, a newly established Directorate of Prosecution and active BNSS implementation. Current Central scheme data record zero Lakshadweep relief beneficiaries under the Central scheme for 2020-21 through 2024-25 and Central Assistance of 0.12 crore in 2021-22 only during that period. MHA/NCRB data through 2023 record zero SC cases and ST cases registered in 2021-2023, with one ST case chargesheeted in 2022. Current PoA-specific Rule 8/9/10, V&MC, court, prosecutor, relief, reporting, contingency-plan and BNS/BNSS/BSA transition instruments remain open.
 
 ## Ladakh Status Summary
 
@@ -81,7 +77,7 @@ All completed-jurisdiction residuals remain separate and are not silently collap
 
 ## Status
 
-Ladakh is the latest completed jurisdiction for this sequence. Its residual closure items remain separate from all prior jurisdiction residuals. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Lakshadweep is the latest completed jurisdiction for this sequence. Its 18 residual closure items remain separate from all prior jurisdiction residuals. Puducherry is the only remaining unresearched jurisdiction. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
 
 ## Control Authority
 
