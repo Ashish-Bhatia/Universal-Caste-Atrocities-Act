@@ -7,7 +7,7 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## Completed State/UT Inventories
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal and Andaman and Nicobar Islands are inventoried with qualifications. Andaman and Nicobar Islands is the 29th completed State/UT inventory.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands and Chandigarh are inventoried with qualifications. Chandigarh is the 30th completed State/UT inventory.
 
 - Meghalaya: PH1-ISSUE-256 through PH1-ISSUE-265 open.
 - Mizoram: PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 open.
@@ -22,22 +22,23 @@ Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Har
 - Uttar Pradesh: PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 open.
 - Uttarakhand: PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016 open.
 - West Bengal: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-WB-001 through PH1-ISSUE-WB-016 open.
-- Andaman and Nicobar Islands: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-AN-001 through PH1-ISSUE-AN-016 open, with an additional controlled residual concerning the PoA Act/PAT Regulation interface.
+- Andaman and Nicobar Islands: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-AN-001 through PH1-ISSUE-AN-016 open, with an additional controlled PoA Act/Protection of Aboriginal Tribes Regulation interface residual.
+- Chandigarh: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-CH-001 through PH1-ISSUE-CH-016 open, with controlled Rule 8 staffing and relief-data reconciliation residuals.
 - Manipur remains closed for the current sequence with documented residuals.
 
-## Andaman and Nicobar Islands Current Position
-The 2022 Ministry Section 21(4) report records a State-level SC/ST Protection Cell comprising DGP, IGP, district SPs and Director (Tribal Welfare), Deputy Superintendent-level investigation, three cases completed within 60 days and none later than 60 days, State/District/Sub-Divisional V&MC architecture, Special Officers for Andaman and Nicobar Districts, and identified atrocity-prone areas in North & Middle Andaman at Kadamtala, Rangat and Baratang. The State-level V&MC had no meeting during 2022 and one district-level meeting was recorded.
+## Chandigarh Current Position
+Chandigarh has a notified Scheduled Caste population. Official Ministry of Tribal Affairs material located states that no community has been specified as Scheduled Tribe in relation to Chandigarh. The 16-10-2015 Chandigarh Gazette notification appoints the Secretary, Social Welfare as Rule 9 Nodal Officer and supersedes the 2002 order. A 17-04-2015 Chandigarh Administration order constitutes the Rule 8 Protection Cell, with the IG Police as Chairman and identified administrative/police members and functions. The 2022 Ministry report records the Protection Cell under DGP supervision, the Secretary Social Welfare as Nodal Officer, the Director Social Welfare as Rule 10 Special Officer and no atrocity-prone area.
 
-The District and Session Judge, Andaman and Nicobar Islands is documented as a PoA Special Court, with Special Public Prosecutor evidence. 2025 and 2026 Calcutta High Court Circuit Bench at Port Blair decisions corroborate continuing PoA-specific judicial activity.
+The Chandigarh Administration's V&MC instruments establish a State-level V&MC. Chandigarh is a single-district UT. Ministry reporting records one State-level V&MC meeting in 2019 and none in 2022. Current committee compliance remains open.
 
-The current Ministry SC list records zero notified Scheduled Castes for the UT, while the Ministry of Tribal Affairs lists notified Scheduled Tribes. This inventory therefore principally concerns Scheduled Tribe implementation evidence.
+The 06-03-2024 judicial-administration notification supersedes the 2016 PoA Special Court notification and specifies the Sessions Judge and Additional Sessions Judge-I through V structure as Special Courts under Section 14(1). The 2015 SPP instrument and 2022 report establish a Deputy District Attorney/Additional Public Prosecutor SPP arrangement. Current named roster and allocation remain open.
 
-No current Rule 9 Nodal Officer instrument was independently retrieved. Current Rule 8 staffing, Rule 10 instruments, V&MC compliance, court designation instrument, SPP roster, relief/payment workflow, current Gazette corpus and BNS/BNSS/BSA transition instructions remain open. The Andaman and Nicobar Islands Protection of Aboriginal Tribes Regulation, 1956 is a material jurisdiction-specific related-law interface.
+The 2022 Ministry report records four victims provided relief. Current Ministry CSS data records central assistance released to Chandigarh of Rs. 0.50 crore in 2020-21, Rs. 0.71 crore in 2021-22, Rs. 1.71 crore in 2022-23, Rs. 1.73 crore in 2023-24 and Rs. 1.62 crore in 2024-25, while its separate reported relief-recipient measure records zero persons for Chandigarh in each of those years. These are distinct reporting concepts and require reconciliation before any compliance conclusion.
 
-Artifacts: `legislation/states/ANDAMAN_NICOBAR_ISLANDS.md`, `research/states/ANDAMAN_NICOBAR_ISLANDS_SOURCE_LEDGER.md`, `project-state/ANDAMAN_NICOBAR_ISLANDS_ISSUES_2026-09-05.md`, `project-state/ANDAMAN_NICOBAR_ISLANDS_DECISIONS_2026-09-05.md`.
+2021 and 2022 Ministry case tables provide historical Chandigarh reporting-period data. A 2024 Punjab and Haryana High Court decision involving UT Chandigarh provides current judicial corroboration of PoA litigation. No Phase 2 merits synthesis was undertaken.
 
 ## National Open Position
-Seven jurisdictions remain unresearched after Andaman and Nicobar Islands. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally untouched and unsynchronized.
+Six jurisdictions remain unresearched after Chandigarh. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally untouched and unsynchronized.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
@@ -45,4 +46,4 @@ No Bill drafting, policy-superiority/necessity analysis, constitutional-validity
 Multi-page static website architecture continues. Pages configuration and live URL remain unverified.
 
 ## Latest Controlled Update
-2026-09-05: Andaman and Nicobar Islands-specific search found no pre-existing jurisdiction artifacts. Andaman and Nicobar Islands inventory, source ledger, issue register and decision addendum were created. Master State files were not modified. Central later-instrument/current-law and BNS/BNSS/BSA work remain separate.
+2026-09-05: Chandigarh-specific repository search found no pre-existing jurisdiction artifacts. Chandigarh inventory, source ledger, issue register and decision addendum were created. The current 2024 Special Court designation was verified as superseding the 2016 designation. Master State files were not modified. Central later-instrument/current-law and BNS/BNSS/BSA work remain separate.
