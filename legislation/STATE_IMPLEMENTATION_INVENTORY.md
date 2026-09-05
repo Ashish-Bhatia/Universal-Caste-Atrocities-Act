@@ -28,7 +28,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Jurisdiction | Status | First-pass record |
 |---|---|---|
 | Andhra Pradesh | IN PROGRESS | `legislation/states/ANDHRA_PRADESH.md` |
-| Arunachal Pradesh | NOT STARTED | — |
+| Arunachal Pradesh | IN PROGRESS | `legislation/states/ARUNACHAL_PRADESH.md` |
 | Assam | NOT STARTED | — |
 | Bihar | NOT STARTED | — |
 | Chhattisgarh | NOT STARTED | — |
@@ -66,7 +66,7 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Only Andhra Pradesh has received the first official-source inventory pass in this workstream. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has now received a targeted official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
