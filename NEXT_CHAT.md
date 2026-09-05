@@ -6,49 +6,32 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Completed This Session
 
-- Read the authoritative Phase 0 continuity files before substantive work.
-- Confirmed no contradictory historical project material exists in the authoritative repository record.
-- Created `legislation/EXISTING_LAW_BASELINE.md`.
-- Created `legislation/SOURCE_MAP.md`.
-- Recorded initial primary-source findings for the Constitution, SC/ST Act, SC/ST Rules, BNS, BNSS, BSA, Protection of Civil Rights Act, PCR Rules and SC/ST constitutional identification orders.
-- Recorded initial interaction points between the special statutes and the new general criminal codes.
-- Updated `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `PROJECT_STATE.md`.
+- Read required continuity files without repeating Phase 0 or recreating the initial Phase 1 source map.
+- Extracted the SC/ST (Prevention of Atrocities) Act, 1989 section-by-section from the India Code consolidated PDF marked “As on the 21st September, 2025”.
+- Verified the consolidated Act's listed amending enactments: 2015 Amendment Act, 2018 Amendment Act and Jammu and Kashmir Reorganisation Act, 2019.
+- Verified the identified SC/ST Rules amendment chain through 2018 at instrument level.
+- Identified Ministry of Law and Justice notification S.O. 2790(E), dated 16-07-2024, as a required transition source for legacy IPC/CrPC/Indian Evidence Act references.
+- Confirmed BNS section 358 and BNSS section 531 repeal/savings provisions as transition sources.
+- Targeted official-source searches through 05-09-2026 located no later Central Act or Rules amendment after the identified chain. This remains provisional pending final Gazette/Legislative Department index verification.
+- Updated research, issues, decisions and project-state ledgers.
 
-## Verified Sources Added
+## New Artifacts
 
-- Legislative Department Constitution of India, official consolidated text dated 1 May 2024.
-- Legislative Department Seventh Schedule, official text.
-- India Code Constitution record.
-- India Code SC/ST (Prevention of Atrocities) Act, 1989, Act 33/1989.
-- India Code SC/ST Act amendment/rule instrument listing.
-- Ministry of Tribal Affairs Knowledge Hub, official Acts and Rules listing.
-- India Code Bharatiya Nyaya Sanhita, 2023, Act 45/2023.
-- India Code Bharatiya Nagarik Suraksha Sanhita, 2023, Act 46/2023.
-- India Code Bharatiya Sakshya Adhiniyam, 2023, Act 47/2023.
-- India Code Protection of Civil Rights Act, 1955, Act 22/1955.
-- India Code Constitution (SC) Order, 1950 and Constitution (ST) Order, 1950 records.
+- `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`
+- `legislation/SCST_RULES_VERSION_MATRIX.md`
 
 ## Exact Stopping Point
 
-The first primary-source legal baseline is committed. Phase 1 acceptance criteria are not satisfied. No Bill drafting has begun. No policy conclusion has been drawn. No constitutional validity conclusion has been drawn.
+The SC/ST Act clause extraction and Rules amendment-history verification pass is complete for this session. The consolidated Rules text has not yet been extracted rule-by-rule. No BNS conduct crosswalk, BNSS procedure crosswalk, BSA evidence crosswalk, PCR comparison, Central legislation screening or State inventory was completed in this session.
 
-## Remaining Phase 1 Work
+## Next Discrete Workstream
 
-1. Extract the SC/ST Act clause-by-clause from the authoritative consolidated text.
-2. Verify all amendments, commencement instruments and later changes after the India Code 19-11-2018 last-updated indicator.
-3. Extract the 1995 Rules and every identified amendment through 2018, then search for later amendments.
-4. Build a conduct-by-conduct SC/ST Act section 3 versus BNS crosswalk.
-5. Map SC/ST Act procedural provisions against BNSS, including courts, investigation, arrest, bail, trial, appeals and victim/witness provisions.
-6. Map SC/ST Act presumptions and evidence rules against BSA.
-7. Compare PCR Act and PCR Rules section-by-section against the SC/ST Act and general codes.
-8. Screen the priority Central legislation queue and disposition each item.
-9. Build the state-by-state legislation and implementation-rule source inventory.
-10. Expand the duplication/conflict/gap/ambiguity register with evidence and verification status.
+Complete the consolidated rule-by-rule extraction of the 1995 Rules as amended through 2018. Include every rule, sub-rule, Schedule and Annexure. Record source/version, amendment provenance, operative effect, Act interaction, BNS/BNSS/BSA interaction, duplication, conflict, gap, ambiguity and verification status. Then begin the SC/ST Act section 3 conduct-by-conduct BNS crosswalk, including explicit handling of the IPC-based Schedule and S.O. 2790(E).
 
 ## Must Not Repeat
 
-Do not repeat the Phase 0 repository audit, initialization artifact creation, or the initial source inventory already recorded in `legislation/SOURCE_MAP.md` and `RESEARCH_LEDGER.md`. Do not treat the India Code 2018 last-updated indicator as proof that no later instrument exists. Do not infer policy necessity, superiority or constitutionality. Do not begin Bill drafting.
+Do not repeat Phase 0 repository audit. Do not recreate initialization artifacts. Do not recreate `legislation/SOURCE_MAP.md` or `legislation/EXISTING_LAW_BASELINE.md`. Do not repeat the completed Act extraction unless correcting/extending it. Do not treat India Code's 19-11-2018 metadata as proof of no later instruments. Do not treat targeted searches as a final completeness declaration. Do not begin Bill drafting. Do not import constitutional case-law conclusions from secondary sources. Do not infer policy necessity, desirability, superiority or constitutionality.
 
 ## Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md`. Phase 0 is complete and must not be repeated. The first Phase 1 source map and existing-law baseline are already committed in `legislation/SOURCE_MAP.md` and `legislation/EXISTING_LAW_BASELINE.md`; do not recreate them. Continue from the exact stopping point: clause-level extraction and current-version verification of the SC/ST (Prevention of Atrocities) Act and Rules, followed by BNS/BNSS/BSA/PCR crosswalks and the state-law inventory. Use primary authoritative sources. Record every material proposition with source, date/version, evidence grade, provenance, interaction, duplication, conflict, gap, ambiguity and verification status. Search independently for post-2018 SC/ST Act changes and later Rules or notifications. Do not treat the India Code last-updated field as proof of legal completeness. Do not begin Bill drafting or policy advocacy conclusions. Do not repeat completed Phase 0 work or the initial Phase 1 source map. Update all continuity ledgers and record the exact stopping point at the end.
+Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md` first. Phase 0 is complete. The initial Phase 1 source map and baseline are authoritative and must not be recreated. The SC/ST Act section-by-section extraction is already recorded in `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`, based on the India Code PDF marked “As on the 21st September, 2025”. The SC/ST Rules amendment history is recorded in `legislation/SCST_RULES_VERSION_MATRIX.md`, but consolidated rule-by-rule extraction remains incomplete. Continue with that extraction using primary Government/Gazette sources. Apply S.O. 2790(E), dated 16-07-2024, plus BNS s.358, BNSS s.531 and General Clauses Act s.8 when assessing legacy references. Then build the BNS conduct crosswalk. Record each material proposition with source, date/version, evidence grade, provenance, interaction, duplication, conflict, gap, ambiguity and verification status. Keep later-instrument searches provisional until final Gazette/Legislative Department index verification. Do not repeat completed Act extraction, Phase 0 work or the initial source map. Do not begin Bill drafting or policy/constitutional conclusions.
