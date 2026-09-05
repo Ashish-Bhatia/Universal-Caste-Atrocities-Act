@@ -47,3 +47,17 @@ Status: INVENTORIED WITH QUALIFICATIONS
 ## Status
 
 Kerala is sufficiently inventoried for progression with qualifications. Current official State sources establish a continuing implementation architecture comprising Special Courts/benches, a Scheduled Castes Protection Cell, Special Police Stations, dedicated police petition handling, district-level legal support and relief/rehabilitation activity. Current Police statistics provide a statewide PoA-related cognizable-crime series through July 2026. Current State sources also establish Manual Scavengers implementation and the local-government interface. Historical Central reports provide Rule 9, Rule 10, court and prosecutor details for their reporting periods, but these are not treated as frozen 2026 arrangements. Current primary appointment, court, prosecutor, V&MC, relief-payment, contingency-plan, digital workflow and post-BNSS instruments remain open. Search silence is not treated as proof of absence.
+
+## Sources
+
+1. Government of Kerala State Planning Board, Economic Review 2025: https://spb.kerala.gov.in/sites/default/files/2026-01/ER%202025%20Volume1%20Eng%20final.pdf
+2. Government of Kerala State Planning Board, Annual Plan 2025-26: https://spb.kerala.gov.in/sites/default/files/inline-files/Annual%20Plan%202025-26%20SPB.pdf
+3. Kerala Scheduled Tribes Development Department, Enforcement of Prevention of Atrocities Act 1989: https://www.stdd.kerala.gov.in/index.php/enforcement-of-prevention-of-atrocities-act-1989
+4. Kerala Police, statewide SC/ST Atrocities Act cases: https://keralapolice.gov.in/crime-statistics/sc-st-atrocities-act-cases
+5. Kerala Police, Right to Service: https://keralapolice.gov.in/page/right-to-service
+6. Kerala State Election Commission, Kerala Panchayat Raj Act: https://www.sec.kerala.gov.in/portal/resources/downloadAttachment/5c0b10f1-d5a0-49c9-8835-91f5ec74153d
+7. Kerala LSGD, Manual Scavengers Act implementation: https://lsgd.kerala.gov.in/en/centrally-sponsored-schemes/through-lsgd/mosj/ms-act-implementation/
+8. Kerala Law Department, Acts repository: https://lawsect.kerala.gov.in/english/index.php/acts
+9. Government of India Ministry of Social Justice and Empowerment, current PCR/PoA scheme data: https://socialjustice.gov.in/schemes/39
+10. Government of India Ministry of Social Justice and Empowerment, Kerala implementation reports: https://socialjustice.gov.in/writereaddata/UploadFile/62901726565718.pdf
+11. Kerala Police Station House Management SOP: https://keralapolice.gov.in/storage/pages/custom/ckFiles/file/BUEvumhWKw0cuiTr1kTkKk9n0sykEp9uE6njExOyoY.pdf
