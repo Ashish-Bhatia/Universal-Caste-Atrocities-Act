@@ -1,0 +1,23 @@
+/*
+ * Third-party open-source UI foundation for the research website.
+ * Tabler 1.4.0: MIT licensed, based on Bootstrap 5.
+ * Open Props 1.7.23: MIT licensed design tokens.
+ *
+ * The project-specific site.css remains the final presentation layer.
+ */
+@import url("https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler.min.css");
+@import url("https://unpkg.com/open-props@1.7.23/open-props.min.css");
+
+:root {
+  --research-navy: #102a43;
+  --research-blue: #1f5f8b;
+  --research-teal: #0b6f68;
+  --research-red: #a63d2d;
+  --research-gold: #b7791f;
+  --research-paper: #f7f8fa;
+  --research-surface: #ffffff;
+  --research-border: #d7dee7;
+  --research-muted: #5f6b7a;
+  --research-link: #0b6171;
+  --research-focus: #d69e2e;
+}
