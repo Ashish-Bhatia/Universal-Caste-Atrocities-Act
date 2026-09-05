@@ -136,3 +136,7 @@ Control-only reconciliation index. No cumulative ID is created, renumbered or pr
 |---|---|---|---|
 | Puducherry | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | ACTIVE |
 \n\n## Central Transition Decision Index 2026-09-06\n\nIndexed from `project-state/CONTROL_DECISIONS_CENTRAL_TRANSITION_2026-09-06.md`: DEC-CENTRAL-2026-09-06-001, DEC-CENTRAL-2026-09-06-002, DEC-CENTRAL-2026-09-06-003, DEC-CENTRAL-2026-09-06-004. Detailed reasoning remains in the dated control record.\n
+
+| DEC-011? | 2026-09-06 | Manual Scavengers PH1-ISSUE-015 and PH1-ISSUE-017 are CLOSED WITH QUALIFICATION; PH1-ISSUE-016 is ADVANCED WITH QUALIFICATION. | The final Gazette/Legislative Department census and controlled BNSS transition record establish these dispositions. Search silence remains non-dispositive. | ACTIVE |
+| DEC-2026-09-06-TRANS-001 | 2026-09-06 | S.O. 2790(E) is treated as the controlling general construction-of-references instrument for IPC/CrPC/Indian Evidence Act references after 01-07-2024. | It expressly applies to Acts and subordinate instruments but does not authorise blanket numerical substitution or displace special-law provisions. | ACTIVE |
+| DEC-2026-09-06-PICO-001 | 2026-09-06 | Pico CSS 2.1.1 must load before the production site.css layer in the generated website HTML. | Existing site.css remains the primary visual layer and site-overrides.css remains last; the prior cascade inspection identified Pico-after-site.css as higher risk. | ACTIVE |
