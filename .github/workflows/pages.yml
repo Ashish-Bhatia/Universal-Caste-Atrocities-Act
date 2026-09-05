@@ -33,6 +33,7 @@ jobs:
           python3 -m py_compile scripts/build_website.py
           python3 -m py_compile scripts/build_website_v2.py
           python3 -m py_compile scripts/verify_website_source_sync.py
+          python3 -m py_compile scripts/sync_phase1_website.py
           python3 -m py_compile scripts/sanitize_public_html.py
           python3 -m py_compile scripts/validate_public_site.py
 
@@ -48,6 +49,9 @@ jobs:
 
       - name: Build research site
         run: python3 scripts/build_website_v2.py
+
+      - name: Synchronize Phase 1 website counts
+        run: python3 scripts/sync_phase1_website.py
 
       - name: Apply production accessibility and responsive overrides
         shell: bash
