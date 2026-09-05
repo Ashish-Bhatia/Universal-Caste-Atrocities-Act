@@ -54,16 +54,16 @@
 - Maharashtra source entries MH-STATE-001 through MH-STATE-020 are integrated into the master State Implementation Source Ledger after controlled complete-file preservation and verification.
 - Manipur inventory has been extended using current/recent official-source verification. Manipur source ledger contains MN-STATE-001 through MN-STATE-039; current supplemental entries are retained in continuation artifacts rather than being merged into the master ledger yet.
 - Manipur current-verification addendum records MN-STATE-032 through MN-STATE-039 and later continuation artifacts record the 2026 PCR Cell lead and current Police organization lead.
-- The Central 2022 PoA annual report primary publication URL is identified and the official Rajya Sabha laying record has now been verified, but the complete primary Manipur section remains unextracted because the Ministry PDF retrieval path failed and the parliamentary record exposes provenance/library reference rather than report contents.
+- The Central 2022 PoA annual report primary publication URL is identified and the official Rajya Sabha laying record has been verified, but the complete primary Manipur section remains unextracted because the Ministry PDF retrieval path failed and the parliamentary record exposes provenance/library reference rather than report contents.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Manipur is the current jurisdiction workstream. The Ministry archive lists the 2022 PoA annual report and the primary PDF URL is known. Direct PDF retrieval failed with HTTP 502. The official Rajya Sabha record dated 07-08-2024 confirms that the 2022 section 21(4) annual report was laid and assigns Library reference L.T. 506/18/24. This is an authoritative alternative provenance/retrieval path, but it does not provide the report contents. Therefore the complete primary Manipur section has NOT been extracted and PH1-ISSUE-196 remains open.
+Phase 1 remains active. Manipur is the current jurisdiction workstream. The Ministry archive lists the 2022 PoA annual report and the primary PDF URL is known. Direct PDF retrieval failed with HTTP 502. The official Rajya Sabha record dated 07-08-2024 confirms that the 2022 section 21(4) annual report was laid and assigns Library reference L.T. 506/18/24. This is an authoritative alternative provenance/retrieval path, but it does not provide the report contents. Therefore the complete primary Manipur section has NOT been extracted and the primary-content issue remains open.
 
 The Grade C secondary Table 30/Table 31 reproductions remain secondary only. They are not treated as substitutes for the primary report and their blank/hyphen fields are not converted to zeros.
 
-Current 2026 Manipur Police evidence identifies a PCR Cell nodal officer, but this is not conflated with the Rule 8 SC/ST Protection Cell or Rule 9 PoA nodal officer. The current 04-09-2026 Police organization page does not establish a PoA-specific Protection Cell or Special Police Station matrix.
+Current 2026 Manipur Police evidence identifies a PCR Cell nodal officer, but this is not conflated with the Rule 8 SC/ST Protection Cell or Rule 9 PoA nodal officer. The current Police organization material does not establish a PoA-specific Protection Cell or Special Police Station matrix.
 
 The 2023-24 institutional evidence remains date-specific. The 2024-25 Standing Committee report recorded no established SC/ST Protection Cell at the 21-11-2023 central review. A November 2024 secondary account of the Chief Secretary's review describes functioning/strengthening of the Protection Cell and Special Police Stations. The underlying State minutes/order have not been retrieved. The official BPRD 01-01-2024 dataset records zero actual special-purpose police stations classified for crimes against SC/ST/weaker sections. The 2021 secondary figure of 10 Special Police Stations remains historical secondary evidence and is not reconciled with the BPRD snapshot without instrument-level evidence.
 
@@ -83,10 +83,14 @@ Parliament's 2025 Central-assistance table records that Manipur did not seek Cen
 - `research/states/MANIPUR_PRIMARY_REPORT_ALTERNATIVE_PATH_2026-09-05.md`
 - `research/states/MANIPUR_VERIFICATION_2026-09-05_CONTINUATION_2.md`
 - `research/states/MANIPUR_RESEARCH_LEDGER_2026-09-05_CONTINUATION_2.md`
+- `research/states/MANIPUR_VERIFICATION_2026-09-05_CONTINUATION_3.md`
+- `research/states/MANIPUR_RESEARCH_LEDGER_2026-09-05_CONTINUATION_3.md`
+- `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION_3.md`
+- `project-state/MANIPUR_DECISIONS_2026-09-05_CONTINUATION_3.md`
 
 ## Manipur residuals
 
-PH1-ISSUE-179 through PH1-ISSUE-195 remain open where previously unresolved. Current continuation issues PH1-ISSUE-196 through PH1-ISSUE-204 are recorded in `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION.md`.
+Earlier PH1-ISSUE-179 through PH1-ISSUE-195 remain open where previously unresolved. The latest continuation issues PH1-ISSUE-205 through PH1-ISSUE-214 are recorded in `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION_3.md`.
 
 ## Master-ledger integration status
 
@@ -117,4 +121,5 @@ The repository contains a multi-page static research website and GitHub Actions 
 - 2026-09-05: Official Rajya Sabha laying record for the 2022 PoA report verified, with Library reference L.T. 506/18/24.
 - 2026-09-05: Alternative authoritative retrieval artifact created; primary report contents remain inaccessible.
 - 2026-09-05: Manipur current verification continuation 2 created; unresolved current institutional workstreams preserved.
-- 2026-09-05: Manipur research ledger continuation 2, issue continuation and decision continuation updated.
+- 2026-09-05: Manipur current verification continuation 3 created; primary retrieval remains open and current institutional workstreams remain unresolved.
+- 2026-09-05: Manipur research ledger, issue continuation and decision continuation 3 created.
