@@ -50,14 +50,14 @@ No IDs were copied into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for web
 
 The earlier website/source-ledger remediation remains CLOSED AND VERIFIED for its original rendering/control defect.
 
-Current post-Puducherry Pages synchronization was VERIFIED in `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`.
+Current post-remediation Pages deployment was verified by workflow run #461 and its generated artifact.
 
-Run #452 is the latest verified Pages deployment after remediation of the six-page heading-hierarchy defect found by independent inspection of run #446.
+Run #461 is the latest verified Pages deployment after the controlled website remediation and final control-state synchronization.
 
 Current run #452 artifact:
 - name: `github-pages`
-- artifact ID: `9976923868`
-- SHA-256 digest: `16e2c0d467542da47e69acaee20b5ec2e9ee775d8e31b6552bc1d0c3f417a815`
+- artifact ID: `9977354470`
+- SHA-256 digest: `4d26b613db3075d030e7ad8cd505417eed2012f2a55c6178f58aa054ef588581`
 
 Independent run #452 artifact inspection verified 90 HTML pages, 36 jurisdiction research pages, 36 jurisdiction source pages, `36 /36` public count text, no `33/36` text, matching source/research coverage, responsive/focus-visible controls, no broken local assets/links, valid language/title/description metadata, no heading hierarchy jumps, and 90 matching sitemap entries. Full findings are in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
 
@@ -93,7 +93,7 @@ Puducherry was researched on 2026-09-06 using the Phase 1 control matrix, primar
 
 `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md` is retained as a historical control-layer record of the pre-Puducherry 33/36 state. It is superseded for current State/UT count and sequencing by `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, the current State Implementation Inventory and this file.
 
-`project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md` records the authoritative reconciliation of stale PH1-ISSUE-001 and PH1-ISSUE-014 statuses against the Central-law closure record. The physical rows in `ISSUES_REGISTER.md` remain to be synchronized to that reconciliation record.
+`project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md` records the authoritative reconciliation of stale PH1-ISSUE-001 and PH1-ISSUE-014 statuses against the Central-law closure record. The physical rows in `ISSUES_REGISTER.md` are synchronized to the reconciliation outcome.
 
 ## Closed for This Workstream
 
@@ -117,7 +117,7 @@ CURRENT POST-BASELINE SOURCE FILESYSTEM DELTA: RECORDED, NOT INTEGRATED INTO MAS
 
 WEBSITE FALLBACK CONTROL: PASS.
 
-CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PASS, run #452 after remediation.
+CURRENT POST-REMEDIATION PAGES ARTIFACT: PASS, run #461.
 
 WEBSITE FULL STATIC/ARTIFACT AUDIT: PASS, recorded in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
 
