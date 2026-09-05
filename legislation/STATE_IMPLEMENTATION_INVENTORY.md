@@ -49,17 +49,21 @@ Searches distinguish current material from historical reports. Search silence is
 | Jammu and Kashmir | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/JAMMU_KASHMIR.md` |
 | Ladakh | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/LADAKH.md` |
 | Lakshadweep | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/LAKSHADWEEP.md` |
-| Puducherry | NOT STARTED | — |
+| Puducherry | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/PUDUCHERRY.md` |
 
 ## Coverage Status
 
-35 of 36 jurisdictions have completed substantive Phase 1 inventories. Lakshadweep is the 35th completed jurisdiction in the sequence after Ladakh. Puducherry remains the only deliberately unresearched jurisdiction.
+36 of 36 jurisdictions have completed substantive Phase 1 inventories. Puducherry is the 36th completed jurisdiction in the sequence after Ladakh and Lakshadweep.
 
 A status of COMPLETED WITH QUALIFICATION or PROCEED/CLOSE WITH LIMITATIONS records workstream completion with stated residuals. It does not mean a complete 2026 implementation census or elimination of currentness/instrument-level issues.
 
 ## Control Reconciliation
 
-The jurisdiction matrix is a cumulative control index. Jurisdiction-specific files remain the substantive authority for findings, evidence grades and residual issues. Ladakh's substantive record remains `legislation/states/LADAKH.md`, its source ledger is `research/states/LADAKH_SOURCE_LEDGER.md`, and its residual record is `project-state/LADAKH_ISSUES_2026-09-06.md`. Lakshadweep's substantive record is `legislation/states/LAKSHADWEEP.md`, its source ledger is `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, and its residual record is `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.
+The jurisdiction matrix is a cumulative control index. Jurisdiction-specific files remain the substantive authority for findings, evidence grades and residual issues. Ladakh's substantive record remains `legislation/states/LADAKH.md`, its source ledger is `research/states/LADAKH_SOURCE_LEDGER.md`, and its residual record is `project-state/LADAKH_ISSUES_2026-09-06.md`. Lakshadweep's substantive record is `legislation/states/LAKSHADWEEP.md`, its source ledger is `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, and its residual record is `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`. Puducherry's substantive record is `legislation/states/PUDUCHERRY.md`, its source ledger is `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, and its residual record is `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`.
+
+## Puducherry Status Summary
+
+Puducherry is sufficiently inventoried for progression with qualifications. The dedicated PCR Cell, State and District V&MC architecture, Special Judge framework, prosecution arrangements and relief instruments were identified from official material. Sixteen residuals remain open, including current Rule 9 and Rule 10 appointments, an investigation-allocation contradiction, current court and prosecution rosters, current V&MC activity, legal-aid workflow, annual case and relief data, Rule 7 compliance, post-BNS/BNSS/BSA PoA-specific instruments, digital workflow, annual reporting, current beneficiary data and current court functioning.
 
 ## Lakshadweep Status Summary
 
@@ -77,7 +81,7 @@ All completed-jurisdiction residuals remain separate and are not silently collap
 
 ## Status
 
-Lakshadweep is the latest completed jurisdiction for this sequence. Its 18 residual closure items remain separate from all prior jurisdiction residuals. Puducherry is the only remaining unresearched jurisdiction. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Puducherry is the latest completed jurisdiction for this sequence. Its 16 residual closure items remain separate from all prior jurisdiction residuals. No State/UT remains unresearched. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
 
 ## Control Authority
 
@@ -85,4 +89,4 @@ Status definitions, source hierarchy, conflict resolution, search stopping rules
 
 ## Puducherry Phase 1 completion index, 2026-09-06
 
-Puducherry is the 36th completed Phase 1 jurisdiction, classified PROCEED/CLOSE WITH LIMITATIONS. See `legislation/states/PUDUCHERRY.md` and the jurisdiction-specific source ledger for the substantive inventory.
+Puducherry is the 36th completed Phase 1 jurisdiction, classified PROCEED/CLOSE WITH LIMITATIONS. See `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md` and `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` for the substantive inventory, evidence and residuals.
