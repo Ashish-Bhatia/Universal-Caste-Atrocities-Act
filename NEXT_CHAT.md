@@ -1,116 +1,89 @@
 # Next Chat Handoff
 
 ## Authoritative Rule
-`PROJECT_STATE.md`, repository artifacts, verified decisions and documented unresolved issues are authoritative. This file is downstream. Do not treat this continuation instruction as an independent source of truth.
+`PROJECT_STATE.md`, repository artifacts, verified decisions and documented unresolved issues are authoritative. This file is downstream.
 
 ## Current Phase
 Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 Phase 1 acceptance criteria: NOT YET SATISFIED.
 
 ## Current Position
-33 of 36 States/UTs have substantive Phase 1 inventories. Jammu and Kashmir is the 33rd completed jurisdiction and remains PROCEED/CLOSE WITH LIMITATIONS with PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 open, including the unresolved Rule 8 Protection Cell contradiction and currentness residuals.
+33 of 36 States/UTs have substantive Phase 1 inventories. Jammu and Kashmir is the 33rd completed jurisdiction. Ladakh, Lakshadweep and Puducherry remain unresearched.
 
-Remaining unresearched jurisdictions:
-1. Ladakh
-2. Lakshadweep
-3. Puducherry
+Do not repeat Jammu and Kashmir. Do not begin the remaining three jurisdictions.
 
-## Current Control-Remediation Gate
+## Website/Source-Ledger Defect Position
 
-The master State Implementation Inventory reconciliation is complete.
-The master State Implementation Source Ledger integration was completed for the five explicitly contributing later ledgers recorded in the integration report: Gujarat, Haryana, Himachal Pradesh, Kerala and Madhya Pradesh.
-The independent zero-drift control record remains valid for preservation of the pre-integration master content and the five controlled additions.
+The verified #374 Pages artifact contained 33 research pages and 33 source-set pages, with 25 source-set pages empty. The master source ledger lacks later jurisdiction-specific IDs such as `JK-001` and `MZ-STATE-001`, while corresponding substantive jurisdiction ledgers exist.
 
-A new website verification has identified two publication/control defects:
-1. The committed master source ledger does not contain later jurisdiction-specific IDs such as `JK-001` and `MZ-STATE-001`, although those jurisdiction-specific source ledgers exist. The public source-set pages for 25 of 33 completed jurisdictions are therefore empty in the verified Pages artifact.
-2. One generated existing-law page, `law/priority-central-legislation-screening.html`, exposes the project-control filename `DECISIONS_LOG.md` and project-management instructions, contrary to the public research-only content boundary.
+The same artifact exposed `DECISIONS_LOG.md` and a project-management instruction in `law/priority-central-legislation-screening.html`.
 
-Controlled defect record:
-- `project-state/WEBSITE_SOURCE_SET_MISMATCH_2026-09-06.md`
+The previous master-ledger integration narrative is therefore not accepted as proof of full later-jurisdiction integration. The substantive master ledger remains unmodified by this remediation.
 
-## Website / Repository State
+## Control Decision Already Recorded
 
-The public website build is repository-driven. `scripts/build_website.py` generates a production-oriented, multi-page public research library from substantive repository research records.
+`project-state/WEBSITE_SOURCE_LEDGER_CONTROL_DECISION_2026-09-06.md` records the production decision:
 
-Public website boundary:
-- Publish actual legal and jurisdictional implementation research only.
-- Do not publish project-state controls, issue registers, decision logs or continuity prompts.
-- Give every completed State/UT a dedicated research page.
-- Give every completed State/UT a dedicated source-set page.
-- Give each available existing-law research document its own page.
-- Use internal Pages navigation rather than GitHub repository links.
-- Generate `sitemap.xml`, `robots.txt` and `404.html`.
-- Reject generated HTML containing the repository navigation URL.
+- Keep the master source ledger authoritative for rows actually integrated there.
+- Use a controlled jurisdiction-ledger fallback for public source rendering where a completed jurisdiction has substantive local-ledger rows absent from the master.
+- Label fallback rows explicitly as `Jurisdiction-ledger fallback`.
+- Never represent fallback rows as master-ledger integration.
+- Fail the build for a completed jurisdiction with neither master rows nor a controlled fallback.
+- Validate generated HTML for project-control filenames and project-management instructions.
 
-The builder now cleans stale generated HTML, renders all completed jurisdiction records, renders jurisdiction source sets, renders existing-law research pages and verifies every completed jurisdiction has a generated page.
+## Implemented Controls
 
-The builder's current source-set implementation reads only `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Because the master ledger does not contain all later jurisdiction-specific source IDs, 25 generated source-set pages are empty even though the corresponding jurisdiction-specific source ledgers exist.
+- `scripts/verify_website_source_sync.py` performs the deterministic master-versus-jurisdiction source-ID comparison.
+- `scripts/build_website_v2.py` is the production builder used by Pages. It implements master/fallback provenance and rejects completed jurisdictions with no controlled source rows.
+- `scripts/sanitize_public_html.py` sanitizes the identified `DECISIONS_LOG.md` reference in generated public HTML without changing the substantive research source.
+- `.github/workflows/pages.yml` compiles the control scripts, runs the source-ID comparison, preserves its exact output as a workflow artifact, builds the site, sanitizes the identified leakage, rejects empty source pages and rejects project-control leakage.
+- The legacy `scripts/build_website.py` remains in the repository because its direct replacement operation through the repository connector returned a SHA conflict. It is not the production Pages builder after this remediation.
 
-The builder's current project-control stripping is incomplete. One generated existing-law page contains the literal `DECISIONS_LOG.md` filename and a project-record instruction. The current workflow validation does not detect this class of leakage.
+## Exact Gap Status
 
-The Pages workflow `.github/workflows/pages.yml` compiles the builder, prepares the Delhi compatibility alias, builds the site, validates required outputs and public-link policy, then deploys the generated `website/` artifact.
+The exact source-ID delta is intentionally not asserted until the first non-cancelled post-remediation workflow run produces the control artifact.
 
-Workflow run #374 succeeded. Independent inspection of its artifact confirmed:
-- 33 State/UT research pages.
-- 33 State/UT source-set pages.
-- 9 existing-law pages.
-- 82 sitemap URLs.
-- No repository-navigation links.
-- No broken internal HTML links.
-- 25 empty source-set pages caused by the master-ledger/source-set synchronization defect.
-- One project-control filename leakage in `law/priority-central-legislation-screening.html`.
+Latest Pages runs:
+- #374: SUCCESSFUL, pre-remediation artifact containing the identified defects.
+- #385: queued/in progress during remediation, superseded by later control commits.
+- #386: CANCELLED by workflow concurrency.
+- #387: pending during queue transition.
+- #388: queued as of the latest repository check, head commit `c4fbd1ee8583617e1c138bc58e9b6320c709a512`.
 
-The workflow's current validation does not detect either empty source-set pages or project-control filename leakage.
+Do not treat a queued/pending run as successful. Do not claim exact gap completion until its control artifact is retrieved and inspected.
 
-GitHub Pages live publication is NOT independently verified because Pages administration/live-site verification is not exposed by the connector. The user-supplied screenshot shows the expected public URL rendering, but it is not treated as independent tool verification.
+## Next Required Action
 
-## Codespaces / Repository State
+1. Wait for the non-cancelled post-remediation Pages run to complete.
+2. Retrieve the `source-ledger-control` workflow artifact.
+3. Record the exact `MISSING_IDS` set and per-ledger counts in `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`.
+4. Correct the control/reconciliation narrative if the five-ledger integration record overstated later-jurisdiction integration. Do not alter the substantive master ledger.
+5. Inspect the Pages job result and generated-site validation result.
+6. If successful, inspect the Pages artifact for source-set population and absence of project-control leakage. Live Pages publication remains independently unverified unless direct tool evidence becomes available.
+7. Update `PROJECT_STATE.md`, this file and the website mismatch record with the verified run result.
+8. Preserve the Phase 1 substantive gate.
 
-`.devcontainer/devcontainer.json` runs `ln -sf DELHI.md legislation/states/DELHI_NCT.md && python3 scripts/build_website.py` as `postCreateCommand` after container creation. The image remains `mcr.microsoft.com/devcontainers/python:3-3.12-bookworm`, a valid Microsoft Dev Container image tag.
+## Explicitly Closed
 
-The 2026-09-06 screenshot shows active container image-layer downloads. Treat this as the image retrieval stage, not as evidence of a failed website build or failed post-create command. The next verification point remains whether the container completes after the image download and the post-create command runs.
-
-Codespaces administration/synchronization remains unavailable through the connector.
-
-## Explicitly Closed for This Workstream
-- No Ladakh research.
-- No Lakshadweep research.
-- No Puducherry research.
-- No other new State/UT substantive research.
-- No Bill drafting.
-- No policy-superiority/necessity analysis.
-- No constitutional-validity analysis.
-- No Phase 2 case-law research.
-- No reopening of completed State/UT research unless a genuine evidentiary/control defect requires targeted verification.
-- Do not repeat the 2026-09-06 cumulative state-control reconciliation or independent audit.
-- Do not repeat completed State/UT inventories or Jammu and Kashmir research.
-- Do not treat the new website/source-set defects as authorization for substantive State research.
-
-## Remaining Phase 1 Work
-
-The next task is a targeted control reconciliation of the website/source-set and public-content defects. This is not a new State/UT workstream.
-
-Required sequence:
-1. Re-read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_ZERO_DRIFT_2026-09-06.md`, `project-state/WEBSITE_SOURCE_SET_MISMATCH_2026-09-06.md`, `scripts/build_website.py`, `.github/workflows/pages.yml`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and the relevant later jurisdiction-specific source ledgers.
-2. Reconcile the exact source-ID set present in jurisdiction-specific ledgers but absent from the master ledger. Do not repeat source searches.
-3. Determine whether the 2026-09-06 master-ledger reconciliation record overstated later-jurisdiction integration status. Do not modify the substantive master ledger until the control comparison is explicit.
-4. Decide and record whether the public source-set generator must remain master-ledger-only or use a controlled jurisdiction-ledger fallback. The decision must preserve source provenance and must not conceal the master-ledger gap.
-5. Add build-time validation preventing silent empty source-set pages for completed jurisdictions unless the absence is explicitly controlled and recorded.
-6. Add build-time public-content validation for project-control filenames and project-management instructions.
-7. Remove or appropriately sanitize the identified `DECISIONS_LOG.md` leakage from the generated public page without altering the underlying substantive research record.
-8. Re-run the Pages build only after the control decision and implementation are recorded.
-9. Re-check the live-publication limitation. Do not claim independent live verification without direct tool evidence.
-10. Preserve the Phase 1 substantive gate and do not open Ladakh, Lakshadweep or Puducherry.
-
-## Continuity Constraints
-
-Preserve all existing jurisdiction-specific issue IDs, decision IDs and source IDs. Do not fabricate cumulative IDs. Treat cumulative indexes as control metadata and jurisdiction-specific records as substantive authority. Do not treat search silence as absence. Do not repeat a materially identical search without a new retrieval route, repository update, document identifier or reasoned search expansion.
+No Ladakh research.
+No Lakshadweep research.
+No Puducherry research.
+No other new State/UT substantive research.
+No Bill drafting.
+No policy-superiority/necessity analysis.
+No constitutional-validity analysis.
+No Phase 2 case-law research.
+No repetition of the completed 2026-09-06 audit, cumulative state-control reconciliation, State Implementation Inventory reconciliation, completed source-ledger integration or zero-drift test except targeted verification required for this defect.
 
 ## Do NOT Repeat
 
-Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, completed master source-ledger integration or zero-drift control test except for targeted verification necessary to resolve the newly identified website publication defects.
-Do NOT repeat completed State/UT inventories or Jammu and Kashmir research.
-Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream.
+Do NOT repeat Jammu and Kashmir.
+Do NOT repeat substantive State/UT searches.
+Do NOT search for new sources for the source-ledger gap. The gap must be computed from committed repository ledgers only.
+Do NOT modify `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` until the control comparison and integration-status correction are explicit.
+Do NOT treat jurisdiction-ledger fallback as master-ledger integration.
+Do NOT claim the website is synchronized until the post-remediation artifact is verified.
+Do NOT begin Ladakh, Lakshadweep or Puducherry.
 Do NOT draft the Bill.
 Do NOT conduct policy-superiority/necessity analysis.
 Do NOT conduct constitutional-validity analysis.
