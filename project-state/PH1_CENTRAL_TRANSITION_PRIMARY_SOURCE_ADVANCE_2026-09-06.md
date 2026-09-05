@@ -11,7 +11,7 @@ Record the primary-text advance after the 2026-09-06 Central later-instrument so
 
 ## 1. Section 3(2)(v): punishment-threshold consequence
 
-The SC/ST Act Schedule and section 3(2)(v) must be read as a special-law overlay on the underlying criminal offence. Section 3(2)(v), as amended in 2015, covers an IPC offence punishable with imprisonment for a term of ten years or more when committed against an SC/ST person or property with the statutory knowledge/ground requirement. The consequence is not a fixed offence list. It is threshold-dependent on the punishment attached to the underlying offence.
+The SC/ST Act section 3(2)(v) must be read as a special-law overlay on the underlying criminal offence. The current amended formulation retains the threshold of an IPC offence punishable with imprisonment for a term of ten years or more and uses the post-2016 knowledge formulation, namely that the offender knows the person is a member of a Scheduled Caste or Scheduled Tribe, or knows the property belongs to such member. The consequence is not a fixed offence list. It is threshold-dependent on the punishment attached to the underlying offence.
 
 The BNS transition therefore creates a material classification question: the corresponding BNS offence must be identified first, then its enacted punishment must be tested against the ten-year threshold. Numerical IPC-to-BNS substitution is not sufficient.
 
@@ -19,8 +19,7 @@ Primary BNS verification establishes examples with direct threshold consequences
 
 - BNS section 118(2) provides life imprisonment or imprisonment of not less than one year up to ten years, plus fine, for voluntarily causing grievous hurt by dangerous weapons or means. The BNS punishment therefore meets the ten-year threshold in section 3(2)(v), subject to all SC/ST Act elements.
 - BNS section 121(2) provides imprisonment of not less than one year up to ten years plus fine for voluntarily causing grievous hurt to deter a public servant. The ten-year ceiling therefore meets the threshold, subject to the SC/ST Act's victim/status and underlying-offence requirements.
-- BNS section 124(1) provides imprisonment of not less than ten years up to life plus fine for specified acid/grievous-hurt conduct. This independently meets the ten-year threshold.
-- BNS section 119(1) and 120(2), although not Schedule entries, illustrate why threshold analysis must remain offence-specific and must not be inferred from broad offence labels.
+- BNS section 124(1) provides imprisonment of not less than ten years up to life plus fine for specified acid/grievous-hurt conduct. This independently meets the ten-year threshold, although the former IPC section 326B Schedule reference corresponds to the separate BNS section 124(2) limb and must not be conflated with section 124(1).
 
 The project therefore adopts the following controlled rule: for section 3(2)(v), determine the corresponding BNS offence and its enacted punishment, including the applicable subsection and any alternative/conditional punishment. Do not use the IPC Schedule or old numerical section alone to determine whether the ten-year threshold is met.
 
@@ -41,8 +40,8 @@ The existing Schedule inventory contains 32 distinct IPC references. The followi
 | 323 | BNS s.115(2) | Maximum fine increases from the IPC amount to Rs.10,000. The imprisonment ceiling remains one year. |
 | 324 | BNS s.118(1) | BNS consolidates the IPC dangerous-means hurt provisions. Preserve the BNS subsection and avoid one-to-one numerical substitution. |
 | 325 | BNS s.117(2) | BNS consolidates the definition/punishment structure for voluntarily causing grievous hurt. The seven-year ceiling remains, with fine. |
-| 326B | BNS s.124(2) | Acid-attack conduct is reorganised within BNS s.124. The BNS provision includes broader conduct and a distinct punishment structure. |
-| 332 | BNS s.121(1)-(2) | BNS creates separate hurt/grievous-hurt limbs and raises the grievous-hurt ceiling to ten years. This is directly relevant to section 3(2)(v) threshold analysis. |
+| 326B | BNS s.124(2) | Acid-attack conduct is reorganised within BNS s.124. The BNS provision includes a distinct punishment structure. Do not import the ten-year threshold from BNS s.124(1) into the former IPC 326B correspondence. |
+| 332 | BNS s.121(1)-(2) | BNS creates separate hurt/grievous-hurt limbs and raises the grievous-hurt ceiling to ten years. This is directly relevant to section 3(2)(v) threshold analysis where s.121(2) is the applicable conduct. |
 | 341 | BNS wrongful-restraint provision | BNS restructures wrongful restraint/confinement provisions. Verify the exact current subsection when applying Schedule punishment/cognizability consequences. |
 | 354, 354A-354D | BNS ss.74-79, as applicable | Sexual-offence provisions are reorganised and several IPC provisions are consolidated or recast. Apply the exact BNS conduct and punishment, not the IPC number. |
 | 359, 363, 365 | BNS kidnapping/abduction provisions | BNS restructures kidnapping/abduction into a different numbering and offence architecture. Preserve the factual elements and applicable BNS punishment. |
