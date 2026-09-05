@@ -26,15 +26,27 @@ Reason: the SC/ST Act imports underlying-code offences and punishment thresholds
 
 DEC-2026-09-06-CENTRAL-004
 
-BNSS sections 3-5, 173-193, 283-289 and 531 are retained as primary structural controls for the SC/ST Act procedural transition. Rule 7 consequences remain unresolved and are not closed by structural section-number correspondence alone.
+BNSS sections 3-5, 173-193, 283-289 and 531 are retained as primary structural controls for the SC/ST Act procedural transition. Rule 7 is now mapped by subject matter to BNSS sections 173, 175, 176, 180, 181, 183, 193 and 187. Rule 7's 60-day investigation/charge-sheet requirement is treated as a special-law duty and is not equated with BNSS section 187 custody/default-bail periods.
 
-Reason: special-law procedure and the Rule 7 investigation framework require subject-matter correspondence rather than arithmetic renumbering.
+Reason: Rule 7 contains an independent 60-day charge-sheet command but does not itself state a default-bail consequence. Judicial consequences require case-law analysis and are not inferred in Phase 1 from text alone.
 
 DEC-2026-09-06-CENTRAL-005
 
-BSA sections 104-109 and 115 are treated as general evidence/burden/presumption architecture only. They do not establish an equivalent to SC/ST Act section 8. Judicial operation remains outside this Phase 1 advance.
+BSA sections 104-109 and 115 are treated as general evidence/burden/presumption architecture only. They do not establish an equivalent to SC/ST Act section 8(a)-(c). Section 115 is a distinct disturbed-area/public-order presumption and is materially unrelated to the SC/ST Act's special presumptions.
 
 Reason: the project reserves judicial-operation analysis for Phase 2/4 and avoids premature equivalence between special and general statutory presumptions.
+
+DEC-2026-09-06-CENTRAL-006
+
+For SC/ST Act section 3(2)(v), the ten-year punishment threshold must be tested against the applicable BNS offence and subsection after correspondence is established. Numerical IPC-to-BNS substitution is insufficient where BNS mergers, altered punishment ranges or changed elements affect the threshold.
+
+Reason: section 3(2)(v) operates through the punishment of the underlying offence, so BNS changes can alter whether the special-law threshold is satisfied.
+
+DEC-2026-09-06-CENTRAL-007
+
+The Schedule crosswalk must flag every material IPC-to-BNS correspondence where provisions are merged, punishment changes, or offence elements change. Controlled examples include IPC 148 -> BNS 191(3), IPC 320 -> BNS 116, IPC 323 -> BNS 115(2), IPC 332 -> BNS 121(1)-(2), and the reorganised sexual, kidnapping, trespass and intimidation provisions.
+
+Reason: the SC/ST Act Schedule imports underlying-code offence identity and punishment, so material BNS restructuring affects the special-law operation.
 
 ## Scope protection
 
