@@ -7,7 +7,7 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## Completed State/UT Inventories
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh and Dadra and Nagar Haveli and Daman and Diu are inventoried with qualifications. Dadra and Nagar Haveli and Daman and Diu is the 31st completed State/UT inventory.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu and Delhi (NCT) are inventoried with qualifications. Delhi (NCT) is the 32nd completed State/UT inventory.
 
 - Meghalaya: PH1-ISSUE-256 through PH1-ISSUE-265 open.
 - Mizoram: PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 open.
@@ -25,17 +25,16 @@ Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Har
 - Andaman and Nicobar Islands: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-AN-001 through PH1-ISSUE-AN-016 open, with an additional controlled PoA Act/Protection of Aboriginal Tribes Regulation interface residual.
 - Chandigarh: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-CH-001 through PH1-ISSUE-CH-016 open, with controlled Rule 8 staffing and relief-data reconciliation residuals.
 - Dadra and Nagar Haveli and Daman and Diu: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-DD-001 through PH1-ISSUE-DD-016 open, with controlled post-merger SC/ST instrument, court-coverage and relief-reconciliation residuals.
+- Delhi (NCT): PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-DL-001 through PH1-ISSUE-DL-016 open, with controlled current appointment, court/prosecutor, committee and relief-audit residuals.
 - Manipur remains closed for the current sequence with documented residuals.
 
-## Dadra and Nagar Haveli and Daman and Diu Current Position
-The 2019 Merger Act formed the present UT from the former UTs with effect from 26-01-2020 and provides for High Court jurisdiction and legal-transition mechanisms. Census material establishes SC/ST datasets for the legacy territories, and the Constitution (Dadra and Nagar Haveli) Scheduled Tribes Order identifies notified ST communities for legacy DNH.
+## Delhi Current Position
+Delhi has a documented PoA administrative framework. Delhi government pages publish the PoA Act/Rules and relief framework; the Delhi Police Citizen Charter confirms an SC/ST Protection Cell in the Crime Branch. Ministry reporting establishes Rule 9 Nodal Officer, Rule 10 Special Officer, V&MC, Special Court and SPP arrangements for historical reporting periods. The Parliamentary Standing Committee recorded 36, 78, 70, 141 and 130 PoA cases for 2018-2022 respectively and 487 cases pending trial at the end of 2022. Recent Delhi High Court proceedings in 2025-2026 corroborate continuing PoA litigation.
 
-The 2021 Ministry Section 21(4) report records a UT-level V&MC, District V&MCs, the Secretary Social Welfare as Rule 9 Nodal Officer, a Dy.SP/SDPO Rule 10 Special Officer and no atrocity-prone area. The 2022 report records no UT-level V&MC meeting during 2022, two cases investigated beyond sixty days, a Special Court in DNH and one Public Prosecutor designated SPP. The UT's 2022 annual return confirms Dy.SP/SDPO investigation.
-
-Current post-merger Rule 8 staffing, Rule 9 incumbent, Special Police Station status, Rule 10 instrument, V&MC compliance, current Special Court coverage for Daman/Diu, SPP roster, relief workflow and later Section 21(4) reporting remain open. A 2023 Bombay High Court proceeding provides recent judicial corroboration of PoA litigation involving DNH.
+Current formal Rule 9 appointment, Rule 8 staffing, investigation roster, dedicated Special Police Station status, Rule 3/Rule 10 current instrument, V&MC compliance, current Section 14/14A court corpus, current Exclusive Special Court status, current SPP/ESPP roster, case-level relief workflow, later Section 21(4) reports and BNS/BNSS/BSA transition instructions remain open.
 
 ## National Open Position
-Five jurisdictions remain unresearched after Dadra and Nagar Haveli and Daman and Diu: Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally untouched and unsynchronized.
+Four jurisdictions remain unresearched after Delhi: Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally unsynchronized except where explicitly authorized by a later consolidation phase.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
@@ -43,4 +42,4 @@ No Bill drafting, policy-superiority/necessity analysis, constitutional-validity
 Multi-page static website architecture continues. Pages configuration and live URL remain unverified.
 
 ## Latest Controlled Update
-2026-09-05: After Chandigarh, the next repository-sequence jurisdiction was inspected and found to have no pre-existing jurisdiction-specific inventory artifacts. Dadra and Nagar Haveli and Daman and Diu Phase 1 inventory, source ledger, issue register and decision file were created. The 2019 merger, 2021/2022 Section 21(4) reporting, 2022 UT annual return, 2026 UT officer structure, Census/ST-order interface, current PFMS evidence and 2023 Bombay High Court corroboration were recorded. Master State files were not modified. Central later-instrument/current-law and BNS/BNSS/BSA work remain separate.
+2026-09-05: Delhi (NCT) was researched as the 32nd completed State/UT Phase 1 inventory. A jurisdiction inventory, source ledger, issue register and decision file were created. Delhi was classified PROCEED/CLOSE WITH LIMITATIONS. Current appointment/designation, court/prosecutor, committee, relief-audit and later-reporting residuals remain open. Master State files were not used as write targets.
