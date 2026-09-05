@@ -163,7 +163,7 @@
 
 ## Cumulative residual-control index
 
-The following is a reconciliation-only index. It does not recreate missing substantive issue records and does not renumber existing IDs. It points to repository records already verified during the 2026-09-06 state-control reconciliation.
+The following is a reconciliation-only index. It does not recreate missing substantive issue records and does not renumber existing IDs. It points to repository records already verified during the 2026-09-06 state-control reconciliation and related controlled addenda already present in the repository.
 
 | Jurisdiction/control segment | Existing cumulative IDs | Later jurisdiction-specific residuals | Control record(s) | Status |
 |---|---|---|---|---|
@@ -175,13 +175,13 @@ The following is a reconciliation-only index. It does not recreate missing subst
 | Goa | PH1-ISSUE-054 to PH1-ISSUE-064 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/GOA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
 | Gujarat | PH1-ISSUE-065 to PH1-ISSUE-076 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/GUJARAT_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
 | Haryana | PH1-ISSUE-077 to PH1-ISSUE-088 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/HARYANA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
-| Himachal Pradesh | No later numeric block verified in cumulative file | Later jurisdiction residuals remain controlled outside cumulative numeric block | `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, State inventory/source artifacts | Controlled absence; no substantive reopening. |
+| Himachal Pradesh | No cumulative block in original register | `PH1-ISSUE-089` through `PH1-ISSUE-100` | `research/states/HIMACHAL_PRADESH_MASTER_LEDGER_APPEND.md` | Controlled later residual set; preserved without promoting/reconstructing substantive rows. |
 | Jharkhand | PH1-ISSUE-101 to PH1-ISSUE-116 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/JHARKHAND_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
 | Karnataka | PH1-ISSUE-117 to PH1-ISSUE-130 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/KARNATAKA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
 | Kerala | PH1-ISSUE-131 to PH1-ISSUE-146 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/KERALA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
-| Madhya Pradesh | PH1-ISSUE-147 to PH1-ISSUE-162 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/MADHYA_PRADESH_SOURCE_LEDGER.md`, State inventory | Controlled; cumulative register ends here before repair. |
+| Madhya Pradesh | PH1-ISSUE-147 to PH1-ISSUE-162 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/MADHYA_PRADESH_SOURCE_LEDGER.md`, State inventory | Controlled; cumulative register ends here before later addenda. |
 | Maharashtra | PH1-ISSUE-163 to PH1-ISSUE-178 | `PH1-ISSUE-163` through `PH1-ISSUE-178` | `project-state/MAHARASHTRA_ISSUES_ADDENDUM.md` | Preserved; no renumbering. |
-| Manipur | PH1-ISSUE-179 to PH1-ISSUE-195 | `PH1-ISSUE-179` through `PH1-ISSUE-195` | `project-state/MANIPUR_ISSUES_ADDENDUM.md` and controlled continuation records | Preserved; no renumbering. |
+| Manipur | No complete cumulative numeric block | `PH1-ISSUE-179` through `PH1-ISSUE-255` | `project-state/MANIPUR_ISSUES_ADDENDUM.md` and `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION*.md` | Preserved; no renumbering. |
 | Meghalaya | No cumulative numeric block | `PH1-ISSUE-256` through `PH1-ISSUE-265` | `project-state/MEGHALAYA_ISSUES_2026-09-05.md` | Open; PROCEED/CLOSE WITH LIMITATIONS. |
 | Mizoram | No cumulative numeric block | `PH1-ISSUE-MZ-001` through `PH1-ISSUE-MZ-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
 | Nagaland | No cumulative numeric block | `PH1-ISSUE-NG-001` through `PH1-ISSUE-NG-018` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
@@ -198,9 +198,9 @@ The following is a reconciliation-only index. It does not recreate missing subst
 | Andaman and Nicobar Islands | No cumulative numeric block | `PH1-ISSUE-AN-001` through `PH1-ISSUE-AN-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS; controlled interface residual preserved. |
 | Chandigarh | No cumulative numeric block | `PH1-ISSUE-CH-001` through `PH1-ISSUE-CH-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
 | Dadra and Nagar Haveli and Daman and Diu | No cumulative numeric block | `PH1-ISSUE-DD-001` through `PH1-ISSUE-DD-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
-| Delhi (NCT) | No cumulative numeric block | `PH1-ISSUE-DL-001` through `PH1-ISSUE-DL-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Delhi (NCT) | No cumulative numeric block | `PH1-ISSUE-DL-001` through `PH1-ISSUE-DL-016` | jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
 | Jammu and Kashmir | No cumulative numeric block | `PH1-ISSUE-JK-001` through `PH1-ISSUE-JK-018` | `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md` | Open; PROCEED/CLOSE WITH LIMITATIONS; Rule 8 contradiction preserved. |
 
 ## Residual closure rule
 
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual items are carried separately into final Phase 1 verification. Gujarat, Haryana, Jharkhand, Karnataka, Kerala and Madhya Pradesh residual items are separately recorded above. Completed jurisdictions must not be reopened unless new evidence directly changes recorded status. All residual items remain subject to the rule that search silence is not proof of absence.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual items are carried separately into final Phase 1 verification. Gujarat, Haryana, Jharkhand, Karnataka, Kerala and Madhya Pradesh residual items are separately recorded above. Later jurisdiction-specific residuals remain controlled through the explicit index and their repository records. Completed jurisdictions must not be reopened unless new evidence directly changes recorded status. All residual items remain subject to the rule that search silence is not proof of absence.
