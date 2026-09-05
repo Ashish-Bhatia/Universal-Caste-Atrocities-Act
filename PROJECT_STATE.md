@@ -8,18 +8,19 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## State/UT Position
-34 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
+35 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
 
 Completed sequence:
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep.
 
 Jammu and Kashmir remains the 33rd completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open. The Rule 8 Protection Cell contradiction remains unresolved.
 
 Ladakh is the 34th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LA-001 through PH1-ISSUE-LA-018 are recorded in `project-state/LADAKH_ISSUES_2026-09-06.md`.
 
-Remaining unresearched jurisdictions:
-1. Lakshadweep
-2. Puducherry
+Lakshadweep is the 35th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 are recorded in `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.
+
+Remaining unresearched jurisdiction:
+1. Puducherry
 
 ## Control Remediation Status, 2026-09-06
 
@@ -40,7 +41,7 @@ The exact source-ledger control comparison was independently verified from workf
 
 The exact 377-ID `MISSING_IDS` set is recorded in `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`.
 
-The comparison baseline was preserved unchanged through the remediation. No IDs were copied into the master ledger.
+The comparison baseline was preserved unchanged through the remediation and Lakshadweep research. No IDs were copied into the master ledger.
 
 ## Website remediation result
 
@@ -100,7 +101,7 @@ The 377-ID discrepancy remains unresolved as a classification/integration questi
 
 ## Cumulative Control Layer
 
-The 2026-09-06 cumulative state-control reconciliation remains preserved. The three cumulative controls contain explicit reconciliation-only indexes through Jammu and Kashmir. Ladakh's new jurisdiction-specific issue, decision and source records are substantive jurisdiction artifacts and are not represented as fabricated cumulative IDs.
+The 2026-09-06 cumulative state-control reconciliation remains preserved. The three cumulative controls contain explicit reconciliation-only indexes through Jammu and Kashmir. Ladakh and Lakshadweep jurisdiction-specific issue, decision and source records are substantive jurisdiction artifacts and are not represented as fabricated cumulative IDs.
 
 ## Central and Transition Residuals
 
@@ -110,23 +111,23 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 The repository-driven website builder remains the verified production Pages builder. Public source provenance remains separated from internal project-control files.
 
-## Ladakh Phase 1 Position
+## Lakshadweep Phase 1 Position
 
-Ladakh was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The primary baseline includes the 2019 Reorganisation Act transition, 2021 Rule 8 Protection Cell order, 2021 Rule 9 Nodal Officer order, 2021 UT-level V&MC order, 2024 separate Ladakh ST list, current 2025 reservation framework, current 2026 Kargil V&MC activity, current 2026 Kargil PoA awareness activity and current Central scheme data. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 census.
+Lakshadweep was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The primary baseline includes the Constitution (Scheduled Tribes) Order, current 2026 UT territorial and administrative sources, historical official PoA implementation reports, the 2026 draft Protection Scheduled Tribes Regulation amendment notice, the 2026 Directorate of Prosecution establishment notification, current BNSS implementation rules, current Central scheme data, current DLSA evidence and official MHA/NCRB statistics through 2023. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 implementation census.
 
-Current residuals include Rule 8 staffing/reconstitution, Rule 9 incumbent, Rule 3/Rule 10 instruments, full V&MC matrix, Rule 7 investigation audit, Special Court/Exclusive Special Court notifications, PoA SPP/ESPP roster, case-level relief/payment audit, section 15A/legal aid, Section 21(4) reporting, complete PoA/PCR instrument corpus, BNS/BNSS/BSA transition and UT expenditure reconciliation.
+Current residuals include Rule 8 Protection Cell, Rule 9 Nodal Officer, Rule 3 identified-area position, Rule 10 Special Officer, V&MCs, Rule 7 investigation, Special Court/Exclusive Special Court, PoA SPP/ESPP, recent annual-report extraction, Section 21(4) reporting, relief/payment, section 15A/legal aid, PoA Gazette/SOP corpus, BNS/BNSS/BSA transition, 2026 Protection Scheduled Tribes Regulation amendment status, digital/FIR workflow and Rule 15 contingency-plan status.
 
 ## Closed for This Workstream
 
-No Lakshadweep research.
 No Puducherry research.
 No Bill drafting.
 No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
 No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
-No repetition of the completed 2026-09-06 remediation, cumulative reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
-No repetition of Jammu and Kashmir or Ladakh without a qualifying reopening trigger.
+No repetition of the completed 2026 remediation, cumulative reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
+No repetition of Jammu and Kashmir, Ladakh or Lakshadweep without a qualifying reopening trigger.
+No modification of `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for website synchronization.
 
 ## Decision Gate
 
@@ -140,9 +141,9 @@ PUBLIC/INTERNAL SEPARATION: PASS, verified by generated artifact inspection.
 
 WEBSITE ZERO-DRIFT CONTROL: PASS for the remediated rendering layer.
 
-Master State Implementation Inventory reconciliation: COMPLETE through Ladakh substantive artifact addition.
+Master State Implementation Inventory reconciliation: COMPLETE through Lakshadweep substantive artifact addition.
 
-Master State Implementation Source Ledger substantive content: UNCHANGED by the website remediation and by the Ladakh work. Ladakh's jurisdiction source ledger is separate and is not represented as master-ledger integration.
+Master State Implementation Source Ledger substantive content: UNCHANGED by the website remediation and by the Lakshadweep work. Lakshadweep's jurisdiction source ledger is separate and is not represented as master-ledger integration.
 
 Master-ledger later-row integration: NOT CLOSED.
 
@@ -150,8 +151,8 @@ PH1-ISSUE-021: remains a qualified publication limitation because live Pages URL
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-Next authorized substantive workstream: Lakshadweep Phase 1 State/UT research.
+Next authorized substantive workstream: Puducherry Phase 1 State/UT research.
 
 ## Latest Controlled Update
 
-2026-09-06: completed Ladakh Phase 1 State/UT inventory as the 34th jurisdiction; created `legislation/states/LADAKH.md`, `research/states/LADAKH_SOURCE_LEDGER.md`, `project-state/LADAKH_ISSUES_2026-09-06.md` and `project-state/LADAKH_DECISIONS_2026-09-06.md`; classified Ladakh PROCEED/CLOSE WITH LIMITATIONS; preserved all open residuals; updated the State/UT master inventory; did not modify the master State Implementation Source Ledger or reopen completed jurisdictions.
+2026-09-06: completed Lakshadweep Phase 1 State/UT inventory as the 35th jurisdiction; created `legislation/states/LAKSHADWEEP.md`, `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` and `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md`; classified Lakshadweep PROCEED/CLOSE WITH LIMITATIONS; preserved all 18 open residuals; updated the State/UT master inventory; did not modify the master State Implementation Source Ledger or reopen completed jurisdictions.
