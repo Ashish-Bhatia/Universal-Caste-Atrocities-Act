@@ -1,14 +1,31 @@
 #!/usr/bin/env python3
-"""Build the public static research site from authoritative repository data."""
+"""Build the public static research site from authoritative repository research files.
+
+The public site intentionally excludes project-control files such as PROJECT_STATE,
+NEXT_CHAT, issue registers and decision logs. It publishes research records only.
+"""
 from pathlib import Path
 import html
 import re
+import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "website"
-INV = ROOT / "legislation/STATE_IMPLEMENTATION_INVENTORY.md"
-MASTER = ROOT / "research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md"
-STATE_DIR = ROOT / "legislation/states"
+INV = ROOT / "legislation" / "STATE_IMPLEMENTATION_INVENTORY.md"
+MASTER = ROOT / "research" / "STATE_IMPLEMENTATION_SOURCE_LEDGER.md"
+STATE_DIR = ROOT / "legislation" / "states"
+
+LAW_DOCS = [
+    ("SC/ST Prevention of Atrocities Act", "SCST_ACT_CLAUSE_EXTRACTION.md", "Clause-level Act extraction and amendment provenance."),
+    ("SC/ST Prevention of Atrocities Rules", "SCST_RULES_CLAUSE_EXTRACTION.md", "Rules, Schedule and Annexure inventory."),
+    ("SC/ST Act, BNS crosswalk", "SCST_ACT_SECTION3_BNS_CROSSWALK.md", "Section 3 conduct and Schedule correspondence with BNS."),
+    ("SC/ST Act, BNSS crosswalk", "SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md", "Procedural interfaces and transition questions."),
+    ("SC/ST Act, BSA crosswalk", "SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md", "Evidence, burden and statutory-presumption interfaces."),
+    ("Protection of Civil Rights Act and Rules", "PCR_ACT_RULES_SECTION_RULE_COMPARISON.md", "Section/rule comparison with the PoA framework."),
+    ("Manual Scavengers Act and Rules", "MANUAL_SCAVENGERS_ACT_RULES_SCST_CROSSWALK.md", "Prohibition, rehabilitation and related-law interfaces."),
+    ("Bonded Labour Act and Rules", "BONDED_LABOUR_ACT_RULES_SCST_CROSSWALK.md", "Bonded-labour protections and PoA overlap."),
+    ("Priority Central legislation screening", "CENTRAL_LEGISLATION_PRIORITY_SCREENING.md", "Screening of additional Central-law interfaces."),
+]
 
 NAV = [
     ("Research", "research.html"),
@@ -17,6 +34,11 @@ NAV = [
     ("Sources", "sources.html"),
     ("Methodology", "methodology.html"),
 ]
+
+
+def slug(text):
+    value = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return value or "page"
 
 
 def parse_inventory():
@@ -28,7 +50,7 @@ def parse_inventory():
             continue
         if not active:
             continue
-        if line.strip() == "|---|---|---|":
+        if line.strip().startswith("|---"):
             continue
         m = re.match(r"^\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*`?([^|`]+?)`?\s*\|$", line)
         if m:
@@ -39,10 +61,197 @@ def parse_inventory():
     return rows
 
 
-def source_count():
-    text = MASTER.read_text(encoding="utf-8")
-    # Count source IDs, not Markdown table-header rows.
-    return len(re.findall(r"^\|\s*[A-Z0-9]+-[A-Z0-9_-]+\s*\|", text, flags=re.M))
+def markdown_inline(text):
+    escaped = html.escape(text, quote=False)
+    escaped = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+        r'<a href="\2" rel="noopener noreferrer">\1</a>',
+        escaped,
+    )
+    escaped = re.sub(r"`([^`]+)`", r"<code>\1</code>", escaped)
+    escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", escaped)
+    return escaped
+
+
+def markdown_to_html(text):
+    lines = text.splitlines()
+    out = []
+    i = 0
+    paragraph = []
+    list_items = []
+
+    def flush_paragraph():
+        nonlocal paragraph
+        if paragraph:
+            joined = " ".join(x.strip() for x in paragraph)
+            out.append(f"<p>{markdown_inline(joined)}</p>")
+            paragraph = []
+
+    def flush_list():
+        nonlocal list_items
+        if list_items:
+            out.append("<ul>" + "".join(f"<li>{markdown_inline(x)}</li>" for x in list_items) + "</ul>")
+            list_items = []
+
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.strip()
+
+        if not stripped:
+            flush_paragraph()
+            flush_list()
+            i += 1
+            continue
+
+        if stripped.startswith("```"):
+            flush_paragraph()
+            flush_list()
+            code = []
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                code.append(lines[i])
+                i += 1
+            out.append(f"<pre><code>{html.escape(chr(10).join(code))}</code></pre>")
+            i += 1
+            continue
+
+        if stripped.startswith("# "):
+            flush_paragraph()
+            flush_list()
+            out.append(f"<h1>{markdown_inline(stripped[2:].strip())}</h1>")
+            i += 1
+            continue
+        if stripped.startswith("## "):
+            flush_paragraph()
+            flush_list()
+            title = stripped[3:].strip()
+            out.append(f'<h2 id="{slug(re.sub(r"^[0-9]+[.)]?\s*", "", title))}">{markdown_inline(title)}</h2>')
+            i += 1
+            continue
+        if stripped.startswith("### "):
+            flush_paragraph()
+            flush_list()
+            out.append(f"<h3>{markdown_inline(stripped[4:].strip())}</h3>")
+            i += 1
+            continue
+
+        if stripped.startswith("|"):
+            flush_paragraph()
+            flush_list()
+            table_lines = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                table_lines.append(lines[i].strip())
+                i += 1
+            if len(table_lines) >= 2:
+                rows = []
+                for row in table_lines:
+                    cells = [c.strip() for c in row.strip("|").split("|")]
+                    if not all(re.fullmatch(r":?-{3,}:?", c) for c in cells):
+                        rows.append(cells)
+                if rows:
+                    head = rows[0]
+                    body = rows[1:]
+                    table = ["<div class=\"tablewrap\"><table class=\"table\"><thead><tr>"]
+                    table.append("".join(f"<th>{markdown_inline(c)}</th>" for c in head))
+                    table.append("</tr></thead><tbody>")
+                    for row in body:
+                        padded = row + [""] * max(0, len(head) - len(row))
+                        table.append("<tr>" + "".join(f"<td>{markdown_inline(c)}</td>" for c in padded[:len(head)]) + "</tr>")
+                    table.append("</tbody></table></div>")
+                    out.append("".join(table))
+            continue
+
+        m = re.match(r"^[-*]\s+(.*)$", stripped)
+        if m:
+            flush_paragraph()
+            list_items.append(m.group(1))
+            i += 1
+            continue
+
+        if re.match(r"^\d+\.\s+", stripped):
+            flush_paragraph()
+            flush_list()
+            items = []
+            while i < len(lines):
+                mm = re.match(r"^\d+\.\s+(.*)$", lines[i].strip())
+                if not mm:
+                    break
+                items.append(mm.group(1))
+                i += 1
+            out.append("<ol>" + "".join(f"<li>{markdown_inline(x)}</li>" for x in items) + "</ol>")
+            continue
+
+        if stripped.startswith(">"):
+            flush_paragraph()
+            flush_list()
+            out.append(f"<blockquote>{markdown_inline(stripped[1:].strip())}</blockquote>")
+            i += 1
+            continue
+
+        paragraph.append(stripped)
+        i += 1
+
+    flush_paragraph()
+    flush_list()
+    return "\n".join(out)
+
+
+def strip_project_controls(text):
+    lines = text.splitlines()
+    cleaned = []
+    skip = False
+    for line in lines:
+        stripped = line.strip()
+        if re.match(r"^(Status|Phase|Research date|Opened):", stripped):
+            continue
+        if stripped == "## Disposition":
+            skip = True
+            continue
+        if skip and stripped.startswith("## "):
+            skip = False
+        if skip:
+            continue
+        if "No Bill drafting" in stripped or "No Phase 2" in stripped:
+            continue
+        cleaned.append(line)
+    return "\n".join(cleaned)
+
+
+def parse_source_rows():
+    rows = []
+    for line in MASTER.read_text(encoding="utf-8").splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < 4:
+            continue
+        if cells[0] in {"ID", "---"}:
+            continue
+        source_id = cells[0]
+        if not re.fullmatch(r"[A-Z0-9]+-[A-Z0-9_-]+", source_id):
+            continue
+        rows.append(cells)
+    return rows
+
+
+def source_ids_for_text(text):
+    return {m.group(1) for m in re.finditer(r"\b([A-Z][A-Z0-9_]*-[A-Z0-9_-]+)\b", text)}
+
+
+def source_table(rows):
+    if not rows:
+        return '<p class="muted">No matching master-ledger rows were found for this research record.</p>'
+    parts = [
+        '<div class="tablewrap"><table class="table"><thead><tr>'
+        "<th>Source ID</th><th>Source</th><th>Finding</th><th>Grade</th><th>Verification</th>"
+        "</tr></thead><tbody>"
+    ]
+    for cells in rows:
+        padded = cells + [""] * (5 - len(cells))
+        parts.append("<tr>" + "".join(f"<td>{markdown_inline(c)}</td>" for c in padded[:5]) + "</tr>")
+    parts.append("</tbody></table></div>")
+    return "".join(parts)
 
 
 def nav_html(active):
@@ -52,104 +261,286 @@ def nav_html(active):
     )
 
 
-def shell(title, active, body, extra_script=""):
+def shell(title, active, body):
     return f'''<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Evidence-first research on India's caste-atrocity legal and implementation framework.">
 <title>{html.escape(title)} | Universal Caste Atrocities Act Research</title>
-<link rel="stylesheet" href="assets/site.css?v=20260906">
+<link rel="stylesheet" href="assets/site.css?v=20260906-2">
 </head>
 <body>
-<header class="topbar"><div class="shell nav"><a class="brand" href="index.html">Universal Caste Atrocities Act</a><nav class="navlinks" aria-label="Primary">{nav_html(active)}</nav></div></header>
+<header class="topbar"><div class="shell nav">
+<a class="brand" href="index.html">Universal Caste Atrocities Act Research</a>
+<nav class="navlinks" aria-label="Primary navigation">{nav_html(active)}</nav>
+</div></header>
 <main class="shell main">{body}</main>
-<footer><div class="shell footergrid"><div><strong>Universal Caste Atrocities Act Research</strong><p>Evidence-first public research. GitHub is the authoritative project record.</p></div><div class="smalllinks"><a href="research.html">Research</a><a href="states.html">States & UTs</a><a href="sources.html">Sources</a></div><div class="smalllinks"><a href="methodology.html">Methodology</a><a href="law.html">Existing Law</a><a href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act">GitHub</a></div></div></footer>
-{extra_script}</body></html>'''
+<footer><div class="shell footergrid">
+<div><strong>Universal Caste Atrocities Act Research</strong><p>Public research interface. Evidence, source provenance and qualifications are preserved.</p></div>
+<div class="smalllinks"><a href="research.html">Research</a><a href="states.html">States & UTs</a><a href="law.html">Existing Law</a></div>
+<div class="smalllinks"><a href="sources.html">Sources</a><a href="methodology.html">Methodology</a></div>
+</div></footer>
+</body></html>'''
 
 
 states = parse_inventory()
 completed = [r for r in states if "NOT STARTED" not in r[1]]
-unresearched = [r for r in states if "NOT STARTED" in r[1]]
-source_total = source_count()
+source_rows = parse_source_rows()
 
-cards = []
-for name, status, path in states:
-    is_open = "NOT STARTED" in status
-    label = "Unresearched" if is_open else ("Close with limitations" if "LIMITATIONS" in status else "Inventoried")
-    target = "https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/" + path if not is_open else "#"
-    cards.append(f'''<article class="state-card" data-status="{html.escape(status)}" data-name="{html.escape(name.lower())}">
-<div class="state-top"><span class="status-dot {'open' if is_open else 'done'}"></span><span class="chip">{html.escape(label)}</span></div>
-<h3>{html.escape(name)}</h3><p>{html.escape(status)}</p>
-{'<a class="text-link" href="'+target+'">Open jurisdiction record →</a>' if not is_open else '<span class="muted">Sequenced later, deliberately unresearched</span>'}
-</article>''')
+WEB.mkdir(parents=True, exist_ok=True)
+for path in WEB.glob("*.html"):
+    path.unlink()
+for directory in (WEB / "states", WEB / "law", WEB / "sources"):
+    if directory.exists():
+        shutil.rmtree(directory)
 
 index_body = f'''
 <section class="hero-grid">
-<div class="hero-copy"><span class="eyebrow">Phase 1 · Existing-law baseline</span><h1>Evidence before legislation.</h1><p class="lead">A version-controlled examination of India's caste-atrocity law, implementation machinery and source record. The research does not presume replacement, reform, necessity or superiority.</p><div class="actions"><a class="btn primary" href="research.html">Open research dashboard</a><a class="btn secondary" href="states.html">Browse all jurisdictions</a></div></div>
-<aside class="hero-panel"><div><div class="panel-label">Jurisdiction coverage</div><div class="hero-number">{len(completed)}<span> / {len(states)}</span></div><p>States and Union Territories with substantive Phase 1 inventories.</p><div class="progress"><i></i></div><div class="panel-meta"><span>33 inventoried</span><span>3 unresearched</span></div></div><p>Control position: ACTIVE. Substantive Phase 1 acceptance is not yet satisfied.</p></aside>
+<div class="hero-copy">
+<span class="eyebrow">Public research library</span>
+<h1>Evidence before legislation.</h1>
+<p class="lead">A source-controlled examination of India's caste-atrocity legal and implementation framework. The public record separates law, jurisdictional implementation evidence and source provenance.</p>
+<div class="actions"><a class="btn primary" href="states.html">Browse State & UT research</a><a class="btn secondary" href="law.html">Read existing-law research</a></div>
+</div>
+<aside class="hero-panel">
+<div><div class="panel-label">Jurisdiction research</div><div class="hero-number">States<br><span>& UTs</span></div><p>Published implementation records, with evidentiary qualifications and currentness limitations retained.</p></div>
+<div class="panel-note">Each page is generated from a substantive jurisdiction research record.</div>
+</aside>
 </section>
-<section class="section"><div class="metric-grid">
-<div class="metric-card"><span>Source IDs</span><strong>{source_total}</strong><small>master State Implementation Source Ledger</small></div>
-<div class="metric-card"><span>Control status</span><strong>PASS</strong><small>master-ledger zero-drift control</small></div>
-<div class="metric-card"><span>Remaining</span><strong>{len(unresearched)}</strong><small>Ladakh, Lakshadweep, Puducherry</small></div>
-<div class="metric-card"><span>Bill drafting</span><strong>Deferred</strong><small>prerequisite research first</small></div>
-</div></section>
-<section class="section"><div class="section-head"><div><div class="section-kicker">Current gate</div><h2>Control remediation is closed.</h2></div><span class="chip">06 Sep 2026</span></div><div class="control-grid">
-<div class="control-card"><span>01 · Inventory</span><strong>33 / 36 reconciled</strong><p>Every completed jurisdiction is indexed against its substantive artifact.</p></div>
-<div class="control-card"><span>02 · Sources</span><strong>{source_total} source IDs</strong><p>Later jurisdiction-ledger rows were integrated without renumbering prior IDs.</p></div>
-<div class="control-card"><span>03 · Integrity</span><strong>Zero drift: PASS</strong><p>Committed master content was independently read back after integration.</p></div>
-</div></section>
-<section class="section"><div class="section-head"><div><div class="section-kicker">Research architecture</div><h2>Follow the evidence.</h2></div></div><div class="grid">
-<a class="card feature-card" href="research.html"><span class="index">01</span><div><h3>Research dashboard</h3><p>Current phase, controls, residuals and authorized sequencing.</p></div></a>
-<a class="card feature-card" href="states.html"><span class="index">02</span><div><h3>States & UTs</h3><p>Jurisdiction-specific implementation records with qualifications preserved.</p></div></a>
-<a class="card feature-card" href="law.html"><span class="index">03</span><div><h3>Existing law</h3><p>SC/ST Act and Rules, PCR, BNS, BNSS, BSA and related interfaces.</p></div></a>
-<a class="card feature-card" href="sources.html"><span class="index">04</span><div><h3>Evidence library</h3><p>Source families, provenance and master-ledger coverage.</p></div></a>
-<a class="card feature-card" href="methodology.html"><span class="index">05</span><div><h3>Methodology</h3><p>Evidence grades, currentness, conflict resolution and stopping rules.</p></div></a>
-<a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act"><span class="index">06</span><div><h3>Authoritative record</h3><p>GitHub remains the version-controlled source of project state.</p></div></a>
-</div></section>
-<section class="section frontier"><div class="frontier-main"><span class="eyebrow">Controlled frontier</span><h2>Three jurisdictions remain deliberately unresearched.</h2><p>They are preserved in the control layer and are not started automatically. A new jurisdictional workstream requires explicit authorization.</p></div><div class="frontier-list">{''.join(f'<div class="frontier-item"><strong>{html.escape(n)}</strong><span>Not started</span></div>' for n,_,_ in unresearched)}</div></section>
+<section class="section">
+<div class="section-head"><div><div class="section-kicker">Research library</div><h2>Browse the evidence by subject.</h2></div></div>
+<div class="grid">
+<a class="card feature-card" href="states.html"><span class="index">01</span><div><h3>States & UTs</h3><p>Jurisdiction-specific implementation inventories and evidence.</p></div></a>
+<a class="card feature-card" href="law.html"><span class="index">02</span><div><h3>Existing law</h3><p>SC/ST Act and Rules, BNS, BNSS, BSA and related Central-law interfaces.</p></div></a>
+<a class="card feature-card" href="sources.html"><span class="index">03</span><div><h3>Source library</h3><p>Source identifiers, findings, evidence grades and verification status.</p></div></a>
+<a class="card feature-card" href="methodology.html"><span class="index">04</span><div><h3>Methodology</h3><p>Evidence grades, source hierarchy, currentness and conflict rules.</p></div></a>
+</div>
+</section>
+<section class="section prose-card">
+<div class="section-kicker">Scope</div>
+<h2>What this site publishes</h2>
+<ul class="clean-list">
+<li>Actual legal and implementation research from the repository's substantive records.</li>
+<li>Primary-source provenance and evidence grades where recorded.</li>
+<li>Jurisdiction-specific qualifications, contradictions and unresolved research questions.</li>
+<li>Existing-law crosswalks and related-law interfaces.</li>
+</ul>
+</section>
 '''
 WEB.joinpath("index.html").write_text(shell("Research home", "", index_body), encoding="utf-8")
 
+state_cards = []
+for name, status, path in completed:
+    state_cards.append(
+        f'<a class="state-card" href="states/{slug(name)}.html"><span class="chip">Research record</span>'
+        f"<h3>{html.escape(name)}</h3><p>State/UT implementation inventory</p>"
+        f'<span class="text-link">Open research →</span></a>'
+    )
 states_body = f'''
-<section class="page-intro"><span class="eyebrow">Jurisdiction control surface</span><h1>States & Union Territories</h1><p class="lead">{len(completed)} of {len(states)} jurisdictions have substantive Phase 1 inventories. Status labels preserve qualifications and do not imply a complete 2026 census.</p></section>
-<section class="toolbar"><label class="searchbox"><span>Search jurisdictions</span><input id="stateSearch" type="search" placeholder="e.g. Kerala, Delhi, Jammu" autocomplete="off"></label><div class="filter-row"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="completed">Inventoried</button><button class="filter" data-filter="open">Unresearched</button></div></section>
-<section class="state-grid" id="stateGrid">{''.join(cards)}</section><p class="empty" id="emptyState" hidden>No jurisdictions match the current filter.</p>
+<section class="page-intro">
+<span class="eyebrow">Jurisdiction research</span>
+<h1>States & Union Territories</h1>
+<p class="lead">Browse the published State and Union Territory implementation inventories. The pages publish research records rather than project-control material.</p>
+</section>
+<section class="toolbar">
+<label class="searchbox"><span>Search jurisdictions</span><input id="stateSearch" type="search" placeholder="e.g. Kerala, Delhi, Jammu" autocomplete="off"></label>
+</section>
+<section class="state-grid" id="stateGrid">{''.join(state_cards)}</section>
+<p class="empty" id="emptyState" hidden>No jurisdictions match the search.</p>
 '''
-extra = '''<script>
-const search=document.getElementById('stateSearch'),empty=document.getElementById('emptyState');let filter='all';
-function render(){const q=search.value.toLowerCase().trim();let shown=0;document.querySelectorAll('.state-card').forEach(c=>{const open=c.querySelector('.status-dot').classList.contains('open');const okFilter=filter==='all'||(filter==='open'&&open)||(filter==='completed'&&!open);const okSearch=c.dataset.name.includes(q);c.hidden=!(okFilter&&okSearch);if(!c.hidden)shown++;});empty.hidden=shown!==0;}
-search.addEventListener('input',render);document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter=b.dataset.filter;render();}));
+state_extra = '''<script>
+const input=document.getElementById('stateSearch');
+const empty=document.getElementById('emptyState');
+function filterStates(){
+  const q=input.value.toLowerCase().trim();
+  let shown=0;
+  document.querySelectorAll('.state-card').forEach(card=>{
+    const ok=card.textContent.toLowerCase().includes(q);
+    card.hidden=!ok;
+    if(ok) shown++;
+  });
+  empty.hidden=shown!==0;
+}
+input.addEventListener('input',filterStates);
 </script>'''
-WEB.joinpath("states.html").write_text(shell("States & UTs", "States & UTs", states_body, extra), encoding="utf-8")
+WEB.joinpath("states.html").write_text(shell("States & UTs", "States & UTs", states_body + state_extra), encoding="utf-8")
 
-research_body = f'''
-<section class="page-intro"><span class="eyebrow">Project dashboard</span><h1>Research control position</h1><p class="lead">Phase 1 remains active. The project is evidence-first and does not presume the desirability, necessity or constitutionality of a replacement statute.</p></section>
-<section class="metric-grid"><div class="metric-card"><span>Phase</span><strong>1</strong><small>Existing-law baseline and source map</small></div><div class="metric-card"><span>Coverage</span><strong>{len(completed)}/{len(states)}</strong><small>substantive State/UT inventories</small></div><div class="metric-card"><span>Sources</span><strong>{source_total}</strong><small>master source IDs</small></div><div class="metric-card"><span>Acceptance</span><strong>Pending</strong><small>substantive criteria not yet satisfied</small></div></section>
-<section class="section split"><div class="card"><div class="section-kicker">Completed control task</div><h2>Master source-ledger reconciliation</h2><ul class="clean-list"><li>Later jurisdiction-specific source rows integrated.</li><li>Existing source IDs preserved.</li><li>No cumulative IDs fabricated or renumbered.</li><li>No jurisdiction reopened.</li></ul></div><div class="callout"><strong>Closed restrictions</strong><p>No Ladakh, Lakshadweep or Puducherry research in this workstream. No Bill drafting. No policy-superiority or necessity analysis. No constitutional-validity analysis. No Phase 2 case-law research.</p></div></section>
-<section class="section frontier"><div class="frontier-main"><span class="eyebrow">Current gate</span><h2>Preserve the control baseline.</h2><p>The master State Implementation Inventory and master source ledger are reconciled. The remaining substantive Phase 1 work is separate from this closed control task.</p></div><div class="frontier-list"><div class="frontier-item"><strong>Central current-law completeness</strong><span>Open</span></div><div class="frontier-item"><strong>BNS / BNSS / BSA transition verification</strong><span>Open</span></div><div class="frontier-item"><strong>State currentness residuals</strong><span>Open</span></div></div></section>
+WEB.joinpath("states").mkdir(parents=True, exist_ok=True)
+for name, status, path in completed:
+    src = ROOT / path
+    if not src.exists():
+        raise FileNotFoundError(f"Inventory file listed in master matrix is missing: {path}")
+    raw = src.read_text(encoding="utf-8")
+    research = strip_project_controls(raw)
+    ids = source_ids_for_text(raw)
+    matched = [row for row in source_rows if row[0] in ids]
+    body = f'''
+<section class="page-intro">
+<span class="eyebrow">State & UT research</span>
+<h1>{html.escape(name)}</h1>
+<p class="lead">Jurisdiction-specific implementation evidence from the repository research record. Qualifications and unresolved questions are retained.</p>
+</section>
+<section class="section prose-card">{markdown_to_html(research)}</section>
+<section class="section">
+<div class="section-head"><div><div class="section-kicker">Evidence library</div><h2>Sources cited by this record</h2></div><span class="chip">{len(matched)} matched source rows</span></div>
+{source_table(matched)}
+</section>
+<section class="section actions"><a class="btn secondary" href="../states.html">Back to States & UTs</a><a class="btn secondary" href="../sources/{slug(name)}.html">Open source set</a></section>
 '''
-WEB.joinpath("research.html").write_text(shell("Research dashboard", "Research", research_body), encoding="utf-8")
+    WEB.joinpath("states", f"{slug(name)}.html").write_text(
+        shell(name, "States & UTs", body)
+        .replace('href="research.html"', 'href="../research.html"')
+        .replace('href="states.html"', 'href="../states.html"')
+        .replace('href="law.html"', 'href="../law.html"')
+        .replace('href="sources.html"', 'href="../sources.html"')
+        .replace('href="methodology.html"', 'href="../methodology.html"')
+        .replace('href="index.html"', 'href="../index.html"')
+        .replace('href="assets/site.css', 'href="../assets/site.css'),
+        encoding="utf-8",
+    )
 
-law_body = '''
-<section class="page-intro"><span class="eyebrow">Existing law</span><h1>Legal framework mapped so far.</h1><p class="lead">A navigation layer over the repository's existing-law research. This is not a legislative proposal and does not state a constitutional conclusion.</p></section>
-<div class="grid"><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/SCST_ACT_CLAUSE_EXTRACTION.md"><span class="index">01</span><div><h3>SC/ST PoA Act</h3><p>Clause-level extraction and amendment provenance.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/SCST_RULES_CLAUSE_EXTRACTION.md"><span class="index">02</span><div><h3>SC/ST PoA Rules</h3><p>Rules, Schedule and Annexure inventory with source qualifications.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md"><span class="index">03</span><div><h3>BNS crosswalk</h3><p>Section 3 conduct mapped to current criminal-law correspondence classes.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md"><span class="index">04</span><div><h3>BNSS interface</h3><p>Procedure, courts, investigation, appeals and transition interfaces.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md"><span class="index">05</span><div><h3>BSA interface</h3><p>Evidence, burden and statutory-presumption architecture.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/PCR_ACT_RULES_SECTION_RULE_COMPARISON.md"><span class="index">06</span><div><h3>Protection of Civil Rights</h3><p>Section/rule comparison and interaction with the PoA framework.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/MANUAL_SCAVENGERS_ACT_RULES_SCST_CROSSWALK.md"><span class="index">07</span><div><h3>Manual Scavengers law</h3><p>Prohibitions, rehabilitation, trial and institutional interfaces.</p></div></a><a class="card feature-card" href="https://github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act/blob/main/legislation/BONDED_LABOUR_ACT_RULES_SCST_CROSSWALK.md"><span class="index">08</span><div><h3>Bonded Labour law</h3><p>Overlap and distinctions with atrocity-related coercion and relief.</p></div></a></div>
+law_cards = []
+for title, filename, description in LAW_DOCS:
+    source = ROOT / "legislation" / filename
+    if not source.exists():
+        continue
+    law_cards.append(
+        f'<a class="card feature-card" href="law/{slug(title)}.html"><span class="index">{len(law_cards)+1:02d}</span>'
+        f"<div><h3>{html.escape(title)}</h3><p>{html.escape(description)}</p></div></a>"
+    )
+law_body = f'''
+<section class="page-intro">
+<span class="eyebrow">Existing-law research</span>
+<h1>Legal framework</h1>
+<p class="lead">Research records covering the principal Central statutes and identified interfaces. These pages do not contain a proposed Bill.</p>
+</section>
+<section class="grid">{''.join(law_cards)}</section>
 '''
-WEB.joinpath("law.html").write_text(shell("Existing law", "Existing Law", law_body), encoding="utf-8")
+WEB.joinpath("law.html").write_text(shell("Existing Law", "Existing Law", law_body), encoding="utf-8")
+
+WEB.joinpath("law").mkdir(parents=True, exist_ok=True)
+for title, filename, description in LAW_DOCS:
+    source = ROOT / "legislation" / filename
+    if not source.exists():
+        continue
+    research = strip_project_controls(source.read_text(encoding="utf-8"))
+    body = f'''
+<section class="page-intro">
+<span class="eyebrow">Existing-law research</span>
+<h1>{html.escape(title)}</h1>
+<p class="lead">{html.escape(description)}</p>
+</section>
+<section class="section prose-card">{markdown_to_html(research)}</section>
+<section class="section actions"><a class="btn secondary" href="../law.html">Back to Existing Law</a></section>
+'''
+    WEB.joinpath("law", f"{slug(title)}.html").write_text(
+        shell(title, "Existing Law", body)
+        .replace('href="research.html"', 'href="../research.html"')
+        .replace('href="states.html"', 'href="../states.html"')
+        .replace('href="law.html"', 'href="../law.html"')
+        .replace('href="sources.html"', 'href="../sources.html"')
+        .replace('href="methodology.html"', 'href="../methodology.html"')
+        .replace('href="index.html"', 'href="../index.html"')
+        .replace('href="assets/site.css', 'href="../assets/site.css'),
+        encoding="utf-8",
+    )
+
+research_body = '''
+<section class="page-intro">
+<span class="eyebrow">Research library</span>
+<h1>Research by subject.</h1>
+<p class="lead">The public site exposes substantive research records and source provenance. Project-management controls remain outside the public research interface.</p>
+</section>
+<section class="grid">
+<a class="card feature-card" href="states.html"><span class="index">01</span><div><h3>State implementation</h3><p>Jurisdiction-specific implementation inventories.</p></div></a>
+<a class="card feature-card" href="law.html"><span class="index">02</span><div><h3>Existing law</h3><p>Central legislation and BNS/BNSS/BSA transition research.</p></div></a>
+<a class="card feature-card" href="sources.html"><span class="index">03</span><div><h3>Source evidence</h3><p>Source identifiers, findings, grades and verification status.</p></div></a>
+</section>
+'''
+WEB.joinpath("research.html").write_text(shell("Research", "Research", research_body), encoding="utf-8")
+
+source_cards = []
+WEB.joinpath("sources").mkdir(parents=True, exist_ok=True)
+for name, status, path in completed:
+    raw = (ROOT / path).read_text(encoding="utf-8")
+    ids = source_ids_for_text(raw)
+    matched = [row for row in source_rows if row[0] in ids]
+    source_cards.append(
+        f'<a class="card feature-card" href="sources/{slug(name)}.html"><span class="index">{len(source_cards)+1:02d}</span>'
+        f'<div><h3>{html.escape(name)}</h3><p>{len(matched)} source rows linked to the jurisdiction research record.</p></div></a>'
+    )
+    source_body = f'''
+<section class="page-intro">
+<span class="eyebrow">Jurisdiction source set</span>
+<h1>{html.escape(name)}</h1>
+<p class="lead">Source rows linked to the published {html.escape(name)} implementation research record.</p>
+</section>
+<section class="section">{source_table(matched)}</section>
+<section class="section actions"><a class="btn secondary" href="../sources.html">Back to Sources</a><a class="btn secondary" href="../states/{slug(name)}.html">Open research record</a></section>
+'''
+    WEB.joinpath("sources", f"{slug(name)}.html").write_text(
+        shell(f"{name} Sources", "Sources", source_body)
+        .replace('href="research.html"', 'href="../research.html"')
+        .replace('href="states.html"', 'href="../states.html"')
+        .replace('href="law.html"', 'href="../law.html"')
+        .replace('href="sources.html"', 'href="../sources.html"')
+        .replace('href="methodology.html"', 'href="../methodology.html"')
+        .replace('href="index.html"', 'href="../index.html"')
+        .replace('href="assets/site.css', 'href="../assets/site.css'),
+        encoding="utf-8",
+    )
 
 sources_body = f'''
-<section class="page-intro"><span class="eyebrow">Evidence library</span><h1>Source coverage.</h1><p class="lead">The public interface exposes the source architecture without replacing the repository's substantive records.</p></section>
-<section class="metric-grid"><div class="metric-card"><span>Master source IDs</span><strong>{source_total}</strong><small>after controlled integration</small></div><div class="metric-card"><span>Dedicated ledgers</span><strong>{len(list(STATE_DIR.glob('*_SOURCE_LEDGER.md')))}</strong><small>jurisdiction ledgers in repository</small></div><div class="metric-card"><span>Evidence priority</span><strong>A</strong><small>primary authoritative sources preferred</small></div><div class="metric-card"><span>Search rule</span><strong>Controlled</strong><small>silence is not absence</small></div></section>
-<section class="section"><h2>Primary source families</h2><div class="tag-cloud"><span>Constitution</span><span>Central Acts & Rules</span><span>State Acts & Rules</span><span>Gazettes</span><span>Supreme Court / High Courts</span><span>Parliament / Digital Sansad</span><span>Government reports</span><span>NCRB / BPRD</span><span>Police & Prosecution records</span><span>Budgets & administrative records</span></div></section>
-<section class="section callout"><strong>Traceability rule</strong><p>Each material proposition must be traceable to a source. Evidence grade is independent of source hierarchy. A source's existence does not prove every proposition attributed to it.</p><p class="source-note">Master ledger control: 261 source IDs. Control-remediation and zero-drift verification are closed for the current workstream.</p></section>
+<section class="page-intro">
+<span class="eyebrow">Evidence library</span>
+<h1>Sources</h1>
+<p class="lead">Browse the source set attached to each published State and Union Territory research record. Source provenance, findings, grades and verification status are preserved.</p>
+</section>
+<section class="section"><div class="grid">{''.join(source_cards)}</div></section>
 '''
 WEB.joinpath("sources.html").write_text(shell("Sources", "Sources", sources_body), encoding="utf-8")
 
-method_body = '''
-<section class="page-intro"><span class="eyebrow">Methodology</span><h1>How the evidence is controlled.</h1><p class="lead">The project separates task completion, evidentiary verification, currentness and unresolved limitations. No single label silently upgrades another.</p></section>
-<section class="section"><div class="grid"><article class="card"><h3>A · Primary authoritative</h3><p>Constitution, legislation, Rules, Gazette instruments, judgments and authoritative Government records.</p></article><article class="card"><h3>B · Strong official / credible</h3><p>Official reports, institutional records and reliable corroboration with defined scope.</p></article><article class="card"><h3>C · Reliable secondary</h3><p>Used for leads, context or corroboration where primary retrieval is unavailable.</p></article></div></section>
-<section class="section control-grid"><article class="control-card"><span>Control 01</span><strong>Currentness</strong><p>Historical reports remain tied to their reporting period. They do not become current through search silence.</p></article><article class="control-card"><span>Control 02</span><strong>Conflicts</strong><p>Higher-authority and later operative instruments control where scope and date are comparable.</p></article><article class="control-card"><span>Control 03</span><strong>Reopening</strong><p>Completed work reopens only for material new evidence, a substantive source error, a control defect or authorized closure work.</p></article></section>
-<section class="section"><div class="callout"><strong>Universal stopping rule</strong><p>Research stops only on verified resolution, controlled negative result, access/retrieval block, unresolved conflict requiring escalation, or satisfied scope. Search silence never proves legal absence.</p></div></section>
+methodology_body = '''
+<section class="page-intro">
+<span class="eyebrow">Research methodology</span>
+<h1>How the evidence is handled.</h1>
+<p class="lead">The research separates legal authority, administrative evidence, historical reporting and unresolved questions.</p>
+</section>
+<section class="grid">
+<article class="card"><h3>Primary-source preference</h3><p>Constitutional text, legislation, Rules, Gazettes, Government orders, judgments, Parliament and official statistics are preferred.</p></article>
+<article class="card"><h3>Evidence grades</h3><p>A is primary authoritative evidence. B is strong official or credible evidence. C is reliable secondary evidence. D is weak or unverified material and is never the sole basis of a major conclusion.</p></article>
+<article class="card"><h3>Currentness</h3><p>Historical reports remain tied to their reporting period. A current webpage does not silently replace an underlying appointment, notification or establishment instrument.</p></article>
+<article class="card"><h3>Conflicts</h3><p>Conflicting authoritative records are preserved and escalated where no controlling later instrument or judgment resolves the issue. Search silence is not treated as legal absence.</p></article>
+<article class="card"><h3>Jurisdictional separation</h3><p>State and Union Territory arrangements are researched independently. One jurisdiction is not treated as representative of another.</p></article>
+<article class="card"><h3>Traceability</h3><p>Material research propositions retain source identifiers or source provenance so readers can trace the evidence back to the repository record.</p></article>
+</section>
 '''
-WEB.joinpath("methodology.html").write_text(shell("Methodology", "Methodology", method_body), encoding="utf-8")
+WEB.joinpath("methodology.html").write_text(shell("Methodology", "Methodology", methodology_body), encoding="utf-8")
+
+WEB.joinpath("404.html").write_text(
+    shell("Page not found", "", """
+<section class="page-intro">
+<span class="eyebrow">Research library</span>
+<h1>Page not found.</h1>
+<p class="lead">The requested research page does not exist in the current published site.</p>
+<div class="actions"><a class="btn primary" href="index.html">Return to research home</a><a class="btn secondary" href="states.html">Browse States & UTs</a></div>
+</section>
+"""),
+    encoding="utf-8",
+)
+WEB.joinpath("robots.txt").write_text("User-agent: *\nAllow: /\n", encoding="utf-8")
+
+all_pages = sorted(p.relative_to(WEB).as_posix() for p in WEB.rglob("*.html"))
+sitemap = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+for page in all_pages:
+    sitemap.append(f"  <url><loc>{html.escape(page)}</loc></url>")
+sitemap.append("</urlset>")
+WEB.joinpath("sitemap.xml").write_text("\n".join(sitemap), encoding="utf-8")
+
+for name, _, _ in completed:
+    if not WEB.joinpath("states", f"{slug(name)}.html").exists():
+        raise RuntimeError(f"Missing generated State/UT page: {name}")
+
+print(f"Built {len(all_pages)} HTML pages from {len(completed)} jurisdiction records and {len(source_rows)} master source rows.")
