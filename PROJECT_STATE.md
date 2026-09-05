@@ -59,11 +59,44 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 ## Website and Repository Synchronization
 
-A repository-driven website builder now generates the public research interface from the authoritative State Implementation Inventory and master source ledger at Pages deployment time. The interface has been refreshed with a stronger visual hierarchy, jurisdiction coverage visualization, control-status panels, research architecture cards, controlled frontier presentation, searchable State/UT cards and direct repository links. The source-row counter now counts source IDs rather than Markdown table headers.
+A repository-driven website builder generates the public research interface from substantive repository research records at Pages deployment time.
 
-GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification. The Pages deployment workflow is configured to build and deploy the refreshed interface on pushes to `main`; the latest deployment run is pending/queued as of the current session.
+The public website content boundary is now explicit:
+- Publish actual legal and jurisdictional implementation research only.
+- Publish source provenance, source identifiers, findings, evidence grades and verification status where recorded.
+- Give every completed State/UT a dedicated research page.
+- Give every completed State/UT a dedicated source-set page.
+- Give each existing-law research document its own page where the source document exists.
+- Keep project-state controls, issue registers, decision logs, continuity prompts and other project-management data out of the public research interface.
+- Use internal Pages links for public navigation. Do not send readers to GitHub repository pages as substitutes for research pages.
+- Generate `sitemap.xml`, `robots.txt` and `404.html`.
+- Build-time validation rejects repository-navigation links in generated HTML.
 
-Codespaces administration/synchronization remains unavailable through the connector. Repository-side Codespaces configuration has now been added through `.devcontainer/devcontainer.json` and `.vscode/settings.json`, including folder-first Explorer ordering, expanded folder display, disabled file nesting, automatic reveal and automatic opening of `README.md` and `PROJECT_STATE.md`. A root `README.md` now provides the repository map and current control position.
+The website builder was replaced with a deterministic multi-page generator. It reads the master State Implementation Inventory, substantive jurisdiction inventories, existing-law research documents and master source ledger. It creates the State/UT research pages, source-set pages, existing-law pages, research landing pages and supporting static pages. It removes stale generated HTML under `website/` before rebuilding and verifies that every completed jurisdiction has a generated page.
+
+The Pages workflow now:
+- compiles `scripts/build_website.py`;
+- runs the deterministic build;
+- validates required public pages;
+- rejects generated HTML containing the repository navigation URL;
+- uploads the generated `website/` directory as the Pages artifact;
+- deploys through GitHub Pages.
+
+GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification. The workflow is configured to deploy the rebuilt public research library on pushes to `main`.
+
+## Codespaces / Repository-Side Infrastructure
+
+Repository-side Codespaces configuration remains available through `.devcontainer/devcontainer.json`; Codespaces administration itself remains unavailable through the connector.
+
+The current `.devcontainer/devcontainer.json`:
+- uses the supported `mcr.microsoft.com/devcontainers/python:3-3.12-bookworm` image;
+- preserves the existing Explorer settings;
+- opens `README.md` and `PROJECT_STATE.md`;
+- runs `python3 scripts/build_website.py` as `postCreateCommand`.
+
+The 2026-09-06 rebuild screenshot shows the Codespaces container setup actively downloading image layers, with several large layers reporting download progress and others waiting. This is evidence of container image retrieval during the rebuild, not evidence of a Python `postCreateCommand` failure. The selected Python devcontainer image tag is a valid Microsoft Dev Container image tag. A successful rebuild still requires observation of the post-download completion state because Codespaces administration is not exposed through the connector.
+
+`README.md` provides the repository map and current control position. `.vscode/settings.json` provides shared Explorer visibility settings.
 
 ## Closed for This Workstream
 
@@ -76,6 +109,7 @@ No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
 No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
+No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, master source-ledger integration or zero-drift verification.
 
 ## Decision Gate
 
@@ -87,9 +121,14 @@ Master State Implementation Inventory reconciliation: COMPLETE.
 
 Master State Implementation Source Ledger reconciliation: COMPLETE.
 
+Website production-library remediation: IMPLEMENTED, verification pending.
+
+Codespaces repository-side remediation: IMPLEMENTED, live rebuild completion pending.
+
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
 No substantive next-jurisdiction work is authorized until the next control gate is explicitly opened. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
 
 ## Latest Controlled Update
-2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; refreshed the GitHub Pages build pipeline to derive the public interface from authoritative repository data; improved the public site's visual hierarchy and corrected source-ID counting; added repository-side Codespaces/VS Code Explorer configuration and a root project map; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
+
+2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; replaced the public website generator with a multi-page research-only build covering completed jurisdiction records, source sets and existing-law research; removed public repository-navigation links; added build-time public-content validation; added sitemap, robots and 404 outputs; added a deterministic Codespaces post-create website build; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
