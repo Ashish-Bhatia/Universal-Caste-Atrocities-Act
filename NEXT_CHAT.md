@@ -6,43 +6,43 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Completed This Session
 
-- Read the updated `PROJECT_STATE.md` and `NEXT_CHAT.md` and the Manipur continuation-4 artifacts before substantive continuation.
-- Did not repeat completed baseline, Maharashtra work, or MN-STATE-032 through MN-STATE-039 except where primary reconciliation was required.
-- Re-opened the official Ministry of Social Justice & Empowerment archive entry for the 2022 PoA annual report. It verifies the item title, publication date 17-09-2024, listed size 1.20 MB and the archive View endpoint `/index.php/writereaddata/UploadFile/62901726565718.pdf`.
-- Tested the archive-linked Ministry PDF endpoint and URL variants again. The retrieval layer did not return the PDF contents. These failures are recorded as retrieval limitations, not content findings.
-- Re-verified the official Rajya Sabha 07-08-2024 laying record. It confirms the 2022 section 21(4) report and Library reference L.T. 506/18/24.
-- Searched the public Rajya Sabha index for the exact Library reference and related report terms. No separate public Library document endpoint or downloadable copy was identified.
-- Rechecked exact-title, filename/identifier and Manipur-specific searches. No authoritative Government-hosted full-text copy was surfaced. Secondary Table 30/Table 31 reproductions remain excluded as primary evidence.
-- Reconciled primary judicial evidence from a Manipur High Court order dated 26-09-2024 and a 09-05-2025 judicial record. Both establish the Special Judge (SC&ST PoA), Thoubal court at those dates. The records also show transfer of relevant Manipur-violence case records to the Special Judge, CBI & NIA, Assam under the transfer arrangement.
-- Created `research/states/MANIPUR_VERIFICATION_2026-09-05_CONTINUATION_5.md`.
-- Created `research/states/MANIPUR_RESEARCH_LEDGER_2026-09-05_CONTINUATION_5.md`.
-- Created `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION_5.md` with PH1-ISSUE-225 through PH1-ISSUE-234.
-- Created `project-state/MANIPUR_DECISIONS_2026-09-05_CONTINUATION_5.md` with DEC-MN-0145 through DEC-MN-0150.
-- Updated `PROJECT_STATE.md`.
-- Kept historical snapshots separate from 2026 status, Manipur separate from Maharashtra, Central later-instrument completeness separate from BNS/BNSS/BSA transition verification, and search silence separate from absence.
+- Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, the Manipur source ledger, `legislation/states/MANIPUR.md`, and Continuation 6 artifacts before substantive work.
+- Did not repeat Phase 0, baseline, Maharashtra, MN-STATE-032 through MN-STATE-039, or Continuation 4 except for necessary primary reconciliation.
+- Rechecked the official Ministry 2022 PoA report provenance and indexed Government PDF route. Directly exposed indexed content remains primary-source content, while binary PDF possession remains unresolved.
+- Targeted the remaining Manipur institutional sections of the 2022 report. The indexed search layer did not expose the Manipur institutional subsection with enough text for a primary extraction. This is recorded as a retrieval/indexing limitation, not absence.
+- Preserved the previously verified primary 2022 Manipur SC/ST court rows and ST police row. Table 30/Table 31 remain secondary only.
+- Verified the current High Court of Manipur Special Courts page as a current judicial snapshot. It lists the NDPS Special Court but does not identify a PoA Special Court. This is not treated as an absence finding.
+- Rechecked the primary 17-01-2019 Manipur SPP order covering seven Sessions Court jurisdictions until further orders. It does not establish the 2026 statewide matrix.
+- Reconciled the 2024-2025 Thoubal Special Judge evidence as date-specific only.
+- Added primary NCSC 2023 district-level V&MC meeting evidence, including Ukhrul meetings in 2021-2023 and mostly nil entries elsewhere. This is not a 2026 matrix.
+- Kept NIA/CBI special-court developments separate from PoA Special/Exclusive Special Court verification.
+- Created `research/states/MANIPUR_VERIFICATION_2026-09-05_CONTINUATION_7.md`.
+- Created `research/states/MANIPUR_RESEARCH_LEDGER_2026-09-05_CONTINUATION_7.md` with MN-RL-066 through MN-RL-077.
+- Created `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION_7.md` with PH1-ISSUE-246 through PH1-ISSUE-255.
+- Created `project-state/MANIPUR_DECISIONS_2026-09-05_CONTINUATION_7.md` with DEC-MN-0158 through DEC-MN-0164.
 
 ## Verified Findings
 
-- The actual 2022 primary report contents remain unobtained. Official Ministry archive provenance and document endpoint are verified. The official Rajya Sabha laying record and Library reference L.T. 506/18/24 are verified. Fresh retrieval and URL-variant attempts did not obtain the report bytes.
-- No separate public Rajya Sabha Library download endpoint was identified through indexed public Government material. This does not establish that no Library service copy exists.
-- Grade C Table 30/Table 31 reproductions remain secondary only. Blank/hyphen fields are not converted to zeros.
-- A current PCR Cell nodal officer remains verified by Manipur Police. This does not establish the Rule 8 SC/ST Protection Cell or Rule 9 PoA nodal officer.
-- Primary judicial records establish a Special Judge (SC&ST PoA), Thoubal court at least through the 2024-2025 records reviewed. This is a date-specific judicial snapshot, not a 2026 statewide court census.
-- Current Rule 9, Rule 8, Special Police Station/SC-ST police-unit structure, Rule 10, V&MCs, current statewide Special/Exclusive Special Court matrix, SPP/ESPP, relief/payment and post-2022 annual-report submission/receipt status remain unresolved where current primary instruments were not retrieved.
-- The 2019 primary SPP order remains historical/continuing-until-further-orders evidence for seven Sessions Court jurisdictions, not a current statewide register.
+- The official 2022 report remains provenance-verified and partially text-accessible through indexed extraction. Binary PDF possession remains unresolved.
+- The remaining Manipur institutional subsection of the 2022 report was not sufficiently exposed by the indexed search layer, so it remains unresolved rather than inferred.
+- The current High Court Special Courts page does not identify an SC/ST PoA Special Court, but this is not proof of absence.
+- The 2019 SPP order remains primary historical/continuing-until-further-orders evidence for seven Sessions Court jurisdictions.
+- The 2024-2025 Thoubal Special Judge records remain historical/recent snapshots, not a 2026 statewide court census.
+- NCSC 2023 V&MC data provides reporting-period district meeting evidence but not a 2026 constitution/meeting matrix.
+- Current Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST police-unit structure, Rule 10, current statewide Special/Exclusive Special Court matrix, current SPP/ESPP register, relief/payment workflow and post-2022 annual-report submission/receipt remain unresolved.
 
 ## Open Issues
 
-- PH1-ISSUE-225: obtain the actual primary 2022 report through a non-public or newly identified authoritative Government document-service path.
-- PH1-ISSUE-226: current statewide Special/Exclusive Special Court notification and jurisdiction matrix.
-- PH1-ISSUE-227: current Rule 9 designation.
-- PH1-ISSUE-228: current Rule 8 Protection Cell establishment, command and staffing.
-- PH1-ISSUE-229: current Special Police Station/SC-ST police-unit matrix.
-- PH1-ISSUE-230: current Rule 10 Special Officers and atrocity-prone-area status.
-- PH1-ISSUE-231: current State/District/Sub-Divisional V&MC constitution and meetings.
-- PH1-ISSUE-232: current SPP/ESPP continuation or replacement.
-- PH1-ISSUE-233: current relief/payment workflow.
-- PH1-ISSUE-234: latest State annual-report submission/receipt after 2022.
+- PH1-ISSUE-246: complete Manipur institutional subsection of the official 2022 report.
+- PH1-ISSUE-247: current statewide Special/Exclusive Special Court notification and jurisdiction matrix.
+- PH1-ISSUE-248: current Rule 9 designation.
+- PH1-ISSUE-249: current Rule 8 Protection Cell establishment, command and staffing.
+- PH1-ISSUE-250: current Special Police Station/SC-ST police-unit matrix.
+- PH1-ISSUE-251: current Rule 10 Special Officers and atrocity-prone areas.
+- PH1-ISSUE-252: current State/District/Sub-Divisional V&MC matrix.
+- PH1-ISSUE-253: current SPP/ESPP continuation or replacement.
+- PH1-ISSUE-254: current relief/payment workflow.
+- PH1-ISSUE-255: post-2022 annual-report submission/receipt.
 
 ## Separate Closure Workstreams
 
@@ -54,12 +54,12 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Exact Next Action
 
-First continue the primary-document retrieval effort for the actual 2022 PoA report using L.T. 506/18/24 and the verified Ministry archive provenance. The Ministry archive-linked PDF endpoint and URL variants have been tested without obtaining report bytes, and exact public searches did not reveal a separate public Library download endpoint. Pursue any newly identified authoritative Government document-service path. Do not substitute Table 30/Table 31 reproductions.
+Do not repeat the unsuccessful Continuation 7 indexed extraction attempt. First pursue a newly identified authoritative Government document-service path for the missing Manipur institutional subsection of the 2022 report, if one exists. Preserve binary PDF possession as a separate unresolved status.
 
-Then continue unresolved current/recent Manipur primary verification, with priority on the 2026 statewide Special/Exclusive Special Court matrix, followed by Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST police-unit structure, Rule 10, V&MCs, SPP/ESPP, relief/payment and annual-report status. Treat the 2024-2025 Thoubal court evidence as a date-specific snapshot only.
+Then prioritize retrieval of the current 2026 statewide Special/Exclusive Special Court notification and jurisdiction matrix from the High Court, Law Department, district judiciary or other authoritative Government record. After that continue Rule 9, Rule 8, Special Police Station/SC-ST unit, Rule 10, V&MC, SPP/ESPP, relief/payment and annual-report verification.
 
-Do not repeat Phase 0, completed baseline work, Maharashtra work, or MN-STATE-032 through MN-STATE-039 except for necessary primary verification. Do not repeat continuation-4 retrieval/current-verification work unless required for primary reconciliation. Do not reconstruct the master ledger from truncated connector output. Do not merge Manipur residuals with Maharashtra residuals. Do not treat search silence as absence. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
+Do not repeat Phase 0, baseline, Maharashtra, MN-STATE-032 through MN-STATE-039, or Continuation 4. Do not reconstruct the master ledger from truncated connector output. Do not merge Manipur with Maharashtra. Do not treat search silence as absence. Keep historical evidence separate from 2026 status. Keep NIA/CBI special-court developments separate from PoA court verification. Keep Central later-instrument completeness separate from BNS/BNSS/BSA transition verification. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
 
 ## Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `research/states/MANIPUR_SOURCE_LEDGER.md`, `legislation/states/MANIPUR.md`, the prior Manipur continuation artifacts, `research/states/MANIPUR_VERIFICATION_2026-09-05_CONTINUATION_5.md`, `research/states/MANIPUR_RESEARCH_LEDGER_2026-09-05_CONTINUATION_5.md`, `project-state/MANIPUR_ISSUES_2026-09-05_CONTINUATION_5.md` and `project-state/MANIPUR_DECISIONS_2026-09-05_CONTINUATION_5.md`. Do not repeat completed baseline, Maharashtra work, or MN-STATE-032 through MN-STATE-039 except where necessary for primary verification. The official Ministry archive verifies the 2022 report entry, its 17-09-2024 publication date, 1.20 MB size and archive-linked endpoint `/index.php/writereaddata/UploadFile/62901726565718.pdf`, but repeated retrieval attempts did not obtain report bytes. The official Rajya Sabha record confirms laying on 07-08-2024 with Library reference L.T. 506/18/24. Exact public searches did not identify a separate public Library download endpoint. First pursue any newly identified authoritative Government document-service path for the actual report. Do not treat Grade C Table 30/Table 31 reproductions as substitutes. Primary judicial records dated 26-09-2024 and 09-05-2025 establish the Special Judge (SC&ST PoA), Thoubal court at those dates, but do not establish a 2026 statewide court matrix. Then continue unresolved current/recent Manipur primary verification for the 2026 statewide Special/Exclusive Special Court matrix, Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST police-unit structure, Rule 10, V&MCs, SPP/ESPP, relief/payment and annual-report status. Keep historical snapshots separate from 2026 status. Keep Manipur separate from Maharashtra. Keep Central later-instrument completeness separate from BNS/BNSS/BSA transition verification. Do not treat search silence as absence. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions. Do not repeat continuation-4 work unless required for primary reconciliation.
+Continue Phase 1 of the Universal Caste Atrocities Act project from the Manipur Continuation 7 stopping point. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `research/states/MANIPUR_SOURCE_LEDGER.md`, `legislation/states/MANIPUR.md`, and the Continuation 6 and 7 artifacts. Do not repeat Phase 0, baseline, Maharashtra, MN-STATE-032 through MN-STATE-039, or Continuation 4, and do not repeat the failed Continuation 7 indexed extraction queries except if a newly identified authoritative route requires reconciliation. The official Ministry 2022 PoA report remains provenance-verified and partially text-accessible through indexed extraction; binary PDF possession remains unresolved. The remaining Manipur institutional subsection was not sufficiently exposed for primary extraction, so do not infer its fields from Table 30/Table 31 or search silence. First pursue any newly identified authoritative Government document-service path for the missing institutional section. Then prioritize the current 2026 statewide Special/Exclusive Special Court notification and jurisdiction matrix using High Court, Law Department, district judiciary or other authoritative Government records. The current High Court Special Courts page lists NDPS Special Court but does not identify a PoA court, which is a current-source observation, not proof of absence. The 2019 SPP order covers seven Sessions Court jurisdictions until further orders, and the 2024-2025 Thoubal Special Judge records remain date-specific snapshots. NCSC 2023 V&MC meeting data is reporting-period evidence only. Continue unresolved Rule 9, Rule 8, Special Police Station/SC-ST unit, Rule 10, V&MC, SPP/ESPP, relief/payment and annual-report verification. Keep historical evidence separate from 2026 status, Manipur separate from Maharashtra, NIA/CBI special-court developments separate from PoA court verification, and Central later-instrument completeness separate from BNS/BNSS/BSA transition verification. Do not reconstruct the master ledger from truncated connector output. Do not treat search silence as absence. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
