@@ -34,7 +34,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Chhattisgarh | IN PROGRESS | `legislation/states/CHHATTISGARH.md` |
 | Goa | IN PROGRESS | `legislation/states/GOA.md` |
 | Gujarat | IN PROGRESS | `legislation/states/GUJARAT.md` |
-| Haryana | NOT STARTED | — |
+| Haryana | IN PROGRESS | `legislation/states/HARYANA.md` |
 | Himachal Pradesh | NOT STARTED | — |
 | Jharkhand | NOT STARTED | — |
 | Karnataka | NOT STARTED | — |
@@ -66,11 +66,15 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has received an independent official-source inventory with qualifications. Gujarat has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has received an independent official-source inventory with qualifications. Gujarat has received an independent official-source inventory with qualifications. Haryana has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
 Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
+
+## Haryana Status Summary
+
+Haryana is sufficiently inventoried for progression with qualifications. Current/recent official sources establish a State departmental mandate covering PCR and PoA implementation, formal State/District/Sub-Divisional V&MC instruments, a verified 08-09-2017 Special Court notification for first Additional Sessions Judges in every district at the time, continuing Prosecution Department publication of a dedicated PoA Special Courts document, a current published victim-relief service with a seven-working-day service target, current 2025 police reporting of 34 SC/ST PoA Act cases, and current Manual Scavengers and Scheduled Caste Commission statutory interfaces. Official implementation reports also establish Rule 9, Rule 10, Protection Cell and SPP architecture for their reporting periods. Current 2026 appointments, staffing, complete court/prosecutor matrix, payment workflow, PoA-specific digital workflow and several operative State instruments remain open.
 
 ## Gujarat Status Summary
 
@@ -79,3 +83,7 @@ Gujarat is sufficiently inventoried for progression, with qualifications. The cu
 ## Goa Status Summary
 
 Goa is sufficiently inventoried for progression, with qualifications. The 2023 Goa State Annual Report records a 05-05-2023 Rule 9 nodal-officer order, no dedicated SC/ST Protection Cell or Special Police Station at that reporting point, a State V&MC and District V&MCs for North and South Goa, and no specifically identified atrocity-prone area. Official Central reporting identifies Principal District and Sessions Courts at Panaji and Margao as PoA Special Courts and records Special Public Prosecutors. Current Goa budget documents contain a Rs.40 lakh State provision for SC/ST PoA victim compensation and a further Rs.40 lakh centrally sponsored PCR/PoA implementation component. The current Goa Commission for SC/ST expressly covers PoA/PCR complaints and monitoring. Current 2026 nodal, police-cell, Rule 10, court, prosecutor, committee, relief workflow, PoA-specific Gazette/SOP and digital workflow details remain incompletely frozen.
+
+## Status
+
+Haryana has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa and Gujarat residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
