@@ -9,9 +9,9 @@ Status: OPEN
 
 The Pages production workflow is succeeding, but the generated public source-set pages do not consistently contain source rows.
 
-The run #374 Pages artifact contains 33 State/UT research pages and 33 State/UT source-set pages. Only 8? No. Independent artifact inspection identified 10 source-set pages with master-ledger rows and 23? No. The exact result is 10 non-empty source-set pages and 23 empty source-set pages.
+The run #374 Pages artifact contains 33 State/UT research pages and 33 State/UT source-set pages. Independent artifact inspection found 25 empty source-set pages and 8 non-empty source-set pages.
 
-The empty pages are:
+The 25 empty source-set pages are:
 
 - Andaman and Nicobar Islands
 - Arunachal Pradesh
@@ -39,7 +39,7 @@ The empty pages are:
 - Uttarakhand
 - West Bengal
 
-Correction: the independent artifact inspection found 25 empty source-set pages and 8 non-empty pages. The authoritative list of the 25 empty pages is recorded in the verification notes below.
+The 8 non-empty source-set pages are Andhra Pradesh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Madhya Pradesh and Maharashtra.
 
 ## Verified artifact result
 
@@ -60,7 +60,7 @@ The artifact contains:
 - No generated HTML containing the repository navigation URL.
 - No broken internal HTML links in the artifact.
 
-Independent artifact parsing found 25 source-set pages containing the builder's `No matching master-ledger rows were found for this research record.` message. Eight source-set pages contain master-ledger tables. The eight non-empty pages are Andhra Pradesh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Madhya Pradesh and Maharashtra.
+Independent artifact parsing found 25 source-set pages containing the builder's `No matching master-ledger rows were found for this research record.` message. Eight source-set pages contain master-ledger tables.
 
 ## Repository-level cause
 
