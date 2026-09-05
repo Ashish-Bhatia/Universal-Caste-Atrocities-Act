@@ -10,38 +10,40 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 - Confirmed PH1-AUDIT-001 remains CLOSED and did not repeat its remediation.
 - Confirmed Central Priority 2 screening remains complete at screening level and did not repeat it.
 - Confirmed Andhra Pradesh targeted verification remains complete and did not repeat it.
-- Completed an independent Arunachal Pradesh official-source State/UT implementation inventory.
-- Created `legislation/states/ARUNACHAL_PRADESH.md`.
+- Confirmed Arunachal Pradesh targeted official-source inventory remains complete with qualifications and did not reopen it.
+- Completed an independent Assam official-source State/UT implementation inventory.
+- Created `legislation/states/ASSAM.md`.
 - Updated `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
-- Updated `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` with Arunachal sources and evidence grades.
-- Updated `ISSUES_REGISTER.md` with Arunachal currentness/provenance closure items.
-- Updated `DECISIONS_LOG.md` with Arunachal research decisions.
-- Updated `PROJECT_STATE.md` to set Assam as the next jurisdiction.
+- Updated `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` with Assam sources and evidence grades.
+- Updated `ISSUES_REGISTER.md` with Assam currentness/provenance closure items.
+- Updated `DECISIONS_LOG.md` with Assam research decisions.
+- Updated `PROJECT_STATE.md` to record Assam completion with qualifications.
 
 ## Exact Current Position
 
-Arunachal Pradesh is sufficiently inventoried for progression, with qualifications. The strongest State-specific record located is the Government of Arunachal Pradesh Social Justice & Empowerment and Tribal Affairs Department Annual Report material for calendar year 2023, transmitted in May 2024, with Police Headquarters material dated 05-04-2024. The located copy is hosted by CVMC, a third-party mirror, but the underlying document identifies itself as a Government of Arunachal Pradesh record with State file numbers and signatures.
+Assam is sufficiently inventoried for progression, with qualifications. The strongest current State evidence is the Government of Assam Social Justice & Empowerment Department's current Acts/Rules index and mandate pages, Assam Finance budget documents, Assam Police CCTNS/Seva Setu material, Assam Legislative/Panchayat/Land Revenue publications, and Gazette publication information. Official Central Ministry PoA/PCR implementation reports provide historical State-specific architecture.
 
-The State report establishes an SC/ST Protection Cell at PHQ under IGP (Crime)/SIT and cites order HMB(B) 25-2002 dated 30-09-2015. It says there was no State Rule 9 Nodal Officer "till date", no Rule 10 Special Officers, no identified atrocity-prone areas, no State-level Vigilance and Monitoring Committee, District V&MC formation with nil meetings, nil Special/Exclusive Special Courts and prosecutors, nil relief/payment cases, and nil section 3 registrations for the reporting period. It records no State-specific PoA SOP/manual/digital workflow beyond monthly SC/ST Cell reporting to the Commissioner (Home).
+The Assam inventory establishes or strongly corroborates a State SC/ST Protection Cell under DGP supervision; historical Rule 9 designation of the Director, Welfare of Scheduled Castes; historical Rule 10 designation of Additional District Magistrates; State and District V&MC architecture; historical Special Courts and Special Public Prosecutors; State relief/rehabilitation budget provision; current Assam Police CCTNS inclusion of an SC/ST advisory compendium; and current State responsibility for PoA/PCR implementation.
 
-A later secondary handbook lists the SJETA department as Arunachal's nodal contact. Because this conflicts with the 2023 State report and no primary appointment order was located, it is retained only as a lead. Current 2026 Rule 9 status is unresolved.
+Current 2026 Rule 9 office-holder, Protection Cell staffing, Rule 10 notifications, atrocity-prone-area notifications, State-wide Special/Exclusive Special Court matrix, PoA-specific SPP/ESPP appointments, current V&MC constitution/meetings, relief/payment workflow, current PoA-specific Gazette instruments and consolidated SOP/manual set remain incompletely frozen.
 
-The State's 2022 PCR annual report is NIL and states section 15A PCR machinery was not applied. Relevant State interfaces include the Arunachal Pradesh (Land Settlement and Records) Act, 2000 as amended and the Arunachal Pradesh Panchayati Raj Act, 1997 and related Rules/Manual. No Arunachal-specific bonded-labour or manual-scavenging implementation instrument was located in the targeted search; no absence conclusion is drawn.
+The Assam inventory also identifies the Assam Land and Revenue Regulation, 1886 Chapter X protected tribal belt/block regime, Assam Panchayat Act/Rules, State administration of the central Bonded Labour System (Abolition) Act, and State Manual Scavengers Act/sanitation interface. No State-specific bonded-labour or manual-scavenging PoA instrument was established in the targeted search. Search silence is not treated as absence.
 
-## Arunachal Pradesh Residual Closure Items
+## Assam Residual Closure Items
 
-1. Retrieve primary HMB(B) 25-2002 dated 30-09-2015 SC/ST Cell order.
-2. Verify current 2026 Rule 9 State Nodal Officer appointment and resolve conflict with the 2023 State report.
-3. Verify current SC/ST Protection Cell structure and staffing.
-4. Search for later Special Court/Exclusive Special Court notifications and confirm current judicial operation.
-5. Search for Special Public Prosecutor/Exclusive Special Public Prosecutor appointments.
-6. Verify current State, District and Sub-Divisional V&MC constitution and meetings.
-7. Search for State-specific relief/payment orders and later contingency plans.
-8. Search for PoA-specific SOPs, circulars, manuals and digital workflows.
-9. Retrieve later State Gazette instruments affecting PoA implementation.
-10. Further State-specific bonded-labour/manual-scavenging interface verification if new instruments emerge.
+1. Primary Rule 9 designation and current 2026 office-holder.
+2. Primary SC/ST Protection Cell establishment/structure order and current staffing.
+3. Current Rule 10 Special Officer designations and atrocity-prone-area notifications.
+4. Current State-wide Special/Exclusive Special Court notification consolidation and judicial operation.
+5. Current PoA-specific Special/Exclusive Special Public Prosecutor appointment orders.
+6. Current State/District/Sub-Divisional V&MC constitution orders and minutes.
+7. Primary retrieval of the 21-03-2018 State V&MC minutes.
+8. Current State relief-rate, payment, treasury/DBT and case-processing instruments.
+9. Current PoA-specific Gazette notifications and SOP/circular/manual set.
+10. Primary CCTNS SC/ST advisory compendium or associated Police order.
+11. Current State-specific bonded-labour/manual-scavenging interface instruments if located.
 
-## Andhra Pradesh Residual Closure Items
+## Andhra Pradesh Residual Verification Items
 
 Retain separately. Do not reopen unless new evidence directly changes recorded status:
 
@@ -54,13 +56,28 @@ Retain separately. Do not reopen unless new evidence directly changes recorded s
 - Consolidated PoA-specific SOP, if any.
 - Primary verification of any 2025 amendment to Andhra Pradesh State Commission for Scheduled Tribes legislation.
 
+## Arunachal Pradesh Residual Closure Items
+
+Retain separately. Do not reopen unless new evidence directly changes recorded status:
+
+- Primary HMB(B) 25-2002 dated 30-09-2015 SC/ST Cell order.
+- Current 2026 Rule 9 State Nodal Officer appointment.
+- Current SC/ST Protection Cell staffing/structure.
+- Current Special/Exclusive Special Court notification and judicial operation.
+- Current Special Public Prosecutor/Exclusive Special Public Prosecutor appointments.
+- Current State, District and Sub-Divisional V&MC constitution and meetings.
+- State-specific relief/payment orders and later contingency plan.
+- PoA-specific SOPs, circulars, manuals and digital workflows.
+- Later State Gazette instruments affecting PoA implementation.
+- Further State-specific bonded-labour/manual-scavenging interface verification if new instruments emerge.
+
 ## Remaining Phase 1 Work
 
-- Assam and subsequent State/UT official-source inventories.
+- Continue State/UT official-source inventory with the next jurisdiction.
 - Final later-central-instrument completeness verification.
 - Final source freezes and transition reconciliation for SC/ST Act/Rules, BNS, BNSS and BSA interfaces.
 - Resolve known source discrepancies.
-- Complete residual Andhra Pradesh and Arunachal Pradesh closure items during final Phase 1 verification.
+- Complete residual Andhra Pradesh, Arunachal Pradesh and Assam closure items during final Phase 1 verification.
 - Verify GitHub Pages enablement and first successful deployment when publication work resumes.
 
 ## Relevant Open Issues
@@ -80,6 +97,7 @@ Retain separately. Do not reopen unless new evidence directly changes recorded s
 - PH1-ISSUE-020: Andhra Pradesh targeted verification closed with qualification; residual closure items remain.
 - PH1-ISSUE-021: GitHub Pages site enablement/live publication remains unverified.
 - PH1-ISSUE-022 through PH1-ISSUE-026: Arunachal Pradesh current nodal, court/prosecutor, committee, Gazette/SOP and relief/payment verification.
+- PH1-ISSUE-027 through PH1-ISSUE-034: Assam current nodal, Protection Cell, Rule 10, courts, prosecutors, committees, relief/payment and Gazette/SOP verification.
 - PH1-AUDIT-001: CLOSED after authoritative-record remediation.
 
 ## Publication Status
@@ -88,4 +106,4 @@ The repository contains a static website source and GitHub Actions Pages deploym
 
 ## Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md`. Do not repeat Phase 0, the initial source map, SC/ST Act extraction, SC/ST Rules extraction, BNS crosswalk, BNSS procedural crosswalk, BSA evidence/presumption crosswalk, PCR Act/Rules comparison, Manual Scavengers Act/Rules comparison, Bonded Labour Act/Rules crosswalk, `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`, PH1-AUDIT-001 remediation, completed Andhra Pradesh targeted verification, or completed Arunachal Pradesh inventory. Do not reopen Andhra Pradesh or Arunachal Pradesh unless new evidence directly changes recorded status. Start the next controlled State/UT inventory with Assam. Use official sources and record provenance/evidence grades. Do not treat any prior State as representative of Assam. Carry Andhra Pradesh and Arunachal Pradesh residual closure items separately into final Phase 1 verification. Carry final Central later-instrument completeness and BNS/BNSS/BSA transition verification as separate Phase 1 closure work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions.
+Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md`. Do not repeat Phase 0, the initial source map, SC/ST Act extraction, SC/ST Rules extraction, BNS crosswalk, BNSS procedural crosswalk, BSA evidence/presumption crosswalk, PCR Act/Rules comparison, Manual Scavengers Act/Rules comparison, Bonded Labour Act/Rules crosswalk, `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`, PH1-AUDIT-001 remediation, completed Andhra Pradesh targeted verification, completed Arunachal Pradesh inventory, or completed Assam inventory. Do not reopen Andhra Pradesh, Arunachal Pradesh or Assam unless new evidence directly changes recorded status. Start the next State/UT jurisdiction after Assam using the same independent official-source method. Carry Andhra Pradesh, Arunachal Pradesh and Assam residual closure items separately into final Phase 1 verification. Carry final Central later-instrument completeness and BNS/BNSS/BSA transition verification as separate Phase 1 closure work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
