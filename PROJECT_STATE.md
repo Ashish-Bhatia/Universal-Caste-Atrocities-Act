@@ -8,17 +8,18 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## State/UT Position
-33 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
+34 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
 
 Completed sequence:
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh.
 
-Jammu and Kashmir is the 33rd completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open. The Rule 8 Protection Cell contradiction remains unresolved.
+Jammu and Kashmir remains the 33rd completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open. The Rule 8 Protection Cell contradiction remains unresolved.
+
+Ladakh is the 34th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LA-001 through PH1-ISSUE-LA-018 are recorded in `project-state/LADAKH_ISSUES_2026-09-06.md`.
 
 Remaining unresearched jurisdictions:
-1. Ladakh
-2. Lakshadweep
-3. Puducherry
+1. Lakshadweep
+2. Puducherry
 
 ## Control Remediation Status, 2026-09-06
 
@@ -43,17 +44,11 @@ The comparison baseline was preserved unchanged through the remediation. No IDs 
 
 ## Website remediation result
 
-The earlier run #389 failure is now resolved. The builder defect was source-selection logic: it did not first map master-ledger rows by jurisdiction section, causing Arunachal Pradesh to appear to have no controlled source rows even though its substantive source rows are represented in the master ledger.
+The earlier run #389 failure is resolved. The builder defect was source-selection logic: it did not first map master-ledger rows by jurisdiction section, causing Arunachal Pradesh to appear to have no controlled source rows even though its substantive source rows are represented in the master ledger.
 
-`scripts/build_website_v2.py` now:
-- maps master-ledger rows by jurisdiction section heading first;
-- uses jurisdiction-ledger rows only as an explicitly labelled fallback for IDs absent from the master;
-- rejects a completed jurisdiction with neither master rows nor controlled fallback;
-- reports the exact master-versus-jurisdiction ID comparison without changing it.
+`scripts/build_website_v2.py` now maps master-ledger rows by jurisdiction section heading first, uses jurisdiction-ledger rows only as an explicitly labelled fallback for IDs absent from the master, rejects a completed jurisdiction with neither master rows nor controlled fallback, and reports the exact master-versus-jurisdiction ID comparison without changing it.
 
-`scripts/sanitize_public_html.py` now sanitizes internal filenames and project-management phrases across generated HTML only. It does not modify substantive research sources.
-
-`scripts/validate_public_site.py` validates page counts, route existence, navigation, header/footer, Petition / Support pathway, responsive/accessibility CSS controls, local links, source-page non-emptiness and public/internal separation.
+`scripts/sanitize_public_html.py` sanitizes internal filenames and project-management phrases across generated HTML only. `scripts/validate_public_site.py` validates page counts, route existence, navigation, header/footer, Petition / Support pathway, responsive/accessibility CSS controls, local links, source-page non-emptiness and public/internal separation.
 
 ## Verified production Pages run
 
@@ -105,14 +100,7 @@ The 377-ID discrepancy remains unresolved as a classification/integration questi
 
 ## Cumulative Control Layer
 
-The 2026-09-06 cumulative state-control reconciliation remains preserved.
-
-The three cumulative controls contain explicit reconciliation-only indexes:
-- `RESEARCH_LEDGER.md` contains the cumulative 33-jurisdiction artifact-control index through Jammu and Kashmir.
-- `ISSUES_REGISTER.md` contains the cumulative residual-control index covering the later jurisdiction-specific issue sets without renumbering existing IDs.
-- `DECISIONS_LOG.md` contains the cumulative jurisdiction-decision control index through Jammu and Kashmir without fabricating cumulative IDs.
-
-The jurisdiction-specific records remain the substantive records. The indexes are control metadata only.
+The 2026-09-06 cumulative state-control reconciliation remains preserved. The three cumulative controls contain explicit reconciliation-only indexes through Jammu and Kashmir. Ladakh's new jurisdiction-specific issue, decision and source records are substantive jurisdiction artifacts and are not represented as fabricated cumulative IDs.
 
 ## Central and Transition Residuals
 
@@ -120,31 +108,25 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 ## Website and Repository Synchronization
 
-The repository-driven website builder is now the verified production Pages builder.
+The repository-driven website builder remains the verified production Pages builder. Public source provenance remains separated from internal project-control files.
 
-Public website content boundary:
-- publish actual legal and jurisdictional implementation research only;
-- publish source provenance, source identifiers, findings, evidence grades and verification status where recorded;
-- give every completed State/UT a dedicated research page;
-- give every completed State/UT a dedicated source-set page;
-- give each existing-law research document its own page where the source document exists;
-- keep project-state controls, issue registers, decision logs, continuity prompts and other project-management data out of the public research interface;
-- use internal Pages links for public navigation;
-- generate `sitemap.xml`, `robots.txt` and `404.html`;
-- deploy only after generated-site validation passes.
+## Ladakh Phase 1 Position
+
+Ladakh was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The primary baseline includes the 2019 Reorganisation Act transition, 2021 Rule 8 Protection Cell order, 2021 Rule 9 Nodal Officer order, 2021 UT-level V&MC order, 2024 separate Ladakh ST list, current 2025 reservation framework, current 2026 Kargil V&MC activity, current 2026 Kargil PoA awareness activity and current Central scheme data. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 census.
+
+Current residuals include Rule 8 staffing/reconstitution, Rule 9 incumbent, Rule 3/Rule 10 instruments, full V&MC matrix, Rule 7 investigation audit, Special Court/Exclusive Special Court notifications, PoA SPP/ESPP roster, case-level relief/payment audit, section 15A/legal aid, Section 21(4) reporting, complete PoA/PCR instrument corpus, BNS/BNSS/BSA transition and UT expenditure reconciliation.
 
 ## Closed for This Workstream
 
-No Ladakh research.
 No Lakshadweep research.
 No Puducherry research.
-No other new State/UT substantive research.
 No Bill drafting.
 No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
-No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect. The website/source-ledger defect was a control-layer defect and is now closed.
-No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
+No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
+No repetition of the completed 2026-09-06 remediation, cumulative reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
+No repetition of Jammu and Kashmir or Ladakh without a qualifying reopening trigger.
 
 ## Decision Gate
 
@@ -158,9 +140,9 @@ PUBLIC/INTERNAL SEPARATION: PASS, verified by generated artifact inspection.
 
 WEBSITE ZERO-DRIFT CONTROL: PASS for the remediated rendering layer.
 
-Master State Implementation Inventory reconciliation: COMPLETE.
+Master State Implementation Inventory reconciliation: COMPLETE through Ladakh substantive artifact addition.
 
-Master State Implementation Source Ledger substantive content: UNCHANGED by this remediation.
+Master State Implementation Source Ledger substantive content: UNCHANGED by the website remediation and by the Ladakh work. Ladakh's jurisdiction source ledger is separate and is not represented as master-ledger integration.
 
 Master-ledger later-row integration: NOT CLOSED.
 
@@ -168,8 +150,8 @@ PH1-ISSUE-021: remains a qualified publication limitation because live Pages URL
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-No substantive next-jurisdiction work is authorized until this remediation closure is recorded and the existing Phase 1 control matrix continues to govern the next workstream.
+Next authorized substantive workstream: Lakshadweep Phase 1 State/UT research.
 
 ## Latest Controlled Update
 
-2026-09-06: completed remediation-first website/source-ledger control repair; preserved the exact 377-ID comparison; fixed jurisdiction source selection using master-ledger jurisdiction sections plus explicit local-ledger fallback; hardened public HTML sanitization; added generated-site validation; completed Pages run #397 successfully; independently downloaded and inspected the generated Pages artifact; verified 84 HTML pages, 33 jurisdiction research pages, 33 source pages, non-empty source coverage, navigation/link integrity, responsive/accessibility controls and public/internal separation; recorded the remediation closure report; did not begin new substantive research.
+2026-09-06: completed Ladakh Phase 1 State/UT inventory as the 34th jurisdiction; created `legislation/states/LADAKH.md`, `research/states/LADAKH_SOURCE_LEDGER.md`, `project-state/LADAKH_ISSUES_2026-09-06.md` and `project-state/LADAKH_DECISIONS_2026-09-06.md`; classified Ladakh PROCEED/CLOSE WITH LIMITATIONS; preserved all open residuals; updated the State/UT master inventory; did not modify the master State Implementation Source Ledger or reopen completed jurisdictions.
