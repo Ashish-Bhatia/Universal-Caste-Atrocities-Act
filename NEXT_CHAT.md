@@ -10,39 +10,27 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 Phase 1 acceptance: NOT YET SATISFIED.
 36/36 State/UT substantive inventories are complete. No State/UT remains unresearched.
 
-## Verified current workstream position
+## Verified current position
 
-- Manual Scavengers Gazette/Legislative Department census: CLOSED WITH QUALIFICATION, PH1-ISSUE-015.
-- Manual Scavengers section 39 Central instrument census: CLOSED WITH QUALIFICATION, PH1-ISSUE-017.
-- Manual Scavengers BNSS transition: ADVANCED WITH QUALIFICATION, PH1-ISSUE-016. Do not repeat the targeted verification.
-- Broader BNS/BNSS/BSA transition: CONTROLLED FREEZE WITH QUALIFICATIONS under `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`.
+- PH1-ISSUE-015: CLOSED WITH QUALIFICATION.
+- PH1-ISSUE-016: ADVANCED WITH QUALIFICATION.
+- PH1-ISSUE-017: CLOSED WITH QUALIFICATION.
+- Physical `ISSUES_REGISTER.md` rows for all three are synchronized.
+- `PROJECT_STATE.md` is reconciled to the Manual Scavengers closure and BNS/BNSS/BSA transition-freeze records.
 - PH1-ISSUE-008 remains OPEN for broader Central later-instrument completeness.
-- `PROJECT_STATE.md` has been reconciled to the new Manual Scavengers closure and transition-freeze records.
-- Physical `ISSUES_REGISTER.md` rows for PH1-ISSUE-015, PH1-ISSUE-016 and PH1-ISSUE-017 are synchronized.
-- `scripts/build_website_v2.py` now loads `website/assets/pico-theme.css` before `assets/site.css`, with a versioned Pico cache key. Pico deployment is not claimed until the new Pages artifact is verified.
-- A new non-skip-ci commit is required/has been initiated through this handoff so the Pages workflow builds the Pico-integrated tree.
+- Broader BNS/BNSS/BSA transition remains CONTROLLED FREEZE WITH QUALIFICATIONS.
+- Pico CSS 2.1.1 is integrated before `site.css` in `scripts/build_website_v2.py`.
+- Pages run #479 successfully built and deployed the Pico-integrated commit `dae56579daf386fcfd27fe18b35267ae34d7a515`.
+- Pages artifact `github-pages`, ID `9977570690`, digest `sha256:5e1606eab5b5a96cf08ba10c002e0e961be7bf731a72eba26ab7064beec47a8b`, was independently inspected.
+- Artifact audit: 90 HTML pages, 36 jurisdiction pages, 36 source pages, 9 law pages, 90 sitemap entries, 36/36 count, no 33/36 text, Pico before site.css on all 90 pages, both CSS assets present, zero broken local links, zero heading jumps, and complete language/title/description metadata.
+- The Pages workflow passed build, control, sanitization, validation, artifact upload and deployment.
+- Live Pages HTTP/settings verification remains open because the connector does not provide independent browser-level verification.
 
-## Central-law findings added in this continuation
+## Central-law findings
 
-- PCR Act/Rules remain completed at section/rule comparison level with qualification. The current Department of Social Justice and Empowerment archive lists the PCR Act and 1977 Rules. The defined targeted official search did not identify a later Central amendment instrument. This is controlled search evidence, not proof of legal absence.
-- Bonded Labour System (Abolition) Act/Rules remain completed at crosswalk level with qualification. The Act identifies the 1985 amending Act. The Rules record the 1978 and 1983 amendments in the official consolidated reproduction. No later Central amendment instrument was established in the targeted search. Search silence is not treated as legal absence.
-- S.O. 2790(E), 16-07-2024, is the controlling general construction-of-references instrument for IPC/CrPC/Indian Evidence Act references. It does not justify blanket numerical substitution and does not displace special-law provisions.
-
-## Website control position
-
-The earlier website/source-ledger remediation remains CLOSED AND VERIFIED. The previous verified Pages artifact predates Pico integration. The current builder change must be followed by the complete Pages static audit and a new artifact verification.
-
-The Pages workflow performs: Python compilation checks, source-ledger control reconciliation, v2 build, Phase 1 count synchronization, production overrides, rendering-control verification, public HTML sanitization, generated-site validation, Pages artifact upload and deployment.
-
-Do not claim Pico deployment until a new artifact is identified and inspected from the post-integration commit.
-
-## Important source/control boundaries
-
-- Do not modify `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for website synchronization.
-- Do not treat jurisdiction-ledger fallback as master-ledger integration.
-- Preserve the historical `261/29/571/377/67` source-ledger control baseline.
-- Do not treat search silence as legal absence.
-- Do not reopen completed State/UT inventories without a genuine evidentiary/control defect.
+- PCR Act/Rules remain completed at section/rule comparison level with qualification. Current Department of Social Justice and Empowerment material lists the Act and 1977 Rules. The targeted official search did not identify a later Central amendment instrument. This is controlled search evidence, not proof of legal absence.
+- Bonded Labour System (Abolition) Act/Rules remain completed at crosswalk level with qualification. The Act identifies the 1985 amending Act; the Rules record 1978 and 1983 amendments. No later Central amendment instrument was established in the targeted search. Search silence is not treated as legal absence.
+- S.O. 2790(E), 16-07-2024, is the controlling general construction-of-references instrument for IPC/CrPC/Indian Evidence Act references. It does not justify blanket numerical substitution or displace special-law provisions.
 
 ## Do NOT repeat
 
@@ -50,17 +38,16 @@ Do not repeat State/UT research, Jammu and Kashmir, Ladakh, Lakshadweep, Puduche
 
 ## Next authorized workstream
 
-1. Verify the Pages workflow triggered by the Pico-integrated commit.
-2. Inspect the new Pages artifact and confirm the generated HTML contains Pico before site.css, the site remains 90 pages, jurisdiction/source coverage remains 36/36, and all existing static validation controls pass.
-3. Record the new artifact ID/digest and update `PROJECT_STATE.md`, `NEXT_CHAT.md` and the relevant control records only after verification.
-4. Continue PH1-ISSUE-008 later-instrument closure and unresolved BNS/BNSS/BSA correspondence classes using primary sources.
-5. Keep PH1-ISSUE-003, PH1-ISSUE-004, PH1-ISSUE-005 and PH1-ISSUE-009 qualified until their respective primary-text correspondence residuals are closed.
-6. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+1. Continue PH1-ISSUE-008 later-instrument closure, prioritising unresolved Central instrument classes.
+2. Continue unresolved BNS/BNSS/BSA correspondence classes for PH1-ISSUE-003, PH1-ISSUE-004, PH1-ISSUE-005 and PH1-ISSUE-009 using primary sources.
+3. Preserve the Manual Scavengers State-specific section 21 empowerment residual.
+4. Preserve all jurisdiction currentness/instrument residuals without reopening completed State/UT research absent a qualifying trigger.
+5. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
 
 ## Exact continuation instruction
 
-Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Manual Scavengers closure and controlled BNS/BNSS/BSA transition-freeze point.
+Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Manual Scavengers closure, controlled BNS/BNSS/BSA transition freeze and verified Pico Pages artifact point.
 
 First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`, `project-state/PH1_MANUAL_SCAVENGERS_CENTRAL_CLOSURE_2026-09-06.md`, `project-state/PH1_MANUAL_SCAVENGERS_GAZETTE_CENSUS_2026-09-06.md`, `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`, `project-state/WEBSITE_PICO_CASCADE_INSPECTION_2026-09-06.md`, `research/central/MANUAL_SCAVENGERS_CENTRAL_SOURCE_LEDGER_2026-09-06.md`, and `project-state/CONTROL_DECISIONS_MANUAL_SCAVENGERS_2026-09-06.md`.
 
-Do not repeat completed Manual Scavengers research or completed website remediation. Verify the new Pico-integrated Pages artifact first. Then continue only unresolved PH1-ISSUE-008 and BNS/BNSS/BSA transition classes. Preserve all qualifications and do not infer legal absence from search silence.
+Do not repeat completed Manual Scavengers research or completed website remediation. Do not repeat the run #479 artifact inspection. Continue only unresolved PH1-ISSUE-008 and BNS/BNSS/BSA transition classes using primary sources. Preserve all qualifications and do not infer legal absence from search silence.
