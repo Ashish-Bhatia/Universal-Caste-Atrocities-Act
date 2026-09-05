@@ -36,6 +36,14 @@
 | PH1-ISSUE-024 | Arunachal Pradesh current State/District/Sub-Divisional V&MC status is unresolved. | OPEN | Monitoring architecture not current-law frozen. | Retrieve current constitution orders and meeting records. |
 | PH1-ISSUE-025 | Arunachal Pradesh 2015 SC/ST Cell order and later PoA-specific Gazette/SOP instruments not retrieved. | OPEN | Protection Cell legal provenance and operational documentation remain incomplete. | Retrieve primary instrument and search State Gazette/order repositories further during final closure. |
 | PH1-ISSUE-026 | Arunachal Pradesh 2023 relief/payment report records no cases and says treasury authorization was not done, while a DBT infrastructure entry exists. | OPEN | Current relief mechanism is not established from the evidence located. | Retrieve current State relief/payment orders or workflow evidence. |
+| PH1-ISSUE-027 | Assam current 2026 Rule 9 nodal officer appointment/office-holder not frozen from a current primary order. | OPEN | Current State coordination architecture remains qualified. | Retrieve primary designation/appointment order and current office-holder evidence. |
+| PH1-ISSUE-028 | Assam current SC/ST Protection Cell establishment/order and staffing not frozen. | OPEN | Current investigation/supervision architecture remains qualified. | Retrieve primary Cell order and current staffing/organization evidence. |
+| PH1-ISSUE-029 | Assam current Rule 10 Special Officer designations and atrocity-prone-area notifications not frozen. | OPEN | Current district preventive architecture remains qualified. | Retrieve current State/district orders and notifications. |
+| PH1-ISSUE-030 | Assam current State-wide Special/Exclusive Special Court matrix and judicial operation not frozen. | OPEN | Current forum architecture remains qualified. | Consolidate current court notifications and district judicial records. |
+| PH1-ISSUE-031 | Assam current PoA-specific Special/Exclusive Special Public Prosecutor appointments not frozen. | OPEN | Current prosecution architecture remains qualified. | Retrieve current appointment orders/register. |
+| PH1-ISSUE-032 | Assam current State/District/Sub-Divisional V&MC constitution and meetings not frozen. | OPEN | Current monitoring architecture remains qualified. | Retrieve current constitution orders/minutes; verify SDVMC status. |
+| PH1-ISSUE-033 | Assam current relief-rate, payment, treasury/DBT and case-processing workflow not frozen. | OPEN | Current victim-relief mechanism remains qualified. | Retrieve State orders, payment workflow and case-level administrative evidence. |
+| PH1-ISSUE-034 | Assam PoA-specific Gazette/SOP source set is incomplete. | OPEN | Primary provenance for operative executive arrangements remains incomplete. | Search Gazette, Home/Police/WPT&BC and related departmental repositories. |
 
 ## Andhra Pradesh residual verification items
 
@@ -62,5 +70,19 @@ These are retained as closure items, not blockers to progression:
 - PoA-specific SOPs, circulars, manuals and digital workflows.
 - Later State Gazette instruments affecting PoA implementation.
 - Further State-specific bonded-labour/manual-scavenging interface verification if new instruments emerge.
+
+## Assam residual closure items
+
+- Primary Rule 9 designation and current office-holder.
+- Primary SC/ST Protection Cell order and current staffing.
+- Current Rule 10 Special Officer designations and atrocity-prone-area notifications.
+- Current Special/Exclusive Special Court matrix and judicial operation.
+- Current PoA-specific Special/Exclusive Special Public Prosecutor appointments.
+- Current State/District/Sub-Divisional V&MC constitution and meetings.
+- Primary retrieval of 21-03-2018 State V&MC minutes.
+- Current relief-rate/payment/treasury/DBT instruments and case workflow.
+- Current PoA-specific Gazette notifications and SOP/circular/manual set.
+- Primary CCTNS SC/ST advisory compendium or associated Police order.
+- Current State-specific bonded-labour/manual-scavenging interface instruments if located.
 
 All residual items remain subject to the rule that search silence is not proof of absence.
