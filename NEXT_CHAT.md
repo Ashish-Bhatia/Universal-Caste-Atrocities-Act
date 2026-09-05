@@ -6,35 +6,39 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Completed This Session
 
-- Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, and all six Tripura baseline/ledger/issue/decision artifacts before substantive continuation.
-- Searched the repository for Uttar Pradesh-specific artifacts before research. No pre-existing Uttar Pradesh jurisdiction inventory, source ledger, issue register or decision addendum was found. Generic/master files were not treated as Uttar Pradesh-specific artifacts.
-- Researched only Uttar Pradesh. No Tripura, Telangana, Tamil Nadu, Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya or Manipur baseline was repeated.
-- Created `legislation/states/UTTAR_PRADESH.md`.
-- Created `research/states/UTTAR_PRADESH_SOURCE_LEDGER.md` with UP-STATE-001 through UP-STATE-014.
-- Created `project-state/UTTAR_PRADESH_ISSUES_2026-09-05.md` with PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016.
-- Created `project-state/UTTAR_PRADESH_DECISIONS_2026-09-05.md` with DEC-UP-0001 through DEC-UP-0016.
-- Classified Uttar Pradesh PROCEED/CLOSE WITH LIMITATIONS.
-- Updated `PROJECT_STATE.md` to record Uttar Pradesh as the 26th completed State/UT inventory and ten remaining unresearched jurisdictions after Uttar Pradesh.
+- Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, and all six Uttar Pradesh baseline/ledger/issue/decision artifacts before substantive continuation.
+- Searched the repository for Uttarakhand-specific artifacts before research. No pre-existing Uttarakhand jurisdiction inventory, source ledger, issue register or decision addendum was found. Generic/master files were not treated as jurisdiction-specific artifacts.
+- Researched only Uttarakhand. No Uttar Pradesh, Tripura, Telangana, Tamil Nadu, Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya or Manipur baseline was repeated.
+- Created `legislation/states/UTTARAKHAND.md`.
+- Created `research/states/UTTARAKHAND_SOURCE_LEDGER.md`.
+- Created `project-state/UTTARAKHAND_ISSUES_2026-09-05.md` with PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016.
+- Created `project-state/UTTARAKHAND_DECISIONS_2026-09-05.md` with DEC-UK-0001 through DEC-UK-0017.
+- Classified Uttarakhand PROCEED/CLOSE WITH LIMITATIONS.
+- Updated `PROJECT_STATE.md` to record Uttarakhand as the 27th completed State/UT inventory and West Bengal as the next unresearched jurisdiction.
 - Left `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` untouched.
 
 ## Verified Findings
 
-- The Ministry's 2022 Section 21(4) Uttar Pradesh report records a State-level Special Investigation Cell comprising DGP, IGP, DIG, SP, Additional SP and nine DySPs, plus district Special Investigation Cells with one SI, one head constable and two constables, with DySP investigation.
-- The same 2022 report records a State V&MC under the Chief Minister, no State-level meeting during 2022, District V&MCs in all 75 districts, and 143 District V&MC meetings during 2022.
-- The same 2022 report records 11,172 investigations/charge-sheets completed within 60 days and 1,023 after 60 days.
-- Historical Ministry reporting establishes a Rule 9 Nodal Officer for Uttar Pradesh. The current named officer and instrument remain unverified.
-- Historical Ministry reporting records no identified atrocity-prone area and District Magistrates as Special Officers in the relevant snapshot. The 2024 POA Handbook, using 2021 government data, also reports Uttar Pradesh among States without identified areas and without appointed Special Officers. These are historical findings, not 2026 absence conclusions.
-- Ministry reporting identifies 65 of 75 Uttar Pradesh districts with Exclusive Special Courts in the relevant dataset, with Special Courts in the remaining districts. Current Allahabad High Court notifications in June and August 2026 corroborate continuing PoA Special Judge appointments in multiple districts.
-- Current Ministry CSS data records Uttar Pradesh relief recipients of 23,592, 20,278, 23,828, 19,240 and 20,074 for 2020-21 through 2024-25, and central assistance of Rs. 113.03 crore, Rs. 126.72 crore, Rs. 91.54 crore, Rs. 97.95 crore and Rs. 89.49 crore. These are scheme-reporting figures, not proof of individual statutory payment compliance.
-- The 2022 NCRB-derived SC-category table records 12,287 cases registered during 2022, 10,314 charge-sheeted in courts, 1,278 pending with police at year end, and 1,137 pending from the previous year.
-- The current Uttar Pradesh Directorate of Prosecution website provides an official prosecution administration portal and SC/ST Act legislation section, but no current named SPP/ESPP roster was independently verified.
-- The 2025 Supreme Court decision in `Manish Yadav v. State of Uttar Pradesh & Anr.` records proceedings before a Special Judge, SC/ST Act, Ghazipur. It is used only as current institutional corroboration.
+- The Ministry's 2022 Section 21(4) Uttarakhand report records a State V&MC under the Chief Minister, no State-level meeting during 2022, District V&MCs in 13 districts with 41 meetings, and Sub-Divisional V&MCs in all sub-divisions with 5 meetings.
+- The same report records a Special Inquiry Cell in each district under the Superintendent of Police, with atrocity cases investigated by Deputy Superintendents of Police.
+- The same report identifies the Director, Social Welfare, Uttarakhand as the Rule 9 Nodal Officer for the reporting period.
+- The 2022 charge-sheet timing data records 77 completed within 60 days and 16 after 60 days. These are reporting-period figures only.
+- The 2022 report records zero atrocity-prone districts. This is not treated as a 2026 absence conclusion.
+- Historical Ministry reporting records two Exclusive Special Courts at Nainital and Haridwar, with District and Sessions Courts designated as Special Courts elsewhere.
+- Current 2026 Supreme Court and Uttarakhand High Court decisions corroborate continuing Special Judge (SC/ST Act) proceedings in Dehradun and Nainital. They do not constitute a complete 2026 district-by-district court census.
+- Current Ministry CSS data records Uttarakhand relief recipients of 119, 103, 116, 154 and 229 for 2020-21 through 2024-25, and central assistance of Rs. 0.95 crore, Rs. 0.78 crore, Rs. 0.00 crore, Rs. 1.01 crore and Rs. 1.18 crore. These are scheme-reporting figures, not proof of individual statutory payment compliance.
+- The current Uttarakhand Social Welfare Department publishes the PoA Act, PCR Act, a live PoA implementation page and the combined CSS scheme in its DBT portal. The current PoA page displays relief amounts attributed to the 2011 Rules, so current statutory rates require controlled reconciliation with later central amendments.
+- Current Rule 8 staffing, dedicated Special Police Station census, current Rule 9/Rule 10 instruments, current V&MC compliance, complete court census, current SPP/ESPP roster, payment workflow, contingency plan, later Section 21(4) reports and BNS/BNSS/BSA transition instructions remain open.
 
 ## Open Issues
 
+### Uttarakhand
+
+PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016 remain open. Principal residuals are current Rule 9 appointment, Rule 8 Protection Cell command/staffing, Special Inquiry Cell staffing, Special Police Station census, Rule 10 instruments, V&MC compliance, complete 2026 court census, SPP/ESPP roster, current relief-rate reconciliation, payment workflow, contingency plan, later Section 21(4) reports, current PoA/PCR instruments, post-BNS/BNSS/BSA transition instructions and current prosecutor/court records.
+
 ### Uttar Pradesh
 
-PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 remain open. Principal residuals are current Rule 9 appointment, Rule 8 command/staffing, Special Police Station census, Rule 10 instruments, V&MC compliance, complete 2026 court census, SPP/ESPP roster, relief/payment workflow, contingency plan, later Section 21(4) reports, current PoA/PCR instruments, post-BNS/BNSS/BSA transition instructions and current police/prosecutor records.
+PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 remain open. Do not repeat Uttar Pradesh baseline research.
 
 ### Tripura
 
@@ -82,7 +86,7 @@ Manipur remains closed for the current sequence. Do not reopen absent genuinely 
 
 ### National Phase 1
 
-- Ten State/UT jurisdictions remain unresearched after Uttar Pradesh.
+- Nine State/UT jurisdictions remain unresearched after Uttarakhand.
 - Central later-instrument/current-law completeness remains open.
 - BNS/BNSS/BSA transition verification remains open and unfrozen.
 - Completed-state residuals remain jurisdiction-specific.
@@ -91,14 +95,14 @@ Manipur remains closed for the current sequence. Do not reopen absent genuinely 
 
 ## Exact Next Action
 
-Begin the next unresearched State/UT Phase 1 inventory after Uttar Pradesh, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Research only that next jurisdiction. Preserve all prior residuals. Do not repeat completed inventories.
+Begin the next unresearched State/UT Phase 1 inventory after Uttarakhand, following the repository jurisdiction sequence. The next jurisdiction is West Bengal. First inspect for existing West Bengal-specific artifacts. Research only West Bengal. Preserve all prior residuals. Do not repeat completed inventories.
 
 Use the established categories: Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST machinery, Rule 10/atrocity-prone areas, State/District/Sub-Divisional V&MCs, Special/Exclusive Special Courts, SPP/ESPP, relief/payment, annual reporting, State PoA/PCR instruments, current/recent judicial/police corroboration and related-law interfaces.
 
 Keep historical reporting periods separate from 2026 status. Search silence is not absence. Preserve evidence grades and provenance. Do not infer one jurisdiction's arrangements from another.
 
-Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md` or `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Do not reconstruct the master ledger from truncated connector output. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not reopen completed baselines absent genuinely new authoritative evidence or controlled reconciliation.
+Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md` or `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Do not reconstruct the master ledger from truncated connector output. Keep Central later-instrument/current-law completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed State inventories or reopen completed baselines absent genuinely new authoritative evidence or controlled reconciliation. Do not silently resolve the Tripura Rule 8 Protection Cell contradiction. It remains a controlled residual unless genuinely new authoritative evidence resolves it.
 
 ## Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from the Uttar Pradesh Phase 1 stopping point dated 05-09-2026. Phase 1 remains ACTIVE. Uttar Pradesh is the 26th completed State/UT inventory and is classified PROCEED/CLOSE WITH LIMITATIONS with PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 open. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `legislation/states/UTTAR_PRADESH.md`, `research/states/UTTAR_PRADESH_SOURCE_LEDGER.md`, `project-state/UTTAR_PRADESH_ISSUES_2026-09-05.md`, and `project-state/UTTAR_PRADESH_DECISIONS_2026-09-05.md`. Do not repeat Uttar Pradesh baseline research. Preserve all Uttar Pradesh, Tripura, Telangana, Tamil Nadu, Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. The next task is the next unresearched State/UT after Uttar Pradesh in the repository sequence. First inspect for existing jurisdiction-specific artifacts, then research only that next jurisdiction using primary sources across Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST machinery, Rule 10/atrocity-prone areas, V&MCs, Special/Exclusive Special Courts, SPP/ESPP, relief/payment, annual reporting, State PoA/PCR instruments, current/recent judicial/police corroboration and related-law interfaces. Preserve evidence grades, provenance and currentness limitations. Do not treat search silence as absence. Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md` or `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Keep Central later-instrument/current-law completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed State inventories or reopen completed baselines absent genuinely new authoritative evidence or controlled reconciliation. Do not repeat completed work or reconstruct the master ledger from truncated connector output. Do not silently resolve the Tripura Rule 8 Protection Cell contradiction. It remains a controlled residual unless genuinely new authoritative evidence resolves it.
+Continue the Universal Caste Atrocities Act project from the Uttarakhand Phase 1 stopping point dated 05-09-2026. Phase 1 remains ACTIVE. Uttarakhand is the 27th completed State/UT inventory and is classified PROCEED/CLOSE WITH LIMITATIONS with PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016 open. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `legislation/states/UTTARAKHAND.md`, `research/states/UTTARAKHAND_SOURCE_LEDGER.md`, `project-state/UTTARAKHAND_ISSUES_2026-09-05.md`, and `project-state/UTTARAKHAND_DECISIONS_2026-09-05.md`. Do not repeat Uttarakhand baseline research. Preserve all Uttar Pradesh, Uttarakhand, Tripura, Telangana, Tamil Nadu, Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. The next task is West Bengal, the next unresearched State/UT in the repository sequence. First inspect for existing West Bengal-specific artifacts, then research only West Bengal using primary sources across Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST machinery, Rule 10/atrocity-prone areas, State/District/Sub-Divisional V&MCs, Special/Exclusive Special Courts, SPP/ESPP, relief/payment, annual reporting, State PoA/PCR instruments, current/recent judicial/police corroboration and related-law interfaces. Preserve evidence grades, provenance and currentness limitations. Do not treat search silence as absence. Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md` or `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Keep Central later-instrument/current-law completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed State inventories or reopen completed baselines absent genuinely new authoritative evidence or controlled reconciliation. Do not reconstruct the master ledger from truncated connector output. Do not silently resolve the Tripura Rule 8 Protection Cell contradiction. It remains open as a controlled residual unless genuinely new authoritative evidence resolves it.
