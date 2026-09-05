@@ -59,11 +59,11 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 ## Website and Repository Synchronization
 
-A repository-driven website builder now generates the public research interface from the authoritative State Implementation Inventory and master source ledger at Pages deployment time. The interface has been refreshed with a responsive Material-inspired design, searchable State/UT cards, current coverage metrics and direct repository links.
+A repository-driven website builder now generates the public research interface from the authoritative State Implementation Inventory and master source ledger at Pages deployment time. The interface has been refreshed with a stronger visual hierarchy, jurisdiction coverage visualization, control-status panels, research architecture cards, controlled frontier presentation, searchable State/UT cards and direct repository links. The source-row counter now counts source IDs rather than Markdown table headers.
 
-GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification.
+GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification. The Pages deployment workflow is configured to build and deploy the refreshed interface on pushes to `main`; the latest deployment run is pending/queued as of the current session.
 
-Codespaces administration/synchronization is not exposed by the connector. All completed control-remediation and website artifacts are committed on `main`, which remains the authoritative repository state.
+Codespaces administration/synchronization remains unavailable through the connector. Repository-side Codespaces configuration has now been added through `.devcontainer/devcontainer.json` and `.vscode/settings.json`, including folder-first Explorer ordering, expanded folder display, disabled file nesting, automatic reveal and automatic opening of `README.md` and `PROJECT_STATE.md`. A root `README.md` now provides the repository map and current control position.
 
 ## Closed for This Workstream
 
@@ -92,4 +92,4 @@ Phase 1 substantive acceptance remains NOT YET SATISFIED.
 No substantive next-jurisdiction work is authorized until the next control gate is explicitly opened. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
 
 ## Latest Controlled Update
-2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; refreshed the GitHub Pages build pipeline to derive the public interface from authoritative repository data; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
+2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; refreshed the GitHub Pages build pipeline to derive the public interface from authoritative repository data; improved the public site's visual hierarchy and corrected source-ID counting; added repository-side Codespaces/VS Code Explorer configuration and a root project map; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
