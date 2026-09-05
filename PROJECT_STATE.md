@@ -50,16 +50,18 @@ No IDs were copied into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for web
 
 The earlier website/source-ledger remediation remains CLOSED AND VERIFIED for its original rendering/control defect.
 
-Current post-Puducherry Pages synchronization is VERIFIED in `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`.
+Current post-Puducherry Pages synchronization was VERIFIED in `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`.
 
-GitHub Actions run #438, head commit `013797f0a1180e22c16d11b9ad467d716dd3e6b1`, completed successfully through Pages deployment.
+Run #448 is the latest verified Pages deployment after remediation of the six-page heading-hierarchy defect found by independent inspection of run #446.
 
-Current Pages artifact:
+Current run #448 artifact:
 - name: `github-pages`
-- artifact ID: `9976731876`
-- SHA-256: `d292344a73fb8c045cb0a7ffd363e79130a1705c5a44325dd81d81c5a47575b8`
+- artifact ID: `9976902207`
+- SHA-256 digest: `580cecc882332a14f4708c36f9069b92ba307d6778eec4946719ead9b992752c`
 
-Independent artifact inspection verified 90 HTML pages, 36 jurisdiction research pages, 36 jurisdiction source pages, matching Puducherry routes, 36/36 public count text, no 33/36 text, no broken local links, required header/footer and Petition / Support pathway, responsive/focus-visible controls, non-empty completed source pages and no internal control-file leakage.
+Independent run #448 artifact inspection verified 90 HTML pages, 36 jurisdiction research pages, 36 jurisdiction source pages, `36 /36` public count text, no `33/36` text, matching source/research coverage, responsive/focus-visible controls, no broken local assets/links, valid language/title/description metadata, no duplicate IDs, no image alt omissions, no empty text links, no heading hierarchy jumps, and 90 matching sitemap entries. Full findings are in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
+
+Run #446 remains the prior completed rendering-control validation. Independent inspection found six heading hierarchy defects in `research.html`, `states.html`, `law.html`, `sources.html`, `methodology.html` and `petition.html`. These were remediated in `scripts/build_website_v2.py` and run #448 passed the resulting artifact audit.
 
 The connector still lacks independent browser-level live-URL HTTP verification and Pages Settings inspection. Deployment success is therefore recorded as a workflow/artifact fact, not as a separately browser-verified live-site claim.
 
@@ -111,7 +113,9 @@ CURRENT POST-BASELINE SOURCE FILESYSTEM DELTA: RECORDED, NOT INTEGRATED INTO MAS
 
 WEBSITE FALLBACK CONTROL: PASS.
 
-CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PASS, run #438 and independent artifact inspection.
+CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PASS, run #448 after remediation.
+
+WEBSITE FULL STATIC/ARTIFACT AUDIT: PASS, recorded in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
 
 LIVE PAGES HTTP/SETTINGS VERIFICATION: OPEN, connector limitation.
 
@@ -131,6 +135,8 @@ Next authorized workstream: controlled closure of remaining Phase 1 acceptance d
 
 ## Latest Controlled Update
 
-2026-09-06: completed Puducherry Phase 1 State/UT inventory as the 36th jurisdiction; reconciled the master State/UT inventory to 36/36; completed the cumulative Phase 1 acceptance audit; added the Phase 1 website count synchronization control; fixed the hard-coded 33-page validation defect; verified the current 36-jurisdiction Pages artifact in run #438; recorded the post-baseline source-ledger filesystem delta; did not modify the master State Implementation Source Ledger.
+2026-09-06: completed Puducherry Phase 1 State/UT inventory as the 36th jurisdiction; reconciled the master State/UT inventory to 36/36; completed the cumulative Phase 1 acceptance audit; added the Phase 1 website count synchronization control; fixed the hard-coded 33/36 validation defect; verified the current 36-jurisdiction Pages artifact in run #438; recorded the post-baseline source-ledger filesystem delta; did not modify the master State Implementation Source Ledger.
 
 2026-09-06: closed the SC/ST Act current-text/version residual on a qualified controlled basis and resolved the SC/ST Rules Annexure-II 1986/2001 source discrepancy using the official Ministry-hosted Rules PDF. Remaining Central and transition dependencies remain open.
+
+2026-09-06: independent audit of run #446 identified six heading-hierarchy defects. The builder was corrected, run #448 deployed successfully, and the 90-page artifact passed the full static audit. Live browser-level HTTP/Pages Settings verification remains open due connector limitations.
