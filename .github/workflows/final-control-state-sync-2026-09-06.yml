@@ -1,0 +1,40 @@
+name: Final Control State Sync 2026-09-06
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Record remediation closure and next handoff
+        shell: python
+        run: |
+          from pathlib import Path
+          root=Path('.')
+          state=root/'PROJECT_STATE.md'
+          text=state.read_text(encoding='utf-8')
+          marker='## 2026-09-06 Controlled Website Remediation Closure'
+          section='''\n\n## 2026-09-06 Controlled Website Remediation Closure\n\nThe independent 2026-09-06 website/project audit remediation pass is closed at the source/build/deployment-control layer. Phase 1 substantive acceptance remains NOT YET SATISFIED. All 36 State/UT substantive inventories are complete. No new State/UT research, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research was performed.\n\nVerified remediation outcomes:\n- `scripts/build_website_v2.py` now computes the completed/total jurisdiction count and no longer depends on hard-coded 33/36 hero text.\n- Embedded Markdown tables are rendered as HTML tables.\n- Embedded document H1 headings are rendered as H2 so state/law pages do not duplicate the page-level H1.\n- Codespaces uses the same production v2 builder path as Pages.\n- Generated website HTML/routes are treated as build output and are not committed as authoritative source. Website assets remain committed.\n- README, stale State-control classification, PH1-ISSUE-001/014 physical statuses and Central decision IDs were synchronized.\n- The accidental `legislation/states/DELHI_NCT.md` compatibility symlink and generated Python cache were removed from repository state.\n\nVerification records:\n- Isolated remediation workflow run #5 passed its 90-page generated-site audit.\n- GitHub Pages run #460, head `c667a9ed42bb892136f01d5f5ce0ebbcb81eab25`, completed successfully.\n- Pages artifact `github-pages`, artifact ID `9977341147`, digest `sha256:824ce74957da05c05ed7cddd708ff5f66ced4567ce80e91df5b6665fea854465`, was produced from current `main` and deployed successfully.\n- Direct HTTP validation of the public Pages root remains unavailable from the current tool environment and therefore remains UNVERIFIED.\n\nCurrent publication verdict: source/build/deployment controls PASS WITH QUALIFICATIONS; live URL independently UNVERIFIED.\n\nNext substantive Phase 1 work remains central-law completeness, BNS/BNSS/BSA transition residuals, jurisdiction currentness and instrument residuals. Do not repeat completed State/UT research or closed control questions.\n'''
+          if marker not in text: state.write_text(text.rstrip()+section,encoding='utf-8')
+
+          nxt=root/'NEXT_CHAT.md'
+          n=nxt.read_text(encoding='utf-8')
+          nmarker='## 2026-09-06 Website Remediation Continuation'
+          nsection='''\n\n## 2026-09-06 Website Remediation Continuation\n\nThe website/source/build remediation pass is closed and merged to `main`. Do not repeat the audit-only baseline or the remediation work already completed.\n\nCurrent authoritative position:\n- Phase 1 ACTIVE; substantive acceptance NOT YET SATISFIED.\n- 36/36 State/UT substantive inventories complete. No State/UT remains unresearched.\n- Central current-law completeness, BNS/BNSS/BSA transition, jurisdiction currentness and instrument residuals remain open.\n- SC/ST Act current-text/version question CLOSED WITH QUALIFICATION.\n- SC/ST Rules Annexure-II discrepancy CLOSED.\n- Manual Scavengers BNSS transition PH1-ISSUE-016 ADVANCED WITH QUALIFICATION.\n\nWebsite control position:\n- Committed website HTML/routes are build output, not authoritative source. Assets remain committed.\n- `scripts/build_website_v2.py` is the production builder and now computes current counts, renders Markdown tables and prevents embedded duplicate H1 headings.\n- Codespaces and Pages use the same v2 production builder.\n- Current Pages deployment was run #460 from head `c667a9ed42bb892136f01d5f5ce0ebbcb81eab25`; artifact ID `9977341147`; digest `sha256:824ce74957da05c05ed7cddd708ff5f66ced4567ce80e91df5b6665fea854465`. Deployment completed successfully.\n- Direct HTTP validation of the public root remains UNVERIFIED because the tool environment returns a cache miss.\n\nNext task:\n1. Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and the latest project-state control records.\n2. Reconcile the current central-law and transition residuals against the authoritative source map.\n3. Verify any remaining currentness/instrument residuals only where required for Phase 1 acceptance.\n4. Update the relevant research and control ledgers with traceable primary sources.\n5. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.\n6. Do not repeat completed State/UT inventories, Ladakh, Lakshadweep, Puducherry, SC/ST Act current-version closure, Rules Annexure-II resolution or the completed website remediation unless a targeted verification defect requires it.\n'''
+          if nmarker not in n: nxt.write_text(n.rstrip()+nsection,encoding='utf-8')
+
+      - name: Remove workflow and commit
+        run: |
+          git rm -f .github/workflows/final-control-state-sync-2026-09-06.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "control: record remediation closure state"
+          git push
