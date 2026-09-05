@@ -22,17 +22,15 @@ Remaining unresearched jurisdictions:
 
 ## Control Remediation Status, 2026-09-06
 
-The website/source-ledger remediation has now produced the required deterministic control comparison. The control comparison is VERIFIED. The Pages deployment itself is NOT successful because the first non-cancelled post-remediation run failed during the controlled fallback build.
+The website/source-ledger remediation is CLOSED AND VERIFIED for the public rendering/control layer. The exact 377-ID master-versus-jurisdiction comparison remains preserved and unchanged. The substantive master State Implementation Source Ledger was not modified.
 
 Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
 
-## Verified post-remediation source-ledger control
+Remediation closure report: `project-state/REMEDIATION_CLOSURE_REPORT_2026-09-06.md`.
 
-Workflow run #389, head commit `180663c0f64ba8970a239f3d828e91363709a9ad`, completed with `failure`. Its `source-ledger-control` artifact was successfully uploaded and independently downloaded and inspected.
+## Verified source-ledger control baseline
 
-Artifact: `source-ledger-control`, artifact ID `9976069045`, SHA-256 `989f586939b111e6902f69c6e59ac9611c1b19f9e71eea12577253d49bde6c6e`.
-
-Exact control totals:
+The exact source-ledger control comparison was independently verified from workflow artifacts and remains:
 - `MASTER_IDS=261`
 - `JURISDICTION_LEDGER_FILES=29`
 - `JURISDICTION_LEDGER_IDS=571`
@@ -41,31 +39,69 @@ Exact control totals:
 
 The exact 377-ID `MISSING_IDS` set is recorded in `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`.
 
-Per-ledger control shows ten of the 29 scanned jurisdiction ledgers have zero IDs missing from the master: Bihar, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra. Nineteen of the 29 scanned jurisdiction ledgers have one or more IDs missing from the master. The five previously identified later contributors, Gujarat, Haryana, Himachal Pradesh, Kerala and Madhya Pradesh, are fully represented by ID comparison, but this does not establish full later-jurisdiction integration.
+The comparison baseline was preserved unchanged through the remediation. No IDs were copied into the master ledger.
 
-The earlier five-ledger integration narrative must therefore be read narrowly. It establishes that those five named contributor ledgers were integrated/represented in the master at the relevant control point. It does not establish that all later jurisdiction-specific ledgers were integrated. The master ledger remains unchanged by this website remediation.
+## Website remediation result
 
-Controlled gap record: `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`.
+The earlier run #389 failure is now resolved. The builder defect was source-selection logic: it did not first map master-ledger rows by jurisdiction section, causing Arunachal Pradesh to appear to have no controlled source rows even though its substantive source rows are represented in the master ledger.
 
-## Website build result after remediation
+`scripts/build_website_v2.py` now:
+- maps master-ledger rows by jurisdiction section heading first;
+- uses jurisdiction-ledger rows only as an explicitly labelled fallback for IDs absent from the master;
+- rejects a completed jurisdiction with neither master rows nor controlled fallback;
+- reports the exact master-versus-jurisdiction ID comparison without changing it.
 
-Run #389 reached the source-ledger control artifact successfully, then failed in `scripts/build_website_v2.py` with:
+`scripts/sanitize_public_html.py` now sanitizes internal filenames and project-management phrases across generated HTML only. It does not modify substantive research sources.
 
-`CONTROL FAILURE: completed jurisdiction has no controlled source rows: Arunachal Pradesh`
+`scripts/validate_public_site.py` validates page counts, route existence, navigation, header/footer, Petition / Support pathway, responsive/accessibility CSS controls, local links, source-page non-emptiness and public/internal separation.
 
-This occurred because Arunachal Pradesh has no substantive local source ledger recognized by the builder and its referenced source IDs are absent from the master ledger. The workflow correctly rejected silent empty-source publication under the selected control rule.
+## Verified production Pages run
 
-Because the build failed, generated-site validation, Pages artifact upload and deployment were skipped. No post-remediation generated Pages artifact exists from run #389. Live GitHub Pages publication remains independently unverified.
+GitHub Actions run #397, head commit `29fc336b5ca5293e0abfb3bb011b7a8d3cce6a6f`, completed successfully.
 
-This is now a two-part control position:
-1. Exact master-versus-jurisdiction source-ID gap: VERIFIED.
-2. Public-site fallback coverage/build success: NOT VERIFIED; build currently fails on Arunachal Pradesh.
+Successful steps verified:
+- source-ledger control comparison;
+- source-ledger control artifact upload;
+- website build;
+- production accessibility/responsive CSS application;
+- public HTML sanitization;
+- generated-site validation;
+- Pages configuration;
+- Pages artifact upload;
+- Pages deployment.
 
-The controlled two-tier source rule remains the authoritative public-source rendering decision:
-- master rows are authoritative for rows actually integrated into the master;
+Generated Pages artifact:
+- name: `github-pages`
+- artifact ID: `9976320948`
+- SHA-256: `2245022e4732f9d4c1bd16a83f3ffdc95abad8f586479e6b3ff8f808ef99bc40`
+
+Independent artifact inspection verified:
+- 84 HTML pages;
+- 33 completed-jurisdiction research pages;
+- 33 completed-jurisdiction source pages;
+- matching state/source route sets;
+- no empty completed-jurisdiction source pages;
+- no broken local links;
+- header and footer on every HTML page;
+- Petition / Support pathway on every HTML page;
+- responsive media rules;
+- focus-visible accessibility rules;
+- support-button and footer styling;
+- no internal control-file leakage;
+- no project-management control wording;
+- Arunachal Pradesh source page populated from controlled master-ledger rows.
+
+The generated artifact is the authoritative evidence for the website build inspection. The connector still lacks direct browser-level Pages settings inspection and independent live-URL HTTP verification. Therefore deployment success is recorded as a workflow/artifact fact, not as a separately browser-verified live-site claim.
+
+## Source-ledger synchronization boundary
+
+The public source layer now has two controlled tiers:
+- master-ledger rows are authoritative where actually integrated in the master;
 - jurisdiction-ledger fallback rows may be rendered where substantive local-ledger rows exist and are absent from the master;
-- fallback must be explicitly labelled and is not master-ledger integration;
-- a completed jurisdiction with neither master rows nor controlled local-ledger rows must fail rather than publish an empty source set.
+- fallback rows are explicitly labelled and are never treated as master-ledger integration;
+- a completed jurisdiction with neither controlled master rows nor controlled fallback rows fails the build.
+
+The 377-ID discrepancy remains unresolved as a classification/integration question. It was not hidden by website fallback and was not rewritten.
 
 ## Cumulative Control Layer
 
@@ -84,34 +120,18 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 ## Website and Repository Synchronization
 
-A repository-driven website builder generates the public research interface from substantive repository research records at Pages deployment time.
+The repository-driven website builder is now the verified production Pages builder.
 
-The public website content boundary is explicit:
-- Publish actual legal and jurisdictional implementation research only.
-- Publish source provenance, source identifiers, findings, evidence grades and verification status where recorded.
-- Give every completed State/UT a dedicated research page.
-- Give every completed State/UT a dedicated source-set page.
-- Give each existing-law research document its own page where the source document exists.
-- Keep project-state controls, issue registers, decision logs, continuity prompts and other project-management data out of the public research interface.
-- Use internal Pages links for public navigation. Do not send readers to GitHub repository pages as substitutes for research pages.
-- Generate `sitemap.xml`, `robots.txt` and `404.html`.
-- Build-time validation rejects repository-navigation links in generated HTML.
-
-The production builder is `scripts/build_website_v2.py`. It implements the controlled master/fallback source rule and rejects completed jurisdictions with no controlled source rows. `scripts/sanitize_public_html.py` removes the identified `DECISIONS_LOG.md` reference from generated output before public validation. The workflow compiles the control scripts, records the source-ledger comparison as an artifact, builds the site, sanitizes generated output, validates page counts and public-content boundaries, uploads the Pages artifact and deploys only after validation.
-
-The latest verified run did not reach the public validation or deployment stages because the controlled builder correctly failed at Arunachal Pradesh. Therefore repository-side control implementation is present, but successful production synchronization is not yet established.
-
-## Codespaces / Repository-Side Infrastructure
-
-Repository-side Codespaces configuration remains available through `.devcontainer/devcontainer.json`; Codespaces administration itself remains unavailable through the connector.
-
-The current `.devcontainer/devcontainer.json`:
-- uses the supported `mcr.microsoft.com/devcontainers/python:3-3.12-bookworm` image;
-- preserves the existing Explorer settings;
-- opens `README.md` and `PROJECT_STATE.md`;
-- runs `ln -sf DELHI.md legislation/states/DELHI_NCT.md && python3 scripts/build_website.py` as `postCreateCommand`.
-
-The 2026-09-06 screenshot shows the Codespaces container setup actively downloading image layers, with several large layers reporting download progress and others waiting. This is evidence of container image retrieval during the rebuild, not evidence of a Python `postCreateCommand` failure. A successful rebuild still requires observation of the post-download completion state because Codespaces administration is not exposed through the connector.
+Public website content boundary:
+- publish actual legal and jurisdictional implementation research only;
+- publish source provenance, source identifiers, findings, evidence grades and verification status where recorded;
+- give every completed State/UT a dedicated research page;
+- give every completed State/UT a dedicated source-set page;
+- give each existing-law research document its own page where the source document exists;
+- keep project-state controls, issue registers, decision logs, continuity prompts and other project-management data out of the public research interface;
+- use internal Pages links for public navigation;
+- generate `sitemap.xml`, `robots.txt` and `404.html`;
+- deploy only after generated-site validation passes.
 
 ## Closed for This Workstream
 
@@ -123,29 +143,33 @@ No Bill drafting.
 No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
-No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect. The website/source-ledger synchronization defect remains a control defect and does not itself authorize substantive jurisdiction reopening.
-No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, master source-ledger integration or zero-drift verification except targeted verification required to resolve the website/source-ledger control defect.
+No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect. The website/source-ledger defect was a control-layer defect and is now closed.
+No repetition of the completed 2026-09-06 independent audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
 
 ## Decision Gate
 
 CUMULATIVE CONTROL RECONCILIATION: PASS.
 
-EXACT MASTER-VERSUS-JURISDICTION SOURCE-ID CONTROL: PASS, verified from post-remediation workflow artifact.
+EXACT MASTER-VERSUS-JURISDICTION SOURCE-ID CONTROL: PASS, verified and preserved.
 
-WEBSITE FALLBACK COVERAGE / PRODUCTION BUILD: FAIL/OPEN, because run #389 rejected Arunachal Pradesh for having no controlled source rows.
+WEBSITE FALLBACK COVERAGE / PRODUCTION BUILD: PASS, verified by run #397 and independent artifact inspection.
+
+PUBLIC/INTERNAL SEPARATION: PASS, verified by generated artifact inspection.
+
+WEBSITE ZERO-DRIFT CONTROL: PASS for the remediated rendering layer.
 
 Master State Implementation Inventory reconciliation: COMPLETE.
 
 Master State Implementation Source Ledger substantive content: UNCHANGED by this remediation.
 
-Website production-library remediation: IMPLEMENTED, but successful source-set synchronization is NOT VERIFIED because the post-remediation build failed before public-site validation and Pages deployment.
+Master-ledger later-row integration: NOT CLOSED.
 
-Codespaces repository-side remediation: IMPLEMENTED, live rebuild completion pending.
+PH1-ISSUE-021: remains a qualified publication limitation because live Pages URL/settings were not independently inspected through the connector, despite successful Actions deployment.
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-No substantive next-jurisdiction work is authorized until the remaining website/source-ledger control defect is reconciled and the next control gate is explicitly opened.
+No substantive next-jurisdiction work is authorized until this remediation closure is recorded and the existing Phase 1 control matrix continues to govern the next workstream.
 
 ## Latest Controlled Update
 
-2026-09-06: retrieved and inspected the first non-cancelled post-remediation Pages control artifact from run #389; verified `MASTER_IDS=261`, `JURISDICTION_LEDGER_FILES=29`, `JURISDICTION_LEDGER_IDS=571`, `MISSING_FROM_MASTER=377` and `MASTER_ONLY_IDS=67`; recorded the exact 377-ID gap and all per-ledger totals in `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`; verified the Pages job failure at the controlled fallback build for Arunachal Pradesh; did not claim a Pages artifact or live publication; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
+2026-09-06: completed remediation-first website/source-ledger control repair; preserved the exact 377-ID comparison; fixed jurisdiction source selection using master-ledger jurisdiction sections plus explicit local-ledger fallback; hardened public HTML sanitization; added generated-site validation; completed Pages run #397 successfully; independently downloaded and inspected the generated Pages artifact; verified 84 HTML pages, 33 jurisdiction research pages, 33 source pages, non-empty source coverage, navigation/link integrity, responsive/accessibility controls and public/internal separation; recorded the remediation closure report; did not begin new substantive research.
