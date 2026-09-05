@@ -1,48 +1,84 @@
 # Next Chat Handoff
 
+## Authoritative Rule
+`PROJECT_STATE.md`, repository artifacts, verified decisions and documented unresolved issues are authoritative. This file is downstream. Do not treat this continuation instruction as an independent source of truth.
+
 ## Current Phase
 Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
+Phase 1 acceptance criteria: NOT YET SATISFIED.
 
-## Completed This Session
-- Read `PROJECT_STATE.md` and `NEXT_CHAT.md` before continuation.
-- Read the Delhi inventory, source ledger, issue register and decision log. Delhi baseline was not repeated.
-- Inspected the repository for Jammu and Kashmir-specific artifacts. No dedicated Jammu and Kashmir jurisdiction inventory, source ledger, issue register or decision file existed.
-- Researched only Jammu and Kashmir.
-- Created `legislation/states/JAMMU_KASHMIR.md`.
-- Created `research/states/JAMMU_KASHMIR_SOURCE_LEDGER.md`.
-- Created `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md` with PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018.
-- Created `project-state/JAMMU_KASHMIR_DECISIONS_2026-09-05.md`.
-- Classified Jammu and Kashmir PROCEED/CLOSE WITH LIMITATIONS.
-- Updated `PROJECT_STATE.md` to record Jammu and Kashmir as the 33rd completed inventory.
-- Left the master State Implementation Inventory and master State Implementation Source Ledger untouched.
+## Current Position
+33 of 36 States/UTs have substantive Phase 1 inventories. Jammu and Kashmir is the 33rd completed jurisdiction and remains PROCEED/CLOSE WITH LIMITATIONS with PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 open, including the unresolved Rule 8 Protection Cell contradiction and currentness residuals.
 
-## Verified Findings
-- The Jammu and Kashmir Reorganisation Act, 2019 created the UT of Jammu and Kashmir and removed the former PoA Act territorial exception effective 31 October 2019.
-- The 2022 J&K Annual Report records a Rule 9 appointment, district/sub-divisional V&MCs, 20 Special Courts, SPP designations, investigation/charge-sheet data, relief/payment mechanisms, legal aid and victim/witness support.
-- The 2022 record contains a material Rule 8 contradiction: district-level Special Cells are reported as functioning, while the UT-level Rule 8 Protection Cell is reported as under consideration/not set up. A 2022 PIB response states a Protection Cell exists. This contradiction remains open.
-- The 2024 J&K ST Order amendment materially changes beneficiary-scope verification.
-- J&K GAD records a 4 June 2025 High Power V&MC reconstitution order.
-- A January 2026 Jammu district V&MC meeting provides recent local corroboration of case review and compensation activity.
-- The 2025 J&K and Ladakh High Court vulnerable-witness protocol recognizes PoA victim/dependant rights.
-- No current 2026 Rule 8/Rule 9/Rule 10, Special Police Station, court, SPP/ESPP, relief, section 15A(11) or later Section 21(4) corpus was treated as fully verified.
+Completed jurisdictions, in repository sequence:
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir.
 
-## Open Issues
-Jammu and Kashmir PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open. Principal residuals are Rule 8 contradiction/current constitution, current Rule 9 appointment, Rule 3/Rule 10 status, Special Police Station, investigating-officer roster, V&MC current instruments/minutes, 2025 committee order text, current court designations, Exclusive Special Court status, SPP/ESPP roster/performance, relief audit, victim/witness payments and scheme, later Section 21(4) reports, complete Gazette corpus and BNS/BNSS/BSA transition verification.
+Remaining unresearched jurisdictions:
+1. Ladakh
+2. Lakshadweep
+3. Puducherry
 
-Preserve all earlier residuals, including Delhi PH1-ISSUE-DL-001 through PH1-ISSUE-DL-016, the Tripura Rule 8 contradiction, the Andaman and Nicobar Islands PoA Act/Protection of Aboriginal Tribes Regulation interface residual and Dadra and Nagar Haveli and Daman and Diu post-merger residuals.
+## Reconciliation Workstream
+A detailed audit is recorded at `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`.
 
-## National Position
-- Three jurisdictions remain unresearched: Ladakh, Lakshadweep and Puducherry.
-- Central later-instrument/current-law completeness remains open.
-- BNS/BNSS/BSA transition verification remains open and separate.
-- Master State Implementation Inventory remains untouched as a consolidation target.
-- Master State Implementation Source Ledger remains untouched and must not be reconstructed from truncated connector output.
-- No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research has begun.
+Verified during the audit:
+- all 33 inventory files exist;
+- dedicated source ledgers exist for 28 jurisdictions;
+- dedicated source ledgers are absent for Andhra Pradesh, Arunachal Pradesh, Assam and Chhattisgarh, and the absence is explicitly recorded;
+- dedicated issue/decision records exist for Manipur and Meghalaya through Jammu and Kashmir;
+- dedicated issue/decision records are absent for Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra, and the absence is explicitly recorded;
+- supplemental Manipur, Maharashtra and ledger-append records are controlled records and are not independent sources of truth;
+- Git chronology supports the substantive sequence through Jammu and Kashmir.
 
-## Exact Next Action
-Begin the next unresearched State/UT Phase 1 inventory after Jammu and Kashmir, following repository sequence. The next jurisdiction is Ladakh. First inspect for jurisdiction-specific artifacts. If none exist, research only Ladakh. Preserve all residuals. Do not repeat completed State/UT inventories.
+## Remaining Reconciliation Defects
+The cumulative control layer is NOT YET synchronized.
 
-For Ladakh, use the established categories: Rule 9, Rule 8 Protection Cell, Special Police Station/SC-ST machinery, Rule 10/atrocity-prone areas, State/District/Sub-Divisional V&MCs, Special/Exclusive Special Courts, SPP/ESPP, investigation, relief/payment, victim/witness and legal-aid workflow, annual Section 21(4) reporting, State/UT PoA/PCR instruments, current/recent judicial and police corroboration, related-law interfaces, post-2019 transition and any jurisdiction-specific protective regime. Keep historical reporting periods separate from 2026 status. Search silence is not absence. Preserve evidence grades and provenance. Keep Central later-instrument/current-law completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+1. `RESEARCH_LEDGER.md` stops at PH1-044, Manipur. It must be extended with a reconciliation-only control index for Meghalaya through Jammu and Kashmir.
+2. `ISSUES_REGISTER.md` stops at PH1-ISSUE-162, Madhya Pradesh. It must be extended with a reconciliation-only residual index covering Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi and Jammu and Kashmir, while preserving all existing issue IDs.
+3. `DECISIONS_LOG.md` reaches DEC-0123 and covers Manipur. It must be extended with a reconciliation-only jurisdiction decision index for Meghalaya through Jammu and Kashmir.
+
+Do not invent substantive records to repair these defects. Use repository artifact existence and jurisdiction-specific records as the basis for the control indexes.
+
+## Master State Files
+Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
+Do not modify `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.
+Do not reconstruct the master source ledger from truncated connector output.
+
+## Explicitly Closed
+- Jammu and Kashmir baseline research.
+- All completed jurisdiction baselines unless a genuine evidentiary/control defect is established.
+- Phase 2 case-law research.
+- Bill drafting.
+- Policy-superiority/necessity analysis.
+- Constitutional-validity analysis.
+- New substantive research for Ladakh, Lakshadweep or Puducherry.
+
+## Exact Next Task
+Repair and re-verify only the three cumulative control files named above. Do not begin Ladakh or any other substantive research in the same workstream.
+
+## Acceptance Criteria
+The reconciliation gate remains BLOCKED until:
+1. `RESEARCH_LEDGER.md` reflects the actual completed sequence through Jammu and Kashmir.
+2. `ISSUES_REGISTER.md` reflects the actual unresolved issue universe, directly or through explicit jurisdictional residual indexes.
+3. `DECISIONS_LOG.md` reflects material decisions through Jammu and Kashmir, directly or through explicit jurisdictional decision indexes.
+4. `PROJECT_STATE.md` agrees with those cumulative records.
+5. This file agrees with the corrected state.
+6. `BASELINE_AUDIT.md` is clearly historical and cannot be mistaken for current state.
+7. All 33 completed jurisdictions remain traceable.
+8. All residuals and controlled artifact absences remain traceable.
+9. Ladakh, Lakshadweep and Puducherry remain correctly identified as unresearched.
+10. No Phase 2 work is recorded as started.
+11. No substantive new legal research is performed during the repair.
+12. No unsupported completion claim is introduced.
+
+## Required Outputs of the Repair
+- updated cumulative `RESEARCH_LEDGER.md`;
+- updated cumulative `ISSUES_REGISTER.md`;
+- updated cumulative `DECISIONS_LOG.md`;
+- re-verified `PROJECT_STATE.md`;
+- re-verified `NEXT_CHAT.md`;
+- historical warning in `BASELINE_AUDIT.md`;
+- final zero-drift consistency result and decision gate.
 
 ## Continuation Instruction
-Continue the Universal Caste Atrocities Act project from the Jammu and Kashmir Phase 1 stopping point dated 05-09-2026. Phase 1 remains ACTIVE. Jammu and Kashmir is the 33rd completed State/UT inventory and is classified PROCEED/CLOSE WITH LIMITATIONS with PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 open, including the unresolved Rule 8 Protection Cell contradiction and controlled current appointment, court, prosecutor, committee, relief and reporting residuals. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `legislation/states/JAMMU_KASHMIR.md`, `research/states/JAMMU_KASHMIR_SOURCE_LEDGER.md`, `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md`, and `project-state/JAMMU_KASHMIR_DECISIONS_2026-09-05.md`. Do not repeat Jammu and Kashmir baseline research. The next task is Ladakh, the next unresearched jurisdiction in the repository sequence. First inspect for Ladakh-specific artifacts, then research only Ladakh. Preserve all earlier residuals, including the unresolved Tripura Rule 8 Protection Cell contradiction, the Andaman and Nicobar Islands PoA Act/Protection of Aboriginal Tribes Regulation interface residual, Dadra and Nagar Haveli and Daman and Diu post-merger residuals, Delhi PH1-ISSUE-DL-001 through PH1-ISSUE-DL-016, and Jammu and Kashmir PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018. Do not modify the master State Implementation Inventory or master State Implementation Source Ledger. Do not reconstruct the master ledger from truncated connector output. Keep Central later-instrument/current-law completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed State/UT inventories or reopen completed baselines absent genuinely new authoritative evidence or controlled reconciliation.
+Continue the Universal Caste Atrocities Act project from the 06-09-2026 state-control reconciliation stopping point. Phase 1 remains ACTIVE. Do NOT begin Ladakh research. Do NOT perform any other new substantive research, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. First read `PROJECT_STATE.md`, `NEXT_CHAT.md` and `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`. Then repair only `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` using repository artifacts already verified by the reconciliation. Preserve all existing issue and decision IDs. Do not invent missing jurisdiction-specific records. Do not modify the master State Implementation Inventory or master State Implementation Source Ledger. Do not reopen completed jurisdiction research. The exact stopping point is the three cumulative control-file synchronization defects identified in the reconciliation report. The next task is one task only: cumulative control-file synchronization and re-verification. The gate remains BLOCKED until all acceptance criteria above are satisfied. Do not repeat the completed repository inventory audit or any substantive State baseline research.
