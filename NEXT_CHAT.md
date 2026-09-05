@@ -25,13 +25,19 @@ The preserved historical control baseline remains:
 A later filesystem enumeration after Ladakh, Lakshadweep and Puducherry found 32 jurisdiction ledgers, 628 jurisdiction-ledger IDs and 434 IDs absent from the master. Treat this only as a post-baseline delta recorded in `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`. Do not rewrite the historical 377-ID comparison and do not integrate the later IDs into the master ledger merely for website synchronization.
 
 ## Current Pages Status
-Current post-Puducherry Pages synchronization is VERIFIED.
+The website full static/artifact audit is PASS after a targeted rendering remediation.
 
-Run #438, head commit `013797f0a1180e22c16d11b9ad467d716dd3e6b1`, completed successfully through Pages deployment.
+Run #446, commit `2736bda6730a07943e48be75c8f90dfb59e81016`, passed workflow validation but independent artifact inspection found six heading-hierarchy defects on `research.html`, `states.html`, `law.html`, `sources.html`, `methodology.html` and `petition.html`.
 
-Artifact: `github-pages`, artifact ID `9976731876`, SHA-256 `d292344a73fb8c045cb0a7ffd363e79130a1705c5a44325dd81d81c5a47575b8`.
+The defects were fixed in `scripts/build_website_v2.py` in commit `5a84edf116aa686aac92d5d7a2822a59b9ebef2b` by adding an intervening h2 section heading on the affected pages.
 
-Independent artifact inspection verified 90 HTML pages, 36 research pages, 36 source pages, Puducherry routes, 36/36 public count text, no 33/36 text, no broken local links, required public controls, non-empty source pages and no internal control leakage.
+Run #447 was superseded/cancelled during artifact upload by the subsequent push under Pages workflow concurrency. Its build and validation steps had passed before cancellation.
+
+Run #448, head commit `800e0f4cf53887ac354a2eb997c2cd005d84cf49`, completed successfully through Pages deployment.
+
+Artifact: `github-pages`, artifact ID `9976902207`, SHA-256 digest `580cecc882332a14f4708c36f9069b92ba307d6778eec4946719ead9b992752c`.
+
+Independent artifact audit verified 90 HTML pages, 36 research pages, 36 source pages, `36 /36` public count text, no `33/36` text, no broken local assets/links, valid language/title/description metadata, no duplicate IDs, no missing image alt text, no empty text links, no heading hierarchy jumps, and 90 matching sitemap entries. Full record: `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
 
 Live Pages HTTP/settings verification remains OPEN because the connector does not provide independent browser-level inspection.
 
@@ -61,7 +67,7 @@ Jammu and Kashmir: PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open, includ
 ## Next Authorized Workstream
 Continue controlled closure of the remaining Phase 1 acceptance dependencies. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
 
-The current website synchronization workstream is closed for its defined defect. Do not repeat run #438 artifact extraction or the historical 377-ID comparison unless a new qualifying control defect requires targeted verification.
+The website synchronization and rendering-control workstream is closed for the identified defects. Do not repeat run #438 or #448 artifact extraction, the full website audit, or the historical 377-ID comparison unless a new qualifying control defect requires targeted verification.
 
 Next substantive priority: close one remaining Central-law or transition dependency using primary-source closure rules, then move to targeted jurisdiction residuals only where the formal reopening/closure rule permits. Do not reopen completed State/UT research merely because a residual remains open.
 
@@ -72,10 +78,11 @@ Next substantive priority: close one remaining Central-law or transition depende
 4. `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`
 5. `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`
 6. `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`
-7. `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`
-8. `ISSUES_REGISTER.md`
-9. `DECISIONS_LOG.md`
-10. `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
+7. `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`
+8. `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`
+9. `ISSUES_REGISTER.md`
+10. `DECISIONS_LOG.md`
+11. `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
 
 Read Puducherry, Ladakh or Lakshadweep substantive artifacts only if a qualifying reopening or targeted verification trigger exists.
 
@@ -85,6 +92,7 @@ Do NOT repeat the run #389 Arunachal investigation.
 Do NOT repeat the historical verified 377-ID comparison except targeted verification required by a new control defect.
 Do NOT repeat run #397 artifact extraction and inspection.
 Do NOT repeat run #438 artifact extraction and inspection absent a new control defect.
+Do NOT repeat run #448 full artifact inspection absent a new control defect.
 Do NOT repeat website builder/sanitizer/validator remediation unless a new failure occurs.
 Do NOT modify the master State Implementation Source Ledger merely to synchronize the website.
 Do NOT treat jurisdiction-ledger fallback as master-ledger integration.
@@ -97,16 +105,16 @@ Do NOT begin Phase 2 case-law research.
 
 ## Exact Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central-law closure point and cumulative Phase 1 acceptance audit.
+Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Phase 1 website full-audit closure point and cumulative Phase 1 acceptance audit.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`, `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`, `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`, `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`, `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`, `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
 
 36/36 State/UT inventories are complete. Puducherry is the 36th and remains PROCEED/CLOSE WITH LIMITATIONS with 16 open residuals. Do not repeat completed jurisdiction research unless the formal reopening rule is met.
 
 The preserved historical source-ledger baseline remains `MASTER_IDS=261`, `JURISDICTION_LEDGER_FILES=29`, `JURISDICTION_LEDGER_IDS=571`, `MISSING_FROM_MASTER=377`, `MASTER_ONLY_IDS=67`. The later 32-file/628-ID/434-gap filesystem enumeration is a post-baseline delta only. Do not modify the master ledger for website synchronization.
 
-The current Pages synchronization is verified by run #438 and independent artifact inspection. Do not repeat it unless a new control defect appears. Do not claim live Pages HTTP/settings verification without direct evidence.
+The current Pages artifact is verified by run #448 after remediation of the run #446 heading-hierarchy defects. The full static audit is PASS. Live HTTP/settings verification remains unavailable through the connector. Do not repeat the website audit absent a new control defect.
 
 The SC/ST Act current-text/version question is closed with qualification. The SC/ST Rules Annexure-II apparent 1986/2001 discrepancy is closed using the official Ministry-hosted Rules PDF. The broader Central current-law freeze, BNS/BNSS/BSA transition freeze and jurisdiction currentness residuals remain open.
 
-Continue with the remaining Phase 1 acceptance dependencies. Do not repeat completed work, the historical 377-ID comparison, run #397 or run #438 artifact inspection, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+Continue with the remaining Phase 1 acceptance dependencies. Do not repeat completed work, the historical 377-ID comparison, run #397, run #438, run #448 artifact inspection, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
