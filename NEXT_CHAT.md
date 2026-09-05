@@ -19,6 +19,7 @@ Remaining unresearched jurisdictions:
 
 The master State Implementation Inventory reconciliation is complete.
 The master State Implementation Source Ledger integration is complete.
+The independent zero-drift control record is complete.
 
 Completed remediation:
 - Formal definitions established for COMPLETED, VERIFIED, CURRENT, OPEN, QUALIFIED and PROCEED/CLOSE WITH LIMITATIONS.
@@ -37,6 +38,7 @@ Control records:
 - `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`
 - `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`
 - `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`
+- `project-state/PH1_MASTER_SOURCE_LEDGER_ZERO_DRIFT_2026-09-06.md`
 
 ## Website / Repository State
 
@@ -72,6 +74,6 @@ The next substantive jurisdiction in sequence is Ladakh, but it is not authorize
 Preserve all existing jurisdiction-specific issue IDs, decision IDs and source IDs. Do not fabricate cumulative IDs. Treat cumulative indexes as control metadata and jurisdiction-specific records as substantive authority. Do not treat search silence as absence. Do not repeat a materially identical search without a new retrieval route, repository update, document identifier or reasoned search expansion.
 
 ## Exact Next Task
-Do not begin Ladakh automatically. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Treat the completed source-ledger integration as closed control work. Determine whether a new control or substantive workstream has been explicitly authorized. If no authorization exists, preserve the current gate and do not begin new State/UT research.
+Do not begin Ladakh automatically. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_ZERO_DRIFT_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Treat the completed source-ledger integration and zero-drift test as closed control work. Determine whether a new control or substantive workstream has been explicitly authorized. If no authorization exists, preserve the current gate and do not begin new State/UT research.
 
-Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, or completed master source-ledger integration. Do NOT repeat completed State/UT inventories or Jammu and Kashmir research. Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream. Do NOT draft the Bill. Do NOT conduct policy-superiority/necessity analysis. Do NOT conduct constitutional-validity analysis. Do NOT begin Phase 2 case-law research.
+Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, completed master source-ledger integration or zero-drift control test. Do NOT repeat completed State/UT inventories or Jammu and Kashmir research. Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream. Do NOT draft the Bill. Do NOT conduct policy-superiority/necessity analysis. Do NOT conduct constitutional-validity analysis. Do NOT begin Phase 2 case-law research.
