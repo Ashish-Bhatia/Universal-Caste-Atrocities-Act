@@ -18,5 +18,6 @@
         "PROJECT_STATE.md"
       ]
     }
-  }
+  },
+  "postCreateCommand": "python3 scripts/build_website.py"
 }
