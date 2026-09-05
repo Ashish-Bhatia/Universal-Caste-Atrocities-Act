@@ -3,7 +3,7 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; Arunachal Pradesh targeted official-source inventory completed with qualifications; State/UT inventory continues with Assam next; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; Arunachal Pradesh targeted official-source inventory completed with qualifications; Assam independent official-source inventory completed with qualifications; State/UT inventory continues; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
@@ -13,6 +13,7 @@
 - State inventory master: `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
 - Andhra Pradesh record: `legislation/states/ANDHRA_PRADESH.md`
 - Arunachal Pradesh record: `legislation/states/ARUNACHAL_PRADESH.md`
+- Assam record: `legislation/states/ASSAM.md`
 - State source ledger: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`
 - Website source: `website/index.html`
 - Pages workflow: `.github/workflows/pages.yml`
@@ -55,20 +56,21 @@
 - PH1-AUDIT-001 closed through authoritative-record remediation.
 - Andhra Pradesh State/UT inventory targeted verification completed with qualifications.
 - Arunachal Pradesh State/UT inventory targeted official-source verification completed with qualifications.
+- Assam State/UT inventory independently completed from State and official Central sources with qualifications.
 - GitHub Pages source and deployment workflow prepared, publication enablement remains externally unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Andhra Pradesh is sufficiently verified for progression but is not a complete 2026 implementation census. Arunachal Pradesh has now been independently inventoried from State and official central sources, with explicit currentness qualifications.
+Phase 1 remains active. Andhra Pradesh is sufficiently verified for progression but is not a complete 2026 implementation census. Arunachal Pradesh has been independently inventoried from State and official central sources, with explicit currentness qualifications. Assam has now been independently inventoried from current Assam State sources plus official Central implementation reports, with explicit currentness qualifications.
 
-The Arunachal Pradesh State record establishes an SC/ST Protection Cell at Police Headquarters under IGP (Crime)/SIT, citing order HMB(B) 25-2002 dated 30-09-2015. The 2023 State annual report says there was no State Rule 9 Nodal Officer "till date", records no Rule 10 Special Officers, no identified atrocity-prone areas, no State-level Vigilance and Monitoring Committee, District V&MC formation with nil meetings, nil Special/Exclusive Special Courts and prosecutors, nil relief/payment cases, and nil section 3 registrations for the reporting period. The State's 2022 PCR report was NIL. Current 2026 nodal, court, prosecutor, committee, relief and Gazette status remains subject to closure verification.
+For Assam, the located record establishes or strongly corroborates a State SC/ST Protection Cell under DGP supervision, historical Director Welfare of Scheduled Castes Rule 9 nodal designation, historical Additional District Magistrate Rule 10 Special Officer designation, State and District V&MC architecture, historical Special Courts and Special Public Prosecutors, State relief/rehabilitation budget provision, current Assam Police CCTNS inclusion of an SC/ST advisory compendium, and current State responsibility for PoA/PCR implementation. Current 2026 office-holder, Cell staffing, Rule 10 notifications, court/prosecutor matrix, V&MC constitution, relief/payment workflow and PoA-specific Gazette/SOP set remain incompletely frozen.
 
-The State inventory also identifies the Arunachal Pradesh (Land Settlement and Records) Act, 2000 as amended and the Arunachal Pradesh Panchayati Raj Act, 1997 and related Rules/Manual as relevant interfaces. No Arunachal-specific bonded-labour or manual-scavenging implementation instrument was located in the targeted search; no absence conclusion is drawn.
+The Assam inventory also identifies the Assam Land and Revenue Regulation, 1886 Chapter X protected tribal belt/block regime, Assam Panchayat Act/Rules, State administration of the central Bonded Labour System (Abolition) Act, and State Manual Scavengers Act/sanitation interface. No State-specific bonded-labour or manual-scavenging PoA instrument was established in the targeted search, and no absence conclusion is drawn.
 
-Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; residual Andhra Pradesh closure items; Arunachal primary/currentness closure items; and Pages verification.
+Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; residual Andhra Pradesh closure items; Arunachal primary/currentness closure items; Assam currentness and primary-instrument closure items; and Pages verification.
 
 No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Next Discrete Workstream
 
-Begin the Assam official-source State/UT implementation inventory. Preserve Andhra Pradesh and Arunachal Pradesh residual closure qualifications separately. Do not reopen either jurisdiction unless new evidence directly changes its recorded status.
+Proceed to the next State/UT official-source inventory after Assam. Preserve Assam, Andhra Pradesh and Arunachal Pradesh residual closure qualifications separately. Do not reopen completed jurisdictions unless new evidence directly changes their recorded status.
