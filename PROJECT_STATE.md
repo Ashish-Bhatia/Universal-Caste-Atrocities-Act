@@ -59,9 +59,7 @@ Current run #452 artifact:
 - artifact ID: `9976923868`
 - SHA-256 digest: `16e2c0d467542da47e69acaee20b5ec2e9ee775d8e31b6552bc1d0c3f417a815`
 
-Independent run #452 artifact inspection verified 90 HTML pages, 36 jurisdiction research pages, 36 jurisdiction source pages, `36 /36` public count text, no `33/36` text, matching source/research coverage, responsive/focus-visible controls, no broken local assets/links, valid language/title/description metadata, no heading hierarchy jumps, and 90 matching sitemap entries. The artifact reproduced the run #448 audit results. Full findings are in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
-
-Run #446 remains the prior completed rendering-control validation. Independent inspection found six heading hierarchy defects in `research.html`, `states.html`, `law.html`, `sources.html`, `methodology.html` and `petition.html`. These were remediated in `scripts/build_website_v2.py`; run #448 and the subsequent run #452 artifacts passed the resulting audit.
+Independent run #452 artifact inspection verified 90 HTML pages, 36 jurisdiction research pages, 36 jurisdiction source pages, `36 /36` public count text, no `33/36` text, matching source/research coverage, responsive/focus-visible controls, no broken local assets/links, valid language/title/description metadata, no heading hierarchy jumps, and 90 matching sitemap entries. Full findings are in `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`.
 
 The connector still lacks independent browser-level live-URL HTTP verification and Pages Settings inspection. Deployment success is therefore recorded as a workflow/artifact fact, not as a separately browser-verified live-site claim.
 
@@ -83,6 +81,10 @@ The SC/ST Rules Annexure-II apparent 1986/2001 source discrepancy is resolved by
 
 Central Rules final source freeze remains open. PCR Act/Rules, Manual Scavengers Act/Rules, bonded-labour interfaces and Priority 2 Central legislation remain subject to their recorded closure criteria. BNS/BNSS/BSA transition verification remains open. Existing State residuals remain jurisdiction-specific. Search silence is not treated as absence.
 
+## Manual Scavengers BNSS Transition Update
+
+The targeted primary-source verification recorded in `project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md` advances PH1-ISSUE-016 from unresolved to ADVANCED WITH QUALIFICATION. MS Act section 10 remains a specific three-month cognizance limitation. MS Act section 21 retains its special Executive Magistrate/Judicial Magistrate first-class mechanism and summary-trial provision. BNSS sections 3-5 provide the current construction-of-references, other-law and special-law framework. State-specific post-01-07-2024 empowerment orders remain unresolved.
+
 ## Puducherry Phase 1 Position
 
 Puducherry was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy and currentness rules. The jurisdiction has a dedicated PCR Cell, State and District V&MC architecture, a specified Special Judge framework, prosecution arrangements and relief instruments. It is PROCEED/CLOSE WITH LIMITATIONS. Sixteen residuals remain open, including current Rule 9/10 appointments, investigation-allocation conflict, current court/prosecution rosters, current meetings, current case/relief data and post-BNS/BNSS/BSA workflow verification.
@@ -90,6 +92,8 @@ Puducherry was researched on 2026-09-06 using the Phase 1 control matrix, primar
 ## Control-Record Supersession
 
 `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md` is retained as a historical control-layer record of the pre-Puducherry 33/36 state. It is superseded for current State/UT count and sequencing by `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, the current State Implementation Inventory and this file.
+
+`project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md` records the authoritative reconciliation of stale PH1-ISSUE-001 and PH1-ISSUE-014 statuses against the Central-law closure record. The physical rows in `ISSUES_REGISTER.md` remain to be synchronized to that reconciliation record.
 
 ## Closed for This Workstream
 
@@ -140,3 +144,5 @@ Next authorized workstream: controlled closure of remaining Phase 1 acceptance d
 2026-09-06: closed the SC/ST Act current-text/version residual on a qualified controlled basis and resolved the SC/ST Rules Annexure-II 1986/2001 source discrepancy using the official Ministry-hosted Rules PDF. Remaining Central and transition dependencies remain open.
 
 2026-09-06: independent audit of run #446 identified six heading-hierarchy defects. The builder was corrected, run #448 deployed successfully, and the subsequent run #452 artifact reproduced the full static audit PASS. Live browser-level HTTP/Pages Settings verification remains open due connector limitations.
+
+2026-09-06: recorded the stale central-law issue reconciliation for PH1-ISSUE-001 and PH1-ISSUE-014 and advanced the Manual Scavengers BNSS transition workstream for PH1-ISSUE-016 using primary statutory sources. The physical `ISSUES_REGISTER.md` rows remain a synchronization task.
