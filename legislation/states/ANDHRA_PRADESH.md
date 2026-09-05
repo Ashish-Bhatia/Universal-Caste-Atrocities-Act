@@ -25,23 +25,23 @@ This is a source inventory only. It does not assess necessity, superiority, poli
 
 Government of Andhra Pradesh, Social Welfare Department, G.O.Ms.No.95, dated 29-08-2016, revises compensation/relief for SC/ST atrocity victims and dependents and states that the State adopted the 2016 Central PoA Rules relief changes. The order traces earlier State orders including G.O.Ms.No.3 dated 16-01-1996, G.O.Ms.No.22 dated 16-06-2012 and G.O.Ms.No.76 dated 28-11-2014. This establishes a State-level relief implementation chain, but a current 2026 consolidation has not yet been established. [A]
 
-Source: Government of Andhra Pradesh, Social Welfare Department, G.O.Ms.No.95, 29-08-2016. cite-source:turn5search12
+Source: Government of Andhra Pradesh, Social Welfare Department, G.O.Ms.No.95, 29-08-2016. Web source record: `turn5search12`.
 
 ### District implementation
 
 Current district-government material confirms active administrative handling of SC/ST atrocity cases. Anakapalli's Collectorate page identifies its Magisterial Section as handling SC-ST atrocity cases and related matters. Nellore's Collectorate page assigns atrocities against SC/STs to its law-and-order/revenue coordination structure. [A]
 
-Sources: Anakapalli District Government of Andhra Pradesh; Sri Potti Sriramulu Nellore District Government of Andhra Pradesh. cite-source:turn5search5turn5search2
+Sources: Anakapalli District Government of Andhra Pradesh; Sri Potti Sriramulu Nellore District Government of Andhra Pradesh. Web source records: `turn5search5`, `turn5search2`.
 
 ## 3. Protection Cell / Special Investigation machinery
 
 A current district police page for Prakasam identifies a DSP, SC ST Cell as part of the district police structure. A current YSR Kadapa district government page separately identifies an SC ST Cell and provides its office details. These are direct evidence of district-level SC/ST cell machinery, but they do not by themselves establish the full State-level Rule 8 structure or its current staffing statewide. [A]
 
-Sources: Prakasam District Police, Government of Andhra Pradesh; YSR Kadapa District Government of Andhra Pradesh. cite-source:turn5search3turn5search4
+Sources: Prakasam District Police, Government of Andhra Pradesh; YSR Kadapa District Government of Andhra Pradesh. Web source records: `turn5search3`, `turn5search4`.
 
 Historical official Union reporting records Andhra Pradesh as having a State SC/ST Protection Cell and Special Police Stations under the PoA implementation framework. Because this is historical reporting, it is retained as a source lead and not treated as a 2026 staffing/current-status proof. [B]
 
-Source: Ministry of Social Justice and Empowerment, annual implementation reporting. cite-source:turn4search14
+Source: Ministry of Social Justice and Empowerment annual implementation reporting. Web source record: `turn4search14`.
 
 ## 4. Nodal / Protection Officers
 
@@ -55,7 +55,7 @@ A current statewide official consolidated list of Special Courts/Exclusive Speci
 
 Historical Union reporting confirms that Andhra Pradesh had 23 Special Courts in the earlier reporting period, but this is not accepted as the current number. [B]
 
-Source: Ministry of Social Justice and Empowerment annual implementation reporting. citeturn4search15
+Source: Ministry of Social Justice and Empowerment annual implementation reporting. Web source record: `turn4search15`.
 
 Status: OPEN, current verification required.
 
@@ -63,7 +63,7 @@ Status: OPEN, current verification required.
 
 A current statewide appointment notification/list for PoA Special Public Prosecutors was not established in the first pass. A current district government page for Vizianagaram records a Special Public Prosecutor participating in a district SC/ST atrocity review involving police, District Revenue Officer, Social Welfare and SC/ST Cell officials. This establishes operational participation at district level but does not establish appointment instrument, tenure or statewide coverage. [A]
 
-Source: Vizianagaram District Government of Andhra Pradesh, 24-08-2022. citeturn5search6
+Source: Vizianagaram District Government of Andhra Pradesh, 24-08-2022. Web source record: `turn5search6`.
 
 Status: OPEN, appointment records required.
 
@@ -73,15 +73,15 @@ A current official district Social Welfare page for Sri Potti Sriramulu Nellore 
 
 A current official district page also records a District Level Surveillance & Monitoring Committee meeting concerning SC/ST matters in Nellore. [A]
 
-Sources: Sri Potti Sriramulu Nellore District Government of Andhra Pradesh. citeturn5search0turn5search9
+Sources: Sri Potti Sriramulu Nellore District Government of Andhra Pradesh. Web source records: `turn5search0`, `turn5search9`.
 
 A current State-level Vigilance and Monitoring Committee instrument or composition was not established in this first pass. Status: OPEN.
 
 ## 8. Relief, rehabilitation and scheme machinery
 
-The 2016 G.O.Ms.No.95 is a primary State source for enhanced atrocity relief and rehabilitation. It expressly implements the 2016 Central amendment relief levels from 14-04-2016 and supersedes/enhances earlier State relief orders. [A] cite-source:turn5search12
+The 2016 G.O.Ms.No.95 is a primary State source for enhanced atrocity relief and rehabilitation. It expressly implements the 2016 Central amendment relief levels from 14-04-2016 and supersedes/enhances earlier State relief orders. [A] Web source record: `turn5search12`.
 
-Current district Social Welfare material also identifies the Social Welfare Department as monitoring implementation of the PoA Act and related laws. [A] cite-source:turn5search0
+Current district Social Welfare material also identifies the Social Welfare Department as monitoring implementation of the PoA Act and related laws. [A] Web source record: `turn5search0`.
 
 Current 2026 State-wide scheme consolidation, payment workflow, budget heads and any later amendments remain OPEN.
 
@@ -95,17 +95,17 @@ Status: OPEN.
 
 Current official evidence establishes:
 
-- District Social Welfare Department involvement in PoA implementation and monitoring. [A] cite-source:turn5search0
-- District SC/ST police cells, including a DSP SC ST Cell in Prakasam and an SC ST Cell in YSR Kadapa. [A] cite-source:turn5search3turn5search4
-- District Collectorate responsibility for SC/ST atrocity matters in law-and-order/magisterial structures. [A] cite-source:turn5search2turn5search5
-- District-level Vigilance/Monitoring Committee activity. [A] cite-source:turn5search0turn5search9
-- Participation of a Special Public Prosecutor in district atrocity review. [A] cite-source:turn5search6
+- District Social Welfare Department involvement in PoA implementation and monitoring. [A] Web source record: `turn5search0`.
+- District SC/ST police cells, including a DSP SC ST Cell in Prakasam and an SC ST Cell in YSR Kadapa. [A] Web source records: `turn5search3`, `turn5search4`.
+- District Collectorate responsibility for SC/ST atrocity matters in law-and-order/magisterial structures. [A] Web source records: `turn5search2`, `turn5search5`.
+- District-level Vigilance/Monitoring Committee activity. [A] Web source records: `turn5search0`, `turn5search9`.
+- Participation of a Special Public Prosecutor in district atrocity review. [A] Web source record: `turn5search6`.
 
 These findings do not establish statewide uniformity. District-level evidence must be expanded before drawing statewide conclusions.
 
 ## 11. State-specific relevant interfaces
 
-The first pass identified official Andhra Pradesh material referring to the Manual Scavengers Act and Bonded Labour Act alongside PoA implementation in district Social Welfare monitoring. This supports retaining these interfaces in the State inventory. It does not repeat or replace the completed Central crosswalks. [A] cite-source:turn5search0
+The first pass identified official Andhra Pradesh material referring to the Manual Scavengers Act and Bonded Labour Act alongside PoA implementation in district Social Welfare monitoring. This supports retaining these interfaces in the State inventory. It does not repeat or replace the completed Central crosswalks. [A] Web source record: `turn5search0`.
 
 Further State-specific screening is OPEN for:
 
