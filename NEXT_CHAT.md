@@ -42,13 +42,34 @@ Control records:
 
 ## Website / Repository State
 
-The public website build is repository-driven. `scripts/build_website.py` generates the public research interface from `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` at GitHub Pages deployment time. The interface has been redesigned with a stronger visual hook, 33/36 coverage visualization, control-status panels, research architecture cards, controlled frontier presentation and searchable State/UT cards. Source-ID counting is now based on source-ID patterns rather than Markdown table headers.
+The public website build is repository-driven. `scripts/build_website.py` now generates a production-oriented, multi-page public research library from substantive repository research records.
 
-`.github/workflows/pages.yml` builds the site before deployment. The latest Pages deployment run for the redesign is queued in GitHub Actions.
+Public website boundary:
+- Publish actual legal and jurisdictional implementation research only.
+- Do not publish project-state controls, issue registers, decision logs or continuity prompts.
+- Give every completed State/UT a dedicated research page.
+- Give every completed State/UT a dedicated source-set page.
+- Give each available existing-law research document its own page.
+- Use internal Pages navigation rather than GitHub repository links.
+- Generate `sitemap.xml`, `robots.txt` and `404.html`.
+- Reject generated HTML containing the repository navigation URL.
+
+The builder now cleans stale generated HTML, renders all completed jurisdiction records, renders jurisdiction source sets, renders existing-law research pages and verifies every completed jurisdiction has a generated page.
+
+`.github/workflows/pages.yml` now compiles the builder, builds the site, validates required outputs and public-link policy, then deploys the generated `website/` artifact to GitHub Pages.
 
 GitHub Pages live publication is NOT independently verified because Pages administration/live-site verification is not exposed by the connector.
 
-Codespaces administration/synchronization is NOT exposed by the connector. Repository-side Codespaces configuration now exists in `.devcontainer/devcontainer.json` and `.vscode/settings.json`. The Explorer is configured for folder-first ordering, non-compact folders, automatic reveal and disabled file nesting. Codespaces opens `README.md` and `PROJECT_STATE.md`, and `README.md` provides the repository map.
+## Codespaces / Repository State
+
+`.devcontainer/devcontainer.json` now runs `python3 scripts/build_website.py` as `postCreateCommand` after container creation. The image remains `mcr.microsoft.com/devcontainers/python:3-3.12-bookworm`, a valid Microsoft Dev Container image tag.
+
+The 2026-09-06 screenshot shows active container image-layer downloads. Treat this as the image retrieval stage, not as evidence of a failed website build or failed post-create command. The next verification point is whether the container completes after the image download and the post-create command runs.
+
+Codespaces administration/synchronization remains unavailable through the connector.
+
+Controlled remediation record:
+- `project-state/WEBSITE_CODESPACES_REMEDIATION_2026-09-06.md`
 
 ## Explicitly Closed for This Workstream
 - No Ladakh research.
@@ -69,11 +90,29 @@ The control-remediation gate for the master State Implementation Source Ledger i
 
 The next substantive jurisdiction in sequence is Ladakh, but it is not authorized by this handoff unless the project state explicitly opens the next jurisdictional workstream.
 
+## Exact Next Task
+
+Do not begin Ladakh automatically.
+
+First verify the current infrastructure remediation rather than beginning substantive research:
+1. Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_ZERO_DRIFT_2026-09-06.md`, `project-state/WEBSITE_CODESPACES_REMEDIATION_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.
+2. Verify the committed `scripts/build_website.py`, `.github/workflows/pages.yml`, `.devcontainer/devcontainer.json`, `.vscode/settings.json` and `README.md` against the stated infrastructure position.
+3. Verify the Pages workflow result for the remediation commit if workflow-run information is exposed.
+4. If the workflow succeeded, verify the generated-site contract from repository artifacts, including State/UT pages, source-set pages, existing-law pages, `sitemap.xml`, `robots.txt`, `404.html` and absence of repository-navigation links.
+5. If live Pages administration or live-site verification is unavailable, record that limitation. Do not claim the public site is live without independent verification.
+6. If the Codespace remains stuck after image retrieval, inspect the post-create/build stage. Do not treat active layer downloads as a failed build without evidence of a timeout or error.
+7. Preserve the gate. Do not start Ladakh, Lakshadweep or Puducherry unless explicit authorization appears in authoritative project state.
+
 ## Continuity Constraints
 
 Preserve all existing jurisdiction-specific issue IDs, decision IDs and source IDs. Do not fabricate cumulative IDs. Treat cumulative indexes as control metadata and jurisdiction-specific records as substantive authority. Do not treat search silence as absence. Do not repeat a materially identical search without a new retrieval route, repository update, document identifier or reasoned search expansion.
 
-## Exact Next Task
-Do not begin Ladakh automatically. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_ZERO_DRIFT_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Treat the completed source-ledger integration and zero-drift test as closed control work. Determine whether a new control or substantive workstream has been explicitly authorized. If no authorization exists, preserve the current gate and do not begin new State/UT research.
+## Do NOT Repeat
 
-Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, completed master source-ledger integration or zero-drift control test. Do NOT repeat completed State/UT inventories or Jammu and Kashmir research. Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream. Do NOT draft the Bill. Do NOT conduct policy-superiority/necessity analysis. Do NOT conduct constitutional-validity analysis. Do NOT begin Phase 2 case-law research.
+Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, completed master source-ledger integration or zero-drift control test.
+Do NOT repeat completed State/UT inventories or Jammu and Kashmir research.
+Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream.
+Do NOT draft the Bill.
+Do NOT conduct policy-superiority/necessity analysis.
+Do NOT conduct constitutional-validity analysis.
+Do NOT begin Phase 2 case-law research.
