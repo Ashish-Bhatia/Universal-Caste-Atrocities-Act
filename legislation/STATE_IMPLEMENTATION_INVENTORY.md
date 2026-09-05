@@ -14,46 +14,52 @@ Searches distinguish current material from historical reports. Search silence is
 
 | Jurisdiction | Status | First-pass record |
 |---|---|---|
-| Andhra Pradesh | IN PROGRESS | `legislation/states/ANDHRA_PRADESH.md` |
-| Arunachal Pradesh | IN PROGRESS | `legislation/states/ARUNACHAL_PRADESH.md` |
-| Assam | IN PROGRESS | `legislation/states/ASSAM.md` |
-| Bihar | IN PROGRESS | `legislation/states/BIHAR.md` |
-| Chhattisgarh | IN PROGRESS | `legislation/states/CHHATTISGARH.md` |
-| Goa | IN PROGRESS | `legislation/states/GOA.md` |
-| Gujarat | IN PROGRESS | `legislation/states/GUJARAT.md` |
-| Haryana | IN PROGRESS | `legislation/states/HARYANA.md` |
-| Himachal Pradesh | IN PROGRESS | `legislation/states/HIMACHAL_PRADESH.md` |
-| Jharkhand | IN PROGRESS | `legislation/states/JHARKHAND.md` |
-| Karnataka | IN PROGRESS | `legislation/states/KARNATAKA.md` |
-| Kerala | IN PROGRESS | `legislation/states/KERALA.md` |
-| Madhya Pradesh | IN PROGRESS | `legislation/states/MADHYA_PRADESH.md` |
-| Maharashtra | IN PROGRESS | `legislation/states/MAHARASHTRA.md` |
-| Manipur | NOT STARTED | — |
-| Meghalaya | NOT STARTED | — |
-| Mizoram | NOT STARTED | — |
-| Nagaland | NOT STARTED | — |
-| Odisha | NOT STARTED | — |
-| Punjab | NOT STARTED | — |
-| Rajasthan | NOT STARTED | — |
-| Sikkim | NOT STARTED | — |
-| Tamil Nadu | NOT STARTED | — |
-| Telangana | NOT STARTED | — |
-| Tripura | NOT STARTED | — |
-| Uttar Pradesh | NOT STARTED | — |
-| Uttarakhand | NOT STARTED | — |
-| West Bengal | NOT STARTED | — |
-| Andaman and Nicobar Islands | NOT STARTED | — |
-| Chandigarh | NOT STARTED | — |
-| Dadra and Nagar Haveli and Daman and Diu | NOT STARTED | — |
-| Delhi (NCT) | NOT STARTED | — |
-| Jammu and Kashmir | NOT STARTED | — |
+| Andhra Pradesh | COMPLETED WITH QUALIFICATION | `legislation/states/ANDHRA_PRADESH.md` |
+| Arunachal Pradesh | COMPLETED WITH QUALIFICATION | `legislation/states/ARUNACHAL_PRADESH.md` |
+| Assam | COMPLETED WITH QUALIFICATION | `legislation/states/ASSAM.md` |
+| Bihar | COMPLETED WITH QUALIFICATION | `legislation/states/BIHAR.md` |
+| Chhattisgarh | COMPLETED WITH QUALIFICATION | `legislation/states/CHHATTISGARH.md` |
+| Goa | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/GOA.md` |
+| Gujarat | COMPLETED WITH QUALIFICATION | `legislation/states/GUJARAT.md` |
+| Haryana | COMPLETED WITH QUALIFICATION | `legislation/states/HARYANA.md` |
+| Himachal Pradesh | COMPLETED WITH QUALIFICATION | `legislation/states/HIMACHAL_PRADESH.md` |
+| Jharkhand | COMPLETED WITH QUALIFICATION | `legislation/states/JHARKHAND.md` |
+| Karnataka | COMPLETED WITH QUALIFICATION | `legislation/states/KARNATAKA.md` |
+| Kerala | COMPLETED WITH QUALIFICATION | `legislation/states/KERALA.md` |
+| Madhya Pradesh | COMPLETED WITH QUALIFICATION | `legislation/states/MADHYA_PRADESH.md` |
+| Maharashtra | COMPLETED WITH QUALIFICATION | `legislation/states/MAHARASHTRA.md` |
+| Manipur | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/MANIPUR.md` |
+| Meghalaya | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/MEGHALAYA.md` |
+| Mizoram | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/MIZORAM.md` |
+| Nagaland | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/NAGALAND.md` |
+| Odisha | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/ODISHA.md` |
+| Punjab | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/PUNJAB.md` |
+| Rajasthan | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/RAJASTHAN.md` |
+| Sikkim | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/SIKKIM.md` |
+| Tamil Nadu | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/TAMIL_NADU.md` |
+| Telangana | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/TELANGANA.md` |
+| Tripura | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/TRIPURA.md` |
+| Uttar Pradesh | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/UTTAR_PRADESH.md` |
+| Uttarakhand | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/UTTARAKHAND.md` |
+| West Bengal | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/WEST_BENGAL.md` |
+| Andaman and Nicobar Islands | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/ANDAMAN_NICOBAR_ISLANDS.md` |
+| Chandigarh | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/CHANDIGARH.md` |
+| Dadra and Nagar Haveli and Daman and Diu | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/DADRA_NAGAR_HAVELI_DAMAN_DIU.md` |
+| Delhi (NCT) | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/DELHI_NCT.md` |
+| Jammu and Kashmir | PROCEED/CLOSE WITH LIMITATIONS | `legislation/states/JAMMU_KASHMIR.md` |
 | Ladakh | NOT STARTED | — |
 | Lakshadweep | NOT STARTED | — |
 | Puducherry | NOT STARTED | — |
 
 ## Coverage Status
 
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra have received independent official-source inventories with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually.
+33 of 36 jurisdictions have completed substantive Phase 1 inventories. The completed sequence ends with Jammu and Kashmir. The remaining jurisdictions are Ladakh, Lakshadweep and Puducherry, which remain deliberately unresearched.
+
+A status of COMPLETED WITH QUALIFICATION or PROCEED/CLOSE WITH LIMITATIONS records workstream completion with stated residuals. It does not mean a complete 2026 implementation census or elimination of currentness/instrument-level issues.
+
+## Control Reconciliation
+
+The jurisdiction matrix has been reconciled against the 33 substantive jurisdiction artifacts verified in `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`. The matrix is a cumulative control index. Jurisdiction-specific files remain the substantive authority for findings, evidence grades and residual issues.
 
 ## Maharashtra Status Summary
 
@@ -65,8 +71,14 @@ Madhya Pradesh is sufficiently inventoried for progression with qualifications. 
 
 ## Prior Jurisdiction Summaries
 
-Kerala, Jharkhand and Karnataka remain sufficiently inventoried for progression with qualifications, with current/recent official State and Central evidence and separate residuals recorded in their jurisdiction ledgers. Himachal Pradesh, Haryana, Gujarat and Goa likewise remain inventoried with explicit currentness qualifications. All completed-jurisdiction residuals remain separate.
+Kerala, Jharkhand and Karnataka remain sufficiently inventoried for progression with qualifications, with current/recent official State and Central evidence and separate residuals recorded in their jurisdiction ledgers. Himachal Pradesh, Haryana, Gujarat and Goa likewise remain inventoried with explicit currentness qualifications. Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT) and Jammu and Kashmir have separate jurisdiction-specific inventories, source ledgers and residual control records as indexed in the cumulative control layer.
+
+All completed-jurisdiction residuals remain separate and are not silently collapsed into the master matrix.
 
 ## Status
 
-Maharashtra is the latest completed jurisdiction for this sequence. Its residual closure items must remain separate from all prior jurisdiction residuals. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Jammu and Kashmir is the latest completed jurisdiction for this sequence. Its residual closure items must remain separate from all prior jurisdiction residuals. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+
+## Control Authority
+
+Status definitions, source hierarchy, conflict resolution, search stopping rules, reopening rules and reconciliation standards are governed by `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
