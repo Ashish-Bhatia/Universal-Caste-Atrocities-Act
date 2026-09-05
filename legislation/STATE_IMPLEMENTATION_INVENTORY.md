@@ -32,7 +32,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Assam | IN PROGRESS | `legislation/states/ASSAM.md` |
 | Bihar | IN PROGRESS | `legislation/states/BIHAR.md` |
 | Chhattisgarh | IN PROGRESS | `legislation/states/CHHATTISGARH.md` |
-| Goa | NOT STARTED | — |
+| Goa | IN PROGRESS | `legislation/states/GOA.md` |
 | Gujarat | NOT STARTED | — |
 | Haryana | NOT STARTED | — |
 | Himachal Pradesh | NOT STARTED | — |
@@ -66,7 +66,7 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
@@ -79,3 +79,7 @@ Bihar is sufficiently inventoried for progression, with qualifications. Current 
 ## Chhattisgarh Status Summary
 
 Chhattisgarh is sufficiently inventoried for progression, with qualifications. The official 2022-23 State administrative report identifies the Commissioner, Tribal and Scheduled Caste Development as Rule 9 Nodal Officer, a Chief Minister-chaired State V&MC, District V&MCs in all 28 districts, police/court architecture and relief activity. Official 2024 State notices show district-level V&MC activity, while current 2026 Chhattisgarh High Court records establish continuing Special Judge under SC/ST (P.A.) Act operation at identified locations. Current 2026 Rule 9, Protection Cell, Rule 10, committee, court notification, prosecutor, relief workflow, Gazette/SOP and digital workflow details remain incompletely frozen.
+
+## Goa Status Summary
+
+Goa is sufficiently inventoried for progression, with qualifications. The 2023 Goa State Annual Report records a 05-05-2023 Rule 9 nodal-officer order, no dedicated SC/ST Protection Cell or Special Police Station at that reporting point, a State V&MC and District V&MCs for North and South Goa, and no specifically identified atrocity-prone area. Official Central reporting identifies Principal District and Sessions Courts at Panaji and Margao as PoA Special Courts and records Special Public Prosecutors. Current Goa budget documents contain a Rs.40 lakh State provision for SC/ST PoA victim compensation and a further Rs.40 lakh centrally sponsored PCR/PoA implementation component. The current Goa Commission for SC/ST expressly covers PoA/PCR complaints and monitoring. Current 2026 nodal, police-cell, Rule 10, court, prosecutor, committee, relief workflow, PoA-specific Gazette/SOP and digital workflow details remain incompletely frozen.
