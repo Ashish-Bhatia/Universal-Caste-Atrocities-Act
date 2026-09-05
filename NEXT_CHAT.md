@@ -42,13 +42,13 @@ Control records:
 
 ## Website / Repository State
 
-The public website build is now repository-driven. `scripts/build_website.py` generates the main research interface from `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` at GitHub Pages deployment time. The UI has a responsive Material-inspired layout and interactive State/UT search/filtering.
+The public website build is repository-driven. `scripts/build_website.py` generates the public research interface from `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` at GitHub Pages deployment time. The interface has been redesigned with a stronger visual hook, 33/36 coverage visualization, control-status panels, research architecture cards, controlled frontier presentation and searchable State/UT cards. Source-ID counting is now based on source-ID patterns rather than Markdown table headers.
 
-`pages.yml` now builds the site before deployment.
+`.github/workflows/pages.yml` builds the site before deployment. The latest Pages deployment run for the redesign is queued in GitHub Actions.
 
 GitHub Pages live publication is NOT independently verified because Pages administration/live-site verification is not exposed by the connector.
 
-Codespaces administration/synchronization is NOT exposed by the connector. All completed work is committed on `main`; GitHub remains authoritative.
+Codespaces administration/synchronization is NOT exposed by the connector. Repository-side Codespaces configuration now exists in `.devcontainer/devcontainer.json` and `.vscode/settings.json`. The Explorer is configured for folder-first ordering, non-compact folders, automatic reveal and disabled file nesting. Codespaces opens `README.md` and `PROJECT_STATE.md`, and `README.md` provides the repository map.
 
 ## Explicitly Closed for This Workstream
 - No Ladakh research.
