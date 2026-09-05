@@ -48,27 +48,22 @@
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
 - PH1-AUDIT-001 closed.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar and Chhattisgarh inventories completed with qualifications.
-- Bihar supplemental source ledger merged into the master ledger.
-- Goa inventory completed with qualifications.
-- Goa supplemental source ledger consolidated into the master State Implementation Source Ledger. All 17 Goa source entries were retained.
-- Gujarat independent official-source inventory completed with qualifications.
-- Haryana independent official-source inventory completed with qualifications.
-- Himachal Pradesh independent official-source inventory completed with qualifications.
-- Public website architecture upgraded from a single-page repository-link surface to a multi-page static research site with Research, States & UTs, Gujarat, Existing Law, Sources and Methodology pages plus shared CSS/JS. Himachal Pradesh jurisdiction page added.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana and Himachal Pradesh inventories completed with qualifications.
+- Jharkhand independent official-source inventory completed with qualifications.
+- Public website architecture upgraded to a multi-page static research site; Himachal Pradesh and Jharkhand jurisdiction pages are present.
 
 ## Exact Current Position
 
-Phase 1 remains active. Himachal Pradesh is the current completed jurisdiction in this sequence. Its 26-source state ledger is in `research/states/HIMACHAL_PRADESH_SOURCE_LEDGER.md`, and its controlled master-ledger append is in `research/states/HIMACHAL_PRADESH_MASTER_LEDGER_APPEND.md`. Residual verification items PH1-ISSUE-089 through PH1-ISSUE-100 are recorded in that append pending integration into the authoritative control ledgers. The 2024 State annual report establishes the principal State-specific reporting baseline: Director ESOMSA as Rule 9 nodal officer for that reporting period, State CID Protection Cell under DGP supervision, no Special Police Stations in the 12 districts, Additional District Magistrates as Rule 10 Special Officers, no atrocity-prone areas identified, State/District/Sub-Divisional V&MC architecture, District and Sessions Judge Special Courts, District Attorneys-cum-Public Prosecutors as SPPs, no ESPPs specified, Rs.2,70,80,639 relief to 415 victims in 2024, seven-day relief/treasury authorization architecture, and a Rule 15 contingency plan. Current HP Police CCTNS services and 2024 crime review provide current digital/reporting interfaces. Current 2026 appointments, operative orders, complete court/prosecutor matrix, payment/DBT workflow, PoA-specific digital workflow and several related-law instruments remain open.
+Phase 1 remains active. Jharkhand is now the current completed jurisdiction in this sequence. Its state inventory is `legislation/states/JHARKHAND.md`, source ledger is `research/states/JHARKHAND_SOURCE_LEDGER.md`, and controlled master-ledger append is `research/states/JHARKHAND_MASTER_LEDGER_APPEND.md`. The Jharkhand evidence base includes current 2026 Police district profiles listing SC/ST Police Stations/units in multiple districts, current High Court Special Court assignments, a 15-04-2026 Cabinet decision approving three District Judge-level posts for Special Courts in Ranchi, Dhanbad and Daltonganj, and a 22-11-2023 Cabinet decision authorizing Inspector/Sub-Inspector-level investigation of PoA cases. The latter is a high-priority unresolved interaction with Rule 7 and is not treated as automatically displacing the Central Rules. Current State DBT, treasury and UDDP infrastructure is documented, while PoA-specific payment, digital case-management, current Rule 9/10 instruments, V&MC matrix, prosecutor register and several related-law instruments remain open.
 
-Haryana residual issues PH1-ISSUE-077 through PH1-ISSUE-088 remain open separately. Gujarat residual issues PH1-ISSUE-065 through PH1-ISSUE-076 remain open. Goa residual items PH1-ISSUE-054 through PH1-ISSUE-063 remain open. AP, Arunachal Pradesh, Assam and Chhattisgarh residual items remain separate and must not be reopened without new evidence directly changing status.
+Residual issues for AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat and Himachal Pradesh remain separate and must not be reopened without new evidence directly changing recorded status. Jharkhand residual issues are PH1-ISSUE-101 through PH1-ISSUE-116 in the controlled append pending authoritative ledger integration.
 
 Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate closure workstreams. No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Website Status
 
-The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
+The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Jharkhand jurisdiction page has been added. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
 
 ## Next Discrete Workstream
 
-Proceed to Jharkhand using the same independent official-source method. Do not repeat completed jurisdictions. Preserve all residual issues separately. Keep final Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Continue website/publication work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
+Proceed to Karnataka using the same independent official-source method. Before substantive continuation, integrate the Jharkhand staging entries into the authoritative control ledgers through controlled complete-file update when safe. Do not repeat completed jurisdictions. Carry all residual issues separately. Keep final Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Continue website/publication work. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence.
