@@ -3,18 +3,15 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, repository-level completeness audit completed; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
 - Baseline artifact: `BASELINE_AUDIT.md`
-- Phase 1 control remediation: `project-state/PH1_AUTHORITATIVE_RECORD_REMEDIATION.md`
 - Phase 1 completeness audit: `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`
 - Central screening artifact: `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`
 - State inventory master: `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
 - State source ledger: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`
-- Website source: `website/index.html`
-- Pages workflow: `.github/workflows/pages.yml`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
 
 ## Zero-Drift Rules
@@ -23,8 +20,8 @@
 2. Read this file and `NEXT_CHAT.md` before substantive continuation.
 3. Check relevant ledgers before repeating research.
 4. Preserve provenance for every material claim.
-5. Record material decisions in `DECISIONS_LOG.md` or a linked decision addendum.
-6. Record unresolved questions and risks in `ISSUES_REGISTER.md` or a linked issue addendum.
+5. Record material decisions in `DECISIONS_LOG.md` or linked decision addenda.
+6. Record unresolved questions and risks in `ISSUES_REGISTER.md` or linked issue addenda.
 7. Preserve previous versions of substantive drafts.
 8. GitHub is the authoritative project record.
 9. No conclusion of necessity, constitutionality, superiority, or policy desirability is presumed.
@@ -48,54 +45,45 @@
 
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
-- PH1-AUDIT-001 closed.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana and Himachal Pradesh inventories completed with qualifications.
-- Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra independent official-source inventories completed with qualifications.
-- Manipur inventory completed with documented current/recent and retrieval limitations; its residuals remain separately recorded.
-- Meghalaya inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
-- Jharkhand and Karnataka source entries are integrated into the master State Implementation Source Ledger using complete-file preservation.
-- Maharashtra source entries MH-STATE-001 through MH-STATE-020 are integrated into the master State Implementation Source Ledger after controlled complete-file preservation and verification.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur and Meghalaya inventories completed with qualifications.
+- Meghalaya: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
+- Manipur remains closed for the current sequence with documented residuals.
+- Mizoram inventory completed with PROCEED/CLOSE WITH LIMITATIONS; `legislation/states/MIZORAM.md`, `research/states/MIZORAM_SOURCE_LEDGER.md`, `project-state/MIZORAM_ISSUES_2026-09-05.md` and `project-state/MIZORAM_DECISIONS_2026-09-05.md` created.
+- Mizoram source evidence includes a 2000 Rule 9 Gazette, 2012 V&MC Gazette, 2013 Special Court Gazette, 2016 Rules republication and a 2023 State Annual Report submitted 19-03-2024 and disclosed under RTI in September 2024.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. A controlled repository-level completeness audit was completed on 05-09-2026 after the Meghalaya inventory. The audit confirms 16 completed State/UT inventories and 20 remaining unresearched jurisdictions. The 16 completed jurisdictions are Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur and Meghalaya.
+Phase 1 remains active. The repository-level audit confirmed 16 completed jurisdictions before Mizoram and 20 remaining unresearched jurisdictions. Mizoram is now the 17th completed State/UT inventory, leaving 19 unresearched jurisdictions, subject to the master inventory remaining stale and intentionally untouched.
 
-Meghalaya is classified PROCEED/CLOSE WITH LIMITATIONS. Its jurisdiction-specific inventory and source ledger remain authoritative for its completed workstream. PH1-ISSUE-256 through PH1-ISSUE-265 remain open. No Meghalaya baseline research was repeated in the completeness audit.
+Mizoram is classified PROCEED/CLOSE WITH LIMITATIONS. The strongest located current Mizoram implementation source is the State's 2023 annual return, transmitted to the Union Government on 19-03-2024. It reports a State SC/ST Protection Cell, two Special Courts covering 11 districts, no Exclusive Special Court, no Special Police Stations, no identified atrocity-prone areas, no Special Officers, no State V&MC, no SDVMC, NIL SPP/ESPP, NIL relief/legal aid and no Rule 15 plan. These are 2023 reporting-period findings, not a September 2026 census.
 
-Manipur is not the active workstream. Its residuals remain preserved, including PH1-ISSUE-246 through PH1-ISSUE-255 and earlier Manipur issues already recorded. Manipur must not be reopened unless a genuinely new authoritative source becomes available or controlled reconciliation is required.
+Mizoram residuals are recorded in `project-state/MIZORAM_ISSUES_2026-09-05.md`. They include the current Rule 9 office-holder, post-2023 Protection Cell continuity, current Special Police Station status, Rule 10/identified-area status, District/SDVMC records, current SPP/ESPP appointments, current relief/payment workflow, post-2023 annual reporting, Special Court notification continuity and reconciliation of State-reporting and NCRB datasets.
 
-The master `legislation/STATE_IMPLEMENTATION_INVENTORY.md` is stale. It still labels the first 14 completed jurisdictions as IN PROGRESS and Manipur/Meghalaya as NOT STARTED. This is a control-layer synchronization defect identified by the audit. The master file was intentionally not modified because the current instruction prohibits modification.
+The 2012 State V&MC notification conflicts with the 2023 State return's statement that the State committee was not constituted. Both records are preserved. No inference is made about the reason for the discrepancy.
 
-The master `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` remains integrated through Maharashtra by the last verified controlled integration point. Manipur and Meghalaya source ledgers remain separate supplemental records. The master ledger must not be reconstructed from truncated connector output and must not be modified without explicit authorization.
+The 2013 Special Court notification is the identified primary court instrument. The 2023 State return repeats the same two-court arrangement. A later superseding Gazette was not located in the Mizoram pass.
 
-Central-law residuals remain separate from State inventory sequencing. These include final current-law completeness for the SC/ST Act/Rules, later Central instruments, the Rules Annexure-II primary-source discrepancy, PCR/Manual Scavengers/Bonded Labour current-law residuals and final completeness of the Priority 2 screened interfaces.
+The master `legislation/STATE_IMPLEMENTATION_INVENTORY.md` remains stale and was not modified. The master `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` remains integrated through Maharashtra and was not reconstructed or modified. Mizoram remains in its jurisdiction-specific supplemental ledger.
 
-BNS/BNSS/BSA transition work is substantially advanced but remains a separate closure workstream. Existing working artifacts cover BNS, BNSS and BSA baselines, S.O. 2790(E), General Clauses Act section 8, BNS section 358, SC/ST Act section 3 conduct correspondence, Schedule IPC-reference correspondence, BNSS procedural interfaces and BSA evidence/presumption interfaces. Final source freeze and unresolved transition questions remain open. No blanket numerical substitution is permitted.
+Central later-instrument/current-law completeness remains separate. BNS/BNSS/BSA transition verification remains separate and unfrozen. No blanket numerical substitution is permitted.
 
-Phase 1 acceptance criteria are NOT YET SATISFIED because 20 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains unfrozen, and the master State inventory remains unsynchronized pending authorization.
+Phase 1 acceptance criteria remain NOT YET SATISFIED because 19 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
-## Phase 1 completeness audit
-
-`project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md` records the controlled audit, the stale-control-file reconciliation, the 16/36 completed-jurisdiction count, the 20-jurisdiction remainder, Central-law residuals, BNS/BNSS/BSA transition status and the acceptance-criteria assessment.
-
 ## Next Discrete Workstream
 
-Begin the next unresearched State/UT Phase 1 inventory: Mizoram, following the repository's jurisdiction sequence. First read the Mizoram-specific repository state if any exists; otherwise establish the jurisdiction-specific source map using primary sources. Preserve all completed-jurisdiction residuals and keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate.
-
-Do not reopen Manipur. Do not repeat Meghalaya baseline research. Do not modify the master State Implementation Inventory or master State Implementation Source Ledger unless explicitly instructed. Do not reconstruct the master ledger from truncated connector output. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+Begin the next unresearched State/UT Phase 1 inventory after Mizoram, following the repository's jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Mizoram and earlier residuals. Do not reopen Manipur or Meghalaya baseline research.
 
 ## Website Status
 
-The repository contains a multi-page static research website and GitHub Actions Pages deployment workflow. Pages configuration and live URL remain unverified because the connector does not expose Pages administration. The website must not be described as live until independently verified.
+The repository contains a multi-page static research website and GitHub Actions Pages workflow. Pages configuration and live URL remain unverified.
 
 ## Latest Controlled Update
 
-- 2026-09-05: Meghalaya Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
-- 2026-09-05: Controlled repository-level Phase 1 completeness audit completed.
-- 2026-09-05: Audit reconciled stale PROJECT_STATE/NEXT_CHAT state, confirmed 16 completed of 36 jurisdictions and 20 remaining unresearched jurisdictions.
-- 2026-09-05: Manipur removed from active workstream status without reopening its research.
-- 2026-09-05: Central later-instrument completeness and BNS/BNSS/BSA transition workstreams confirmed as separate open closure workstreams.
-- 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched under the current instruction.
+- 2026-09-05: Repository-level Phase 1 completeness audit confirmed 16/36 completed and selected Mizoram.
+- 2026-09-05: Mizoram repository inspection found no prior Mizoram-specific inventory, source ledger, issue register or decision addendum.
+- 2026-09-05: Mizoram State/UT inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
+- 2026-09-05: Mizoram residual issues and decisions recorded.
+- 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched.
