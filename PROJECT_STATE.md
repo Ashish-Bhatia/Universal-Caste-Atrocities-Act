@@ -3,18 +3,18 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, initial baseline established; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, SC/ST Act clause extraction and amendment verification advanced; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
 - Baseline artifact: `BASELINE_AUDIT.md`
-- Phase 1 artifacts: `legislation/EXISTING_LAW_BASELINE.md`, `legislation/SOURCE_MAP.md`
+- Phase 1 artifacts: `legislation/EXISTING_LAW_BASELINE.md`, `legislation/SOURCE_MAP.md`, `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`, `legislation/SCST_RULES_VERSION_MATRIX.md`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
 
 ## Zero-Drift Rules
 
 1. Do not restart completed work.
-2. Read this file and `NEXT_CHAT.md` before continuing substantive work.
+2. Read this file and `NEXT_CHAT.md` before substantive continuation.
 3. Check relevant ledgers before repeating research.
 4. Preserve provenance for every material claim.
 5. Record material decisions in `DECISIONS_LOG.md`.
@@ -39,45 +39,36 @@
 
 ## Verified Phase 1 Findings
 
-- Constitution is the governing primary source. Priority provisions include Articles 14, 15, 17, 19, 21, 245, 246, 338, 338A, 341 and 342.
-- Seventh Schedule List III expressly covers criminal law, criminal procedure, administration of justice/court organisation within the stated constitutional allocation, and evidence and oaths.
-- SC/ST (Prevention of Atrocities) Act, 1989 is Act 33 of 1989. India Code identifies sections addressing offences, official neglect, externment, Special/Exclusive Special Courts, appeals, victim/witness rights, preventive action, overriding effect, government duties and rule-making.
-- India Code's current Act record reports a last-updated date of 19-11-2018 and identifies Rules/amendments through 2018. This does not establish absence of later instruments.
-- SC/ST Prevention of Atrocities Rules, 1995 and amendments in 2011, 2013, 2014, 2014, 2016 and 2018 are identified by official sources.
-- BNS, BNSS and BSA were enacted on 25-12-2023 and have an enforcement date of 01-07-2024 in their India Code records.
-- Protection of Civil Rights Act, 1955 is Act 22 of 1955 and addresses untouchability-related offences, with cognizability/summary-trial and implementation provisions identified in section 15 and 15A.
-- Constitution (SC) Order, 1950 and Constitution (ST) Order, 1950 are primary instruments relevant to protected-class identification.
+- The India Code consolidated SC/ST Act PDF is marked “As on the 21st September, 2025” and lists the 2015 Amendment Act, 2018 Amendment Act and Jammu and Kashmir Reorganisation Act, 2019 as amending enactments.
+- The SC/ST Act has been extracted section-by-section from sections 1-23 and the Schedule, with operative subject and interaction points recorded in `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`.
+- Section 18A was inserted by the 2018 Amendment Act and is shown as effective from 20-08-2018.
+- The J&K Reorganisation Act, 2019 removed the former J&K exclusion from section 1(2), effective 31-10-2019.
+- India Code's Act metadata still reports 19-11-2018 as last updated. This is retained as metadata, not treated as a completeness cutoff.
+- The identified SC/ST Rules amendment chain through 2018 is verified at instrument level: 1995 principal Rules, G.S.R. 896(E) 2011, G.S.R. 725(E) 2013, G.S.R. 416(E) 2014, G.S.R. 774(E) 2014, G.S.R. 424(E) 2016 and G.S.R. 588(E) 2018.
+- Ministry of Law and Justice notification S.O. 2790(E), dated 16-07-2024, is a primary transition instrument for references to IPC, CrPC and Indian Evidence Act provisions in Acts, rules, notifications and related instruments, directing corresponding BNS, BNSS and BSA references.
+- BNS section 358 repeals IPC with savings. BNSS section 531 repeals CrPC with savings. These transition provisions are relevant to the SC/ST Act's legacy references.
 
 ## Phase 1 Acceptance Gaps
 
-1. Clause-level extraction of the SC/ST Act is incomplete.
-2. Consolidated and amendment-level extraction of the SC/ST Rules is incomplete.
-3. Current-law later-instrument search remains open.
-4. BNS offence crosswalk is incomplete.
-5. BNSS special-law interface crosswalk is incomplete.
-6. BSA evidence/presumption crosswalk is incomplete.
-7. PCR Act and Rules section-level comparison is incomplete.
-8. Central legislation screening is incomplete.
-9. State legislation and implementation machinery have not yet been exhaustively mapped.
-10. Duplication, conflict, gap and ambiguity register remains provisional.
+1. Consolidated SC/ST Rules clause-by-clause extraction remains incomplete.
+2. Final Gazette/Legislative Department completeness verification for post-2018 Act and Rules instruments remains open.
+3. BNS conduct-by-conduct crosswalk remains incomplete.
+4. BNSS special-law interface crosswalk remains incomplete.
+5. BSA evidence/presumption crosswalk remains incomplete.
+6. PCR Act and Rules section-level comparison remains incomplete.
+7. Priority Central legislation screening remains incomplete.
+8. State-by-State legislation and implementation-rule inventory remains incomplete.
+9. Duplication/conflict/gap/ambiguity register remains incomplete.
 
 ## Tool Capability Boundaries
 
 - Codespaces administration/inspection is not exposed by the current GitHub connector. Codespaces status remains UNVERIFIED.
 - GitHub Pages configuration/publication inspection is not exposed by the current GitHub connector. Pages status remains UNVERIFIED.
-- No claim of Codespaces or Pages configuration has been made.
-
-## Current Dependencies and Blockers
-
-1. Codespaces status remains unverified, but this does not block repository-based Phase 1 research.
-2. GitHub Pages status remains unverified, but this does not block Phase 1.
-3. Petition platform/privacy architecture and custom-domain decisions remain open and are not current research blockers.
-4. Prior project-chat material outside the repository remains unverified and must not be reconstructed.
 
 ## Exact Current Position
 
-The first primary-source legal baseline and source map are committed. Phase 1 remains active. No Bill drafting has begun. No policy conclusion has been drawn. No constitutional validity conclusion has been drawn.
+The first Phase 1 source map and baseline remain authoritative and have not been recreated. The SC/ST Act is now extracted from the India Code consolidation marked 21-09-2025. The SC/ST Rules amendment history through 2018 is recorded and verified at instrument level. No Bill drafting has begun. No policy, necessity, superiority or constitutional-validity conclusion has been reached.
 
-## Next Required Action
+## Exact Stopping Point
 
-Continue Phase 1 with clause-level extraction and version verification for the SC/ST Act and Rules, then build the BNS/BNSS/BSA/PCR crosswalk and complete the state-law source inventory. Record every material proposition, source, version/date, interaction, duplication, conflict, gap, ambiguity and verification status. Do not declare Phase 1 complete until its acceptance criteria are independently satisfied.
+Stop after the Act clause extraction and Rules amendment-history pass. The next discrete workstream is to complete the consolidated rule-by-rule extraction of the 1995 Rules, including every sub-rule, Schedule and Annexure, while applying the BNS/BNSS/BSA transition instrument. Then proceed to the BNS conduct crosswalk and BNSS/BSA crosswalks. Do not repeat the Act extraction already stored in `legislation/SCST_ACT_CLAUSE_EXTRACTION.md` unless correcting or extending it.
