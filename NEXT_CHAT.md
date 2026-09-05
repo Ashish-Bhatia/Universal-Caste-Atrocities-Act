@@ -62,12 +62,12 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 ## Next Authorized Workstream
 Begin the cumulative Phase 1 acceptance audit and reconciliation using `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, the cumulative ledgers and all 36 jurisdiction records. Do not reopen completed jurisdiction research unless a qualifying defect is identified.
 
-Before beginning Puducherry:
+Before beginning the cumulative Phase 1 acceptance audit:
 1. Read `PROJECT_STATE.md`.
 2. Read `NEXT_CHAT.md`.
 3. Read `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
-4. Read current `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` for the cumulative control position.
-5. Read the completed-jurisdiction artifacts only if needed to preserve methodology or control boundaries. Do not repeat their substantive research.
+4. Read current `ISSUES_REGISTER.md` and `DECISIONS_LOG.md`.
+5. Read the 36 jurisdiction control records only as needed to reconcile acceptance criteria. Do not repeat completed substantive research.
 6. Preserve the exact 377-ID source-ledger discrepancy and do not alter the master source ledger for website synchronization.
 
 ## Puducherry Completion Record
@@ -93,11 +93,11 @@ Do NOT begin Phase 2 case-law research.
 
 ## Exact Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from the completed 2026-09-06 Lakshadweep Phase 1 stopping point.
+Continue the Universal Caste Atrocities Act project from the completed 2026-09-06 Puducherry Phase 1 stopping point.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and the Lakshadweep artifacts `legislation/states/LAKSHADWEEP.md`, `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` and `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and the Puducherry artifacts `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` and `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`.
 
-Lakshadweep is complete for its defined first-pass inventory and classified PROCEED/CLOSE WITH LIMITATIONS. Preserve its 18 open residuals. Do not repeat Lakshadweep unless the formal reopening rule is met. The next authorized workstream is cumulative Phase 1 acceptance audit and reconciliation. Puducherry research is complete for its defined first-pass inventory.
+Puducherry is complete for its defined first-pass inventory and classified PROCEED/CLOSE WITH LIMITATIONS. Preserve its 16 open residuals. Do not repeat Puducherry unless the formal reopening rule is met. The next authorized workstream is cumulative Phase 1 acceptance audit and reconciliation.
 
 The website/source-ledger remediation remains CLOSED AND VERIFIED. The exact control baseline remains `MASTER_IDS=261`, `JURISDICTION_LEDGER_FILES=29`, `JURISDICTION_LEDGER_IDS=571`, `MISSING_FROM_MASTER=377`, `MASTER_ONLY_IDS=67`. Do not repeat the remediation or treat the discrepancy as resolved.
 

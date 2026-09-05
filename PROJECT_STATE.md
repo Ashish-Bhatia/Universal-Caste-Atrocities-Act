@@ -11,7 +11,7 @@
 36 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
 
 Completed sequence:
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep, Puducherry.
 
 Jammu and Kashmir remains the 33rd completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open. The Rule 8 Protection Cell contradiction remains unresolved.
 
@@ -147,7 +147,7 @@ PUBLIC/INTERNAL SEPARATION: PASS, verified by generated artifact inspection.
 
 WEBSITE ZERO-DRIFT CONTROL: PASS for the remediated rendering layer.
 
-Master State Implementation Inventory reconciliation: COMPLETE through Lakshadweep substantive artifact addition.
+Master State Implementation Inventory reconciliation: COMPLETE through Puducherry substantive artifact addition.
 
 Master State Implementation Source Ledger substantive content: UNCHANGED by the website remediation and by the Lakshadweep work. Lakshadweep's jurisdiction source ledger is separate and is not represented as master-ledger integration.
 
