@@ -7,7 +7,7 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## Completed State/UT Inventories
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu and Delhi (NCT) are inventoried with qualifications. Delhi (NCT) is the 32nd completed State/UT inventory.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT) and Jammu and Kashmir are inventoried with qualifications. Jammu and Kashmir is the 33rd completed State/UT inventory.
 
 - Meghalaya: PH1-ISSUE-256 through PH1-ISSUE-265 open.
 - Mizoram: PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 open.
@@ -26,15 +26,16 @@ Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Har
 - Chandigarh: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-CH-001 through PH1-ISSUE-CH-016 open, with controlled Rule 8 staffing and relief-data reconciliation residuals.
 - Dadra and Nagar Haveli and Daman and Diu: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-DD-001 through PH1-ISSUE-DD-016 open, with controlled post-merger SC/ST instrument, court-coverage and relief-reconciliation residuals.
 - Delhi (NCT): PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-DL-001 through PH1-ISSUE-DL-016 open, with controlled current appointment, court/prosecutor, committee and relief-audit residuals.
+- Jammu and Kashmir: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 open, with a controlled Rule 8 Protection Cell contradiction and current appointment, court, prosecutor, committee, relief and reporting residuals.
 - Manipur remains closed for the current sequence with documented residuals.
 
-## Delhi Current Position
-Delhi has a documented PoA administrative framework. Delhi government pages publish the PoA Act/Rules and relief framework; the Delhi Police Citizen Charter confirms an SC/ST Protection Cell in the Crime Branch. Ministry reporting establishes Rule 9 Nodal Officer, Rule 10 Special Officer, V&MC, Special Court and SPP arrangements for historical reporting periods. The Parliamentary Standing Committee recorded 36, 78, 70, 141 and 130 PoA cases for 2018-2022 respectively and 487 cases pending trial at the end of 2022. Recent Delhi High Court proceedings in 2025-2026 corroborate continuing PoA litigation.
+## Jammu and Kashmir Current Position
+Jammu and Kashmir has substantial post-2019 PoA implementation evidence. The former territorial exception was removed effective 31 October 2019. The 2022 J&K Annual Report records a Rule 9 appointment, district and sub-divisional V&MCs, 20 Special Courts, SPP designations, investigation and charge-sheet data, relief/payment arrangements, legal aid and victim/witness support. The 2024 ST Order amendment materially changes beneficiary-scope verification. The 2025 J&K General Administration Department records reconstitution of the High Power V&MC, a January 2026 Jammu district V&MC meeting provides recent local corroboration, and the 2025 High Court vulnerable-witness protocol recognizes PoA victim/dependant rights.
 
-Current formal Rule 9 appointment, Rule 8 staffing, investigation roster, dedicated Special Police Station status, Rule 3/Rule 10 current instrument, V&MC compliance, current Section 14/14A court corpus, current Exclusive Special Court status, current SPP/ESPP roster, case-level relief workflow, later Section 21(4) reports and BNS/BNSS/BSA transition instructions remain open.
+The principal unresolved issue is Rule 8. The 2022 J&K report says district-level Special Cells existed but the UT-level Rule 8 Protection Cell was under consideration, while a 2022 PIB response states a Protection Cell had been set up. This contradiction remains open. Current 2026 Rule 8, Rule 9, Rule 10, Special Police Station, court, SPP/ESPP, relief, section 15A(11) and later Section 21(4) instruments remain incompletely verified.
 
 ## National Open Position
-Four jurisdictions remain unresearched after Delhi: Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally unsynchronized except where explicitly authorized by a later consolidation phase.
+Three jurisdictions remain unresearched after Jammu and Kashmir: Ladakh, Lakshadweep and Puducherry. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally unsynchronized except where explicitly authorized by a later consolidation phase.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
@@ -42,4 +43,4 @@ No Bill drafting, policy-superiority/necessity analysis, constitutional-validity
 Multi-page static website architecture continues. Pages configuration and live URL remain unverified.
 
 ## Latest Controlled Update
-2026-09-05: Delhi (NCT) was researched as the 32nd completed State/UT Phase 1 inventory. A jurisdiction inventory, source ledger, issue register and decision file were created. Delhi was classified PROCEED/CLOSE WITH LIMITATIONS. Current appointment/designation, court/prosecutor, committee, relief-audit and later-reporting residuals remain open. Master State files were not used as write targets.
+2026-09-05: Jammu and Kashmir was researched as the 33rd completed State/UT Phase 1 inventory. Created `legislation/states/JAMMU_KASHMIR.md`, `research/states/JAMMU_KASHMIR_SOURCE_LEDGER.md`, `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md` and `project-state/JAMMU_KASHMIR_DECISIONS_2026-09-05.md`. Classified Jammu and Kashmir PROCEED/CLOSE WITH LIMITATIONS. Master State files were not used as write targets. Preserved earlier Delhi and all prior jurisdiction residuals.
