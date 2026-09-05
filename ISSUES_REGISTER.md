@@ -204,3 +204,14 @@ The following is a reconciliation-only index. It does not recreate missing subst
 ## Residual closure rule
 
 Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh and Goa residual items are carried separately into final Phase 1 verification. Gujarat, Haryana, Jharkhand, Karnataka, Kerala and Madhya Pradesh residual items are separately recorded above. Later jurisdiction-specific residuals remain controlled through the explicit index and their repository records. Completed jurisdictions must not be reopened unless new evidence directly changes recorded status. All residual items remain subject to the rule that search silence is not proof of absence.
+
+
+## Jurisdiction Residual-Control Index: Lakshadweep, 2026-09-06
+
+This section indexes the existing Lakshadweep residual IDs into the cumulative control layer. It does not renumber, recreate or merge substantive issue rows. The jurisdiction-specific issue record remains authoritative.
+
+| Jurisdiction | Existing jurisdiction-specific issue IDs | Source of record | Status | Disposition |
+|---|---|---|---|---|
+| Lakshadweep | PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 | `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` | All 18 OPEN | PROCEED/CLOSE WITH LIMITATIONS |
+
+Controlled residual universe: Rule 8 Protection Cell, Rule 9 Nodal Officer, Rule 3 identified-area position, Rule 10 Special Officer, V&MCs, Rule 7 investigation, section 14 Special Court, Exclusive Special Court, PoA SPP/ESPP, annual-report retrieval/extraction, Section 21(4) reporting, relief/payment/rehabilitation, section 15A/legal aid, PoA Gazette/SOP corpus, BNS/BNSS/BSA transition, 2026 draft Protection Scheduled Tribes Regulation amendment status, digital/FIR/case-management workflow and Rule 15 contingency plan.

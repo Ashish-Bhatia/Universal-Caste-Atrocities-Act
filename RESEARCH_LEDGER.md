@@ -155,3 +155,14 @@ The following index is a reconciliation-only control layer. It does not recreate
 5. The three remaining jurisdictions, Ladakh, Lakshadweep and Puducherry, remain unresearched.
 6. `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` remain outside this repair.
 7. The cumulative control layer is synchronized as of 2026-09-06, subject to independent post-write verification.
+
+
+## Jurisdiction Control Index: Lakshadweep, 2026-09-06
+
+This section is reconciliation metadata only. It does not create new cumulative research IDs and does not replace the jurisdiction-specific substantive record.
+
+| Jurisdiction | Inventory | Source ledger | Issue record | Decision record | Disposition | Source IDs | Residual IDs | Decision IDs |
+|---|---|---|---|---|---|---|---|---|
+| Lakshadweep | `legislation/states/LAKSHADWEEP.md` | `research/states/LAKSHADWEEP_SOURCE_LEDGER.md` | `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` | `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md` | PROCEED/CLOSE WITH LIMITATIONS | LAK-001 through LAK-019 | PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 | DEC-LK-2026-09-06-001 through DEC-LK-2026-09-06-010 |
+
+Control note: Lakshadweep is the 35th completed jurisdiction. Its jurisdiction-specific source, residual and decision IDs remain governed by the jurisdiction-specific artifacts. No cumulative PH1, PH1-ISSUE or DEC ID has been fabricated, renumbered or promoted.
