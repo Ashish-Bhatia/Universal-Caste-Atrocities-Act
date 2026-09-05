@@ -6,43 +6,45 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Completed This Session
 
-- Read PROJECT_STATE.md, NEXT_CHAT.md, RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and BASELINE_AUDIT.md before continuation.
-- Confirmed Maharashtra is the next uncompleted jurisdiction after Madhya Pradesh.
-- Created `legislation/states/MAHARASHTRA.md`.
-- Created `research/states/MAHARASHTRA_SOURCE_LEDGER.md` with MH-STATE-001 through MH-STATE-020.
-- Maharashtra research used current/recent official Maharashtra State Police, Maharashtra Home Department, Social Justice & Special Assistance Department, Social Welfare Commissionerate, Government of Maharashtra GR repository, official Bombay High Court material and official Ministry of Social Justice & Empowerment reports/data.
+- Retrieved the complete current master-ledger content through controlled range retrieval rather than relying on the truncated connector output.
+- Preserved the existing master jurisdiction entries and integrated Maharashtra MH-STATE-001 through MH-STATE-020.
+- Verified the resulting master after write and compared the integration commit before beginning Manipur.
+- Created `legislation/states/MANIPUR.md`.
+- Created `research/states/MANIPUR_SOURCE_LEDGER.md` with MN-STATE-001 through MN-STATE-028.
+- Created `project-state/MANIPUR_ISSUES_ADDENDUM.md` with PH1-ISSUE-179 through PH1-ISSUE-195.
+- Created `project-state/MANIPUR_DECISIONS_ADDENDUM.md` with DEC-0107 through DEC-0115.
+- Began Manipur using independent current/recent official-source research, with historical Central reporting periods kept separate.
 
-## Maharashtra Verified Findings
+## Maharashtra Master-Ledger Integration
 
-- Current Maharashtra Home Department publishes the SC/ST PoA Act, Maharashtra Atrocities Rules 1995 and PCR Act.
-- Maharashtra Police maintains a dedicated Civil Rights Protection section with PoA procedure material, related GR/circular material and a monthly SC/ST/PCR statistics publication dated 21-08-2026.
-- A primary Home Department decision dated 27-03-2026 extended the temporary ADGP, Civil Rights Protection post from 01-03-2026 through 31-08-2026. Status after 31-08-2026 is unresolved and must not be inferred.
-- A 26-02-2019 Maharashtra Home Department circular provides prevention guidance covering sensitive-area identification, committees, special police deployment, quarterly review, investigation, seven-day immediate assistance and training.
-- Current Social Justice material describes financial assistance for SC/ST atrocity victims and identifies the 23-12-2016 GR as its relief basis, with police reporting, Assistant Commissioner and District Collector stages.
-- Official Central Maharashtra reports record Rule 9, Special Court, Exclusive Special Court and sensitive-area arrangements for 2019 and 2022. These are reporting-period evidence only. The 2019 report identified Dhule, Nandurbar, Jalgaon, Akola, Gadchiroli and Parbhani as atrocity-prone areas, while the 2022 report recorded no identified atrocity-prone area.
-- Current Central scheme data records Maharashtra relief recipients of 2,245, 3,339, 2,869, 3,339 and 5,661 for 2020-21 through 2024-25 and Central assistance of Rs.58.13 crore, Rs.7.73 crore, Rs.12.83 crore, Rs.37.28 crore and Rs.24.52 crore respectively. These are scheme-level figures.
-- Official Bombay High Court judgments show functioning Special Judges under the Atrocities Act in identified districts, but do not establish a complete 2026 statewide court matrix.
+`research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` now contains the pre-existing jurisdiction entries plus MH-STATE-001 through MH-STATE-020. The integration was completed before Manipur research began. Do not repeat the failed incomplete-master reconstruction attempt.
 
-## Maharashtra Residuals
+## Manipur Verified Findings
 
-The Maharashtra source ledger records 19 residual closure items, including current Rule 9 designation, post-31-08-2026 Civil Rights Protection status, current Protection Cell and police-unit matrix, Rule 10/sensitive-area notifications, V&MCs, Special Courts, SPP/ESPP appointments, Maharashtra Rules and PoA procedure extraction, relief/DBT workflow, contingency plan, digital workflow, 21-08-2026 statistics extraction, related-law interfaces, post-BNS/BNSS/BSA instructions and current State budget records.
+- Current Manipur Police records contain continuing SC/ST PoA FIRs, including post-01-07-2024 cases combining BNS provisions with PoA provisions.
+- A primary Manipur Law Department order dated 17-01-2019 appointed District/Additional Public Prosecutors in seven Sessions Court jurisdictions as Special Public Prosecutors under section 15 of the PoA Act until further orders. Current continuation/replacement status is unresolved.
+- Historical Central records identify Manipur as having a Rule 9 nodal officer and District Sessions Courts designated as Special Courts. These are historical reporting-period findings and are not treated as a current 2026 census.
+- Official Parliament data for FY 2022-23 through FY 2024-25 shows zero Central assistance sought by Manipur under the PCR/PoA Centrally Sponsored Scheme and no listed number of victims provided relief in that Central-assistance table. This does not establish absence of State-funded relief.
+- Current High Court material lists District & Sessions Courts and other special courts but the located current list does not itself identify a PoA Special Court. This remains an open current-status question, not an absence finding.
+- Manipur's July 2024 Budget Speech records BNS, BNSS and BSA implementation from 01-07-2024. Current Police FIRs demonstrate BNS/PoA coexistence, but no current PoA-specific State SOP has been frozen.
+- Current State land, municipal, land-acquisition/R&R, FRA and bonded-labour interface material was located. A current Manual Scavengers-specific State instrument was not located in targeted official searches. Neither result is treated as an absence conclusion.
 
-## Master-Ledger Status
+## Manipur Residuals
 
-`research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` was verified as containing the prior jurisdiction records, but the connector exposes the file in truncated form. Maharashtra's supplemental ledger therefore has not yet been integrated into the master ledger in this session. A controlled complete-file preservation/reconstruction operation is required before claiming master integration.
+PH1-ISSUE-179 through PH1-ISSUE-195 are recorded in `project-state/MANIPUR_ISSUES_ADDENDUM.md`. They cover current Rule 9, Protection Cell/Special Police Station, Rule 10/sensitive areas, V&MCs, Special/Exclusive Special Courts, SPP/ESPP, relief/payment, PoA-specific digital/SOP systems, PCR, Manual Scavengers, bonded labour, land/local government, post-BNS/BNSS/BSA instructions and annual-report status.
 
 ## Separate Closure Workstreams
 
 - Final Central later-instrument completeness remains separate.
 - BNS/BNSS/BSA transition verification remains separate.
-- All completed-jurisdiction residuals remain separate from Maharashtra residuals and the next jurisdiction.
+- Maharashtra and Manipur residuals remain separate from prior jurisdiction residuals.
 - GitHub Pages configuration/live URL remains unverified.
 - No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Exact Next Action
 
-First update the authoritative control records for Maharashtra, including RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and PROJECT_STATE.md, without reopening completed jurisdictions. Then perform the controlled master-ledger integration for `research/states/MAHARASHTRA_SOURCE_LEDGER.md`, preserving all existing entries. After integration, proceed to the next uncompleted jurisdiction, Manipur. Do not repeat Maharashtra research unless new evidence changes a recorded status.
+Continue Manipur current/recent official-source verification. Prioritise current Rule 9 designation, Protection Cell/Special Police Station matrix, Rule 10/sensitive-area instruments, V&MC orders/minutes, current Special/Exclusive Special Court notifications, SPP/ESPP continuation, relief/payment workflow, PoA-specific SOP/digital systems, PCR/Manual Scavengers/bonded-labour/local-government/land interfaces, latest Rule 18/section 21(4) annual-report submission and post-BNS/BNSS/BSA State instructions. Do not repeat Maharashtra or earlier-jurisdiction research. Do not start Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
 
 ## Continuation Instruction
 
-Continue Phase 1, Existing-Law Baseline and Source Map. Read PROJECT_STATE.md, NEXT_CHAT.md, RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and BASELINE_AUDIT.md first. Maharashtra is the latest completed jurisdiction, with `legislation/states/MAHARASHTRA.md` and `research/states/MAHARASHTRA_SOURCE_LEDGER.md` containing MH-STATE-001 through MH-STATE-020. Do not repeat Phase 0, initial source map, SC/ST Act/Rules extraction, BNS/BNSS/BSA crosswalks, PCR/Manual Scavengers/Bonded Labour comparisons, Central screening, PH1-AUDIT-001 remediation, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh or Maharashtra inventory research. Complete the authoritative control-record updates and controlled Maharashtra master-ledger integration first, preserving every existing jurisdiction entry. Then begin Manipur using independent current/recent official-source research. Preserve reporting periods, do not infer current arrangements from another jurisdiction, do not treat search silence as absence, keep jurisdiction residuals separate, and keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
+Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `research/states/MANIPUR_SOURCE_LEDGER.md`, `legislation/states/MANIPUR.md`, `project-state/MANIPUR_ISSUES_ADDENDUM.md` and `project-state/MANIPUR_DECISIONS_ADDENDUM.md`. Do not repeat Phase 0, initial source map, SC/ST Act/Rules extraction, BNS/BNSS/BSA crosswalks, PCR/Manual Scavengers/Bonded Labour comparisons, Central screening, PH1-AUDIT-001 remediation, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh or Maharashtra research, or the completed Maharashtra master-ledger integration. Continue Manipur independently with current/recent official sources. Preserve historical versus current reporting periods, do not infer current arrangements from another State, do not treat search silence as absence, keep Manipur residuals separate from Maharashtra and prior residuals, and keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
