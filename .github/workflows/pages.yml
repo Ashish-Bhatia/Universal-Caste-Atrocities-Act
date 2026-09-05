@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Prepare repository path compatibility
+        run: ln -sf DELHI.md legislation/states/DELHI_NCT.md
+
       - name: Validate website builder
         run: python3 -m py_compile scripts/build_website.py
 
