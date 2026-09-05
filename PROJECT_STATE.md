@@ -45,40 +45,43 @@
 
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha and Punjab inventories completed with qualifications.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab and Rajasthan inventories completed with qualifications.
 - Meghalaya: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
 - Manipur remains closed for the current sequence with documented residuals.
 - Mizoram: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 remain open.
 - Nagaland: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-NG-001 through PH1-ISSUE-NG-018 remain open.
 - Odisha: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-OD-001 through PH1-ISSUE-OD-018 remain open.
 - Punjab: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-PB-001 through PH1-ISSUE-PB-016 remain open.
+- Rajasthan: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-RJ-001 through PH1-ISSUE-RJ-016 remain open.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Punjab is now the 20th completed State/UT inventory in the controlled sequence, leaving 16 unresearched jurisdictions according to the repository master sequence. The master inventory remains stale by design and was not modified.
+Phase 1 remains active. Rajasthan is now the 21st completed State/UT inventory in the controlled sequence, leaving 15 unresearched jurisdictions according to the repository master sequence. The master inventory remains stale by design and was not modified.
 
-Punjab is classified PROCEED/CLOSE WITH LIMITATIONS. The strongest Punjab-specific implementation snapshot located is the Ministry's Section 21(4) report for calendar year 2022, supplemented by Punjab Government, Punjab Police and Punjab & Haryana High Court material.
+Rajasthan is classified PROCEED/CLOSE WITH LIMITATIONS. The strongest Rajasthan-specific implementation snapshot located is the Ministry's Section 21(4) report for calendar year 2022, supplemented by Rajasthan Government/Social Justice and Empowerment Department, Rajasthan Police, Rajasthan Legislative Assembly and Rajasthan High Court material.
 
-The 2022 Punjab report records a State V&MC under the Chief Minister with no State-level meeting, five District V&MC meetings in 23 districts, and no Sub-Divisional V&MC meeting. It records a State SC/ST Protection Cell headed by an SP under the Director, Bureau of Investigation/ADGP Crime, with district cells under SSPs. It records 17 investigations/charge-sheets within 60 days and 28 later than 60 days. It records 27 Special Courts in all districts, two Exclusive Special Courts at Ludhiana and Fatehgarh Sahib, 26 SPPs and two ESPPs. It reports no atrocity-prone area.
+The 2022 Rajasthan report records a State V&MC under the Chief Minister with no State-level meeting, 123 District V&MC meetings in 33 districts, and six Sub-Divisional V&MC meetings in four sub-divisions. It records a Civil Rights Cell at Police Headquarters headed by an SP under the ADGP Civil Rights, with DIG Civil Rights and staff, plus 37 SC/ST Cells in 33 districts headed by DSPs. It records 4,195 charge-sheets within 60 days and 5,445 later than 60 days. It records Exclusive Special Courts in 31 of 35 districts, with four designated Special Courts, 31 ESPPs and three SPPs. It records 32 persons receiving travel/maintenance expenses and 15,474 atrocity victims receiving relief.
 
-For Scheduled Caste PoA police statistics in 2022, the official report records 166 cases pending from the previous year, 274 registered during 2022, 62 charge-sheeted, 24 final reports and 158 pending with police at year end. It records no relief recipients within seven days and nine later than seven days, while a separate reporting field records relief to 26 atrocity victims. These are historical reporting-period figures, not 2026 compliance findings, and the different relief fields are not treated as equivalent.
+The 2022 report also contains a historical identified-area/atrocity-prone-area annexure. The current 2026 Rule 10 and identified-area position remains open and is not inferred from the historical annexure.
 
-A 2020 official report identifies the Secretary/Principal Secretary of the Welfare of Scheduled Castes & Backward Classes and Minorities Department as the Rule 9 Nodal Officer. The current 2026 appointment order remains open. Current Rule 10 appointment orders, current atrocity-prone-area status, current dedicated special-police-station matrix, current Protection Cell order, current V&MC compliance, current Special/Exclusive Special Court notifications, current SPP/ESPP roster, current relief workflow, later annual reports and post-BNS/BNSS/BSA State instructions remain open.
+Rajasthan Police current/recent material corroborates continuing Civil Rights and SC/ST specialist functions and publishes 2024 SC/ST comparative statistics. Those statistics are kept separate from the Central Section 21(4) series because reporting definitions and periods differ.
 
-The 2022 searchable ST table contains an internally inconsistent Punjab row and is not used for a substantive Punjab ST statistical conclusion until reconciled.
+A 2025 Rajasthan High Court administrative record confirms continuing Special Court, SC/ST (Prevention of Atrocities) postings. A current statewide 2026 court notification and full SPP/ESPP roster remain open.
 
-Punjab-specific residuals are recorded in `project-state/PUNJAB_ISSUES_2026-09-05.md` and decisions in `project-state/PUNJAB_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/PUNJAB_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/PUNJAB.md`.
+Current Rule 9 appointment, Rule 10 orders, current police-cell establishment/staffing, current V&MC compliance, current relief/payment workflow, later annual reports, and post-BNS/BNSS/BSA State instructions remain open. These are historical/currentness residuals, not reasons to repeat the completed baseline.
+
+Rajasthan-specific residuals are recorded in `project-state/RAJASTHAN_ISSUES_2026-09-05.md` and decisions in `project-state/RAJASTHAN_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/RAJASTHAN_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/RAJASTHAN.md`.
 
 Central later-instrument/current-law completeness remains separate. BNS/BNSS/BSA transition verification remains separate and unfrozen. No blanket numerical substitution is permitted.
 
-Phase 1 acceptance criteria remain NOT YET SATISFIED because 16 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
+Phase 1 acceptance criteria remain NOT YET SATISFIED because 15 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
 ## Next Discrete Workstream
 
-Begin the next unresearched State/UT Phase 1 inventory after Punjab, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. Do not reopen completed baseline research.
+Begin the next unresearched State/UT Phase 1 inventory after Rajasthan, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. Do not reopen completed baseline research.
 
 ## Website Status
 
@@ -86,7 +89,7 @@ The repository contains a multi-page static research website and GitHub Actions 
 
 ## Latest Controlled Update
 
-- 2026-09-05: Punjab repository inspection found no prior Punjab-specific inventory, source ledger, issue register or decision addendum.
-- 2026-09-05: Punjab State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
-- 2026-09-05: Punjab source ledger, issue register and decision addendum created.
+- 2026-09-05: Repository inspection found no prior Rajasthan-specific inventory, source ledger, issue register or decision addendum.
+- 2026-09-05: Rajasthan State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
+- 2026-09-05: Rajasthan source ledger, issue register and decision addendum created.
 - 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched.
