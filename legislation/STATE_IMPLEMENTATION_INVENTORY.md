@@ -30,7 +30,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Andhra Pradesh | IN PROGRESS | `legislation/states/ANDHRA_PRADESH.md` |
 | Arunachal Pradesh | IN PROGRESS | `legislation/states/ARUNACHAL_PRADESH.md` |
 | Assam | IN PROGRESS | `legislation/states/ASSAM.md` |
-| Bihar | NOT STARTED | — |
+| Bihar | IN PROGRESS | `legislation/states/BIHAR.md` |
 | Chhattisgarh | NOT STARTED | — |
 | Goa | NOT STARTED | — |
 | Gujarat | NOT STARTED | — |
@@ -66,8 +66,12 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
 Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
+
+## Bihar Status Summary
+
+Bihar is sufficiently inventoried for progression, with qualifications. Current State evidence establishes an active SC & ST Welfare Department PoA publication layer and a 13-08-2026 State-level V&MC reconstitution notice. Current Patna High Court records establish continuing Exclusive Special Court under SC/ST Act postings and operation. Historical official records establish the Protection Cell, Rule 9/10 architecture, 33 sensitive districts, Special Courts and SPP/ESPP arrangements. Current statewide nodal, Protection Cell, Rule 10, court, prosecutor, committee, relief/payment and PoA-specific Gazette/SOP details remain incompletely frozen.
