@@ -102,6 +102,12 @@ New controlled advances:
 - `legislation/BONDED_LABOUR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`: BLSA IPC abetment references are advanced to BNS section 45; BLSA CrPC reference and summary-trial provision are advanced to a controlled BNSS correspondence. The identified 1978/1983 Rules amendment instrument numbers/dates are now reconciled through a Government-hosted reproduction.
 - Manual Scavengers State-specific section 21 empowerment remains an implementation residual and was not reopened.
 
+New 2026-09-06 transition primary-source advance:
+- `project-state/PH1_CENTRAL_TRANSITION_PRIMARY_SOURCE_ADVANCE_2026-09-06.md` records the primary-text resolution of Rule 7's BNSS subject-matter correspondence, preserves the special 60-day investigation/charge-sheet duty without equating it to BNSS section 187 default-bail periods, and isolates the remaining judicial-consequence question for Phase 2.
+- The same record adds explicit section 3(2)(v) threshold controls and identifies Schedule correspondence classes where BNS mergers, punishment changes or element changes affect application.
+- BSA sections 104-109 and 115 are expressly distinguished from SC/ST Act section 8's special presumptions. No equivalence is asserted.
+- PH1-ISSUE-003, PH1-ISSUE-004, PH1-ISSUE-005 and PH1-ISSUE-009 remain ADVANCED WITH QUALIFICATION.
+
 ## Decision Gate
 
 STATE/UT INVENTORY COMPLETENESS: PASS, 36/36.
@@ -132,6 +138,8 @@ PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Advanced PH1-ISSUE-008 with current India Code SC/ST Rules registry evidence and reconciled the identified BLSA 1978/1983 Rules amendment instrument numbers/dates through a Government-hosted reproduction. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
+2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
 
 2026-09-06: added `project-state/PH1_CENTRAL_LATER_INSTRUMENT_SOURCE_ADVANCE_2026-09-06.md`. Current Department of Social Justice and Empowerment publication-index evidence last updated 31-08-2026 strengthens the SC/ST Rules and PCR current-source endpoint. Official India Code-hosted Gazette instruments independently corroborate the identified 2013, 2014, 2016 and 2018 SC/ST Rules amendments. PH1-ISSUE-008 remains open; no legal absence is inferred from search silence.
+
+2026-09-06: added `project-state/PH1_CENTRAL_TRANSITION_PRIMARY_SOURCE_ADVANCE_2026-09-06.md`. Primary-text transition work advanced: section 3(2)(v) is treated as an offence-specific BNS punishment-threshold question; material Schedule mergers/punishment/element changes are explicitly controlled; Rule 7 is mapped to BNSS by subject matter and its 60-day duty is not equated with BNSS section 187 default-bail periods; BSA ss.104-109 and s.115 are distinguished from SC/ST Act s.8. Judicial consequences remain deferred to Phase 2. PH1-ISSUE-008 remains open.
