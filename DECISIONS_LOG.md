@@ -69,7 +69,7 @@ DEC-0001 through DEC-0123 are preserved in this cumulative control file and rema
 
 ## Cumulative Phase 1 jurisdiction-decision control index
 
-This is a reconciliation-only index. It does not recreate substantive decision text or assign new decision IDs. It records the dedicated decision records already verified during the 2026-09-06 state-control reconciliation.
+This is a reconciliation-only index. It does not recreate substantive decision text or assign new decision IDs. It records the dedicated decision records already verified during the 2026-09-06 state-control reconciliation and related controlled addenda already present in the repository.
 
 | Sequence | Jurisdiction | Decision control record | Cumulative status |
 |---:|---|---|---|
@@ -81,13 +81,13 @@ This is a reconciliation-only index. It does not recreate substantive decision t
 | 6 | Goa | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Goa source-ledger integration decision remains in cumulative record. |
 | 7 | Gujarat | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Gujarat decisions remain in DEC-0069 to DEC-0074. |
 | 8 | Haryana | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Haryana decisions remain in DEC-0077 to DEC-0080. |
-| 9 | Himachal Pradesh | ABSENT/INDEXED; cumulative decisions only | Controlled absence, no substantive reopening. |
+| 9 | Himachal Pradesh | No complete cumulative block | `DEC-0081` through `DEC-0084` | Controlled later decision set in `research/states/HIMACHAL_PRADESH_MASTER_LEDGER_APPEND.md`. |
 | 10 | Jharkhand | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Jharkhand decisions remain in DEC-0085 to DEC-0088. |
 | 11 | Karnataka | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Karnataka decisions remain in DEC-0089 to DEC-0092. |
 | 12 | Kerala | ABSENT/INDEXED; cumulative decisions only | Controlled absence; Kerala decisions remain in DEC-0093 to DEC-0096. |
 | 13 | Madhya Pradesh | ABSENT/INDEXED; cumulative decisions only | Controlled absence; MP decisions remain in DEC-0098 to DEC-0101. |
 | 14 | Maharashtra | `project-state/MAHARASHTRA_DECISIONS_ADDENDUM.md` and controlled continuation records | Dedicated decision record verified; IDs remain jurisdiction-specific. |
-| 15 | Manipur | `project-state/MANIPUR_DECISIONS_ADDENDUM.md` and controlled continuation records | Dedicated decision records verified; existing DEC-0116 to DEC-0123 remain cumulative. |
+| 15 | Manipur | `project-state/MANIPUR_DECISIONS_ADDENDUM.md` and controlled continuation records | DEC-MN-0124 through DEC-MN-0171 are preserved in later continuation records; existing cumulative DEC-0116 through DEC-0123 remain cumulative. |
 | 16 | Meghalaya | `project-state/MEGHALAYA_DECISIONS_2026-09-05.md` | DEC-MG-0001 through DEC-MG-0010 verified. |
 | 17 | Mizoram | jurisdiction-specific decision record verified by reconciliation | Decision record preserved without new cumulative IDs. |
 | 18 | Nagaland | jurisdiction-specific decision record verified by reconciliation | Decision record preserved without new cumulative IDs. |
