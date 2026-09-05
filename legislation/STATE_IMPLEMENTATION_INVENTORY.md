@@ -26,7 +26,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Jharkhand | IN PROGRESS | `legislation/states/JHARKHAND.md` |
 | Karnataka | IN PROGRESS | `legislation/states/KARNATAKA.md` |
 | Kerala | IN PROGRESS | `legislation/states/KERALA.md` |
-| Madhya Pradesh | NOT STARTED | — |
+| Madhya Pradesh | IN PROGRESS | `legislation/states/MADHYA_PRADESH.md` |
 | Maharashtra | NOT STARTED | — |
 | Manipur | NOT STARTED | — |
 | Meghalaya | NOT STARTED | — |
@@ -53,11 +53,15 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka and Kerala have received independent official-source inventories with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala and Madhya Pradesh have received independent official-source inventories with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
 Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
+
+## Madhya Pradesh Status Summary
+
+Madhya Pradesh is sufficiently inventoried for progression with qualifications. Current official State sources establish an active PoA scheme/service layer through the CM Helpline directory, current Special Judge postings through the High Court of Madhya Pradesh, current PoA-related police/prosecution training in Datia, and State legal/service repositories. Official Central State-specific reports establish an ADGP-led Protection Cell, 51 Special Police Stations, State/District monitoring committees, Secretary-level Rule 9 nodal architecture and DSP-level Rule 7 investigation for their respective reporting periods. Current primary Rule 9, Protection Cell, police-unit, Rule 10, atrocity-prone-area, V&MC, court, prosecutor, relief/payment, SOP/digital, related-law and post-BNSS instruments remain open.
 
 ## Kerala Status Summary
 
@@ -83,4 +87,4 @@ Goa remains sufficiently inventoried for progression with qualifications, with 2
 
 ## Status
 
-Kerala has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from all prior jurisdiction residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Madhya Pradesh has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from all prior jurisdiction residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
