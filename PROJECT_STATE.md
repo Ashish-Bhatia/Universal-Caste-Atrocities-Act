@@ -45,7 +45,7 @@
 
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab and Rajasthan inventories completed with qualifications.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan and Sikkim inventories completed with qualifications.
 - Meghalaya: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
 - Manipur remains closed for the current sequence with documented residuals.
 - Mizoram: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 remain open.
@@ -53,35 +53,36 @@
 - Odisha: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-OD-001 through PH1-ISSUE-OD-018 remain open.
 - Punjab: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-PB-001 through PH1-ISSUE-PB-016 remain open.
 - Rajasthan: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-RJ-001 through PH1-ISSUE-RJ-016 remain open.
+- Sikkim: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-SK-001 through PH1-ISSUE-SK-016 remain open.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Rajasthan is now the 21st completed State/UT inventory in the controlled sequence, leaving 15 unresearched jurisdictions according to the repository master sequence. The master inventory remains stale by design and was not modified.
+Phase 1 remains active. Sikkim is now the 22nd completed State/UT inventory in the controlled sequence, leaving 14 unresearched jurisdictions according to the repository master sequence.
 
-Rajasthan is classified PROCEED/CLOSE WITH LIMITATIONS. The strongest Rajasthan-specific implementation snapshot located is the Ministry's Section 21(4) report for calendar year 2022, supplemented by Rajasthan Government/Social Justice and Empowerment Department, Rajasthan Police, Rajasthan Legislative Assembly and Rajasthan High Court material.
+Sikkim is classified PROCEED/CLOSE WITH LIMITATIONS. The strongest recent implementation snapshot located is the Ministry's Section 21(4) report for calendar year 2022. It records a constituted State V&MC with no State-level meeting during 2022, five District V&MC meetings across six districts, a State SC/ST Protection Cell under SSP/CID, no identified atrocity-prone area, District and Session Courts designated as Special Courts, eight Special Public Prosecutors, one charge-sheet within 60 days and no charge-sheet later than 60 days.
 
-The 2022 Rajasthan report records a State V&MC under the Chief Minister with no State-level meeting, 123 District V&MC meetings in 33 districts, and six Sub-Divisional V&MC meetings in four sub-divisions. It records a Civil Rights Cell at Police Headquarters headed by an SP under the ADGP Civil Rights, with DIG Civil Rights and staff, plus 37 SC/ST Cells in 33 districts headed by DSPs. It records 4,195 charge-sheets within 60 days and 5,445 later than 60 days. It records Exclusive Special Courts in 31 of 35 districts, with four designated Special Courts, 31 ESPPs and three SPPs. It records 32 persons receiving travel/maintenance expenses and 15,474 atrocity victims receiving relief.
+Historical Ministry reporting records Additional District Magistrates of East, West, North and South districts as Rule 10 Special Officers despite no identified atrocity-prone area. This is retained as historical evidence only. The current Rule 9 Nodal Officer, Rule 10 appointments and 2026 identified-area position remain open.
 
-The 2022 report also contains a historical identified-area/atrocity-prone-area annexure. The current 2026 Rule 10 and identified-area position remains open and is not inferred from the historical annexure.
+The current Sikkim Social Welfare Department Acts and Rules page lists the PoA Act, 2014 SC/ST amendment material, Vigilance Committee instruments, a 2022 Special Courts notification, a 2020 Public Prosecutors notification, a 2014 Special Courts notification and other related instruments. The page establishes a current publication layer, but not every linked file was directly retrievable in this pass.
 
-Rajasthan Police current/recent material corroborates continuing Civil Rights and SC/ST specialist functions and publishes 2024 SC/ST comparative statistics. Those statistics are kept separate from the Central Section 21(4) series because reporting definitions and periods differ.
+The Sikkim Police Manual corroborates continuing PoA-specific Protection Cell functions and police reporting treatment. The current Social Welfare Department identifies PCR/PoA implementation as a Social Justice Division function and maintains welfare offices in all six districts.
 
-A 2025 Rajasthan High Court administrative record confirms continuing Special Court, SC/ST (Prevention of Atrocities) postings. A current statewide 2026 court notification and full SPP/ESPP roster remain open.
+The Ministry Social Welfare Statistics handbook records zero Sikkim atrocity-victim relief beneficiaries in FY 2021-22 and FY 2022-23. This is a scheme-achievement series and is not interpreted as proof that no qualifying atrocity occurred. Separate parliamentary/NCRB data records small but non-zero SC/ST crime series in recent years and must remain separate from Section 21(4) implementation data.
 
-Current Rule 9 appointment, Rule 10 orders, current police-cell establishment/staffing, current V&MC compliance, current relief/payment workflow, later annual reports, and post-BNS/BNSS/BSA State instructions remain open. These are historical/currentness residuals, not reasons to repeat the completed baseline.
+A 2016 Sikkim High Court judgment, Naresh Kumar Agarwal v. State of Sikkim, confirms processing of a PoA prosecution by a Special Judge in East Sikkim. It is recorded only as Phase 1 jurisdictional corroboration.
 
-Rajasthan-specific residuals are recorded in `project-state/RAJASTHAN_ISSUES_2026-09-05.md` and decisions in `project-state/RAJASTHAN_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/RAJASTHAN_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/RAJASTHAN.md`.
+Sikkim-specific residuals are recorded in `project-state/SIKKIM_ISSUES_2026-09-05.md` and decisions in `project-state/SIKKIM_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/SIKKIM_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/SIKKIM.md`.
 
 Central later-instrument/current-law completeness remains separate. BNS/BNSS/BSA transition verification remains separate and unfrozen. No blanket numerical substitution is permitted.
 
-Phase 1 acceptance criteria remain NOT YET SATISFIED because 15 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
+Phase 1 acceptance criteria remain NOT YET SATISFIED because 14 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
 ## Next Discrete Workstream
 
-Begin the next unresearched State/UT Phase 1 inventory after Rajasthan, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. Do not reopen completed baseline research.
+Begin the next unresearched State/UT Phase 1 inventory after Sikkim, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. Do not reopen completed baseline research.
 
 ## Website Status
 
@@ -89,7 +90,7 @@ The repository contains a multi-page static research website and GitHub Actions 
 
 ## Latest Controlled Update
 
-- 2026-09-05: Repository inspection found no prior Rajasthan-specific inventory, source ledger, issue register or decision addendum.
-- 2026-09-05: Rajasthan State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
-- 2026-09-05: Rajasthan source ledger, issue register and decision addendum created.
+- 2026-09-05: Repository inspection found no prior Sikkim-specific legislation inventory, source ledger, issue register or decision addendum. The master State inventory was not modified.
+- 2026-09-05: Sikkim State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
+- 2026-09-05: Sikkim source ledger, issue register and decision addendum created.
 - 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched.
