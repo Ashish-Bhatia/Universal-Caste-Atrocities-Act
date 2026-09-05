@@ -1,0 +1,61 @@
+name: One-time Phase 1 control sync
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply controlled updates
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          issues = Path('ISSUES_REGISTER.md')
+          text = issues.read_text(encoding='utf-8')
+          replacements = {
+              'PH1-ISSUE-015': '| PH1-ISSUE-015 | Manual Scavengers Act/Rules later-instrument completeness is not fully frozen. | CLOSED WITH QUALIFICATION | Central Manual Scavengers instrument census is controlled through the identified 2013 commencement instrument, 2013 Rules, 2014-2018 Central Monitoring Committee chain and 2023-2025 CMC amendments; broader Central later-instrument completeness remains under PH1-ISSUE-008. | Preserve the census and do not treat search silence as legal absence. |',
+              'PH1-ISSUE-016': '| PH1-ISSUE-016 | Manual Scavengers Act section 10 complaint limitation and section 21 Executive Magistrate trial architecture require current BNSS transition mapping. | ADVANCED WITH QUALIFICATION | Central section 10/21 transition mapping is controlled; State-specific post-01-07-2024 section 21 empowerment orders remain unresolved. | Complete the unresolved State-specific empowerment verification and incorporate it into the final Phase 1 transition matrix. |',
+              'PH1-ISSUE-017': '| PH1-ISSUE-017 | Manual Scavengers Act section 39 exemption power requires instrument-level verification. | CLOSED WITH QUALIFICATION | No Central section 39 exemption order was identified in the defined primary-source census; this is a controlled negative search result, not proof of legal absence. | Preserve the negative-search qualification and retain broader later-instrument completeness under PH1-ISSUE-008. |',
+          }
+          lines = text.splitlines()
+          for key, new in replacements.items():
+              hits = [i for i, line in enumerate(lines) if key in line and line.startswith('|')]
+              if len(hits) != 1:
+                  raise SystemExit(f'{key}: expected one issue row, found {len(hits)}')
+              lines[hits[0]] = new
+          issues.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+
+          builder = Path('scripts/build_website_v2.py')
+          b = builder.read_text(encoding='utf-8')
+          old = '<link rel="stylesheet" href="{prefix}assets/site.css?v=20260906-4">'
+          new = '<link rel="stylesheet" href="{prefix}assets/pico-theme.css?v=2.1.1-20260906-1"><link rel="stylesheet" href="{prefix}assets/site.css?v=20260906-5">'
+          if b.count(old) != 1:
+              raise SystemExit(f'builder link pattern count={b.count(old)}')
+          builder.write_text(b.replace(old, new), encoding='utf-8')
+
+          ledger = Path('RESEARCH_LEDGER.md')
+          with ledger.open('a', encoding='utf-8') as f:
+              f.write('''\n\n| PH1-2026-09-06-MS-001 | Manual Scavengers Central later-instrument census | Closed with qualification | A | `project-state/PH1_MANUAL_SCAVENGERS_CENTRAL_CLOSURE_2026-09-06.md`; `project-state/PH1_MANUAL_SCAVENGERS_GAZETTE_CENSUS_2026-09-06.md`; Gazette/Legislative Department/Department/NCSK records | Identified the 2013 commencement instrument, 2013 Rules, 2014-2018 CMC chain and six 2023-2025 section 29 CMC amendments. No Central Rules amendment identified in the defined search. | Verified 2026-09-06; broader PH1-ISSUE-008 freeze remains open |\n| PH1-2026-09-06-MS-002 | Manual Scavengers section 39 exemption instrument census | Closed with qualification | A | `project-state/PH1_MANUAL_SCAVENGERS_GAZETTE_CENSUS_2026-09-06.md`; defined Gazette/Legislative Department/India Code/Department/NCSK search set | No Central section 39 exemption order identified. Controlled negative result only; no legal-absence conclusion. | Verified 2026-09-06 |\n| PH1-2026-09-06-TRANS-001 | BNS/BNSS/BSA construction-of-references freeze | Controlled freeze with qualifications | A | `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`; Legislative Department S.O. 2790(E), 16-07-2024; BNS/BNSS/BSA primary texts | S.O. 2790(E) governs references to IPC/CrPC/Indian Evidence Act in Acts and subordinate instruments. It is a construction-of-references rule, not blanket numerical substitution, and does not displace special-law provisions. | Verified 2026-09-06; unresolved correspondence classes remain |\n| PH1-2026-09-06-PCR-001 | PCR Act/Rules later-instrument screening | Advanced with qualification | A | Department of Social Justice and Empowerment current archive; India Code PCR Act; Government Gazette S.O. 3006; targeted official searches | Current official archive lists the PCR Act and 1977 Rules. No later Central amendment instrument was identified in the defined search set. This remains controlled search evidence, not categorical absence. | Verified 2026-09-06; PH1-ISSUE-008 remains open |\n| PH1-2026-09-06-BLSA-001 | Bonded Labour Act/Rules later-instrument screening | Advanced with qualification | A | India Code; Labour Department official reproductions; Government Rules text | The Act identifies the 1985 amending Act. The Rules identify the 1978 and 1983 amendments. No later Central amendment instrument was established in the targeted search. Search silence is not treated as legal absence. | Verified 2026-09-06; PH1-ISSUE-008 remains open |\n''')
+
+          decisions = Path('DECISIONS_LOG.md')
+          with decisions.open('a', encoding='utf-8') as f:
+              f.write('''\n\n| DEC-011? | 2026-09-06 | Manual Scavengers PH1-ISSUE-015 and PH1-ISSUE-017 are CLOSED WITH QUALIFICATION; PH1-ISSUE-016 is ADVANCED WITH QUALIFICATION. | The final Gazette/Legislative Department census and controlled BNSS transition record establish these dispositions. Search silence remains non-dispositive. | ACTIVE |\n| DEC-2026-09-06-TRANS-001 | 2026-09-06 | S.O. 2790(E) is treated as the controlling general construction-of-references instrument for IPC/CrPC/Indian Evidence Act references after 01-07-2024. | It expressly applies to Acts and subordinate instruments but does not authorise blanket numerical substitution or displace special-law provisions. | ACTIVE |\n| DEC-2026-09-06-PICO-001 | 2026-09-06 | Pico CSS 2.1.1 must load before the production site.css layer in the generated website HTML. | Existing site.css remains the primary visual layer and site-overrides.css remains last; the prior cascade inspection identified Pico-after-site.css as higher risk. | ACTIVE |\n''')
+          PY
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ISSUES_REGISTER.md scripts/build_website_v2.py RESEARCH_LEDGER.md DECISIONS_LOG.md
+          git commit -m 'Sync Manual Scavengers controls and integrate Pico [skip ci]'
+          rm .github/workflows/one_time_phase1_sync.yml
+          git add .github/workflows/one_time_phase1_sync.yml
+          git commit --amend --no-edit
+          git push origin HEAD:main
