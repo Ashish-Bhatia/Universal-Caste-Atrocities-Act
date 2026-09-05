@@ -1,4 +1,4 @@
-# Phase 1 State-Control Reconciliation and Zero-Drift Audit
+> HISTORICAL CONTROL RECORD: superseded for current State/UT count by the 2026-09-06 cumulative Phase 1 acceptance audit and current inventory.\n\n# Phase 1 State-Control Reconciliation and Zero-Drift Audit
 
 Date: 2026-09-06
 Phase: 1, Existing-Law Baseline and Source Map: ACTIVE

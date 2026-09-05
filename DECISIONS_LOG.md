@@ -135,3 +135,4 @@ Control-only reconciliation index. No cumulative ID is created, renumbered or pr
 | Jurisdiction | Record | Source | Status |
 |---|---|---|---|
 | Puducherry | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | ACTIVE |
+\n\n## Central Transition Decision Index 2026-09-06\n\nIndexed from `project-state/CONTROL_DECISIONS_CENTRAL_TRANSITION_2026-09-06.md`: DEC-CENTRAL-2026-09-06-001, DEC-CENTRAL-2026-09-06-002, DEC-CENTRAL-2026-09-06-003, DEC-CENTRAL-2026-09-06-004. Detailed reasoning remains in the dated control record.\n

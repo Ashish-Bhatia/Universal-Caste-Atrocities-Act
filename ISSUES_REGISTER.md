@@ -11,7 +11,7 @@
 
 | ID | Issue | Status | Impact | Required Action |
 |---|---|---|---|---|
-| PH1-ISSUE-001 | SC/ST Act clause-level extraction and current-version verification were incomplete. | OPEN | Act baseline not yet frozen. | Final Gazette/Legislative Department index check and preserve clause extraction. |
+| PH1-ISSUE-001 | SC/ST Act clause-level extraction and current-version verification were incomplete. | CLOSED WITH QUALIFICATION | Act current-text/version question is controlled-closed, while broader later-instrument completeness remains open under PH1-ISSUE-008. | Preserve the verified 21-09-2025 consolidated Act text; do not infer absence of later subordinate instruments. |
 | PH1-ISSUE-002 | Consolidated SC/ST Rules clause-level extraction remains incomplete. | CLOSED WITH QUALIFICATION | Rules 1-18 and Schedule/Annexure inventory is recorded. | Resolve Annexure-II primary-source discrepancy and complete final source freeze. |
 | PH1-ISSUE-003 | BNS offence crosswalk with SC/ST Act section 3 remains incomplete. | ADVANCED WITH QUALIFICATION | Conduct and Schedule correspondence is mapped, but final punishment/source freeze remains. | Finalize primary-text verification and close. |
 | PH1-ISSUE-004 | BNSS interface remains incomplete. | ADVANCED WITH QUALIFICATION | Former-CrPC subject expansion and Rule 7 breach consequences remain open. | Resolve during later transition verification/case-law work. |
@@ -22,7 +22,7 @@
 | PH1-ISSUE-009 | SC/ST Act legacy IPC/CrPC/Indian Evidence Act references interact with BNS/BNSS/BSA. | ADVANCED WITH QUALIFICATION | Final transition matrix remains open. | Complete final transition/source freeze. |
 | PH1-ISSUE-010 | 2018 Rules definition of “voluntarily” refers to IPC s.39. | ADVANCED | BNS correspondence identified as s.2(33). | Incorporate into final transition matrix. |
 | PH1-ISSUE-011 | State amendments and implementation notifications under the central Act have not yet been comprehensively separated from central law. | OPEN | State-level variation may affect operational baseline. | Continue State instrument inventory. |
-| PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | OPEN | Controlling Annexure-II source cannot be frozen. | Locate and verify operative Gazette/Department attachment. |
+| PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | CLOSED | The official Ministry-hosted Rules PDF identifies Annexure-II as the 01-06-2001 notification and treats the 1986 instrument as the earlier guideline reviewed by it. | Retain the resolution; broader final Rules source freeze remains under PH1-ISSUE-002. |
 | PH1-ISSUE-015 | Manual Scavengers Act/Rules later-instrument completeness is not fully frozen. | OPEN | Current-law baseline remains provisional. | Final Gazette/Legislative Department/Ministry index pass. |
 | PH1-ISSUE-016 | Manual Scavengers Act section 10 complaint limitation and section 21 Executive Magistrate trial architecture require current BNSS transition mapping. | OPEN | Current procedural operation should not be inferred from legacy CrPC terminology. | Include in final Phase 1 transition matrix. |
 | PH1-ISSUE-017 | Manual Scavengers Act section 39 exemption power requires instrument-level verification. | OPEN | Scope of statutory exemption is not frozen. | Search official records for exemption notifications. |

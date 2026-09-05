@@ -31,17 +31,38 @@ def md_html(text):
     def fb():
         nonlocal bullets
         if bullets: out.append("<ul>"+"".join(f"<li>{md_inline(x)}</li>" for x in bullets)+"</ul>"); bullets=[]
-    for raw in text.splitlines():
-        s=raw.strip()
-        if not s: fp(); fb(); continue
-        if s.startswith("# "): fp(); fb(); out.append(f"<h1>{md_inline(s[2:])}</h1>"); continue
-        if s.startswith("## "): fp(); fb(); t=s[3:]; out.append(f'<h2 id="{slug(t)}">{md_inline(t)}</h2>'); continue
-        if s.startswith("### "): fp(); fb(); out.append(f"<h3>{md_inline(s[4:])}</h3>"); continue
-        m=re.match(r"^[-*]\s+(.*)$",s)
-        if m: fp(); bullets.append(m.group(1)); continue
-        m=re.match(r"^\d+\.\s+(.*)$",s)
-        if m: fp(); bullets.append(m.group(1)); continue
-        para.append(s)
+    def table_block(block):
+        rows=[]
+        for line in block:
+            cells=[c.strip() for c in line.strip().strip('|').split('|')]
+            if cells: rows.append(cells)
+        if len(rows)<2: return None
+        header=rows[0]; separator=rows[1]
+        is_sep=all(re.fullmatch(r':?-{3,}:?', c.replace(' ','')) for c in separator)
+        body=rows[2:] if is_sep else rows[1:]
+        html_out=['<div class="tablewrap"><table class="table"><thead><tr>']
+        html_out.extend(f"<th>{md_inline(c)}</th>" for c in header); html_out.append('</tr></thead><tbody>')
+        for row in body:
+            html_out.append('<tr>'); html_out.extend(f"<td>{md_inline(row[i] if i<len(row) else '')}</td>" for i in range(len(header))); html_out.append('</tr>')
+        html_out.append('</tbody></table></div>'); return ''.join(html_out)
+    lines=text.splitlines(); i=0
+    while i<len(lines):
+        s=lines[i].strip()
+        if s.startswith('|') and s.endswith('|') and i+1<len(lines) and re.fullmatch(r'\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?', lines[i+1].strip()):
+            fp(); fb(); block=[lines[i],lines[i+1]]; i+=2
+            while i<len(lines) and lines[i].strip().startswith('|') and lines[i].strip().endswith('|'): block.append(lines[i]); i+=1
+            rendered=table_block(block)
+            if rendered: out.append(rendered)
+            continue
+        if not s: fp(); fb(); i+=1; continue
+        if s.startswith('# '): fp(); fb(); out.append(f"<h2>{md_inline(s[2:])}</h2>"); i+=1; continue
+        if s.startswith('## '): fp(); fb(); t=s[3:]; out.append(f'<h2 id="{slug(t)}">{md_inline(t)}</h2>'); i+=1; continue
+        if s.startswith('### '): fp(); fb(); out.append(f"<h3>{md_inline(s[4:])}</h3>"); i+=1; continue
+        m=re.match(r'^[-*]\s+(.*)$',s)
+        if m: fp(); bullets.append(m.group(1)); i+=1; continue
+        m=re.match(r'^\d+\.\s+(.*)$',s)
+        if m: fp(); bullets.append(m.group(1)); i+=1; continue
+        para.append(s); i+=1
     fp(); fb(); return "\n".join(out)
 
 def strip_controls(text):
@@ -112,7 +133,7 @@ def table(rows):
         out.append("<tr>"+"".join(f"<td>{md_inline(x)}</td>" for x in [r["id"],r["source"],r["finding"],r["grade"],r["verification"],tier])+"</tr>")
     return "".join(out)+"</tbody></table></div>"
 
-states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]
+states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]; total=len(states); completed_count=len(completed)
 master_text=MASTER.read_text(encoding="utf-8"); master=source_rows(master_text,"master"); master_ids={x["id"] for x in master}; sections=master_rows_by_jurisdiction(master_text)
 local=[]
 for p in sorted(SOURCE_DIR.glob("*_SOURCE_LEDGER.md")): local.extend(source_rows(p.read_text(encoding="utf-8"),str(p.relative_to(ROOT))))
@@ -124,7 +145,7 @@ for p in WEB.glob("*.html"): p.unlink()
 for d in (WEB/"states",WEB/"law",WEB/"sources"):
     if d.exists(): shutil.rmtree(d)
     d.mkdir(parents=True)
-WEB.joinpath("index.html").write_text(shell("Research home","",'<section class="hero-grid"><div class="hero-copy"><span class="eyebrow">Public research library</span><h1>Evidence before legislation.</h1><p class="lead">Evidence-first research on India\'s caste-atrocity legal and implementation framework. Sources, qualifications and unresolved questions remain visible.</p><div class="actions"><a class="btn primary" href="states.html">Explore the jurisdictions</a><a class="btn secondary" href="petition.html">Petition / Support</a></div></div><aside class="hero-panel"><div><span class="panel-label">Research baseline</span><div class="hero-number">33<span>/36</span></div><p>States and Union Territories with substantive Phase 1 inventories.</p></div><div class="panel-note">Three jurisdictions remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div></aside></section><section class="section"><div class="section-head"><div><span class="section-kicker">Browse</span><h2>Research library</h2></div></div><div class="grid"><a class="card feature-card" href="states.html"><h3>States & UTs</h3><p>Jurisdiction implementation research with source provenance and qualifications.</p></a><a class="card feature-card" href="law.html"><h3>Existing law</h3><p>Central-law research, crosswalks and related legal interfaces.</p></a><a class="card feature-card" href="sources.html"><h3>Sources</h3><p>Controlled master-ledger and jurisdiction-ledger source sets.</p></a><a class="card feature-card" href="methodology.html"><h3>Methodology</h3><p>Evidence hierarchy, verification and source-control principles.</p></a></div></section>'),encoding="utf-8")
+WEB.joinpath("index.html").write_text(shell("Research home","",f'<section class="hero-grid"><div class="hero-copy"><span class="eyebrow">Public research library</span><h1>Evidence before legislation.</h1><p class="lead">Evidence-first research on India\'s caste-atrocity legal and implementation framework. Sources, qualifications and unresolved questions remain visible.</p><div class="actions"><a class="btn primary" href="states.html">Explore the jurisdictions</a><a class="btn secondary" href="petition.html">Petition / Support</a></div></div><aside class="hero-panel"><div><span class="panel-label">Research baseline</span><div class="hero-number">{completed_count}<span>/{total}</span></div><p>States and Union Territories with substantive Phase 1 inventories.</p></div><div class="panel-note">{total - completed_count} jurisdiction(s) remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div></aside></section><section class="section"><div class="section-head"><div><span class="section-kicker">Browse</span><h2>Research library</h2></div></div><div class="grid"><a class="card feature-card" href="states.html"><h3>States & UTs</h3><p>Jurisdiction implementation research with source provenance and qualifications.</p></a><a class="card feature-card" href="law.html"><h3>Existing law</h3><p>Central-law research, crosswalks and related legal interfaces.</p></a><a class="card feature-card" href="sources.html"><h3>Sources</h3><p>Controlled master-ledger and jurisdiction-ledger source sets.</p></a><a class="card feature-card" href="methodology.html"><h3>Methodology</h3><p>Evidence hierarchy, verification and source-control principles.</p></a></div></section>'),encoding="utf-8")
 WEB.joinpath("states.html").write_text(shell("States & UTs","States & UTs",'<section class="page-intro"><span class="eyebrow">Jurisdiction research</span><h1>States & Union Territories</h1><p class="lead">Each completed jurisdiction has its own research page. Remaining jurisdictions are not represented as completed research.</p></section><section class="section"><h2>Jurisdiction research records</h2><div class="state-grid">'+"".join(f'<a class="state-card" href="states/{slug(n)}.html"><span class="chip">Research record</span><h3>{html.escape(n)}</h3><p>Implementation inventory and evidence.</p></a>' for n,_,_ in completed)+'</div></section>'),encoding="utf-8")
 source_cards=[]
 for name,_,state_path in completed:
