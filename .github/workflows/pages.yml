@@ -36,7 +36,14 @@ jobs:
           python3 -m py_compile scripts/sanitize_public_html.py
 
       - name: Reconcile source-ledger ID control set
-        run: python3 scripts/verify_website_source_sync.py
+        shell: bash
+        run: python3 scripts/verify_website_source_sync.py | tee /tmp/source-ledger-control.txt
+
+      - name: Preserve source-ledger control output
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-ledger-control
+          path: /tmp/source-ledger-control.txt
 
       - name: Build research site
         run: python3 scripts/build_website_v2.py
