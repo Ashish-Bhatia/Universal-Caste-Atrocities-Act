@@ -6,8 +6,9 @@ Evidence-first legislative and constitutional research project for India.
 
 - Phase 1, Existing-Law Baseline and Source Map: ACTIVE
 - Phase 1 substantive acceptance: NOT YET SATISFIED
-- 33 of 36 States/UTs have substantive inventories
-- Remaining unresearched jurisdictions: Ladakh, Lakshadweep and Puducherry
+- 36 of 36 States/UTs have substantive inventories
+- Remaining unresearched jurisdictions: none
+- Central-law, transition and currentness residuals remain open.
 - Master State Implementation Source Ledger: 261 source IDs
 - Master source-ledger control remediation: COMPLETE
 - GitHub Pages live publication: NOT independently verified
