@@ -1,1 +1,1 @@
-2026-09-06 controlled master source-ledger integration trigger. Temporary control marker; retained for audit traceability.
+2026-09-06 independent post-integration read-back and zero-drift verification trigger. Control marker.
