@@ -31,6 +31,11 @@
 | PH1-ISSUE-019 | State-by-State official-source inventory has begun but is not complete. | OPEN | National implementation baseline remains incomplete. | Continue jurisdiction-by-jurisdiction inventory. |
 | PH1-ISSUE-020 | Andhra Pradesh first-pass inventory lacked targeted verification. | CLOSED WITH QUALIFICATION | AP is sufficiently verified for progression, but not a complete 2026 census. | Carry AP qualifications into Phase 1 closure and do not reopen unless new evidence requires it. |
 | PH1-ISSUE-021 | GitHub Pages workflow/source prepared, but Pages site enablement and live publication are not exposed through the current connector. | OPEN | Live publication status cannot be verified. | User-side Settings > Pages verification when publication work resumes. |
+| PH1-ISSUE-022 | Arunachal Pradesh 2026 Rule 9 nodal officer status is unresolved. | OPEN | State implementation architecture cannot be frozen as current. | Retrieve primary appointment/designation instrument; resolve conflict with 2023 State report and later secondary contact listing. |
+| PH1-ISSUE-023 | Arunachal Pradesh current Special/Exclusive Special Court and prosecutor status is unresolved. | OPEN | Judicial/prosecution architecture not current-law frozen. | Retrieve later State court/prosecutor notifications and current court records. |
+| PH1-ISSUE-024 | Arunachal Pradesh current State/District/Sub-Divisional V&MC status is unresolved. | OPEN | Monitoring architecture not current-law frozen. | Retrieve current constitution orders and meeting records. |
+| PH1-ISSUE-025 | Arunachal Pradesh 2015 SC/ST Cell order and later PoA-specific Gazette/SOP instruments not retrieved. | OPEN | Protection Cell legal provenance and operational documentation remain incomplete. | Retrieve primary instrument and search State Gazette/order repositories further during final closure. |
+| PH1-ISSUE-026 | Arunachal Pradesh 2023 relief/payment report records no cases and says treasury authorization was not done, while a DBT infrastructure entry exists. | OPEN | Current relief mechanism is not established from the evidence located. | Retrieve current State relief/payment orders or workflow evidence. |
 
 ## Andhra Pradesh residual verification items
 
@@ -44,5 +49,18 @@ These are retained as closure items, not blockers to progression:
 - Later statewide relief consolidation, if any.
 - Consolidated PoA-specific SOP, if any.
 - Primary verification of any 2025 amendment to the Andhra Pradesh State Commission for Scheduled Tribes legislation.
+
+## Arunachal Pradesh residual closure items
+
+- Primary HMB(B) 25-2002 dated 30-09-2015 SC/ST Cell order.
+- Current 2026 Rule 9 State Nodal Officer appointment.
+- Current SC/ST Protection Cell staffing/structure.
+- Current Special/Exclusive Special Court notification and judicial operation.
+- Current Special Public Prosecutor/Exclusive Special Public Prosecutor appointments.
+- Current State, District and Sub-Divisional V&MC constitution and meetings.
+- State-specific relief/payment orders and later contingency plan.
+- PoA-specific SOPs, circulars, manuals and digital workflows.
+- Later State Gazette instruments affecting PoA implementation.
+- Further State-specific bonded-labour/manual-scavenging interface verification if new instruments emerge.
 
 All residual items remain subject to the rule that search silence is not proof of absence.
