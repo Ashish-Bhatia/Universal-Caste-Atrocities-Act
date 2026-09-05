@@ -4,32 +4,53 @@ Date: 2026-09-06
 
 ## Decision
 
-Pico CSS 2.1.1 is selected as the controlled open-source theme candidate for the public research website. Pico CSS is MIT licensed and is designed as a lightweight semantic HTML framework.
+The public research website will use Tabler 1.4.0 as the open-source UI foundation, with Open Props 1.7.23 used for design-token support and a project-specific final CSS layer for the research information architecture.
 
-Official project: https://github.com/picocss/pico
-Official documentation: https://picocss.com/
+Tabler is MIT licensed, based on Bootstrap 5, responsive and includes mature table, typography, navigation, card and accessibility-oriented components. Open Props is MIT licensed and provides reusable CSS design tokens. Bootstrap 5.3 is the underlying open-source layout/component ecosystem used by Tabler.
 
 ## Rationale
 
-- The existing site is a hand-built static HTML/CSS system.
-- Pico provides a mature baseline for typography, tables, forms, responsive spacing, focus states and light/dark presentation without JavaScript.
-- The existing custom classes and information architecture should be preserved rather than replaced wholesale.
-- The theme must remain compatible with the evidence-first research presentation and accessible table rendering.
+The prior Pico candidate was too generic for the project's research-library presentation and did not address the primary usability defects sufficiently: weak long-form readability, inconsistent table wrapping, poor column proportions, weak visual hierarchy and inconsistent alignment.
+
+The controlled redesign therefore uses:
+
+- Tabler for the third-party UI foundation and component conventions.
+- Open Props for reusable design-token support.
+- Project CSS for the evidence-library visual hierarchy, legal research tables, source cards and responsive research pages.
+- No JavaScript dependency is introduced for the visual redesign.
 
 ## Controlled integration status
 
-A separate candidate file has been added at `website/assets/pico-theme.css`. It imports the pinned Pico 2.1.1 stylesheet from jsDelivr and defines project-specific Pico variables.
+The historical `website/assets/pico-theme.css` filename is retained to avoid route/build churn, but its contents now load the pinned Tabler and Open Props foundations. The Pages workflow already loads this stylesheet before `site.css`, and the workflow appends `site-overrides.css` as the final project presentation layer.
 
-The candidate is NOT YET wired into `scripts/build_website_v2.py` and is therefore NOT part of the current production Pages build. This is deliberate. The production builder and current deployment remain unchanged until the theme is rendered and audited against the existing 90-page validation controls.
+The new presentation layer explicitly addresses:
 
-## Required next integration checks
+1. readable body typography and restrained heading scale;
+2. justified long-form research paragraphs on desktop, with left alignment on narrow screens;
+3. fixed table column proportions with wrapping and horizontal overflow rather than clipped text;
+4. consistent left alignment for table content and top vertical alignment;
+5. zebra rows and hover state for dense evidence tables;
+6. clearer navigation, cards, status chips and research panels;
+7. stronger focus-visible controls;
+8. responsive layouts for mobile and tablet widths.
 
-1. Wire the candidate after the current production stylesheet or convert the current stylesheet to an explicit cascade strategy.
-2. Build all generated pages.
-3. Check tables, navigation, cards, responsive layouts, source pages, state pages and accessibility focus states.
-4. Confirm no content, route, count, source-ledger or heading-hierarchy regression.
-5. Deploy only after the static audit passes.
+## Required verification
+
+A new Pages build and artifact inspection are required. The existing run #479 remains the verified prior artifact and must not be represented as verification of this redesign.
+
+The new artifact must be checked for:
+
+- 90-page route/count integrity;
+- 36/36 public jurisdiction count;
+- zero stale 33/36 text;
+- third-party foundation before project CSS;
+- table wrapping and readable column proportions;
+- paragraph alignment and mobile fallback;
+- zero broken local links;
+- heading hierarchy;
+- metadata completeness;
+- sanitization and responsive/accessibility controls.
 
 ## Scope protection
 
-This decision changes presentation only. It does not change research scope, evidence grades, legal conclusions, acceptance criteria or the authoritative source-ledger boundary.
+This decision changes presentation only. It does not change research scope, evidence grades, legal conclusions, acceptance criteria, State/UT inventories or the authoritative source-ledger boundary.
