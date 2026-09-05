@@ -19,5 +19,5 @@
       ]
     }
   },
-  "postCreateCommand": "ln -sf DELHI.md legislation/states/DELHI_NCT.md && python3 scripts/build_website.py"
+  "postCreateCommand": "ln -sf DELHI.md legislation/states/DELHI_NCT.md && python3 scripts/build_website_v2.py"
 }
