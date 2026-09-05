@@ -1,11 +1,11 @@
-# Website Source-Set Mismatch Record
+# Website Source-Set and Public-Content Mismatch Record
 
 Date: 2026-09-06
 Phase: 1, Existing-Law Baseline and Source Map
 Workstream: website publication/control verification only
 Status: OPEN
 
-## Finding
+## Finding 1: Empty source-set pages
 
 The Pages production workflow is succeeding, but the generated public source-set pages do not consistently contain source rows.
 
@@ -41,6 +41,14 @@ The 25 empty source-set pages are:
 
 The 8 non-empty source-set pages are Andhra Pradesh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Madhya Pradesh and Maharashtra.
 
+## Finding 2: Public project-control reference leakage
+
+Independent artifact inspection also found one generated HTML page, `law/priority-central-legislation-screening.html`, containing the literal project-control filename `DECISIONS_LOG.md` and a sentence directing readers to modify the project record through that file.
+
+This conflicts with the stated public-content boundary that project-state controls, decision logs and continuity controls remain outside the public research interface.
+
+The workflow's current public-link validation checks only for the repository navigation URL. It does not detect references to project-control filenames or project-management instructions.
+
 ## Verified artifact result
 
 Pages workflow run #374 succeeded on head commit `e2d1c34a0510724a3a402d5a04c79637fe8b6454`.
@@ -59,8 +67,7 @@ The artifact contains:
 - `robots.txt`.
 - No generated HTML containing the repository navigation URL.
 - No broken internal HTML links in the artifact.
-
-Independent artifact parsing found 25 source-set pages containing the builder's `No matching master-ledger rows were found for this research record.` message. Eight source-set pages contain master-ledger tables.
+- One identified public project-control filename leakage as described above.
 
 ## Repository-level cause
 
@@ -70,11 +77,13 @@ The jurisdiction-specific ledgers for later jurisdictions do exist. For example,
 
 This is inconsistent with the broader 2026-09-06 reconciliation narrative stating that later jurisdiction-specific source ledgers were already represented in the master ledger. The master integration report itself only records five contributing ledgers and 97 newly integrated IDs, which explains the current master content.
 
+The project-control leakage has a separate cause: `strip_project_controls()` removes selected headings and phrases but does not remove references to project-control filenames embedded in substantive research prose.
+
 ## Control significance
 
-This is a newly identified control defect. It does not invalidate the underlying jurisdiction research records or the completed zero-drift test against the pre-integration master. It does mean the website source-set publication layer is not synchronized with all completed jurisdiction source ledgers.
+These are newly identified control defects. They do not invalidate the underlying jurisdiction inventories or the completed zero-drift test against the pre-integration master. They do mean the public publication layer is not fully synchronized with the intended research-only content boundary.
 
-The defect must not be resolved by silently modifying substantive State inventories or by treating website output as evidence that a source ledger is integrated.
+The defects must not be resolved by silently modifying substantive State inventories or by treating website output as evidence that a source ledger is integrated.
 
 ## Required remediation
 
@@ -82,8 +91,10 @@ The defect must not be resolved by silently modifying substantive State inventor
 2. Determine the exact set of source IDs absent from the master ledger after the 2026-09-06 integration.
 3. Correct the master-ledger control record if its later-jurisdiction integration status is overstated.
 4. Decide whether the website should use the master ledger exclusively or use a controlled jurisdiction-ledger fallback when master rows are absent. Record the decision before implementation.
-5. Add build validation so a completed jurisdiction source page cannot silently publish as an empty source set without an explicit controlled absence.
-6. Re-run the Pages build only after the control position is corrected.
+5. Add build-time validation so a completed jurisdiction source page cannot silently publish as an empty source set without an explicit controlled absence.
+6. Add build-time public-content validation for project-control filenames and project-management instructions.
+7. Correct the identified `DECISIONS_LOG.md` leakage in the generated priority-screening page.
+8. Re-run the Pages build only after the control position and validation rules are corrected.
 
 ## Scope boundary
 
