@@ -146,3 +146,26 @@ Next authorized workstream: controlled closure of remaining Phase 1 acceptance d
 2026-09-06: independent audit of run #446 identified six heading-hierarchy defects. The builder was corrected, run #448 deployed successfully, and the subsequent run #452 artifact reproduced the full static audit PASS. Live browser-level HTTP/Pages Settings verification remains open due connector limitations.
 
 2026-09-06: recorded the stale central-law issue reconciliation for PH1-ISSUE-001 and PH1-ISSUE-014 and advanced the Manual Scavengers BNSS transition workstream for PH1-ISSUE-016 using primary statutory sources. The physical `ISSUES_REGISTER.md` rows remain a synchronization task.
+
+## 2026-09-06 Controlled Website Remediation Closure
+
+The independent 2026-09-06 website/project audit remediation pass is closed at the source/build/deployment-control layer. Phase 1 substantive acceptance remains NOT YET SATISFIED. All 36 State/UT substantive inventories are complete. No new State/UT research, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research was performed.
+
+Verified remediation outcomes:
+- `scripts/build_website_v2.py` now computes the completed/total jurisdiction count and no longer depends on hard-coded 33/36 hero text.
+- Embedded Markdown tables are rendered as HTML tables.
+- Embedded document H1 headings are rendered as H2 so state/law pages do not duplicate the page-level H1.
+- Codespaces uses the same production v2 builder path as Pages.
+- Generated website HTML/routes are treated as build output and are not committed as authoritative source. Website assets remain committed.
+- README, stale State-control classification, PH1-ISSUE-001/014 physical statuses and Central decision IDs were synchronized.
+- The accidental `legislation/states/DELHI_NCT.md` compatibility symlink and generated Python cache were removed from repository state.
+
+Verification records:
+- Isolated remediation workflow run #5 passed its 90-page generated-site audit.
+- GitHub Pages run #460, head `c667a9ed42bb892136f01d5f5ce0ebbcb81eab25`, completed successfully.
+- Pages artifact `github-pages`, artifact ID `9977341147`, digest `sha256:824ce74957da05c05ed7cddd708ff5f66ced4567ce80e91df5b6665fea854465`, was produced from current `main` and deployed successfully.
+- Direct HTTP validation of the public Pages root remains unavailable from the current tool environment and therefore remains UNVERIFIED.
+
+Current publication verdict: source/build/deployment controls PASS WITH QUALIFICATIONS; live URL independently UNVERIFIED.
+
+Next substantive Phase 1 work remains central-law completeness, BNS/BNSS/BSA transition residuals, jurisdiction currentness and instrument residuals. Do not repeat completed State/UT research or closed control questions.

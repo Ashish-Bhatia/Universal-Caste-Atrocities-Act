@@ -125,3 +125,30 @@ The stale PH1-ISSUE-001 and PH1-ISSUE-014 rows have an authoritative reconciliat
 PH1-ISSUE-016 has been advanced to ADVANCED WITH QUALIFICATION by `project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md`. Do not repeat that targeted verification. Next substantive work should address PH1-ISSUE-015, PH1-ISSUE-017, PH1-ISSUE-008 or another specifically selected unresolved Central/transition dependency using primary-source closure rules.
 
 Do not repeat completed work, the historical 377-ID comparison, run #397, run #438, run #448 artifact inspection, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+
+## 2026-09-06 Website Remediation Continuation
+
+The website/source/build remediation pass is closed and merged to `main`. Do not repeat the audit-only baseline or the remediation work already completed.
+
+Current authoritative position:
+- Phase 1 ACTIVE; substantive acceptance NOT YET SATISFIED.
+- 36/36 State/UT substantive inventories complete. No State/UT remains unresearched.
+- Central current-law completeness, BNS/BNSS/BSA transition, jurisdiction currentness and instrument residuals remain open.
+- SC/ST Act current-text/version question CLOSED WITH QUALIFICATION.
+- SC/ST Rules Annexure-II discrepancy CLOSED.
+- Manual Scavengers BNSS transition PH1-ISSUE-016 ADVANCED WITH QUALIFICATION.
+
+Website control position:
+- Committed website HTML/routes are build output, not authoritative source. Assets remain committed.
+- `scripts/build_website_v2.py` is the production builder and now computes current counts, renders Markdown tables and prevents embedded duplicate H1 headings.
+- Codespaces and Pages use the same v2 production builder.
+- Current Pages deployment was run #460 from head `c667a9ed42bb892136f01d5f5ce0ebbcb81eab25`; artifact ID `9977341147`; digest `sha256:824ce74957da05c05ed7cddd708ff5f66ced4567ce80e91df5b6665fea854465`. Deployment completed successfully.
+- Direct HTTP validation of the public root remains UNVERIFIED because the tool environment returns a cache miss.
+
+Next task:
+1. Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and the latest project-state control records.
+2. Reconcile the current central-law and transition residuals against the authoritative source map.
+3. Verify any remaining currentness/instrument residuals only where required for Phase 1 acceptance.
+4. Update the relevant research and control ledgers with traceable primary sources.
+5. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+6. Do not repeat completed State/UT inventories, Ladakh, Lakshadweep, Puducherry, SC/ST Act current-version closure, Rules Annexure-II resolution or the completed website remediation unless a targeted verification defect requires it.
