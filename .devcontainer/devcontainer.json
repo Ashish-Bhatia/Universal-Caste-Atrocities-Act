@@ -1,0 +1,22 @@
+{
+  "name": "Universal Caste Atrocities Act Research",
+  "image": "mcr.microsoft.com/devcontainers/python:3-3.12-bookworm",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "explorer.sortOrder": "type",
+        "explorer.compactFolders": false,
+        "explorer.autoReveal": true,
+        "explorer.fileNesting.enabled": false,
+        "workbench.tree.indent": 12,
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md",
+        "PROJECT_STATE.md"
+      ]
+    }
+  }
+}
