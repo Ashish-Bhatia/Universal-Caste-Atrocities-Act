@@ -97,7 +97,7 @@
 | PH1-ISSUE-085 | Haryana current PoA-specific digital/FIR/case-management workflow is not established. | OPEN | Digital implementation baseline remains qualified. | Search current Police and department systems/orders; do not infer from general FIR/public-information services. |
 | PH1-ISSUE-086 | Haryana current State/District/Sub-Divisional V&MC constitution, membership and meeting records are not frozen. | OPEN | Current monitoring architecture remains qualified. | Retrieve current constitution orders, membership and meeting records. |
 | PH1-ISSUE-087 | Haryana current bonded-labour implementation instruments are not frozen. | OPEN | Related-law interface baseline remains provisional. | Perform focused Labour Department/Gazette search; do not infer absence. |
-| PH1-ISSUE-088 | Haryana current Manual Scavengers State/District/local implementation instruments beyond the 28-07-2021 review record are not frozen. | OPEN | Related-law interface baseline remains provisional. | Retrieve current State/District/local orders and later amendments. |
+| PH1-ISSUE-088 | Haryana current Manual Scavengers State/District/local implementation instruments beyond the 28-07-2021 review record are not frozen. | OPEN | Related-law interface remains provisional. | Retrieve current State/District/local orders and later amendments. |
 | PH1-ISSUE-101 | Jharkhand current Rule 9 designation/appointment instrument and individual office-holder are not frozen. | OPEN | Current State coordination architecture remains qualified. | Retrieve current primary designation/appointment instrument and office-holder evidence. |
 | PH1-ISSUE-102 | Jharkhand current SC/ST Protection Cell establishment, staffing and reporting structure are not frozen. | OPEN | Current investigation/supervision architecture remains qualified. | Retrieve current State Police/Home order and staffing/unit structure. |
 | PH1-ISSUE-103 | Complete current statewide SC/ST Police Station/unit census and legal basis are not frozen. | OPEN | Dedicated-unit coverage cannot be quantified statewide. | Reconcile current district Police profiles with State-level orders. |
@@ -160,6 +160,46 @@
 | PH1-ISSUE-160 | Madhya Pradesh current post-BNSS Police/prosecution procedural instructions are not frozen. | OPEN | Current procedural description remains incomplete. | Retrieve post-01-07-2024 State Police/Prosecution instructions and revised charter/SOP material. |
 | PH1-ISSUE-161 | Madhya Pradesh 2025-26 Rs.25 crore PoA budget figure was located only through secondary reporting. | OPEN | Funding evidence is not primary-source frozen. | Retrieve the underlying State budget book, demand/grant or appropriation record before using the figure as authoritative. |
 | PH1-ISSUE-162 | Madhya Pradesh current atrocity-prone/sensitive-area primary notifications and the detailed 09-07-2024 Assembly annexure were not retrieved. | OPEN | Preventive geography remains qualified. | Retrieve primary notifications and the Assembly annexure; do not infer current status from reporting silence. |
+
+## Cumulative residual-control index
+
+The following is a reconciliation-only index. It does not recreate missing substantive issue records and does not renumber existing IDs. It points to repository records already verified during the 2026-09-06 state-control reconciliation.
+
+| Jurisdiction/control segment | Existing cumulative IDs | Later jurisdiction-specific residuals | Control record(s) | Status |
+|---|---|---|---|---|
+| Andhra Pradesh | PH1-ISSUE-020 | Cumulative residuals only | `RESEARCH_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Arunachal Pradesh | PH1-ISSUE-022 to PH1-ISSUE-026 | Cumulative residuals only | `RESEARCH_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Assam | PH1-ISSUE-027 to PH1-ISSUE-034 | Cumulative residuals only | `RESEARCH_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Bihar | PH1-ISSUE-035 to PH1-ISSUE-043 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/BIHAR_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Chhattisgarh | PH1-ISSUE-044 to PH1-ISSUE-053 | Cumulative residuals only | `RESEARCH_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Goa | PH1-ISSUE-054 to PH1-ISSUE-064 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/GOA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Gujarat | PH1-ISSUE-065 to PH1-ISSUE-076 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/GUJARAT_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Haryana | PH1-ISSUE-077 to PH1-ISSUE-088 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/HARYANA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Himachal Pradesh | No later numeric block verified in cumulative file | Later jurisdiction residuals remain controlled outside cumulative numeric block | `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, State inventory/source artifacts | Controlled absence; no substantive reopening. |
+| Jharkhand | PH1-ISSUE-101 to PH1-ISSUE-116 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/JHARKHAND_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Karnataka | PH1-ISSUE-117 to PH1-ISSUE-130 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/KARNATAKA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Kerala | PH1-ISSUE-131 to PH1-ISSUE-146 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/KERALA_SOURCE_LEDGER.md`, State inventory | Controlled; no dedicated issue file. |
+| Madhya Pradesh | PH1-ISSUE-147 to PH1-ISSUE-162 | Cumulative residuals only | `RESEARCH_LEDGER.md`, `research/states/MADHYA_PRADESH_SOURCE_LEDGER.md`, State inventory | Controlled; cumulative register ends here before repair. |
+| Maharashtra | PH1-ISSUE-163 to PH1-ISSUE-178 | `PH1-ISSUE-163` through `PH1-ISSUE-178` | `project-state/MAHARASHTRA_ISSUES_ADDENDUM.md` | Preserved; no renumbering. |
+| Manipur | PH1-ISSUE-179 to PH1-ISSUE-195 | `PH1-ISSUE-179` through `PH1-ISSUE-195` | `project-state/MANIPUR_ISSUES_ADDENDUM.md` and controlled continuation records | Preserved; no renumbering. |
+| Meghalaya | No cumulative numeric block | `PH1-ISSUE-256` through `PH1-ISSUE-265` | `project-state/MEGHALAYA_ISSUES_2026-09-05.md` | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Mizoram | No cumulative numeric block | `PH1-ISSUE-MZ-001` through `PH1-ISSUE-MZ-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Nagaland | No cumulative numeric block | `PH1-ISSUE-NG-001` through `PH1-ISSUE-NG-018` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Odisha | No cumulative numeric block | `PH1-ISSUE-OD-001` through `PH1-ISSUE-OD-018` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Punjab | No cumulative numeric block | `PH1-ISSUE-PB-001` through `PH1-ISSUE-PB-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Rajasthan | No cumulative numeric block | `PH1-ISSUE-RJ-001` through `PH1-ISSUE-RJ-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Sikkim | No cumulative numeric block | Current Rule 9 and other instrument residuals | Jurisdiction-specific issue record verified by reconciliation | Open/qualified. |
+| Tamil Nadu | No cumulative numeric block | `PH1-ISSUE-TN-001` through `PH1-ISSUE-TN-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Telangana | No cumulative numeric block | `PH1-ISSUE-TG-001` through `PH1-ISSUE-TG-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Tripura | No cumulative numeric block | `PH1-ISSUE-TR-001` through `PH1-ISSUE-TR-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS; Rule 8 contradiction preserved. |
+| Uttar Pradesh | No cumulative numeric block | `PH1-ISSUE-UP-001` through `PH1-ISSUE-UP-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Uttarakhand | No cumulative numeric block | `PH1-ISSUE-UK-001` through `PH1-ISSUE-UK-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| West Bengal | No cumulative numeric block | `PH1-ISSUE-WB-001` through `PH1-ISSUE-WB-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Andaman and Nicobar Islands | No cumulative numeric block | `PH1-ISSUE-AN-001` through `PH1-ISSUE-AN-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS; controlled interface residual preserved. |
+| Chandigarh | No cumulative numeric block | `PH1-ISSUE-CH-001` through `PH1-ISSUE-CH-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Dadra and Nagar Haveli and Daman and Diu | No cumulative numeric block | `PH1-ISSUE-DD-001` through `PH1-ISSUE-DD-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Delhi (NCT) | No cumulative numeric block | `PH1-ISSUE-DL-001` through `PH1-ISSUE-DL-016` | Jurisdiction-specific issue record verified by reconciliation | Open; PROCEED/CLOSE WITH LIMITATIONS. |
+| Jammu and Kashmir | No cumulative numeric block | `PH1-ISSUE-JK-001` through `PH1-ISSUE-JK-018` | `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md` | Open; PROCEED/CLOSE WITH LIMITATIONS; Rule 8 contradiction preserved. |
 
 ## Residual closure rule
 
