@@ -94,7 +94,7 @@ WB-STATE-001,WB-STATE-002,WB-STATE-003,WB-STATE-004,WB-STATE-005,WB-STATE-006,WB
 
 1. The exact repository comparison shows a substantially larger gap than the earlier five-ledger integration narrative implied.
 2. The five previously identified later contributors, Gujarat, Haryana, Himachal Pradesh, Kerala and Madhya Pradesh, are fully represented in the current master by this comparison, with zero IDs missing from the master for each of those five ledgers.
-3. That fact does not establish full later-jurisdiction integration. Twenty-four of the 29 jurisdiction source ledgers have at least one ID absent from the master.
+3. That fact does not establish full later-jurisdiction integration. Nineteen of the 29 jurisdiction source ledgers have at least one ID absent from the master.
 4. Bihar, Goa, Jharkhand and Karnataka, as well as the five named later contributors, have zero missing IDs in this comparison. This is a repository-ID result only and does not by itself establish how or when each master row entered the master ledger.
 5. `MASTER_ONLY_IDS=67` shows the master also contains IDs not present in the 29 jurisdiction-specific ledgers scanned by the control script. The two sets are therefore not expected to have a one-to-one cardinality relationship.
 6. The website fallback rule remains conceptually valid, but the current production builder does not complete the build because Arunachal Pradesh has no controlled local source-ledger rows and its referenced source IDs are not present in the master.
