@@ -11,11 +11,18 @@ Current/recent State instruments, historical State reports, official Central rep
 - Current Police structure includes Civil Police, CID, Special Investigation Team and district police structures. A PoA-specific Protection Cell/Special Police Station structure is not frozen by a current primary order.
 - BPRD Data on Police Organizations 2024 records zero actual special-purpose police stations classified for crimes against SC/ST/weaker sections in Manipur as on 01-01-2024. This is a dated official finding, not a 2026 census.
 - The Standing Committee on Social Justice and Empowerment's 2024-25 report records that, at the 21-11-2023 central review, Manipur had not established an SC/ST Protection Cell. This narrows the residual but does not establish the position on 05-09-2026.
+- A November 2024 report of the Chief Secretary's PoA/PCR review describes discussion of the functioning and strengthening of the SC/ST Protection Cell at State Police HQ and Special Police Stations. Because the underlying official minutes/order were not retrieved, this is treated as a recent corroborative lead, not as a 2026 primary institutional finding.
+- A secondary reproduction of 2021 Ministry reporting records 10 Special Police Stations for Manipur. This is retained as historical secondary evidence only and is not reconciled with the official BPRD 01-01-2024 zero figure without instrument-level verification.
 - Historical Central records establish Rule 9 nodal-officer appointment and District Sessions Court Special Court designations for Manipur. These are historical/reporting-period findings and are not treated as a 2026 census.
 - Current High Court material identifies District & Sessions Courts and an NDPS Special Court, but the located current court list does not identify a PoA Special Court. This is an unresolved current-status question, not an absence finding.
+- The NCSC-hosted 2023 Manipur State report records Ukhrul District Session Court as the SC/ST Special Court and the Ukhrul Sessions Public Prosecutor as Special Public Prosecutor, with Nil reported for the remaining 15 districts. This is a 2023 reporting snapshot, not a 2026 statewide census.
 - FY 2022-23, 2023-24 and 2024-25 Parliament data records no Central assistance sought by Manipur under the PCR/PoA Centrally Sponsored Scheme and no reported number of victims provided relief in that Central-assistance table. This does not establish absence of State-funded relief.
 - Manipur's July 2024 Budget Speech records implementation of BNS, BNSS and BSA from 01-07-2024. Current Police FIRs demonstrate BNS/PoA coexistence. Current State PoA-specific procedural instructions remain unverified.
-- The Ministry of Social Justice and Empowerment's 2025-26 Annual Report states nationally that 217 Exclusive Special Courts operate in 15 States/UTs and 181 Special Police Stations operate under the PoA Act in 7 States/UTs. It does not provide a Manipur-specific current institutional matrix in the retrieved section.
+- The Ministry of Social Justice and Empowerment's 2025-26 Annual Report states nationally that 217 Exclusive Special Courts operate in 15 States/UTs and 181 Special Police Stations operate in 7 States/UTs. It does not provide a Manipur-specific current institutional matrix in the retrieved section.
+
+## Central 2022 PoA annual-report extraction
+
+The Ministry's current archive confirms publication of the 2022 PoA annual report on 17-09-2024. A direct primary extraction of the full Manipur section was not technically retrievable in this session. A secondary reproduction explicitly attributing its Table 31 to the Ministry's 2022 Section 21(4) report records Manipur as blank/hyphen for charge-sheets within 60 days, charge-sheets after 60 days, atrocity-prone districts and legal aid. These entries are treated as non-reporting/blank data, not zeros. Complete primary extraction remains open and is a priority residual.
 
 ## Historical reporting periods
 
@@ -31,17 +38,20 @@ Official Central ST crime data records 1, 2 and 2 cases respectively for Manipur
 ### 2019
 The State Law Department issued a primary SPP appointment order covering seven Sessions Court jurisdictions.
 
+### 2021-2024 institutional reporting
+Secondary reproduction of Ministry reporting for 2021 records 10 Special Police Stations for Manipur. The official BPRD Police Organizations 2024 dataset records zero actual special-purpose police stations for crimes against SC/ST/weaker sections as on 01-01-2024. The two records are not treated as directly comparable without identifying the underlying establishment instruments and reporting definitions.
+
 ### 2023-2025
 Police FIR publications show a materially different operational environment from the earlier low-volume Central reporting period, including multiple PoA-linked FIRs associated with the 2023 violence and continuing 2024-25 cases. These police records are case-level evidence and do not replace the statutory annual reporting architecture.
 
 ### 2023-2024 institutional reporting
-The 21-11-2023 central review recorded no established SC/ST Protection Cell in Manipur. BPRD's Police Organizations 2024 dataset separately records zero actual special-purpose police stations for crimes against SC/ST/weaker sections as on 01-01-2024. Both findings are date-specific and do not establish the 2026 position.
+The 21-11-2023 central review recorded no established SC/ST Protection Cell in Manipur. The November 2024 Chief Secretary review report subsequently described discussion of functioning and strengthening of the Protection Cell and Special Police Stations. Both records remain date-specific; neither establishes the 2026 primary institutional position.
 
 ## Current unresolved architecture
 
 1. Current Rule 9 designation and office-holder.
 2. Current State SC/ST Protection Cell establishment, command and staffing, including whether a post-2023 cell was created or reorganized.
-3. Current Special Police Station or district SC/ST unit matrix after the 01-01-2024 BPRD reporting date.
+3. Current Special Police Station or district SC/ST unit matrix after the 01-01-2024 BPRD reporting date, including reconciliation of the 2021 secondary figure with the 2024 official figure.
 4. Current Rule 10 Special Officers and identified/atrocity-prone areas.
 5. Current State, District and Sub-Divisional V&MC constitution, membership and meeting record.
 6. Current Special/Exclusive Special Court notification and jurisdiction matrix.
@@ -62,6 +72,8 @@ The 21-11-2023 central review recorded no established SC/ST Protection Cell in M
 - Search silence is not treated as proof of absence.
 - BPRD 01-01-2024 police-organization data is treated as a dated official snapshot, not a 2026 census.
 - The 2024-25 Standing Committee report is treated as evidence of the position reported at the 21-11-2023 central review, not as a current 2026 institutional order.
+- The November 2024 Chief Secretary review is a secondary corroborative lead until its underlying official record is retrieved.
+- The secondary 2021 report of 10 Special Police Stations is not treated as current and is not reconciled with BPRD without instrument-level evidence.
 - Central later-instrument completeness remains a separate project workstream.
 - BNS/BNSS/BSA transition verification remains a separate workstream.
 - No policy necessity/superiority conclusion is drawn.
@@ -70,4 +82,4 @@ The 21-11-2023 central review recorded no established SC/ST Protection Cell in M
 
 ## Primary-source ledger
 
-See `research/states/MANIPUR_SOURCE_LEDGER.md` for MN-STATE-001 through MN-STATE-031 and source-level verification status.
+See `research/states/MANIPUR_SOURCE_LEDGER.md` for MN-STATE-001 through MN-STATE-039 and source-level verification status.
