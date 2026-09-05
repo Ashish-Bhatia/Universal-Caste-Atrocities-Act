@@ -2,13 +2,13 @@
 
 ## Project State
 
-- Project phase: 0, Initialization and Baseline Audit
-- Status: COMPLETE for baseline establishment; substantive Phase 1 remains NOT STARTED
+- Project phase: 1, Existing-Law Baseline and Source Map
+- Status: ACTIVE, initial baseline established; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
-- Baseline date: 2026-09-05
+- Phase 1 start date: 2026-09-05
 - Baseline artifact: `BASELINE_AUDIT.md`
-- Initialization branch verified: `baseline/initialization`
+- Phase 1 artifacts: `legislation/EXISTING_LAW_BASELINE.md`, `legislation/SOURCE_MAP.md`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
 
 ## Zero-Drift Rules
@@ -23,17 +23,43 @@
 8. GitHub is the authoritative project record.
 9. No conclusion of necessity, constitutionality, superiority, or policy desirability is presumed.
 
-## Verified Repository Baseline
+## Phase Status
 
-- GitHub repository is accessible.
-- Authenticated GitHub access has administrator, maintain, push, pull, triage permissions for the repository.
-- Repository is public and not archived.
-- Repository was empty before initialization.
-- No prior repository files, commits, branches, issues, research, Bill drafts, datasets, website assets or workflows were found.
-- Initialization control files now exist on `main`.
-- A separate `baseline/initialization` branch was successfully created, verifying branch-creation capability.
-- File creation and commit operations were successfully executed.
-- Pull-request operations are exposed by the connector but have not been used because no substantive reviewable change exists.
+- Phase 0, Initialization and Baseline Audit: COMPLETE.
+- Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
+- Phase 2, Case-Law Corpus: NOT STARTED.
+- Phase 3, Statistical and Empirical Evidence: NOT STARTED.
+- Phase 4, Constitutional Competence and Risk: NOT STARTED.
+- Phase 5, Comparative and Policy Analysis: NOT STARTED.
+- Phase 6, Legislative Design and Drafting: NOT STARTED.
+- Phase 7, Verification and Adversarial Review: NOT STARTED.
+- Phase 8, Consultation and Revision: NOT STARTED.
+- Phase 9, Publication and Advocacy Package: NOT STARTED.
+- Phase 10, Final Closure: NOT STARTED.
+
+## Verified Phase 1 Findings
+
+- Constitution is the governing primary source. Priority provisions include Articles 14, 15, 17, 19, 21, 245, 246, 338, 338A, 341 and 342.
+- Seventh Schedule List III expressly covers criminal law, criminal procedure, administration of justice/court organisation within the stated constitutional allocation, and evidence and oaths.
+- SC/ST (Prevention of Atrocities) Act, 1989 is Act 33 of 1989. India Code identifies sections addressing offences, official neglect, externment, Special/Exclusive Special Courts, appeals, victim/witness rights, preventive action, overriding effect, government duties and rule-making.
+- India Code's current Act record reports a last-updated date of 19-11-2018 and identifies Rules/amendments through 2018. This does not establish absence of later instruments.
+- SC/ST Prevention of Atrocities Rules, 1995 and amendments in 2011, 2013, 2014, 2014, 2016 and 2018 are identified by official sources.
+- BNS, BNSS and BSA were enacted on 25-12-2023 and have an enforcement date of 01-07-2024 in their India Code records.
+- Protection of Civil Rights Act, 1955 is Act 22 of 1955 and addresses untouchability-related offences, with cognizability/summary-trial and implementation provisions identified in section 15 and 15A.
+- Constitution (SC) Order, 1950 and Constitution (ST) Order, 1950 are primary instruments relevant to protected-class identification.
+
+## Phase 1 Acceptance Gaps
+
+1. Clause-level extraction of the SC/ST Act is incomplete.
+2. Consolidated and amendment-level extraction of the SC/ST Rules is incomplete.
+3. Current-law later-instrument search remains open.
+4. BNS offence crosswalk is incomplete.
+5. BNSS special-law interface crosswalk is incomplete.
+6. BSA evidence/presumption crosswalk is incomplete.
+7. PCR Act and Rules section-level comparison is incomplete.
+8. Central legislation screening is incomplete.
+9. State legislation and implementation machinery have not yet been exhaustively mapped.
+10. Duplication, conflict, gap and ambiguity register remains provisional.
 
 ## Tool Capability Boundaries
 
@@ -41,58 +67,17 @@
 - GitHub Pages configuration/publication inspection is not exposed by the current GitHub connector. Pages status remains UNVERIFIED.
 - No claim of Codespaces or Pages configuration has been made.
 
-## Mandatory Control Status
-
-- Scope control: READY
-- Research-phase control: READY
-- Evidence/source control: READY
-- Case-law control: NOT STARTED
-- Statistical-data control: NOT STARTED
-- Legislative-version control: READY
-- Constitutional-analysis control: READY
-- Cross-reference control: NOT STARTED
-- Decision control: READY
-- Issue/risk control: READY
-- Repository/version control: READY
-- Chat-to-chat continuity control: READY
-- Website publication control: PARTIAL
-- Petition-version control: NOT STARTED
-- Final closure control: READY
-
 ## Current Dependencies and Blockers
 
-1. Codespaces status is unverified. This does not block repository-based research. User action is required only if Codespaces is needed or its configuration must be verified.
-2. GitHub Pages configuration is unverified. This does not block research or drafting. User action is required before website publication is declared ready unless Pages-capable tooling becomes available.
-3. Petition platform and privacy/data handling model are undecided. These become blocking before public petition launch.
-4. Custom-domain requirement is undecided. This is a publication configuration decision, not a research blocker.
-5. Any prior project-chat material outside the repository remains unverified and must not be treated as project evidence without being supplied or otherwise made accessible.
-
-## Phase Model
-
-0. Initialization and Baseline Audit: COMPLETE.
-1. Existing-Law Baseline and Source Map: NOT STARTED.
-2. Case-Law Corpus: NOT STARTED.
-3. Statistical and Empirical Evidence: NOT STARTED.
-4. Constitutional Competence and Risk: NOT STARTED.
-5. Comparative and Policy Analysis: NOT STARTED.
-6. Legislative Design and Drafting: NOT STARTED.
-7. Verification and Adversarial Review: NOT STARTED.
-8. Consultation and Revision: NOT STARTED.
-9. Publication and Advocacy Package: NOT STARTED.
-10. Final Closure: NOT STARTED.
-
-Detailed objectives, inputs, outputs and acceptance criteria are recorded in `BASELINE_AUDIT.md`.
+1. Codespaces status remains unverified, but this does not block repository-based Phase 1 research.
+2. GitHub Pages status remains unverified, but this does not block Phase 1.
+3. Petition platform/privacy architecture and custom-domain decisions remain open and are not current research blockers.
+4. Prior project-chat material outside the repository remains unverified and must not be reconstructed.
 
 ## Exact Current Position
 
-Baseline and access audit are established. No substantive legislative research has been started. The next discrete substantive workstream is Phase 1, Existing-Law Baseline and Source Map, but it should begin only after the baseline is accepted and any required user-side configuration is addressed for the relevant workstream.
+The first primary-source legal baseline and source map are committed. Phase 1 remains active. No Bill drafting has begun. No policy conclusion has been drawn. No constitutional validity conclusion has been drawn.
 
 ## Next Required Action
 
-For the next project chat:
-
-1. Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, and `DECISIONS_LOG.md`.
-2. Do not repeat the completed repository baseline.
-3. Resolve any Phase 0 user-side configuration needed for the immediate workstream.
-4. Begin Phase 1 using primary authoritative sources.
-5. Record every material source, claim, legal proposition, contradiction and unresolved issue in the relevant ledger.
+Continue Phase 1 with clause-level extraction and version verification for the SC/ST Act and Rules, then build the BNS/BNSS/BSA/PCR crosswalk and complete the state-law source inventory. Record every material proposition, source, version/date, interaction, duplication, conflict, gap, ambiguity and verification status. Do not declare Phase 1 complete until its acceptance criteria are independently satisfied.
