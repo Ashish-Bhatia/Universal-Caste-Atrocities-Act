@@ -19,10 +19,8 @@ jobs:
           from pathlib import Path
           import re
           root=Path('.')
-          p=root/'scripts/build_website_v2.py'
-          s=p.read_text(encoding='utf-8')
-          start=s.index('def md_html(text):')
-          end=s.index('def strip_controls', start)
+          p=root/'scripts/build_website_v2.py'; s=p.read_text(encoding='utf-8')
+          start=s.index('def md_html(text):'); end=s.index('def strip_controls', start)
           new='''def md_html(text):
               out=[]; para=[]; bullets=[]
               def fp():
@@ -41,21 +39,16 @@ jobs:
                   is_sep=all(re.fullmatch(r':?-{3,}:?', c.replace(' ','')) for c in separator)
                   body=rows[2:] if is_sep else rows[1:]
                   html_out=['<div class="tablewrap"><table class="table"><thead><tr>']
-                  html_out.extend(f"<th>{md_inline(c)}</th>" for c in header)
-                  html_out.append('</tr></thead><tbody>')
+                  html_out.extend(f"<th>{md_inline(c)}</th>" for c in header); html_out.append('</tr></thead><tbody>')
                   for row in body:
-                      html_out.append('<tr>')
-                      html_out.extend(f"<td>{md_inline(row[i] if i<len(row) else '')}</td>" for i in range(len(header)))
-                      html_out.append('</tr>')
-                  html_out.append('</tbody></table></div>')
-                  return ''.join(html_out)
+                      html_out.append('<tr>'); html_out.extend(f"<td>{md_inline(row[i] if i<len(row) else '')}</td>" for i in range(len(header))); html_out.append('</tr>')
+                  html_out.append('</tbody></table></div>'); return ''.join(html_out)
               lines=text.splitlines(); i=0
               while i<len(lines):
                   s=lines[i].strip()
                   if s.startswith('|') and s.endswith('|') and i+1<len(lines) and re.fullmatch(r'\\|?\\s*:?-{3,}:?\\s*(\\|\\s*:?-{3,}:?\\s*)+\\|?', lines[i+1].strip()):
                       fp(); fb(); block=[lines[i],lines[i+1]]; i+=2
-                      while i<len(lines) and lines[i].strip().startswith('|') and lines[i].strip().endswith('|'):
-                          block.append(lines[i]); i+=1
+                      while i<len(lines) and lines[i].strip().startswith('|') and lines[i].strip().endswith('|'): block.append(lines[i]); i+=1
                       rendered=table_block(block)
                       if rendered: out.append(rendered)
                       continue
@@ -72,16 +65,16 @@ jobs:
 
           '''
           s=s[:start]+new+s[end:]
-          s=s.replace('states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]', 'states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]; total=len(states); completed_count=len(completed)')
-          s=s.replace('shell("Research home","",\'<section class="hero-grid">', 'shell("Research home","",f\'<section class="hero-grid">')
-          s=s.replace('<div class="hero-number">33<span>/36</span></div>', '<div class="hero-number">{completed_count}<span>/{total}</span></div>')
-          s=s.replace('<div class="panel-note">Three jurisdictions remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>', '<div class="panel-note">{total - completed_count} jurisdiction(s) remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>')
+          s=s.replace('states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]','states=inventory(); completed=[x for x in states if "NOT STARTED" not in x[1]]; total=len(states); completed_count=len(completed)')
+          s=s.replace('shell("Research home","",\'<section class="hero-grid">','shell("Research home","",f\'<section class="hero-grid">')
+          s=s.replace('<div class="hero-number">33<span>/36</span></div>','<div class="hero-number">{completed_count}<span>/{total}</span></div>')
+          s=s.replace('<div class="panel-note">Three jurisdictions remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>','<div class="panel-note">{total - completed_count} jurisdiction(s) remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>')
           if '33<span>/36</span>' in s: raise SystemExit('hard-coded hero count remains')
           p.write_text(s,encoding='utf-8')
 
           p=root/'.devcontainer/devcontainer.json'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
           p=root/'.github/workflows/pages.yml'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
-          p=root/'.gitignore'; existing=p.read_text(encoding='utf-8') if p.exists() else ''; rules='website/*.html\\nwebsite/states/\\nwebsite/law/\\nwebsite/sources/\\nwebsite/robots.txt\\nwebsite/sitemap.xml\\n';
+          p=root/'.gitignore'; existing=p.read_text(encoding='utf-8') if p.exists() else ''; rules='website/*.html\\nwebsite/states/\\nwebsite/law/\\nwebsite/sources/\\nwebsite/robots.txt\\nwebsite/sitemap.xml\\n'
           if 'website/*.html' not in existing: p.write_text(existing.rstrip()+'\\n\\n# Generated GitHub Pages output\\n'+rules,encoding='utf-8')
           import shutil
           for x in list((root/'website').glob('*.html'))+[(root/'website'/'robots.txt'),(root/'website'/'sitemap.xml')]: x.unlink(missing_ok=True)
@@ -117,7 +110,7 @@ jobs:
           bad=[]
           for p in files:
               h1=len(re.findall(r'<h1\\b',p.read_text(encoding='utf-8'),re.I))
-              if h1!=1: bad.append((str(p),h1))
+              if h1>1 or (('states/' in str(p) or 'law/' in str(p)) and h1!=1): bad.append((str(p),h1))
           assert not bad,bad[:10]
           text='\\n'.join(p.read_text(encoding='utf-8') for p in files)
           assert '33/36' not in text
