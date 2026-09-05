@@ -3,7 +3,7 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; State/UT inventory continues with Arunachal Pradesh next; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; Arunachal Pradesh targeted official-source inventory completed with qualifications; State/UT inventory continues with Assam next; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
@@ -12,6 +12,7 @@
 - Central screening artifact: `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`
 - State inventory master: `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
 - Andhra Pradesh record: `legislation/states/ANDHRA_PRADESH.md`
+- Arunachal Pradesh record: `legislation/states/ARUNACHAL_PRADESH.md`
 - State source ledger: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`
 - Website source: `website/index.html`
 - Pages workflow: `.github/workflows/pages.yml`
@@ -53,18 +54,21 @@
 - Priority 2 Central legislation screening complete at screening level.
 - PH1-AUDIT-001 closed through authoritative-record remediation.
 - Andhra Pradesh State/UT inventory targeted verification completed with qualifications.
+- Arunachal Pradesh State/UT inventory targeted official-source verification completed with qualifications.
 - GitHub Pages source and deployment workflow prepared, publication enablement remains externally unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Andhra Pradesh is sufficiently verified for progression but is not treated as a complete 2026 implementation census. The 2023 Government of Andhra Pradesh Social Welfare Department annual submission establishes State-level nodal officer designation, State Protection Cell composition, Special Court/prosecutor architecture, State Vigilance and Monitoring Committee constitution, relief/payment workflow, circular/manual/digital workflow elements and the identity of the 2021 Model Contingency Plan Gazette instrument. Current Andhra Pradesh High Court records independently confirm continuing SC/ST Special Judge posts and 2025/2026 implementation activity. Residual Andhra Pradesh completeness questions are carried to Phase 1 closure.
+Phase 1 remains active. Andhra Pradesh is sufficiently verified for progression but is not a complete 2026 implementation census. Arunachal Pradesh has now been independently inventoried from State and official central sources, with explicit currentness qualifications.
 
-The next State/UT jurisdiction is Arunachal Pradesh. The State inventory must be conducted independently using official sources. No Andhra Pradesh implementation arrangement is to be assumed for Arunachal Pradesh.
+The Arunachal Pradesh State record establishes an SC/ST Protection Cell at Police Headquarters under IGP (Crime)/SIT, citing order HMB(B) 25-2002 dated 30-09-2015. The 2023 State annual report says there was no State Rule 9 Nodal Officer "till date", records no Rule 10 Special Officers, no identified atrocity-prone areas, no State-level Vigilance and Monitoring Committee, District V&MC formation with nil meetings, nil Special/Exclusive Special Courts and prosecutors, nil relief/payment cases, and nil section 3 registrations for the reporting period. The State's 2022 PCR report was NIL. Current 2026 nodal, court, prosecutor, committee, relief and Gazette status remains subject to closure verification.
 
-Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; and Pages verification.
+The State inventory also identifies the Arunachal Pradesh (Land Settlement and Records) Act, 2000 as amended and the Arunachal Pradesh Panchayati Raj Act, 1997 and related Rules/Manual as relevant interfaces. No Arunachal-specific bonded-labour or manual-scavenging implementation instrument was located in the targeted search; no absence conclusion is drawn.
+
+Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; residual Andhra Pradesh closure items; Arunachal primary/currentness closure items; and Pages verification.
 
 No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Next Discrete Workstream
 
-Begin the Arunachal Pradesh official-source State/UT implementation inventory. Preserve Andhra Pradesh's residual closure qualifications separately. Do not repeat completed Andhra Pradesh research unless a new source directly changes its recorded status.
+Begin the Assam official-source State/UT implementation inventory. Preserve Andhra Pradesh and Arunachal Pradesh residual closure qualifications separately. Do not reopen either jurisdiction unless new evidence directly changes its recorded status.
