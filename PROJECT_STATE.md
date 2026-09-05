@@ -22,8 +22,8 @@
 2. Read this file and `NEXT_CHAT.md` before substantive continuation.
 3. Check relevant ledgers before repeating research.
 4. Preserve provenance for every material claim.
-5. Record material decisions in `DECISIONS_LOG.md`.
-6. Record unresolved questions and risks in `ISSUES_REGISTER.md`.
+5. Record material decisions in `DECISIONS_LOG.md` or a linked decision addendum.
+6. Record unresolved questions and risks in `ISSUES_REGISTER.md` or a linked issue addendum.
 7. Preserve previous versions of substantive drafts.
 8. GitHub is the authoritative project record.
 9. No conclusion of necessity, constitutionality, superiority, or policy desirability is presumed.
@@ -51,19 +51,19 @@
 - Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana and Himachal Pradesh inventories completed with qualifications.
 - Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra independent official-source inventories completed with qualifications.
 - Jharkhand and Karnataka source entries are integrated into the master State Implementation Source Ledger using complete-file preservation.
-- Kerala and Madhya Pradesh source ledgers and jurisdiction inventories have been created.
-- Maharashtra source ledger and jurisdiction inventory have been created. Master-ledger integration remains pending controlled complete-file preservation.
+- Maharashtra source entries MH-STATE-001 through MH-STATE-020 are now integrated into the master State Implementation Source Ledger after controlled complete-file preservation and verification.
+- Manipur inventory has begun using an independent current/recent official-source method. Manipur source ledger and jurisdiction inventory have been created.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Maharashtra is the latest completed jurisdiction in the State/UT inventory sequence. Its inventory is `legislation/states/MAHARASHTRA.md` and source ledger is `research/states/MAHARASHTRA_SOURCE_LEDGER.md`, containing MH-STATE-001 through MH-STATE-020. Current State evidence establishes a dedicated Civil Rights Protection function, a 27-03-2026 temporary ADGP Civil Rights Protection extension through 31-08-2026, current State publication of PoA legislation/rules, prevention guidance, victim-relief architecture, current Police statistical publication and SC/ST institutional oversight. Official Central reports establish reporting-period Rule 9, Special Court, Exclusive Special Court and sensitive-area arrangements. Current 2026 instrument completeness remains open.
+Phase 1 remains active. Manipur is the current jurisdiction workstream. Its inventory is `legislation/states/MANIPUR.md` and source ledger is `research/states/MANIPUR_SOURCE_LEDGER.md`, containing MN-STATE-001 through MN-STATE-028. Current/recent official evidence establishes continuing PoA invocation in Manipur Police FIR records, including post-01-07-2024 BNS/PoA combinations, a primary 17-01-2019 SPP appointment order covering seven Sessions Court jurisdictions, current Police/CID structures, and current State legal/land/local-government interface material. Historical Central reports establish Rule 9 and historical Special Court arrangements. Current 2026 Rule 9, Protection Cell, Special Police Station, Rule 10, V&MC, Special/Exclusive Special Court, SPP/ESPP continuation, relief/payment, PoA-specific SOP/digital, related-law and post-BNS/BNSS/BSA status remain open.
 
-Maharashtra residuals are recorded in its source ledger and must remain separate from prior jurisdiction residuals. Prior residual ranges remain: Jharkhand PH1-ISSUE-101 to PH1-ISSUE-116, Karnataka PH1-ISSUE-117 to PH1-ISSUE-130, Kerala PH1-ISSUE-131 to PH1-ISSUE-146, Madhya Pradesh PH1-ISSUE-147 to PH1-ISSUE-162. Do not reopen these without new evidence directly changing status.
+Maharashtra residuals remain separate under PH1-ISSUE-163 through PH1-ISSUE-178. Manipur residuals are PH1-ISSUE-179 through PH1-ISSUE-195 in `project-state/MANIPUR_ISSUES_ADDENDUM.md`. Do not merge or reopen residual ranges without new evidence directly changing status.
 
 ## Master-ledger integration status
 
-`research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` contains the prior integrated jurisdiction records. The connector exposes the master file in truncated form. Maharashtra has therefore been kept in a jurisdiction-specific supplemental ledger pending a controlled complete-file preservation/reconstruction operation. Do not claim Maharashtra master-ledger integration until that operation is completed and verified.
+`research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` was successfully integrated with MH-STATE-001 through MH-STATE-020. The integration preserved the existing jurisdiction records and was verified by post-write retrieval and commit comparison before Manipur research began. The master ledger now identifies Manipur as the next jurisdiction.
 
 ## Separate closure workstreams
 
@@ -79,4 +79,4 @@ The repository contains a multi-page static research website and GitHub Actions 
 
 ## Next Discrete Workstream
 
-First complete the authoritative control-record updates for Maharashtra, including RESEARCH_LEDGER.md, ISSUES_REGISTER.md and DECISIONS_LOG.md, and complete the controlled Maharashtra master-ledger integration while preserving all existing jurisdiction entries. Then proceed to Manipur using independent current/recent official-source research. Do not repeat completed jurisdiction research. Keep Maharashtra residuals separate. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions.
+Continue Manipur Phase 1 current/recent official-source verification. Prioritise current Rule 9 designation, Protection Cell/Special Police Station matrix, Rule 10 and identified-area instruments, V&MC orders/minutes, current Special/Exclusive Special Court notifications, SPP/ESPP continuation, relief/payment workflow, PoA-specific SOP/digital systems, PCR/Manual Scavengers/bonded-labour/local-government/land interfaces, current annual-report submission and post-BNS/BNSS/BSA State instructions. Do not repeat completed Maharashtra or earlier-jurisdiction research. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions.
