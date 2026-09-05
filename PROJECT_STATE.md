@@ -45,7 +45,7 @@
 
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim and Tamil Nadu inventories completed with qualifications.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu and Telangana inventories completed with qualifications.
 - Meghalaya: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
 - Manipur remains closed for the current sequence with documented residuals.
 - Mizoram: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 remain open.
@@ -55,31 +55,34 @@
 - Rajasthan: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-RJ-001 through PH1-ISSUE-RJ-016 remain open.
 - Sikkim: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-SK-001 through PH1-ISSUE-SK-016 remain open.
 - Tamil Nadu: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-TN-001 through PH1-ISSUE-TN-016 remain open.
+- Telangana: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-TG-001 through PH1-ISSUE-TG-016 remain open.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Tamil Nadu is now the 23rd completed State/UT inventory in the controlled sequence. The repository master sequence still shows 13 remaining unresearched jurisdictions after Tamil Nadu, because the master State inventory is intentionally unsynchronized.
+Phase 1 remains active. Telangana is now the 24th completed State/UT inventory in the controlled sequence. The repository master sequence still shows 12 remaining unresearched jurisdictions after Telangana, because the master State inventory is intentionally unsynchronized.
 
-Tamil Nadu is classified PROCEED/CLOSE WITH LIMITATIONS. The principal recent implementation snapshot located is the Ministry's Section 21(4) report for calendar year 2022. It records one State V&MC meeting, 130 District V&MC meetings across 38 districts, 133 Sub-Divisional meetings, 38 Social Justice and Human Rights Units, 37 Special Courts, 14 Exclusive Special Court districts, 32 Special Public Prosecutors, 3563 atrocity victims receiving relief, 1695 persons receiving travel/maintenance expenses, 988 awareness programmes, 690 charge-sheets within 60 days and 617 after 60 days.
+Telangana is classified PROCEED/CLOSE WITH LIMITATIONS. The principal directly retrievable detailed institutional snapshot is the Ministry's Telangana Section 21(4) report for 2020. It records one State V&MC meeting, 32 District V&MC meetings in 29 districts, 13 Sub-Divisional meetings in eight districts, a State SC/ST Protection Cell headed by an IG CID under ADGP CID supervision, 30 police units, eight regional CID offices, 302 charge-sheets within 60 days and 507 after 60 days. It records the Commissioner, Scheduled Castes Development Department as Rule 9 Nodal Officer and Joint Collectors as Special Officers in districts with atrocity-prone areas.
 
-Tamil Nadu's documented Rule 9 architecture traces to G.O.(Ms.) No.18 dated 20-01-2003 appointing the Secretary, Adi Dravidar and Tribal Welfare Department as Nodal Officer. A 2024 State implementation/status source reports no dedicated Special Police Stations and states that all police stations are empowered to register PoA cases. Current named appointments and a 2026 instrument census remain open.
+The Ministry's official 2022 identified-area answer records 66 atrocity-prone villages in Telangana across Nizamabad Commissionerate, Rachakonda Commissionerate, Ramagundam Commissionerate, Adilabad, Bhadradri-Kothagudem, Jagityal, Mahabubnagar, Nalgonda and Narayanpet. This remains a historical reporting snapshot, not a 2026 census.
 
-Rule 10 architecture is documented through G.O.(Ms.) No.96 dated 10-08-2006 appointing District Collectors as Special Officers and 2017 instructions. The State Statistical Handbook records 430 atrocity-prone and 414 dormant villages in 2022, and 394 atrocity-prone and 479 dormant villages in 2023. A separate 2020 snapshot reproduced by PIB records 345 villages in 37 districts and 27 villages in seven Commissionerates. These series remain separate pending reconciliation.
+For 2022, a secondary reproduction of the Ministry's Section 21(4) data records one State V&MC meeting, 67 District V&MC meetings, 823 charge-sheets within 60 days, 1268 after 60 days and 18 persons receiving legal aid. The direct Ministry file requires later verification, so these figures remain secondary corroboration in the current ledger.
 
-Recent Tamil Nadu Gazette material shows continuing PoA Special Court and Special Public Prosecutor appointment activity in 2025-2026, including a 2026 Special Court notification for Tenkasi and 2025 SPP appointments. The current statewide court and prosecutor census remains open. A 2026 Madras High Court PoA prosecution order also identifies an Exclusive Special Court at Sivagangai. These judicial references are Phase 1 institutional corroboration only.
+Telangana departmental material records ten Special Sessions Courts and prosecutor appointments, while a 2026 secondary reproduction of the Ministry's 2022 court table reports 10 Exclusive Special Court districts. Current court and prosecutor census remains open. Telangana maintains a monetary relief and legal-aid scheme for atrocity victims. Current district-government pages confirm continuing PoA/PCR administration and relief/legal-aid delivery. Central scheme data records 3,635 persons receiving relief in Telangana in 2024-25.
 
-Tamil Nadu-specific residuals are recorded in `project-state/TAMIL_NADU_ISSUES_2026-09-05.md` and decisions in `project-state/TAMIL_NADU_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/TAMIL_NADU_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/TAMIL_NADU.md`.
+A 2024 Rachakonda Police Commissionerate annual report records a case under BNS section 70(1) read with section 3(2)(v) of the SC/ST PoA Act at Vanasthalipuram Police Station. This is current police corroboration of post-BNS operational interaction only. A current statewide transition protocol remains unverified.
+
+Telangana-specific residuals are recorded in `project-state/TELANGANA_ISSUES_2026-09-05.md` and decisions in `project-state/TELANGANA_DECISIONS_2026-09-05.md`. The detailed source ledger is `research/states/TELANGANA_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/TELANGANA.md`.
 
 Central later-instrument/current-law completeness remains separate. BNS/BNSS/BSA transition verification remains separate and unfrozen. No blanket numerical substitution is permitted.
 
-Phase 1 acceptance criteria remain NOT YET SATISFIED because 13 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
+Phase 1 acceptance criteria remain NOT YET SATISFIED because 12 jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
 ## Next Discrete Workstream
 
-Begin the next unresearched State/UT Phase 1 inventory after Tamil Nadu, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all Tamil Nadu, Sikkim, Rajasthan, Punjab, Odisha, Nagaland, Mizoram, Meghalaya, Manipur and earlier residuals. Do not reopen completed baseline research.
+Begin the next unresearched State/UT Phase 1 inventory after Telangana, following the repository jurisdiction sequence. The next jurisdiction is Tripura. First inspect for existing jurisdiction-specific artifacts. Preserve all prior residuals. Do not reopen completed baseline research.
 
 ## Website Status
 
@@ -87,7 +90,7 @@ The repository contains a multi-page static research website and GitHub Actions 
 
 ## Latest Controlled Update
 
-- 2026-09-05: Repository search found no pre-existing Tamil Nadu-specific jurisdiction inventory, source ledger, issue register or decision addendum. The master State inventory was not modified.
-- 2026-09-05: Tamil Nadu State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
-- 2026-09-05: Tamil Nadu source ledger, issue register and decision addendum created.
+- 2026-09-05: Repository search found no pre-existing Telangana-specific jurisdiction inventory, source ledger, issue register or decision addendum. The master State inventory was not modified.
+- 2026-09-05: Telangana State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
+- 2026-09-05: Telangana source ledger, issue register and decision addendum created.
 - 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched.
