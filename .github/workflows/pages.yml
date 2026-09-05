@@ -34,6 +34,7 @@ jobs:
           python3 -m py_compile scripts/build_website_v2.py
           python3 -m py_compile scripts/verify_website_source_sync.py
           python3 -m py_compile scripts/sanitize_public_html.py
+          python3 -m py_compile scripts/validate_public_site.py
 
       - name: Reconcile source-ledger ID control set
         shell: bash
@@ -48,47 +49,15 @@ jobs:
       - name: Build research site
         run: python3 scripts/build_website_v2.py
 
+      - name: Apply production accessibility and responsive overrides
+        shell: bash
+        run: cat website/assets/site-overrides.css >> website/assets/site.css
+
       - name: Sanitize generated public HTML
         run: python3 scripts/sanitize_public_html.py
 
       - name: Validate generated site
-        shell: bash
-        run: |
-          test -f website/index.html
-          test -f website/states.html
-          test -f website/law.html
-          test -f website/sources.html
-          test -f website/methodology.html
-          test -f website/404.html
-          test -f website/sitemap.xml
-          test "$(find website/states -name '*.html' | wc -l)" -eq 33
-          test "$(find website/sources -name '*.html' | wc -l)" -eq 33
-          if grep -R -n "github.com/Ashish-Bhatia/Universal-Caste-Atrocities-Act" website --include='*.html'; then
-            echo "Public site contains a repository-navigation link. Build rejected."
-            exit 1
-          fi
-          for banned in PROJECT_STATE.md NEXT_CHAT.md RESEARCH_LEDGER.md ISSUES_REGISTER.md DECISIONS_LOG.md BASELINE_AUDIT.md; do
-            if grep -R -n -i -- "$banned" website --include='*.html'; then
-              echo "Public site contains a project-control filename: $banned"
-              exit 1
-            fi
-          done
-          for phrase in "modify the project record" "project-control" "project control" "continuation prompt" "No Bill drafting" "No Phase 2"; do
-            if grep -R -n -i -- "$phrase" website --include='*.html'; then
-              echo "Public site contains a project-management instruction: $phrase"
-              exit 1
-            fi
-          done
-          empty=0
-          while IFS= read -r page; do
-            if grep -q "No controlled source rows are available" "$page"; then
-              echo "Completed jurisdiction source-set page is empty: $page"
-              empty=1
-            fi
-          done < <(find website/sources -name '*.html' -print)
-          if [ "$empty" -ne 0 ]; then
-            exit 1
-          fi
+        run: python3 scripts/validate_public_site.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
