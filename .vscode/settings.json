@@ -1,0 +1,10 @@
+{
+  "explorer.sortOrder": "type",
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": true,
+  "explorer.fileNesting.enabled": false,
+  "workbench.tree.indent": 12,
+  "files.exclude": {
+    "**/.git": false
+  }
+}
