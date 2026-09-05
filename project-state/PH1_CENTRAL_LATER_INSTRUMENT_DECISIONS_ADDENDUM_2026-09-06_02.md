@@ -6,9 +6,9 @@ Date: 2026-09-06
 
 DEC-2026-09-06-CENTRAL-008
 
-The Rights of Persons with Disabilities Rules, 2017 later-instrument sequence is extended through the identified 2024 amendment instruments G.S.R. 07(E), 114(E), 334(E), 358(E) and 361(E). G.S.R. 07(E) remains an identified instrument with direct Gazette endpoint retrieval outstanding.
+The Rights of Persons with Disabilities Rules, 2017 later-instrument sequence is extended through the identified 2024 amendment series: G.S.R. 07(E), 114(E), 175(E), 334(E), 343(E), 358(E), 361(E) and 649(E). G.S.R. 175(E) and G.S.R. 343(E) remain sequence-confirmed through the current consolidated Rules record but their direct Gazette endpoints are not yet separately retrieved. G.S.R. 649(E) is directly retrieved and is the latest identified instrument in this extension.
 
-Reason: official Gazette text and the current DEPwD publication record establish operative 2024 amendments. The project must preserve each instrument separately and must not infer the absence of later instruments.
+Reason: official Gazette/current Department evidence establishes operative 2024 amendments. The project preserves each instrument separately and does not infer absence of later instruments.
 
 DEC-2026-09-06-CENTRAL-009
 
