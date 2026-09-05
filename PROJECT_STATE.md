@@ -22,30 +22,29 @@ Remaining unresearched jurisdictions:
 
 ## Control Remediation Status, 2026-09-06
 
-The project has entered a control-remediation workstream before any new substantive Phase 1 jurisdiction research.
+The control-remediation workstream for the master State Implementation Source Ledger is COMPLETE.
 
 Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
 
-It formally defines:
-- COMPLETED
-- VERIFIED
-- CURRENT
-- OPEN
-- QUALIFIED
-- PROCEED/CLOSE WITH LIMITATIONS
-- source-of-truth hierarchy
-- conflict-resolution rule
-- universal search stopping rule
-- reopening rule
-- master-index reconciliation standard
+Completed remediation:
+- Formal definitions established for COMPLETED, VERIFIED, CURRENT, OPEN, QUALIFIED and PROCEED/CLOSE WITH LIMITATIONS.
+- Source-of-truth hierarchy and conflict-resolution rule established.
+- Universal search stopping rule established.
+- Reopening rule established.
+- Master-index reconciliation standard established.
+- `legislation/STATE_IMPLEMENTATION_INVENTORY.md` reconciled against the 33 substantive jurisdiction artifacts.
+- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` integrated with later jurisdiction-specific source rows using a controlled repository operation.
+- Existing source IDs were preserved. No cumulative source IDs were fabricated or renumbered.
+- Independent repository read-back confirmed the new Gujarat, Haryana and Himachal Pradesh integration sections in the committed master ledger.
+- Git comparison against the pre-integration control commit `57f6a8006844f45e301e99f7f13d937297957cbe` shows no deletion of prior master content; the sole non-additive change was final-newline normalization.
+- The integration control report records 164 source IDs before integration, 261 after integration, 97 new IDs, no duplicate IDs and an exact source-ledger delta match.
 
-The master State Implementation Inventory has been reconciled against the 33 substantive jurisdiction artifacts and now identifies 33 completed jurisdictions and the three unresearched jurisdictions.
-
-The master State Implementation Source Ledger remains substantively integrated through Maharashtra. A controlled reconciliation record has been created at `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`. It verifies the existence and disposition of later jurisdiction-specific source ledgers without falsely claiming their substantive rows are already integrated. A controlled master-ledger integration write remains open and must preserve all existing source rows and IDs.
+Controlled integration report: `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`.
+Controlled reconciliation record: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`.
 
 ## Cumulative Control Layer
 
-The 2026-09-06 cumulative state-control reconciliation was repaired and independently re-read after write.
+The 2026-09-06 cumulative state-control reconciliation remains preserved.
 
 The three cumulative controls contain explicit reconciliation-only indexes:
 - `RESEARCH_LEDGER.md` contains the cumulative 33-jurisdiction artifact-control index through Jammu and Kashmir.
@@ -57,6 +56,14 @@ The jurisdiction-specific records remain the substantive records. The indexes ar
 ## Central and Transition Residuals
 
 Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Existing State residuals remain jurisdiction-specific. Search silence is not treated as absence.
+
+## Website and Repository Synchronization
+
+A repository-driven website builder now generates the public research interface from the authoritative State Implementation Inventory and master source ledger at Pages deployment time. The interface has been refreshed with a responsive Material-inspired design, searchable State/UT cards, current coverage metrics and direct repository links.
+
+GitHub Pages live publication remains unverified because the connector does not expose Pages administration/live-site verification.
+
+Codespaces administration/synchronization is not exposed by the connector. All completed control-remediation and website artifacts are committed on `main`, which remains the authoritative repository state.
 
 ## Closed for This Workstream
 
@@ -74,15 +81,15 @@ No reopening of completed jurisdiction baselines absent a genuine evidentiary/co
 
 CUMULATIVE CONTROL RECONCILIATION: PASS.
 
-CONTROL REMEDIATION: IN PROGRESS.
+CONTROL REMEDIATION: COMPLETE for the master State Implementation Source Ledger integration task.
 
 Master State Implementation Inventory reconciliation: COMPLETE.
 
-Master State Implementation Source Ledger reconciliation: CONTROLLED RECONCILIATION RECORDED; substantive later-row integration remains open.
+Master State Implementation Source Ledger reconciliation: COMPLETE.
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-No substantive next-jurisdiction work is authorized until the required control-remediation workstream is closed. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
+No substantive next-jurisdiction work is authorized until the next control gate is explicitly opened. Ladakh remains the later sequencing point, but it is not authorized or researched in this workstream.
 
 ## Latest Controlled Update
-2026-09-06: established the authoritative Phase 1 control matrix; reconciled the master State Implementation Inventory against 33 jurisdiction artifacts; created a controlled master-source-ledger reconciliation record; preserved the existing cumulative state-control result and prohibitions. The master source ledger's substantive integration point remains Maharashtra pending a controlled later-row integration write and independent re-read.
+2026-09-06: integrated the verified later jurisdiction-specific source-ledger rows into the master ledger without source-ID renumbering; independently re-read the committed master tail and compared the pre-integration and post-integration repository states; refreshed the GitHub Pages build pipeline to derive the public interface from authoritative repository data; preserved the prohibition on new jurisdiction research and substantive Bill/policy/constitutional/Phase 2 work.
