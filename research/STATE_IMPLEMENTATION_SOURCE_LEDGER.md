@@ -38,6 +38,34 @@ Opened: 2026-09-05
 | ARP-STATE-013 | Secondary POA Handbook 2024, State nodal contact annexure | Lists Department of Social Justice and Empowerment and Tribal Affairs as Arunachal Pradesh nodal contact. | C | Retained as conflicting lead only; does not override 2023 State record without primary appointment order |
 | ARP-STATE-014 | Parliament, Lok Sabha Question No.3779 Annexure IV, reply 12-08-2025 | Records Arunachal Pradesh awareness programmes as NIL for 2022 and 2023; 2024 marked * because annual-report material had not been sent. | A | Verified; currentness limited |
 
+## Assam inventory
+
+| ID | Source | Finding | Grade | Verification status |
+|---|---|---|---|---|
+| ASM-STATE-001 | Government of Assam Social Justice & Empowerment Department, Acts/Rules index, last updated 07-08-2026 | Current State publication index lists the SC/ST PoA Act, 1989, PoA Rules 1995, PCR Act 1955 and Manual Scavengers Act 2013. | A | Current official State source verified |
+| ASM-STATE-002 | Government of Assam Social Justice & Empowerment Department current About Us page | Current department mandate expressly includes implementation of the SC/ST PoA Act and PCR Act and identifies SC/OBC welfare functions. | A | Current official State source verified |
+| ASM-STATE-003 | Government of Assam Welfare of Scheduled Castes Annual Administrative Report 2015-16 | States Director of Welfare of Scheduled Castes was notified as nodal officer for PoA/PCR coordination and annual reporting. | A | Official State report verified; historical currentness limitation |
+| ASM-STATE-004 | Ministry of Social Justice & Empowerment, PoA implementation report 2017 | Records State V&MC chaired by Chief Minister, District V&MCs in 20 districts, State SC/ST Protection Cell under DGP with ADGP CID/IGP/DIG Range/SP composition, Director Welfare of SC as nodal officer, Additional District Magistrates as Rule 10 Special Officers, no atrocity-prone area specified, and 33 designated Special Courts. | A | Official Central report, historical State-specific implementation record |
+| ASM-STATE-005 | Ministry of Social Justice & Empowerment, PoA implementation report 2010/2013 | Corroborates State V&MC, Protection Cell, Director Welfare of SC as nodal officer, ADM Special Officers, no atrocity-prone area at the reporting point, Special Courts and SPP appointments. | A | Official Central reports, historical corroboration |
+| ASM-STATE-006 | Assam State Level V&MC minutes dated 21-03-2018, underlying State record hosted by CVMC | Records CM-chaired State V&MC meeting; directions for remaining district committees, quarterly meetings, case reporting, victim-compensation assessment, budget for witness expenses/rehabilitation/legal aid, police threat assessment, training and Special Courts in new districts. | A for underlying State record; host C | Underlying State document identified; primary State-host retrieval remains desirable |
+| ASM-STATE-007 | Government of Assam Finance, Outcome Budget 2022-23 | Prevention of Atrocities Act scheme has Rs.30 lakh budget estimate and target of five victims, with relief/rehabilitation objective for SC/ST victims/dependants. | A | Official State budget verified |
+| ASM-STATE-008 | Government of Assam Finance, Gender Budget 2023-24 | State-share Prevention of Atrocities Act programme under Directorate of Welfare of Scheduled Caste, objective includes relief/rehabilitation of SC/ST victims/dependants including women in sexual-harassment cases. | A | Official State budget verified |
+| ASM-STATE-009 | Government of Assam Finance, Revenue Estimates 2025-26 | Head 5939/106 for strengthening machinery for enforcement of PCR Act and PoA Act has Rs.65.80 lakh Budget Estimate in located schedule. | A | Official State budget verified |
+| ASM-STATE-010 | Government of Assam Police current Complaint/CCTNS page, last updated 27-08-2026 | CCTNS online complaint module generates acknowledgement/reference and alerts the concerned police station for action. | A | Current official police source verified; general workflow, not PoA-specific |
+| ASM-STATE-011 | Government of Assam Police current Seva Setu/CCTNS material | Current Police material states an e-Book compiling advisories on human trafficking, crimes against women, children, senior citizens and SC/STs was uploaded into CCTNS application software 4.0 for district police use. | A | Current official police source verified; direct SC/ST digital advisory evidence |
+| ASM-STATE-012 | Government of Assam Police current e-FIR page | e-FIR service is available online but expressly limited to crime against women, POCSO and vehicle theft. | A | Current official police source verified; not treated as PoA e-FIR |
+| ASM-STATE-013 | Government of Assam Judicial Department current notification archive | Current judicial notification system publishes Special Public Prosecutor appointment orders for special statutes, but targeted search did not locate a current PoA-specific SPP/ESPP order. | A | Current official repository verified; PoA-specific current appointment remains unverified |
+| ASM-STATE-014 | Official Assam district-court monthly statement, Kamrup (Metro), November 2024 | Current judicial reporting form contains a dedicated SC/ST PoA Act category, alongside POCSO, PCPNDT and other special-case categories. | A | Official court-government document; located row contains no numerical figures |
+| ASM-STATE-015 | Government of Assam Directorate of Printing & Stationery Gazette publication page | Confirms Assam Gazette and Extraordinary Gazette publication system and official responsibility for Gazette publication. | A | Current official State source verified |
+| ASM-STATE-016 | Government of Assam Legislative Department, Assam Land and Revenue Regulation, 1886 publication | Current State legal publication of the Regulation; Chapter X provides protected tribal belt/block land-administration interface. | A | Official State legal source verified |
+| ASM-STATE-017 | Government of Assam Directorate of Land Records/Revenue handbook | Reproduces Government instructions dated 30-12-1982 requiring enforcement against illegal land transfer/alienation and restoration of alienated land in tribal belts and blocks. | A | Official State administrative handbook verified; historical instruction |
+| ASM-STATE-018 | Government of Assam Legislative Department/Panchayat & Rural Development, Assam Panchayat Act 1994 and Rules 2008; current P&RD Acts page | Establishes current local-government legislative interface and records later amendments including Assam Panchayat (Amendment) Act 2025. | A | Current official State sources verified |
+| ASM-STATE-019 | Government of Assam Labour Commissionerate labour-law/rules pages | State labour administration lists Bonded Labour System (Abolition) Act 1976; current Assam labour rules index does not identify a separate bonded-labour State Rule in the located list. | A | Current official State source verified; no absence conclusion for unlocated instruments |
+| ASM-STATE-020 | Government of Assam Social Justice & Empowerment Acts/Rules index and sanitation guidance | State lists Manual Scavengers Act 2013; State sanitation guidance applies the Act's prohibition/definition to rural sanitation programmes. | A | Current official State sources verified |
+| ASM-STATE-021 | Ministry of Social Justice & Empowerment PCR implementation report, Assam section | Records State V&MC, State SC/ST Protection Cell, District V&MCs and 33 Special Courts for PCR implementation in the relevant reporting period. | A | Official Central report, historical/current-ish corroboration |
+| ASM-STATE-022 | Ministry of Social Justice & Empowerment 2013 PoA report | Records 18 Special Courts covering 22 of 27 districts and appointment of Special Public Prosecutors; historical baseline only. | A | Official Central report, historical |
+| ASM-STATE-023 | 2026 Cachar District Commissioner communication on DLVMC meeting, retrieved from third-party social-media page | Reports a 27-07-2026 District Level V&MC meeting on PoA implementation and quarterly review. | C | Current lead only; primary minutes/order retrieval required |
+
 ## Verification findings
 
 ### Andhra Pradesh
@@ -58,23 +86,38 @@ Andhra Pradesh is sufficiently verified for progression, with residual closure i
 - Land/local government: Land Settlement and Records Act 2000 as amended and Panchayati Raj Act 1997/Rules/Manual are identified as relevant interfaces.
 - Bonded labour/manual scavenging: no Arunachal-specific implementing instrument was located in the targeted search; no absence conclusion is drawn.
 
-## Remaining Arunachal Pradesh qualifications
+## Assam
 
-1. Primary retrieval of HMB(B) 25-2002 dated 30-09-2015.
-2. Current 2026 Rule 9 nodal officer appointment verification and conflict resolution.
-3. Current SC/ST Protection Cell structure/staffing.
-4. Current Special/Exclusive Special Court notification and judicial operation.
-5. Current Special Public Prosecutor/Exclusive Special Public Prosecutor appointments.
-6. Current State/District/Sub-Divisional V&MC constitution and meetings.
-7. State-specific relief/payment orders and later contingency plan.
-8. PoA-specific SOPs/circulars/manuals/digital workflow.
-9. Later State Gazette instruments affecting PoA implementation.
-10. Further State-specific bonded-labour/manual-scavenging interface verification if new instruments emerge.
+- Rule 8/Protection Cell: historically and officially verified at State level under DGP, with ADGP CID, IGP, DIG Range and SP participation recorded in Ministry implementation reports. Current 2026 staffing remains unverified.
+- Rule 9: Director, Welfare of Scheduled Castes is historically and repeatedly identified as State Nodal Officer. Current 2026 individual appointment is not frozen from a current primary order.
+- Rule 10: Additional District Magistrates were historically designated Special Officers. Current district designation and any atrocity-prone-area notifications remain unverified.
+- Courts: historical official records move from 18 Special Courts/22 districts in 2013 to 33 designated Special Courts in 2017. A 2024 official Kamrup (Metro) court reporting form still includes an SC/ST PoA category. Current State-wide 2026 Special/Exclusive Special Court matrix remains unverified.
+- Prosecutors: historical official reports establish Special Public Prosecutor appointments. Current 2026 PoA-specific SPP/ESPP appointment orders were not located.
+- Committees: State V&MC chaired by Chief Minister and District V&MC structures are historically verified. 2018 State minutes contain detailed quarterly review/reporting and compensation directions. Current State-wide constitution and SDVMC status remain unverified.
+- Relief: State budgets in 2022-23, 2023-24 and 2025-26 establish continuing budgetary provision and machinery strengthening. Current rates, case-level payments and treasury/DBT workflow remain unverified.
+- SOP/digital workflow: 2018 State V&MC minutes provide operational directions. Current Assam Police CCTNS includes an SC/ST advisory compendium for district police and a general online complaint workflow. No consolidated PoA-specific SOP/manual was located.
+- Gazette: Assam has a functioning official Gazette publication system, but a current PoA-specific Gazette instrument set was not retrieved.
+- PCR: current State publication and mandate verified; historical official Ministry reports establish V&MC, Protection Cell and Special Court arrangements.
+- Interfaces: Assam Land and Revenue Regulation Chapter X, Panchayat Act/Rules, bonded-labour administration and Manual Scavengers Act implementation are identified. No PoA-specific State interface instrument was established for bonded labour/manual scavenging.
+
+## Remaining Assam qualifications
+
+1. Primary Rule 9 appointment/designation instrument and current 2026 office-holder.
+2. Primary SC/ST Protection Cell establishment/structure order and current staffing.
+3. Current Rule 10 Special Officer designations and atrocity-prone-area notifications.
+4. Current State-wide Special/Exclusive Special Court notification consolidation and judicial operation matrix.
+5. Current PoA-specific SPP/ESPP appointment orders.
+6. Current State/District/Sub-Divisional V&MC constitution orders and minutes.
+7. Primary retrieval of the 21-03-2018 State V&MC minutes.
+8. Current State relief-rate, payment, treasury/DBT and case-processing instruments.
+9. Current PoA-specific Gazette notifications and later executive instruments.
+10. Primary copy of the CCTNS SC/ST advisory compendium or associated Police order.
+11. Current State-specific bonded-labour/manual-scavenging interface instruments if later search locates them.
 
 ## Progression decision
 
-Arunachal Pradesh is sufficiently inventoried for progression with qualifications. No absence conclusion is drawn from search gaps. Residual verification belongs to final Phase 1 closure unless new evidence directly changes the recorded status.
+Assam is sufficiently inventoried for progression with qualifications. The record contains substantial State and official Central evidence for the implementation architecture, but it is not a complete 2026 implementation census. No absence conclusion is drawn from search gaps. Residual Assam verification belongs to final Phase 1 closure unless new evidence materially changes the recorded position.
 
 ## Next jurisdiction
 
-Assam. Process independently. Do not import Andhra Pradesh or Arunachal Pradesh implementation findings as assumptions.
+Proceed to the next State/UT jurisdiction after Assam under the same independent-source method. Preserve Assam residual closure items separately from Andhra Pradesh and Arunachal Pradesh closure items.
