@@ -6,7 +6,7 @@ Material changes to scope, methodology, definitions, constitutional assumptions,
 
 ## Decisions
 
-The existing decisions DEC-0001 through DEC-0067 remain active and unchanged. The following decisions extend the control record.
+The existing decisions DEC-0001 through DEC-0115 remain active and unchanged. The following decisions extend the control record.
 
 | ID | Date | Decision | Reason | Status |
 |---|---|---|---|---|
@@ -54,7 +54,15 @@ The existing decisions DEC-0001 through DEC-0067 remain active and unchanged. Th
 | DEC-0113 | 2026-09-05 | Manipur post-BNS evidence remains separate from the general BNS/BNSS/BSA transition workstream. | Current FIRs establish coexistence but do not establish a complete State-specific procedural transition instruction. | ACTIVE |
 | DEC-0114 | 2026-09-05 | Targeted searches that did not locate a current Manual Scavengers-specific State instrument are recorded as an open search result, not as proof of absence. | Project methodology prohibits treating search silence as legal absence. | ACTIVE |
 | DEC-0115 | 2026-09-05 | Manipur land, local-government, FRA and bonded-labour material is recorded as an interface layer and is not treated as PoA-specific machinery unless an instrument expressly connects the functions. | Related-law overlap must be evidence-based and jurisdiction-specific. | ACTIVE |
+| DEC-0116 | 2026-09-05 | BPRD Data on Police Organizations 2024 is used as a dated official corroboration that Manipur had zero actual special-purpose police stations classified for crimes against SC/ST/weaker sections as on 01-01-2024. This does not establish the position on 05-09-2026. | The dataset is explicit about its reporting date and classification. | ACTIVE |
+| DEC-0117 | 2026-09-05 | The 2024-25 Standing Committee report's statement that Manipur had not established an SC/ST Protection Cell at the 21-11-2023 review is retained as dated official Central evidence. It narrows the Protection Cell residual but does not establish the current 2026 position. | The report identifies the review date and does not purport to be a 2026 census. | ACTIVE |
+| DEC-0118 | 2026-09-05 | The Ministry's 2025-26 Annual Report is treated as the current Central baseline for national PoA machinery counts: 217 Exclusive Special Courts in 15 States/UTs and 181 Special Police Stations in 7 States/UTs. The report is not used to infer a Manipur-specific absence where it does not identify the State. | National counts do not establish a State-specific matrix. | ACTIVE |
+| DEC-0119 | 2026-09-05 | The Standing Committee record that Manipur's 2022 PCR/PoA annual report was pending at the 21-11-2023 review is retained as a reporting-compliance lead. It does not establish that later reports were not submitted. | A historical pending status cannot be projected forward. | ACTIVE |
+| DEC-0120 | 2026-09-05 | The secondary reproduction of the Ministry's 2022 Section 21(4) table is accepted only as a Grade C transcription lead. Its Manipur row records hyphens for charge-sheets within 60 days, charge-sheets after 60 days, atrocity-prone districts and legal aid. Hyphens are treated as non-reporting/blank data, not zero. Primary PDF extraction remains required. | The primary Ministry PDF was not technically retrievable in the current session. | ACTIVE |
+| DEC-0121 | 2026-09-05 | The November 2024 Chief Secretary review report is treated as a Grade B corroborative lead indicating discussion of the functioning/strengthening of the SC/ST Protection Cell and Special Police Stations. It is not treated as a primary current institutional instrument because the underlying official minutes/order were not retrieved. | The report is a secondary account of an official meeting. | ACTIVE |
+| DEC-0122 | 2026-09-05 | The secondary 2021 report of 10 Manipur Special Police Stations is retained as dated historical evidence only and is not reconciled with the official BPRD 01-01-2024 zero figure without instrument-level verification. The discrepancy is logged rather than resolved by inference. | The two records have different reporting periods and evidentiary provenance. | ACTIVE |
+| DEC-0123 | 2026-09-05 | The 03-07-2024 MHA SC/ST-W dispatch record addressed to the Manipur DGP is treated as evidence of active Central administrative correspondence with Manipur Police in the SC/ST-W workstream, not as proof of a Protection Cell, Special Police Station or staffing arrangement. | The dispatch record identifies the recipient and file but not the substantive institutional status. | ACTIVE |
 
 ## Prior decision record preserved
 
-DEC-0001 through DEC-0115 are preserved in this cumulative control file and remain authoritative unless expressly superseded by a later decision.
+DEC-0001 through DEC-0123 are preserved in this cumulative control file and remain authoritative unless expressly superseded by a later decision.
