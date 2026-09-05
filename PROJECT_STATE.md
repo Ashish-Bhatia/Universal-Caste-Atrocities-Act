@@ -3,11 +3,13 @@
 ## Project State
 - Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`.
-- Phase 1 acceptance criteria: NOT YET SATISFIED. Puducherry is now the 36th completed jurisdiction; national Phase 1 acceptance remains subject to cumulative control criteria.
+- Phase 1 acceptance criteria: NOT YET SATISFIED.
+- 36 of 36 States/UTs have substantive Phase 1 jurisdiction inventories. Puducherry is the 36th completed jurisdiction.
 - Current state is determined by repository evidence plus verified decisions and documented unresolved issues. `NEXT_CHAT.md` is downstream and is not a source of truth.
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## State/UT Position
+
 36 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
 
 Completed sequence:
@@ -21,20 +23,17 @@ Lakshadweep is the 35th completed jurisdiction and is classified PROCEED/CLOSE W
 
 Puducherry is the 36th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 are recorded in `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`.
 
-Remaining unresearched jurisdiction:
-None
+Remaining unresearched jurisdiction: None.
 
-## Control Remediation Status, 2026-09-06
+## Cumulative Phase 1 Acceptance Audit
 
-The website/source-ledger remediation is CLOSED AND VERIFIED for the public rendering/control layer. The exact 377-ID master-versus-jurisdiction comparison remains preserved and unchanged. The substantive master State Implementation Source Ledger was not modified.
+The cumulative acceptance audit is recorded in `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`.
 
-Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
+The State/UT inventory-completeness component is satisfied at 36/36. Overall Phase 1 acceptance remains NOT YET SATISFIED because Central current-law completeness, BNS/BNSS/BSA transition/source freeze and jurisdiction currentness/instrument residuals remain open.
 
-Remediation closure report: `project-state/REMEDIATION_CLOSURE_REPORT_2026-09-06.md`.
+## Source-ledger Control Baseline
 
-## Verified source-ledger control baseline
-
-The exact source-ledger control comparison was independently verified from workflow artifacts and remains:
+The exact source-ledger control comparison remains preserved:
 - `MASTER_IDS=261`
 - `JURISDICTION_LEDGER_FILES=29`
 - `JURISDICTION_LEDGER_IDS=571`
@@ -43,57 +42,21 @@ The exact source-ledger control comparison was independently verified from workf
 
 The exact 377-ID `MISSING_IDS` set is recorded in `project-state/WEBSITE_SOURCE_LEDGER_GAP_2026-09-06.md`.
 
-The comparison baseline was preserved unchanged through the remediation and Lakshadweep research. No IDs were copied into the master ledger.
+No IDs were copied into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for website synchronization. Jurisdiction-ledger fallback is not master-ledger integration.
 
-## Website remediation result
+## Website Control Status
 
-The earlier run #389 failure is resolved. The builder defect was source-selection logic: it did not first map master-ledger rows by jurisdiction section, causing Arunachal Pradesh to appear to have no controlled source rows even though its substantive source rows are represented in the master ledger.
+The earlier website/source-ledger remediation remains CLOSED AND VERIFIED for its defined rendering/control defect.
 
-`scripts/build_website_v2.py` now maps master-ledger rows by jurisdiction section heading first, uses jurisdiction-ledger rows only as an explicitly labelled fallback for IDs absent from the master, rejects a completed jurisdiction with neither master rows nor controlled fallback, and reports the exact master-versus-jurisdiction ID comparison without changing it.
+The verified run #397 artifact remains a historical production-build record for the pre-Puducherry 33-jurisdiction state. It must not be treated as the current post-Puducherry Pages publication.
 
-`scripts/sanitize_public_html.py` sanitizes internal filenames and project-management phrases across generated HTML only. `scripts/validate_public_site.py` validates page counts, route existence, navigation, header/footer, Petition / Support pathway, responsive/accessibility CSS controls, local links, source-page non-emptiness and public/internal separation.
+The current Pages workflow now includes `scripts/sync_phase1_website.py`, which derives the public completed/total jurisdiction counts from `legislation/STATE_IMPLEMENTATION_INVENTORY.md`, checks state/source page counts and synchronizes generated public count text before sanitization and validation.
 
-## Verified production Pages run
+A new Pages workflow run is required to establish the current post-Puducherry artifact. Live Pages HTTP/settings verification remains unavailable through the connector and must not be claimed without direct evidence.
 
-GitHub Actions run #397, head commit `29fc336b5ca5293e0abfb3bb011b7a8d3cce6a6f`, completed successfully.
+## Source-ledger Synchronization Boundary
 
-Successful steps verified:
-- source-ledger control comparison;
-- source-ledger control artifact upload;
-- website build;
-- production accessibility/responsive CSS application;
-- public HTML sanitization;
-- generated-site validation;
-- Pages configuration;
-- Pages artifact upload;
-- Pages deployment.
-
-Generated Pages artifact:
-- name: `github-pages`
-- artifact ID: `9976320948`
-- SHA-256: `2245022e4732f9d4c1bd16a83f3ffdc95abad8f586479e6b3ff8f808ef99bc40`
-
-Independent artifact inspection verified:
-- 84 HTML pages;
-- 33 completed-jurisdiction research pages;
-- 33 completed-jurisdiction source pages;
-- matching state/source route sets;
-- no empty completed-jurisdiction source pages;
-- no broken local links;
-- header and footer on every HTML page;
-- Petition / Support pathway on every HTML page;
-- responsive media rules;
-- focus-visible accessibility rules;
-- support-button and footer styling;
-- no internal control-file leakage;
-- no project-management control wording;
-- Arunachal Pradesh source page populated from controlled master-ledger rows.
-
-The generated artifact is the authoritative evidence for the website build inspection. The connector still lacks direct browser-level Pages settings inspection and independent live-URL HTTP verification. Therefore deployment success is recorded as a workflow/artifact fact, not as a separately browser-verified live-site claim.
-
-## Source-ledger synchronization boundary
-
-The public source layer now has two controlled tiers:
+The public source layer has two controlled tiers:
 - master-ledger rows are authoritative where actually integrated in the master;
 - jurisdiction-ledger fallback rows may be rendered where substantive local-ledger rows exist and are absent from the master;
 - fallback rows are explicitly labelled and are never treated as master-ledger integration;
@@ -101,17 +64,9 @@ The public source layer now has two controlled tiers:
 
 The 377-ID discrepancy remains unresolved as a classification/integration question. It was not hidden by website fallback and was not rewritten.
 
-## Cumulative Control Layer
-
-The 2026-09-06 cumulative state-control reconciliation remains preserved. The three cumulative controls contain explicit reconciliation-only indexes through Jammu and Kashmir. Ladakh and Lakshadweep jurisdiction-specific issue, decision and source records are substantive jurisdiction artifacts and are not represented as fabricated cumulative IDs.
-
 ## Central and Transition Residuals
 
 Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Existing State residuals remain jurisdiction-specific. Search silence is not treated as absence.
-
-## Website and Repository Synchronization
-
-The repository-driven website builder remains the verified production Pages builder. Public source provenance remains separated from internal project-control files.
 
 ## Puducherry Phase 1 Position
 
@@ -119,9 +74,11 @@ Puducherry was researched on 2026-09-06 using the Phase 1 control matrix, primar
 
 ## Lakshadweep Phase 1 Position
 
-Lakshadweep was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The primary baseline includes the Constitution (Scheduled Tribes) Order, current 2026 UT territorial and administrative sources, historical official PoA implementation reports, the 2026 draft Protection Scheduled Tribes Regulation amendment notice, the 2026 Directorate of Prosecution establishment notification, current BNSS implementation rules, current Central scheme data, current DLSA evidence and official MHA/NCRB statistics through 2023. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 implementation census.
+Lakshadweep was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 implementation census. Its 18 residuals remain open in the jurisdiction-specific issue record.
 
-Current residuals include Rule 8 Protection Cell, Rule 9 Nodal Officer, Rule 3 identified-area position, Rule 10 Special Officer, V&MCs, Rule 7 investigation, Special Court/Exclusive Special Court, PoA SPP/ESPP, recent annual-report extraction, Section 21(4) reporting, relief/payment, section 15A/legal aid, PoA Gazette/SOP corpus, BNS/BNSS/BSA transition, 2026 Protection Scheduled Tribes Regulation amendment status, digital/FIR workflow and Rule 15 contingency-plan status.
+## Control-Record Supersession
+
+`project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md` is retained as a historical control-layer record of the pre-Puducherry 33/36 state. It is superseded for current State/UT count and sequencing by `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, the current State Implementation Inventory and this file.
 
 ## Closed for This Workstream
 
@@ -131,38 +88,32 @@ No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
 No Phase 2 case-law research.
 No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
-No repetition of the completed 2026 remediation, cumulative reconciliation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
-No repetition of Jammu and Kashmir, Ladakh or Lakshadweep without a qualifying reopening trigger.
+No repetition of the completed 2026 remediation, verified 377-ID comparison or run #397 artifact inspection except targeted verification required by a new control defect.
+No repetition of Jammu and Kashmir, Ladakh, Lakshadweep or Puducherry without a qualifying reopening trigger.
 No modification of `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` for website synchronization.
 
 ## Decision Gate
 
-CUMULATIVE CONTROL RECONCILIATION: PASS.
+STATE/UT INVENTORY COMPLETENESS: PASS, 36/36.
 
 EXACT MASTER-VERSUS-JURISDICTION SOURCE-ID CONTROL: PASS, verified and preserved.
 
-WEBSITE FALLBACK COVERAGE / PRODUCTION BUILD: PASS, verified by run #397 and independent artifact inspection.
+WEBSITE FALLBACK CONTROL: PASS for the remediated rendering logic.
 
-PUBLIC/INTERNAL SEPARATION: PASS, verified by generated artifact inspection.
+CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PENDING.
 
-WEBSITE ZERO-DRIFT CONTROL: PASS for the remediated rendering layer.
+LIVE PAGES HTTP/SETTINGS VERIFICATION: OPEN, connector limitation.
 
-Master State Implementation Inventory reconciliation: COMPLETE through Puducherry substantive artifact addition.
+CENTRAL CURRENT-LAW COMPLETENESS: OPEN.
 
-Master State Implementation Source Ledger substantive content: UNCHANGED by the website remediation and by the Lakshadweep work. Lakshadweep's jurisdiction source ledger is separate and is not represented as master-ledger integration.
+BNS/BNSS/BSA TRANSITION FREEZE: OPEN.
 
-Master-ledger later-row integration: NOT CLOSED.
+JURISDICTION CURRENTNESS/INSTRUMENT RESIDUALS: OPEN.
 
-PH1-ISSUE-021: remains a qualified publication limitation because live Pages URL/settings were not independently inspected through the connector, despite successful Actions deployment.
+PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
-Phase 1 substantive acceptance remains NOT YET SATISFIED.
-
-Next authorized substantive workstream: cumulative Phase 1 acceptance audit and reconciliation, not new jurisdiction research.
+Next authorized workstream: controlled closure of remaining Phase 1 acceptance dependencies and current publication verification, without reopening completed jurisdictions absent a formal trigger.
 
 ## Latest Controlled Update
 
-2026-09-06: completed Lakshadweep Phase 1 State/UT inventory as the 35th jurisdiction; created `legislation/states/LAKSHADWEEP.md`, `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` and `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md`; classified Lakshadweep PROCEED/CLOSE WITH LIMITATIONS; preserved all 18 open residuals; updated the State/UT master inventory; did not modify the master State Implementation Source Ledger or reopen completed jurisdictions.
-
-## Puducherry Completion Record
-
-Artifacts: `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`, `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`. The source ledger remains jurisdiction-specific and was not promoted into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.
+2026-09-06: completed Puducherry Phase 1 State/UT inventory as the 36th jurisdiction; created `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` and `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`; classified Puducherry PROCEED/CLOSE WITH LIMITATIONS; preserved all 16 open residuals; reconciled the master State/UT inventory to 36/36; created the cumulative Phase 1 acceptance audit; added the Phase 1 website count synchronization control; did not modify the master State Implementation Source Ledger.
