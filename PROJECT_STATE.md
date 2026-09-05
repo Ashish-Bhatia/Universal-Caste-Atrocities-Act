@@ -3,7 +3,7 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, authoritative-record integration remediated; SC/ST Act and Rules extraction advanced; BNS, BNSS and BSA crosswalks advanced with qualifications; PCR, Manual Scavengers and Bonded Labour comparisons complete with qualifications; Priority 2 Central legislation screening complete at screening level; State-by-State inventory started with Andhra Pradesh first pass; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, Andhra Pradesh targeted verification completed with qualifications; State/UT inventory continues with Arunachal Pradesh next; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
@@ -11,7 +11,8 @@
 - Phase 1 control remediation: `project-state/PH1_AUTHORITATIVE_RECORD_REMEDIATION.md`
 - Central screening artifact: `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`
 - State inventory master: `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
-- First State inventory: `legislation/states/ANDHRA_PRADESH.md`
+- Andhra Pradesh record: `legislation/states/ANDHRA_PRADESH.md`
+- State source ledger: `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`
 - Website source: `website/index.html`
 - Pages workflow: `.github/workflows/pages.yml`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
@@ -27,7 +28,7 @@
 7. Preserve previous versions of substantive drafts.
 8. GitHub is the authoritative project record.
 9. No conclusion of necessity, constitutionality, superiority, or policy desirability is presumed.
-10. State-by-State inventory follows completion of the Central legislation screening workstream unless the sequence is deliberately changed in `DECISIONS_LOG.md`.
+10. State-by-State inventory is jurisdiction-specific. Do not infer one State's arrangements for another.
 
 ## Phase Status
 
@@ -47,26 +48,23 @@
 
 - SC/ST Act clause extraction and source/version mapping, qualified pending final completeness pass.
 - SC/ST Rules version matrix and clause extraction, qualified by Annexure-II source discrepancy.
-- SC/ST Act section 3 BNS conduct crosswalk, qualified pending punishment/source freeze.
-- SC/ST Act/Rules BNSS procedural crosswalk, qualified pending former-CrPC subject expansion and Rule 7 consequences.
-- SC/ST Act/Rules BSA evidence/presumption crosswalk, qualified pending judicial operation of s.8 and final transition freeze.
-- PCR Act/Rules comparison, complete with current-law qualification.
-- Manual Scavengers Act/Rules comparison, complete with current-law and transition qualifications.
-- Bonded Labour Act/Rules crosswalk, complete with current-law and Rules notification discrepancies preserved.
-- Priority 2 Central legislation screening, complete at screening level, stored at `legislation/CENTRAL_LEGISLATION_PRIORITY_SCREENING.md`.
-- State-by-State implementation inventory, started with Andhra Pradesh first pass.
+- BNS, BNSS and BSA crosswalks advanced with qualifications.
+- PCR, Manual Scavengers and Bonded Labour comparisons complete with qualifications.
+- Priority 2 Central legislation screening complete at screening level.
+- PH1-AUDIT-001 closed through authoritative-record remediation.
+- Andhra Pradesh State/UT inventory targeted verification completed with qualifications.
 - GitHub Pages source and deployment workflow prepared, publication enablement remains externally unverified.
-
-## Authoritative-Record Integration
-
-PH1-AUDIT-001 has been remediated. Completed workstreams are now explicitly integrated into the control layer. `BASELINE_AUDIT.md` remains a historical Phase 0 artifact and its contemporaneous `Phase 1 NOT STARTED` wording is not current status. Current status is controlled by this file and `NEXT_CHAT.md`.
 
 ## Exact Current Position
 
-Phase 1 remains active. The Priority 2 Central legislation screening queue identified in `legislation/SOURCE_MAP.md` has been screened. Child and Adolescent Labour was added to the screened labour-interface set because the source map expressly calls for relevant labour legislation. State-by-State inventory has now begun with Andhra Pradesh. The first Andhra Pradesh pass identified current official evidence for district Social Welfare monitoring, district SC/ST police cells, district-level vigilance/monitoring activity, State relief implementation orders and district prosecution participation, while leaving current statewide appointments, court lists, State-level committee composition, SOPs and later orders open for verification. No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
+Phase 1 remains active. Andhra Pradesh is sufficiently verified for progression but is not treated as a complete 2026 implementation census. The 2023 Government of Andhra Pradesh Social Welfare Department annual submission establishes State-level nodal officer designation, State Protection Cell composition, Special Court/prosecutor architecture, State Vigilance and Monitoring Committee constitution, relief/payment workflow, circular/manual/digital workflow elements and the identity of the 2021 Model Contingency Plan Gazette instrument. Current Andhra Pradesh High Court records independently confirm continuing SC/ST Special Judge posts and 2025/2026 implementation activity. Residual Andhra Pradesh completeness questions are carried to Phase 1 closure.
 
-Final Phase 1 work remains: later-central-instrument completeness verification, final source freezes and transition reconciliation for existing crosswalks, resolution of known source discrepancies, completion of the State-by-State inventory, and publication infrastructure verification.
+The next State/UT jurisdiction is Arunachal Pradesh. The State inventory must be conducted independently using official sources. No Andhra Pradesh implementation arrangement is to be assumed for Arunachal Pradesh.
+
+Separate Phase 1 closure work remains: final later-central-instrument completeness; SC/ST Act/Rules source freezes; BNS punishment/source freeze; BNSS former-CrPC subject expansion and Rule 7 consequences; BSA s.8 judicial operation and transition freeze; legacy transition reconciliation; Manual Scavengers later-instrument/transition/exemption checks; Bonded Labour current-law and Rules notification verification; remaining State/UT inventory; and Pages verification.
+
+No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Next Discrete Workstream
 
-Continue the State-by-State official-source inventory, next jurisdiction in controlled sequence, while carrying final Central later-instrument completeness and BNS/BNSS/BSA transition verification as separate Phase 1 closure work. Do not begin Bill drafting, policy analysis, necessity analysis, superiority analysis or constitutional conclusions.
+Begin the Arunachal Pradesh official-source State/UT implementation inventory. Preserve Andhra Pradesh's residual closure qualifications separately. Do not repeat completed Andhra Pradesh research unless a new source directly changes its recorded status.
