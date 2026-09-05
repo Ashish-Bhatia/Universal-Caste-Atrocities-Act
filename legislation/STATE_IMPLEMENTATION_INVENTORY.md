@@ -31,7 +31,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Arunachal Pradesh | IN PROGRESS | `legislation/states/ARUNACHAL_PRADESH.md` |
 | Assam | IN PROGRESS | `legislation/states/ASSAM.md` |
 | Bihar | IN PROGRESS | `legislation/states/BIHAR.md` |
-| Chhattisgarh | NOT STARTED | — |
+| Chhattisgarh | IN PROGRESS | `legislation/states/CHHATTISGARH.md` |
 | Goa | NOT STARTED | — |
 | Gujarat | NOT STARTED | — |
 | Haryana | NOT STARTED | — |
@@ -66,7 +66,7 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
@@ -75,3 +75,7 @@ Material legal or operational claims require a traceable official source. Histor
 ## Bihar Status Summary
 
 Bihar is sufficiently inventoried for progression, with qualifications. Current State evidence establishes an active SC & ST Welfare Department PoA publication layer and a 13-08-2026 State-level V&MC reconstitution notice. Current Patna High Court records establish continuing Exclusive Special Court under SC/ST Act postings and operation. Historical official records establish the Protection Cell, Rule 9/10 architecture, 33 sensitive districts, Special Courts and SPP/ESPP arrangements. Current statewide nodal, Protection Cell, Rule 10, court, prosecutor, committee, relief/payment and PoA-specific Gazette/SOP details remain incompletely frozen.
+
+## Chhattisgarh Status Summary
+
+Chhattisgarh is sufficiently inventoried for progression, with qualifications. The official 2022-23 State administrative report identifies the Commissioner, Tribal and Scheduled Caste Development as Rule 9 Nodal Officer, a Chief Minister-chaired State V&MC, District V&MCs in all 28 districts, police/court architecture and relief activity. Official 2024 State notices show district-level V&MC activity, while current 2026 Chhattisgarh High Court records establish continuing Special Judge under SC/ST (P.A.) Act operation at identified locations. Current 2026 Rule 9, Protection Cell, Rule 10, committee, court notification, prosecutor, relief workflow, Gazette/SOP and digital workflow details remain incompletely frozen.
