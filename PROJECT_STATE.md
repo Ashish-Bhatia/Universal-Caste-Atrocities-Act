@@ -7,7 +7,7 @@
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## Completed State/UT Inventories
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands and Chandigarh are inventoried with qualifications. Chandigarh is the 30th completed State/UT inventory.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh and Dadra and Nagar Haveli and Daman and Diu are inventoried with qualifications. Dadra and Nagar Haveli and Daman and Diu is the 31st completed State/UT inventory.
 
 - Meghalaya: PH1-ISSUE-256 through PH1-ISSUE-265 open.
 - Mizoram: PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 open.
@@ -24,21 +24,18 @@ Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Har
 - West Bengal: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-WB-001 through PH1-ISSUE-WB-016 open.
 - Andaman and Nicobar Islands: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-AN-001 through PH1-ISSUE-AN-016 open, with an additional controlled PoA Act/Protection of Aboriginal Tribes Regulation interface residual.
 - Chandigarh: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-CH-001 through PH1-ISSUE-CH-016 open, with controlled Rule 8 staffing and relief-data reconciliation residuals.
+- Dadra and Nagar Haveli and Daman and Diu: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-DD-001 through PH1-ISSUE-DD-016 open, with controlled post-merger SC/ST instrument, court-coverage and relief-reconciliation residuals.
 - Manipur remains closed for the current sequence with documented residuals.
 
-## Chandigarh Current Position
-Chandigarh has a notified Scheduled Caste population. Official Ministry of Tribal Affairs material located states that no community has been specified as Scheduled Tribe in relation to Chandigarh. The 16-10-2015 Chandigarh Gazette notification appoints the Secretary, Social Welfare as Rule 9 Nodal Officer and supersedes the 2002 order. A 17-04-2015 Chandigarh Administration order constitutes the Rule 8 Protection Cell, with the IG Police as Chairman and identified administrative/police members and functions. The 2022 Ministry report records the Protection Cell under DGP supervision, the Secretary Social Welfare as Nodal Officer, the Director Social Welfare as Rule 10 Special Officer and no atrocity-prone area.
+## Dadra and Nagar Haveli and Daman and Diu Current Position
+The 2019 Merger Act formed the present UT from the former UTs with effect from 26-01-2020 and provides for High Court jurisdiction and legal-transition mechanisms. Census material establishes SC/ST datasets for the legacy territories, and the Constitution (Dadra and Nagar Haveli) Scheduled Tribes Order identifies notified ST communities for legacy DNH.
 
-The Chandigarh Administration's V&MC instruments establish a State-level V&MC. Chandigarh is a single-district UT. Ministry reporting records one State-level V&MC meeting in 2019 and none in 2022. Current committee compliance remains open.
+The 2021 Ministry Section 21(4) report records a UT-level V&MC, District V&MCs, the Secretary Social Welfare as Rule 9 Nodal Officer, a Dy.SP/SDPO Rule 10 Special Officer and no atrocity-prone area. The 2022 report records no UT-level V&MC meeting during 2022, two cases investigated beyond sixty days, a Special Court in DNH and one Public Prosecutor designated SPP. The UT's 2022 annual return confirms Dy.SP/SDPO investigation.
 
-The 06-03-2024 judicial-administration notification supersedes the 2016 PoA Special Court notification and specifies the Sessions Judge and Additional Sessions Judge-I through V structure as Special Courts under Section 14(1). The 2015 SPP instrument and 2022 report establish a Deputy District Attorney/Additional Public Prosecutor SPP arrangement. Current named roster and allocation remain open.
-
-The 2022 Ministry report records four victims provided relief. Current Ministry CSS data records central assistance released to Chandigarh of Rs. 0.50 crore in 2020-21, Rs. 0.71 crore in 2021-22, Rs. 1.71 crore in 2022-23, Rs. 1.73 crore in 2023-24 and Rs. 1.62 crore in 2024-25, while its separate reported relief-recipient measure records zero persons for Chandigarh in each of those years. These are distinct reporting concepts and require reconciliation before any compliance conclusion.
-
-2021 and 2022 Ministry case tables provide historical Chandigarh reporting-period data. A 2024 Punjab and Haryana High Court decision involving UT Chandigarh provides current judicial corroboration of PoA litigation. No Phase 2 merits synthesis was undertaken.
+Current post-merger Rule 8 staffing, Rule 9 incumbent, Special Police Station status, Rule 10 instrument, V&MC compliance, current Special Court coverage for Daman/Diu, SPP roster, relief workflow and later Section 21(4) reporting remain open. A 2023 Bombay High Court proceeding provides recent judicial corroboration of PoA litigation involving DNH.
 
 ## National Open Position
-Six jurisdictions remain unresearched after Chandigarh. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally untouched and unsynchronized.
+Five jurisdictions remain unresearched after Dadra and Nagar Haveli and Daman and Diu: Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry. Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Completed State residuals remain jurisdiction-specific. Master State Implementation Inventory and master State Implementation Source Ledger remain intentionally untouched and unsynchronized.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
@@ -46,4 +43,4 @@ No Bill drafting, policy-superiority/necessity analysis, constitutional-validity
 Multi-page static website architecture continues. Pages configuration and live URL remain unverified.
 
 ## Latest Controlled Update
-2026-09-05: Chandigarh-specific repository search found no pre-existing jurisdiction artifacts. Chandigarh inventory, source ledger, issue register and decision addendum were created. The current 2024 Special Court designation was verified as superseding the 2016 designation. Master State files were not modified. Central later-instrument/current-law and BNS/BNSS/BSA work remain separate.
+2026-09-05: After Chandigarh, the next repository-sequence jurisdiction was inspected and found to have no pre-existing jurisdiction-specific inventory artifacts. Dadra and Nagar Haveli and Daman and Diu Phase 1 inventory, source ledger, issue register and decision file were created. The 2019 merger, 2021/2022 Section 21(4) reporting, 2022 UT annual return, 2026 UT officer structure, Census/ST-order interface, current PFMS evidence and 2023 Bombay High Court corroboration were recorded. Master State files were not modified. Central later-instrument/current-law and BNS/BNSS/BSA work remain separate.
