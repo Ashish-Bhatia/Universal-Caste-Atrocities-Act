@@ -1,0 +1,40 @@
+name: Final State Correction 2026-09-06
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Correct current deployment references
+        shell: python
+        run: |
+          from pathlib import Path
+          root=Path('.')
+          replacements={
+            'Run #452 is the latest verified Pages deployment after remediation of the six-page heading-hierarchy defect found by independent inspection of run #446.':'Run #461 is the latest verified Pages deployment after the controlled website remediation and final control-state synchronization.',
+            'artifact ID: `9976923868`':'artifact ID: `9977354470`',
+            'SHA-256 digest: `16e2c0d467542da47e69acaee20b5ec2e9ee775d8e31b6552bc1d0c3f417a815`':'SHA-256 digest: `4d26b613db3075d030e7ad8cd505417eed2012f2a55c6178f58aa054ef588581`',
+            'Current post-Puducherry Pages synchronization was VERIFIED in `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`.':'Current post-remediation Pages deployment was verified by workflow run #461 and its generated artifact.',
+            'CURRENT POST-PUDUCHERRY PAGES ARTIFACT: PASS, run #452 after remediation.':'CURRENT POST-REMEDIATION PAGES ARTIFACT: PASS, run #461.',
+            'The physical rows in `ISSUES_REGISTER.md` remain to be synchronized to that reconciliation record.':'The physical rows in `ISSUES_REGISTER.md` are synchronized to the reconciliation outcome.',
+          }
+          for fn in ['PROJECT_STATE.md','NEXT_CHAT.md']:
+              p=root/fn; s=p.read_text(encoding='utf-8')
+              for old,new in replacements.items(): s=s.replace(old,new)
+              p.write_text(s,encoding='utf-8')
+      - name: Remove workflow and commit
+        run: |
+          git rm -f .github/workflows/final-state-correction-2026-09-06.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "control: correct latest deployment references"
+          git push
