@@ -25,34 +25,37 @@
 | PH1-ISSUE-001 | SC/ST Act clause-level extraction and current-version verification were incomplete. | OPEN | Act baseline not yet frozen. | Final Gazette/Legislative Department index check and preserve clause extraction. |
 | PH1-ISSUE-002 | Consolidated SC/ST Rules clause-level extraction remains incomplete. | CLOSED WITH QUALIFICATION | Rules 1-18 and Schedule/Annexure inventory is recorded. | Resolve Annexure-II primary-source discrepancy and complete final source freeze. |
 | PH1-ISSUE-003 | BNS offence crosswalk with SC/ST Act section 3 remains incomplete. | ADVANCED WITH QUALIFICATION | Conduct and Schedule correspondence is now mapped, but final primary-text punishment capture and source freeze remain. | Finalize primary-text verification, then close this issue. |
-| PH1-ISSUE-004 | BNSS interface remains incomplete. | OPEN | Special court, investigation, arrest, bail, trial, appeal and victim/witness coordination unresolved. | Map each special-law procedure against BNSS. |
+| PH1-ISSUE-004 | BNSS interface remains incomplete. | ADVANCED WITH QUALIFICATION | Defined special-procedure interfaces are mapped, but exact former-CrPC subject expansion and Rule 7 breach consequences remain open. | Extend former-CrPC subject mapping if required and resolve Rule 7 delay consequences during later verification/case-law work. |
 | PH1-ISSUE-005 | BSA interface remains incomplete. | OPEN | Special presumptions/evidence interaction unresolved. | Map sections 8 and 3(2) evidence provisions against BSA. |
 | PH1-ISSUE-006 | PCR Act and Rules section-level comparison incomplete. | OPEN | Overlap/duplication analysis incomplete. | Complete section and rule comparison. |
 | PH1-ISSUE-007 | State legislation and implementation rules not exhaustively mapped. | OPEN | National baseline incomplete. | State-by-state official-source inventory. |
 | PH1-ISSUE-008 | Later central instruments after 2018 require final completeness check. | OPEN | Current-law status remains provisional. | Search Gazette/Legislative Department/Ministry indexes through 05-09-2026. |
-| PH1-ISSUE-009 | SC/ST Act legacy IPC/CrPC/Indian Evidence Act references interact with BNS/BNSS/BSA. | OPEN | Direct section-number substitution must not be assumed. | Apply S.O. 2790(E), BNS s.358, BNSS s.531 and GCA s.8 in a controlled correspondence matrix. |
+| PH1-ISSUE-009 | SC/ST Act legacy IPC/CrPC/Indian Evidence Act references interact with BNS/BNSS/BSA. | ADVANCED WITH QUALIFICATION | BNS and BNSS interfaces are substantially mapped; BSA remains open. | Complete BSA crosswalk and final transition matrix. |
 | PH1-ISSUE-010 | 2018 Rules definition of “voluntarily” refers to IPC s.39. | ADVANCED | BNS correspondence identified as s.2(33), but full Rules transition matrix remains part of Phase 1. | Preserve correspondence and incorporate into final transition matrix. |
 | PH1-ISSUE-011 | State amendments and implementation notifications under the central Act have not yet been comprehensively separated from central law. | OPEN | State-level court/implementation variation may affect operational baseline. | Build State instrument inventory. |
 | PH1-ISSUE-012 | No material constitutional case law incorporated into Phase 1. | MONITOR | Constitutional conclusions reserved for Phase 2/4. | Do not import case-law conclusions into Phase 1. |
 | PH1-ISSUE-013 | No empirical evidence used for policy conclusions. | MONITOR | Legal baseline is not an empirical necessity assessment. | Address in Phase 3. |
 | PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | OPEN | Controlling Annexure-II source cannot be frozen without primary-source reconciliation. | Locate and verify operative Gazette/Department attachment and preserve both references until resolved. |
 
-## New BNS crosswalk issues
+## New BNSS crosswalk issues
 
 | ID | Issue | Type | Status | Current assessment |
 |---|---|---|---|---|
-| BNS-XW-001 | Schedule uses IPC section numbers after IPC repeal. | Transition/ambiguity | OPEN | S.O. 2790(E), GCA s.8 and BNS s.358 provide the transition framework; exact correspondence remains provision-specific. |
-| BNS-XW-002 | Schedule contains definitions as well as punishable provisions. | Structural ambiguity | OPEN | Cluster-based reading is required. |
-| BNS-XW-003 | BNS merges multiple IPC provisions into single sections. | Cross-reference risk | OPEN | Relevant BNS subsection must be identified in each application. |
-| BNS-XW-004 | BNS punishment changes affect section 3(2)(va). | Punishment interaction | OPEN | The Act imports punishment specified for the underlying scheduled offence, so BNS changes are material. |
-| BNS-XW-005 | IPC 320/BNS 116 changes grievous-hurt threshold. | Element difference | OPEN | Eighth category threshold changes from 20 days to 15 days. |
-| BNS-XW-006 | IPC 148/BNS 191(3) punishment ceiling changes. | Punishment difference | OPEN | IPC maximum 3 years, BNS maximum 5 years. |
-| BNS-XW-007 | IPC 506/BNS 351 consolidation. | Subsection ambiguity | OPEN | Ordinary/aggravated intimidation must be distinguished under BNS s.351(2)/(3). |
-| BNS-XW-008 | IPC 376C/BNS 68 restructuring. | Element difference | OPEN | Covered relationships/categories changed and require exact fact matching. |
-| BNS-XW-009 | Section 3(2)(v) 10-year threshold. | Dynamic threshold | OPEN | Underlying BNS punishment changes can alter threshold classification. |
-| BNS-XW-010 | General BNS offences overlap special Act conduct. | Duplication | OPEN | Overlap does not remove SC/ST-specific elements. |
-| BNS-XW-011 | No general BNS equivalent for social/economic boycott. | Gap | OPEN | Section 3(1)(zc) remains special-law conduct. |
-| BNS-XW-012 | Devadasi, witchcraft, election and access-law overlays. | Completeness | OPEN | State-law inventory remains open. |
+| BNSS-XW-001 | Legacy CrPC references remain in SC/ST Act | Transition | OPEN | Must be mapped by subject and transition law, not number. |
+| BNSS-XW-002 | BNSS ss.4(2) and 5 preserve special law | Interaction | CLOSED | General BNSS procedure applies subject to special Act procedure, jurisdiction and powers. |
+| BNSS-XW-003 | Rule 7 60-day deadline vs BNSS investigation/custody periods | Conflict/ambiguity | OPEN | Different functions; must not be conflated. Consequences of breach remain unresolved. |
+| BNSS-XW-004 | DSP-level Rule 7 investigation vs general BNSS police powers | Special-law overlay | CLOSED | Rule 7 imposes the investigator qualification; BNSS supplies general procedural powers. |
+| BNSS-XW-005 | Special Court direct cognizance vs BNSS cognizance architecture | Special-law displacement | CLOSED | Act s.14 supplies the special forum and direct-cognizance power. |
+| BNSS-XW-006 | Act s.14A appeal vs ordinary BNSS appeal routes | Special appeal | CLOSED | Act s.14A is the specific route for covered Special Court orders, including bail orders. |
+| BNSS-XW-007 | Act externment vs BNSS security/preventive proceedings | Duplication with material differences | CLOSED | Distinct statutory mechanisms. BNSS provisions do not silently replace Act ss.10-13. |
+| BNSS-XW-008 | Act s.17 former chapter references | Transition ambiguity | OPEN | Requires subject-matter mapping of former CrPC Chapters VIII, X and XI. |
+| BNSS-XW-009 | Act s.18A no preliminary enquiry vs BNSS preliminary inquiry mechanisms | Potential conflict | CLOSED | Act-specific exclusion controls SC/ST Act FIR registration. |
+| BNSS-XW-010 | Act s.18/18A anticipatory-bail exclusion vs BNSS s.482 | Transition/special exclusion | CLOSED | Current corresponding anticipatory-bail provision is BNSS s.482. |
+| BNSS-XW-011 | Act s.15A vs BNSS ss.397-398 | Duplication | CLOSED | BNSS general victim/witness provisions supplement; Act-specific rights remain. |
+| BNSS-XW-012 | Act s.7 vs BNSS property attachment/forfeiture provisions | Duplication | CLOSED | Distinct triggers and purposes; regimes are not merged. |
+| BNSS-XW-013 | Act s.19 former CrPC s.360 | Gap/transition | OPEN | No simple BNSS renumbering identified; judicial treatment remains for later research. |
+| BNSS-XW-014 | BNSS s.531 pending-proceeding savings | Transition | CLOSED | Pending appeals/applications/trials/inquiries/investigations immediately before 01-07-2024 remain under CrPC subject to s.531. |
+| BNSS-XW-015 | Act s.12 former IPC s.186 | Cross-code boundary | CLOSED FOR BNSS SCOPE | Requires BNS transition analysis, not BNSS. |
 
 ## Existing risk observations
 
