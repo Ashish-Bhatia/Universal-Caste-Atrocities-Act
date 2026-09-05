@@ -78,7 +78,7 @@ Manual Scavengers central instrument census is CLOSED WITH QUALIFICATION under P
 
 PCR Act/Rules remain completed at comparison level with qualification. The targeted current-law search did not identify a later Central PCR Rules amendment instrument. This is controlled search evidence, not proof of legal absence.
 
-Bonded Labour Act/Rules remain completed at crosswalk level with qualification. The targeted current-law search did not identify a later Central amendment instrument. The 1978/1983 Rules discrepancies remain open for primary Gazette reconciliation.
+Bonded Labour Act/Rules remain completed at crosswalk level with qualification. The Government of NCT Delhi Labour Department reproduction now reconciles the identified Rules amendments as G.S.R. 1455 dated 16-11-1978 and S.O. 1755 dated 12-03-1983. The broader later-instrument completeness question remains open and search silence is not treated as legal absence.
 
 Priority 2 Central legislation remains screened rather than clause-level closed.
 
@@ -94,7 +94,7 @@ SC/ST Act BNS/BNSS/BSA crosswalks remain advanced with qualification. PH1-ISSUE-
 
 New controlled advances:
 - `legislation/PCR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`: PCR Rules Rule 3(4) CrPC Chapter XXI summary-trial reference is advanced to a controlled subject-matter correspondence with BNSS Chapter XXII, sections 283-289, through S.O. 2790(E), without arithmetic substitution.
-- `legislation/BONDED_LABOUR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`: BLSA IPC abetment references are advanced to BNS section 45; BLSA CrPC reference and summary-trial provision are advanced to a controlled BNSS correspondence, while special-law commands and residuals remain preserved.
+- `legislation/BONDED_LABOUR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`: BLSA IPC abetment references are advanced to BNS section 45; BLSA CrPC reference and summary-trial provision are advanced to a controlled BNSS correspondence. The identified 1978/1983 Rules amendment instrument numbers/dates are now reconciled through a Government-hosted reproduction.
 - Manual Scavengers State-specific section 21 empowerment remains an implementation residual and was not reopened.
 
 ## Decision Gate
@@ -127,4 +127,4 @@ PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
+2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Advanced PH1-ISSUE-008 with current India Code SC/ST Rules registry evidence and reconciled the identified BLSA 1978/1983 Rules amendment instrument numbers/dates through a Government-hosted reproduction. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
