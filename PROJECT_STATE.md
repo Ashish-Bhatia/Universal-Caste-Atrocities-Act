@@ -20,33 +20,24 @@ Remaining unresearched jurisdictions:
 2. Lakshadweep
 3. Puducherry
 
-## Control-Layer Reconciliation
+## Cumulative Control Layer
 
-A cumulative state-control reconciliation report was created at:
-`project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`
+The 2026-09-06 cumulative state-control reconciliation was repaired and then independently re-read after write.
 
-The audit verified:
-- all 33 inventory files exist;
-- 28 jurisdiction-specific source ledgers exist;
-- dedicated source-ledger artifacts are absent for Andhra Pradesh, Arunachal Pradesh, Assam and Chhattisgarh, and those absences are now explicitly recorded;
-- dedicated issue/decision files exist for Manipur and the 18 later jurisdictions from Meghalaya through Jammu and Kashmir;
-- dedicated issue/decision files are absent for Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra, and those absences are explicitly recorded;
-- supplemental Manipur/Maharashtra/ledger-append chains are preserved as controlled records and not treated as independent sources of truth;
-- Git history confirms the substantive sequence through Jammu and Kashmir.
+The three previously lagging cumulative controls now contain explicit reconciliation-only indexes:
+- `RESEARCH_LEDGER.md` contains the cumulative 33-jurisdiction artifact-control index through Jammu and Kashmir.
+- `ISSUES_REGISTER.md` contains the cumulative residual-control index covering the later jurisdiction-specific issue sets without renumbering existing IDs.
+- `DECISIONS_LOG.md` contains the cumulative jurisdiction-decision control index through Jammu and Kashmir without fabricating cumulative IDs.
 
-## Critical Cumulative-Control Defect
-
-The reconciliation identified, but has not yet fully repaired, three cumulative control-file synchronization defects:
-
-1. `RESEARCH_LEDGER.md` stops at PH1-044, Manipur, and does not yet contain the Meghalaya through Jammu and Kashmir control index.
-2. `ISSUES_REGISTER.md` stops at PH1-ISSUE-162, Madhya Pradesh, and does not yet index Maharashtra, Manipur, Meghalaya or the later jurisdiction-specific residual sets.
-3. `DECISIONS_LOG.md` reaches DEC-0123 and covers Manipur, but does not yet index the Meghalaya through Jammu and Kashmir jurisdiction decision records.
-
-The detailed reconciliation report records the required controlled repair. No existing issue or decision IDs are to be renumbered or silently merged.
+The jurisdiction-specific records remain the substantive records. The indexes are control metadata only.
 
 ## Master State Files
 
-`legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` were not modified during this reconciliation. They remain controlled consolidation targets. The master source ledger's last verified controlled integration point remains Maharashtra.
+`legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` were not modified during this reconciliation and remain controlled consolidation targets. The master source ledger's last verified controlled integration point remains Maharashtra.
+
+## Historical Baseline Control
+
+`BASELINE_AUDIT.md` now contains an explicit warning that it is a historical 2026-09-05 Phase 0 initialization record. Its historical `Phase 1: NOT STARTED` wording is not current project state.
 
 ## Central and Transition Residuals
 
@@ -55,6 +46,8 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 ## Closed for This Workstream
 
 No Ladakh research.
+No Lakshadweep research.
+No Puducherry research.
 No other new State/UT substantive research.
 No Bill drafting.
 No policy-superiority or necessity analysis.
@@ -62,13 +55,13 @@ No constitutional-validity analysis.
 No Phase 2 case-law research.
 No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
 
-## Website
-Multi-page static website architecture continues. Pages configuration and live URL remain unverified.
+## Decision Gate
 
-## Current Decision Gate
-RECONCILIATION: INCOMPLETE / BLOCKED.
+CUMULATIVE CONTROL RECONCILIATION: PASS.
 
-Reason: the detailed jurisdiction reconciliation is complete, but the three named cumulative control files still require controlled synchronization. Do not authorize the next jurisdiction until those three files are updated and re-verified.
+The cumulative control synchronization gate is satisfied. This is not Phase 1 substantive closure. It only confirms that the cumulative state-control layer is synchronized and traceable through Jammu and Kashmir.
+
+No substantive next-jurisdiction work is started in this reconciliation. The later sequencing point remains Ladakh, but Ladakh is not authorized or researched in this workstream.
 
 ## Latest Controlled Update
-2026-09-06: cumulative state-control reconciliation performed. Created `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`. No master State files were modified. Cumulative control-layer synchronization remains the sole open task before the next substantive jurisdiction may be authorized.
+2026-09-06: repaired `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md`; added historical-state warning to `BASELINE_AUDIT.md`; re-verified `PROJECT_STATE.md`, `NEXT_CHAT.md`, master State-file non-modification and the 33-jurisdiction control index. Cumulative reconciliation is PASS; Phase 1 remains ACTIVE and incomplete.
