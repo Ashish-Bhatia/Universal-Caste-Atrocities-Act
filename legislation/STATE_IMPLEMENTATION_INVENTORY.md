@@ -8,7 +8,7 @@ Opened: 2026-09-05
 
 This inventory records State/UT-specific implementation material for the SC/ST (Prevention of Atrocities) Act, 1989 and related civil-rights/atrocity interfaces. It is an official-source inventory, not a policy assessment or constitutional conclusion.
 
-Searches must distinguish current material from historical reports. Search silence is not treated as proof of absence.
+Searches distinguish current material from historical reports. Search silence is not treated as proof of absence. No State is treated as representative of another jurisdiction.
 
 ## Jurisdiction Master Matrix
 
@@ -27,7 +27,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Karnataka | IN PROGRESS | `legislation/states/KARNATAKA.md` |
 | Kerala | IN PROGRESS | `legislation/states/KERALA.md` |
 | Madhya Pradesh | IN PROGRESS | `legislation/states/MADHYA_PRADESH.md` |
-| Maharashtra | NOT STARTED | — |
+| Maharashtra | IN PROGRESS | `legislation/states/MAHARASHTRA.md` |
 | Manipur | NOT STARTED | — |
 | Meghalaya | NOT STARTED | — |
 | Mizoram | NOT STARTED | — |
@@ -53,38 +53,20 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala and Madhya Pradesh have received independent official-source inventories with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra have received independent official-source inventories with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually.
 
-## Evidence Rule
+## Maharashtra Status Summary
 
-Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
+Maharashtra is sufficiently inventoried for progression with qualifications. Current/recent official State sources establish a dedicated Civil Rights Protection police function, a 27-03-2026 temporary ADGP Civil Rights Protection extension through 31-08-2026, current State publication of the PoA Act and Maharashtra Atrocities Rules 1995, prevention guidance, victim-relief scheme architecture, current Police statistical publication and SC/ST institutional oversight. Official Central reports establish Rule 9, Special Court, Exclusive Special Court and sensitive-area arrangements for specified reporting periods. Current 2026 instrument census remains incomplete, including post-31-08-2026 Civil Rights Protection status, current Protection Cell/police-unit matrix, current committees/courts/prosecutors, relief workflow and post-BNS/BNSS/BSA State instructions.
 
 ## Madhya Pradesh Status Summary
 
 Madhya Pradesh is sufficiently inventoried for progression with qualifications. Current official State sources establish an active PoA scheme/service layer through the CM Helpline directory, current Special Judge postings through the High Court of Madhya Pradesh, current PoA-related police/prosecution training in Datia, and State legal/service repositories. Official Central State-specific reports establish an ADGP-led Protection Cell, 51 Special Police Stations, State/District monitoring committees, Secretary-level Rule 9 nodal architecture and DSP-level Rule 7 investigation for their respective reporting periods. Current primary Rule 9, Protection Cell, police-unit, Rule 10, atrocity-prone-area, V&MC, court, prosecutor, relief/payment, SOP/digital, related-law and post-BNSS instruments remain open.
 
-## Kerala Status Summary
-
-Kerala is sufficiently inventoried for progression with qualifications. Current State Planning Board and Scheduled Tribes Development Department publications describe Special Courts/benches, a Scheduled Castes Protection Cell and Special Police Stations. Kerala Police provides a specific SC/ST atrocity-petition service standard and current statewide cognizable-crime statistics through July 2026. The 2025 Economic Review records 154 atrocity victims receiving compensation grant in 2024-25 and district legal-councillor support. Current LSGD material records Manual Scavengers implementation across all 14 districts and current State legal/labour sources establish related-law interfaces. Current primary appointment, court, prosecutor, V&MC, relief-payment, contingency-plan, digital and post-BNSS instruments remain open.
-
-## Jharkhand Status Summary
-
-Jharkhand is sufficiently inventoried for progression with qualifications. Current official Police and High Court material establishes dedicated SC/ST Police units in multiple districts and active Special Court assignments. A 15-04-2026 State Cabinet decision approved three District Judge-level posts for Special Courts in Ranchi, Dhanbad and Daltonganj. A 22-11-2023 State Cabinet decision authorized lower-rank police investigation of PoA cases, creating a high-priority verification issue against Rule 7. Current State DBT, treasury and UDDP infrastructure is documented, while current PoA-specific payment and case-management workflow remains open. Current Labour, Revenue and local-government sources establish related-law interfaces, but current instrument-level completeness remains open.
-
-## Karnataka Status Summary
-
-Karnataka is sufficiently inventoried for progression with qualifications. Current/recent official State and Central sources establish DCRE architecture, a State-reported 33 special police station structure, State/District/Sub-Divisional V&MC reporting, Special/Exclusive Special Court reporting, prosecutor reporting, relief data and related PCR, Manual Scavengers, bonded-labour and Panchayat Raj interfaces. The underlying current establishment, staffing, court, prosecutor, V&MC, relief-payment, atrocity-prone-area, digital and post-BNSS instruments remain open.
-
 ## Prior Jurisdiction Summaries
 
-Himachal Pradesh remains sufficiently inventoried for progression with qualifications. Its 2024 State annual report provides detailed Rule 9, Protection Cell, Rule 10, V&MC, Special Court, SPP, relief and contingency-plan reporting, with current 2026 instrument gaps retained separately.
-
-Haryana remains sufficiently inventoried for progression with qualifications, with current/recent official departmental, police, prosecution, relief and related-law evidence and current 2026 instrument gaps retained separately.
-
-Gujarat remains sufficiently inventoried for progression with qualifications, with current State publication of nodal, Protection Cell, vigilance, Special Court, prosecutor, relief and related-law architecture and instrument-level gaps retained separately.
-
-Goa remains sufficiently inventoried for progression with qualifications, with 2023 State reporting, current budget and Commission material, and current 2026 instrument gaps retained separately.
+Kerala, Jharkhand and Karnataka remain sufficiently inventoried for progression with qualifications, with current/recent official State and Central evidence and separate residuals recorded in their jurisdiction ledgers. Himachal Pradesh, Haryana, Gujarat and Goa likewise remain inventoried with explicit currentness qualifications. All completed-jurisdiction residuals remain separate.
 
 ## Status
 
-Madhya Pradesh has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from all prior jurisdiction residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Maharashtra is the latest completed jurisdiction for this sequence. Its residual closure items must remain separate from all prior jurisdiction residuals. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
