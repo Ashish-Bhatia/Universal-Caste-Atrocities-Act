@@ -39,18 +39,34 @@ The prior Pages artifact remains verified as a historical deployment point:
 - digest `sha256:5e1606eab5b5a96cf08ba10c002e0e961be7bf731a72eba26ab7064beec47a8b`
 - 90 HTML pages, 36 jurisdiction pages, 36 source pages, 9 law pages, 90 sitemap entries, 36/36 count, no stale 33/36 text, zero broken local links, zero heading jumps and complete metadata.
 
-That artifact verified the previous Pico-integrated presentation state. It does NOT verify the current redesign.
+That artifact verified the previous Pico-integrated presentation state. It is retained as historical evidence only.
 
 Current presentation redesign:
 - Tabler 1.4.0 is the selected open-source UI foundation.
 - Open Props 1.7.23 supplies open-source design tokens.
 - The historical `website/assets/pico-theme.css` filename is retained for build compatibility, but it now loads Tabler/Open Props.
-- `website/assets/site-overrides.css` is the final project presentation layer.
+- `website/assets/site-overrides.css` is the final project presentation layer and is incorporated into generated `assets/site.css` by the Pages workflow.
 - The redesign targets typography, paragraph readability, table wrapping, fixed table proportions, consistent alignment, responsive behaviour and focus-visible controls.
-- `project-state/WEBSITE_PICO_CASCADE_INSPECTION_2026-09-06.md` is superseded and records the current redesign state.
-- `project-state/WEBSITE_THEME_DECISION_2026-09-06.md` records the current Tabler/Open Props decision.
 
-A new Pages workflow run and artifact inspection are REQUIRED before the redesign is declared deployed/verified. Live Pages HTTP/settings verification remains open because the connector does not provide independent browser-level verification.
+Current redesign artifact verification is COMPLETE for run #491:
+- run #491
+- run ID `33994656136`
+- head commit `076337243ff1f837b163a8b2e5c1eac61326adb1`
+- artifact `github-pages`, ID `9977739622`
+- digest `sha256:23a586181daa4d92064fc818fee8ccd4c05eda5fe07e2ab66089fb24ba623489`
+- 90 HTML pages, 36 jurisdiction pages, 36 source pages, 9 law pages, 90 sitemap entries and 36/36 count.
+- No stale `33/36`, `33 of 36` or equivalent 33-jurisdiction text.
+- Zero broken local links and zero heading-level jumps.
+- Every HTML page has one H1, viewport metadata and description metadata.
+- Tabler/Open Props foundation precedes the generated project CSS; final presentation overrides are present in the generated `site.css`.
+- Tables use fixed layout, explicit proportions, wrapping/overflow handling and left alignment.
+- Desktop long-form paragraphs/list items are justified; mobile rules switch them to left alignment.
+- Responsive media queries and focus-visible controls are present; 180 `aria-label` attributes were detected.
+- No inline style attributes and no script tags were detected in generated HTML.
+
+The dedicated verification record is `project-state/WEBSITE_RUN_491_ARTIFACT_VERIFICATION_2026-09-06.md`.
+
+Live Pages HTTP/settings verification remains open because the connector does not provide independent browser-level verification. This limitation does not negate the artifact-level verification of run #491.
 
 ## Central Current-Law and Later-Instrument Position
 
@@ -89,7 +105,7 @@ HISTORICAL MASTER-VERSUS-JURISDICTION SOURCE-ID CONTROL: PRESERVED, 261/29/571/3
 
 WEBSITE FALLBACK CONTROL: PASS.
 
-PRIOR PAGES ARTIFACT: VERIFIED, run #479. CURRENT WEBSITE REDESIGN: NOT YET ARTIFACT-VERIFIED.
+CURRENT WEBSITE REDESIGN ARTIFACT: VERIFIED, run #491, artifact ID `9977739622`, digest `sha256:23a586181daa4d92064fc818fee8ccd4c05eda5fe07e2ab66089fb24ba623489`.
 
 SC/ST ACT CURRENT-TEXT/VERSION QUESTION: CLOSED WITH QUALIFICATION.
 
@@ -111,4 +127,4 @@ PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: completed Manual Scavengers central closure; preserved the controlled BNS/BNSS/BSA freeze; advanced PCR and Bonded Labour transition correspondence with primary sources; extended the PH1-ISSUE-008 later-instrument search; replaced the prior Pico presentation layer with Tabler/Open Props and a redesigned project CSS layer. A new Pages artifact verification remains required for the redesign.
+2026-09-06: verified GitHub Pages run #491 and its `github-pages` artifact as the current Tabler/Open Props redesign deployment artifact. Recorded 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, theme/cascade order, table and paragraph controls, responsive/accessibility controls, zero broken local links, heading hierarchy and complete metadata. Live Pages HTTP/settings verification remains open. Central PH1-ISSUE-008 and BNS/BNSS/BSA correspondence work remains the next substantive workstream.
