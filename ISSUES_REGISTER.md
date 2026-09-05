@@ -27,7 +27,7 @@
 | PH1-ISSUE-003 | BNS offence crosswalk with SC/ST Act section 3 remains incomplete. | ADVANCED WITH QUALIFICATION | Conduct and Schedule correspondence is now mapped, but final primary-text punishment capture and source freeze remain. | Finalize primary-text verification, then close this issue. |
 | PH1-ISSUE-004 | BNSS interface remains incomplete. | ADVANCED WITH QUALIFICATION | Defined special-procedure interfaces are mapped, but exact former-CrPC subject expansion and Rule 7 breach consequences remain open. | Extend former-CrPC subject mapping if required and resolve Rule 7 delay consequences during later verification/case-law work. |
 | PH1-ISSUE-005 | BSA interface remains incomplete. | ADVANCED WITH QUALIFICATION | Special presumptions/evidence interaction is now mapped, but judicial operation of Act s.8 and final transition/current-law verification remain open. | Incorporate relevant Phase 2 case law and perform final primary-source freeze. |
-| PH1-ISSUE-006 | PCR Act and Rules section-level comparison incomplete. | OPEN | Overlap/duplication analysis incomplete. | Complete section and rule comparison. |
+| PH1-ISSUE-006 | PCR Act and Rules section-level comparison incomplete. | CLOSED WITH QUALIFICATION | Section/rule comparison is now recorded; final current-law completeness remains open. | Preserve artifact and complete final Gazette/Legislative Department completeness pass. |
 | PH1-ISSUE-007 | State legislation and implementation rules not exhaustively mapped. | OPEN | National baseline incomplete. | State-by-state official-source inventory. |
 | PH1-ISSUE-008 | Later central instruments after 2018 require final completeness check. | OPEN | Current-law status remains provisional. | Search Gazette/Legislative Department/Ministry indexes through 05-09-2026. |
 | PH1-ISSUE-009 | SC/ST Act legacy IPC/CrPC/Indian Evidence Act references interact with BNS/BNSS/BSA. | ADVANCED WITH QUALIFICATION | BNS, BNSS and BSA interfaces are substantially mapped; final transition matrix remains open. | Complete final transition/source freeze after all three crosswalks. |
@@ -36,6 +36,9 @@
 | PH1-ISSUE-012 | No material constitutional case law incorporated into Phase 1. | MONITOR | Constitutional conclusions reserved for Phase 2/4. | Do not import case-law conclusions into Phase 1. |
 | PH1-ISSUE-013 | No empirical evidence used for policy conclusions. | MONITOR | Legal baseline is not an empirical necessity assessment. | Address in Phase 3. |
 | PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | OPEN | Controlling Annexure-II source cannot be frozen without primary-source reconciliation. | Locate and verify operative Gazette/Department attachment and preserve both references until resolved. |
+| PH1-ISSUE-015 | Manual Scavengers Act/Rules later-instrument completeness is not fully frozen. | OPEN | Current-law baseline remains provisional. | Final Gazette/Legislative Department/Ministry index pass, including classification of s.29 implementation notifications and any later Rules amendments. |
+| PH1-ISSUE-016 | Manual Scavengers Act section 10 complaint limitation and section 21 Executive Magistrate trial architecture require current BNSS transition mapping. | OPEN | Current procedural operation should not be inferred from legacy CrPC terminology. | Include in final Phase 1 transition matrix; reserve contested judicial consequences for Phase 2. |
+| PH1-ISSUE-017 | Manual Scavengers Act section 39 exemption power requires instrument-level verification for any surviving exemption. | OPEN | Scope of statutory exemption, if exercised, is not frozen. | Search Gazette/Legislative Department/Ministry records for exemption notifications. |
 
 ## New BNSS crosswalk issues
 
@@ -82,3 +85,7 @@
 - Annexure-II contains a material source-reference discrepancy requiring primary-source resolution.
 - Act s.8 creates special presumptions not replicated by the BSA general presumption chapter. The distinction must be preserved in later case-law analysis.
 - BSA electronic-record provisions are materially relevant to Act s.4(2)(f), Act s.15A and investigation-generated digital material, but do not themselves create a special SC/ST Act evidentiary shortcut.
+- MS Act ss.5-7 overlap with SC/ST Act s.3(1)(h)-(j) only on specified factual/legal elements; the MS Act is not SC/ST-status dependent.
+- MS Act ss.24-30 and Rules 10-14 create substantial administrative overlap with SC/ST Act s.21 and Rules 16-18, but the monitored subject matter differs.
+- MS Rules 3-8 are technical occupational-safety provisions and should not be treated as incorporated into SC/ST law.
+- MS Act s.23 has dedicated company-liability provisions; no dedicated equivalent appears in the extracted SC/ST Act structure.
