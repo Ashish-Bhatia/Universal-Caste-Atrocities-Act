@@ -44,6 +44,15 @@
 | PH1-ISSUE-032 | Assam current State/District/Sub-Divisional V&MC constitution and meetings not frozen. | OPEN | Current monitoring architecture remains qualified. | Retrieve current constitution orders/minutes; verify SDVMC status. |
 | PH1-ISSUE-033 | Assam current relief-rate, payment, treasury/DBT and case-processing workflow not frozen. | OPEN | Current victim-relief mechanism remains qualified. | Retrieve State orders, payment workflow and case-level administrative evidence. |
 | PH1-ISSUE-034 | Assam PoA-specific Gazette/SOP source set is incomplete. | OPEN | Primary provenance for operative executive arrangements remains incomplete. | Search Gazette, Home/Police/WPT&BC and related departmental repositories. |
+| PH1-ISSUE-035 | Bihar current Rule 9 designation/office-holder is not frozen from a current primary appointment/designation instrument. | OPEN | Current State coordination architecture remains qualified. | Retrieve current primary Rule 9 designation and office-holder evidence. |
+| PH1-ISSUE-036 | Bihar current Protection Cell structure and staffing are not frozen. | OPEN | Current investigation/supervision architecture remains qualified. | Retrieve current State/Police order and staffing/organization evidence. |
+| PH1-ISSUE-037 | Bihar current Rule 10 Special Officer designations and atrocity-prone-area notifications are not frozen. | OPEN | Current preventive architecture remains qualified. | Retrieve current State/district orders and notifications. |
+| PH1-ISSUE-038 | Bihar current State-wide Special/Exclusive Special Court matrix is not consolidated. | OPEN | Current forum architecture remains qualified. | Consolidate current High Court/court notifications and district judicial records. |
+| PH1-ISSUE-039 | Bihar current PoA-specific SPP/ESPP appointment register is not frozen. | OPEN | Current prosecution architecture remains qualified. | Retrieve current appointment orders/register from Law/Home/Prosecution authorities. |
+| PH1-ISSUE-040 | Bihar 13-08-2026 State V&MC reconstitution notice was located, but full order/annexure and current district/sub-divisional committee matrix were not retrieved. | OPEN | Current monitoring architecture is only partly frozen. | Retrieve full reconstitution instrument and current committee constitution/meeting records. |
+| PH1-ISSUE-041 | Bihar current relief-rate, payment, treasury/DBT and case-processing workflow is not frozen. | OPEN | Current victim-relief mechanism remains qualified. | Retrieve State financial orders, sanction/allotment records and payment workflow evidence. |
+| PH1-ISSUE-042 | Bihar 2020 Margdarshika and 2023 PoA Sankalp are identified in the State repository, but operative contents/legal status were not retrieved. | OPEN | Guidance layer cannot be relied on clause-by-clause yet. | Retrieve and assess the underlying documents. |
+| PH1-ISSUE-043 | Bihar current PoA-specific Gazette/SOP/circular set is incomplete. | OPEN | Primary provenance for executive arrangements remains incomplete. | Search Bihar Gazette, SC & ST Welfare, Home, Police, Law and Prosecution repositories. |
 
 ## Andhra Pradesh residual verification items
 
@@ -84,5 +93,19 @@ These are retained as closure items, not blockers to progression:
 - Current PoA-specific Gazette notifications and SOP/circular/manual set.
 - Primary CCTNS SC/ST advisory compendium or associated Police order.
 - Current State-specific bonded-labour/manual-scavenging interface instruments if located.
+
+## Bihar residual closure items
+
+- Current Rule 9 designation and office-holder.
+- Current Protection Cell structure/staffing.
+- Current Rule 10 Special Officer designations and atrocity-prone-area notifications.
+- Complete current Special/Exclusive Special Court notification matrix.
+- Current PoA-specific Special/Exclusive Special Public Prosecutor appointment register.
+- Full 13-08-2026 State V&MC reconstitution instrument and current District/Sub-Divisional committee matrix.
+- Current relief-rate/payment/treasury/DBT instruments and case workflow.
+- Operative contents/legal status of 2020 Margdarshika and 2023 PoA Sankalp.
+- Current PoA-specific Gazette notifications and SOP/circular/manual set.
+- Current State-specific bonded-labour interface instruments if located.
+- Current State-specific manual-scavenging interface instruments beyond the repository listing, if located.
 
 All residual items remain subject to the rule that search silence is not proof of absence.
