@@ -215,3 +215,12 @@ This section indexes the existing Lakshadweep residual IDs into the cumulative c
 | Lakshadweep | PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 | `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` | All 18 OPEN | PROCEED/CLOSE WITH LIMITATIONS |
 
 Controlled residual universe: Rule 8 Protection Cell, Rule 9 Nodal Officer, Rule 3 identified-area position, Rule 10 Special Officer, V&MCs, Rule 7 investigation, section 14 Special Court, Exclusive Special Court, PoA SPP/ESPP, annual-report retrieval/extraction, Section 21(4) reporting, relief/payment/rehabilitation, section 15A/legal aid, PoA Gazette/SOP corpus, BNS/BNSS/BSA transition, 2026 draft Protection Scheduled Tribes Regulation amendment status, digital/FIR/case-management workflow and Rule 15 contingency plan.
+
+
+## Jurisdiction Residual-Control Index: Puducherry, 2026-09-06
+
+Control-only reconciliation index. No cumulative ID is created, renumbered or promoted.
+
+| Jurisdiction | Record | Source | Status |
+|---|---|---|---|
+| Puducherry | PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 | `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` | All 16 OPEN | PROCEED/CLOSE WITH LIMITATIONS |

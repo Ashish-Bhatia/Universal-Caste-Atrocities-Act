@@ -82,3 +82,7 @@ Lakshadweep is the latest completed jurisdiction for this sequence. Its 18 resid
 ## Control Authority
 
 Status definitions, source hierarchy, conflict resolution, search stopping rules, reopening rules and reconciliation standards are governed by `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
+
+## Puducherry Phase 1 completion index, 2026-09-06
+
+Puducherry is the 36th completed Phase 1 jurisdiction, classified PROCEED/CLOSE WITH LIMITATIONS. See `legislation/states/PUDUCHERRY.md` and the jurisdiction-specific source ledger for the substantive inventory.

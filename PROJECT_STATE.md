@@ -3,12 +3,12 @@
 ## Project State
 - Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`.
-- Phase 1 acceptance criteria: NOT YET SATISFIED.
+- Phase 1 acceptance criteria: NOT YET SATISFIED. Puducherry is now the 36th completed jurisdiction; national Phase 1 acceptance remains subject to cumulative control criteria.
 - Current state is determined by repository evidence plus verified decisions and documented unresolved issues. `NEXT_CHAT.md` is downstream and is not a source of truth.
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, no presumed necessity, constitutionality or superiority.
 
 ## State/UT Position
-35 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
+36 of 36 Indian States/UTs have substantive Phase 1 jurisdiction inventories.
 
 Completed sequence:
 Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi (NCT), Jammu and Kashmir, Ladakh, Lakshadweep.
@@ -19,8 +19,10 @@ Ladakh is the 34th completed jurisdiction and is classified PROCEED/CLOSE WITH L
 
 Lakshadweep is the 35th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 are recorded in `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md`.
 
+Puducherry is the 36th completed jurisdiction and is classified PROCEED/CLOSE WITH LIMITATIONS. Its residuals PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 are recorded in `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`.
+
 Remaining unresearched jurisdiction:
-1. Puducherry
+None
 
 ## Control Remediation Status, 2026-09-06
 
@@ -111,6 +113,10 @@ Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA tra
 
 The repository-driven website builder remains the verified production Pages builder. Public source provenance remains separated from internal project-control files.
 
+## Puducherry Phase 1 Position
+
+Puducherry was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy and currentness rules. The jurisdiction has a dedicated PCR Cell, State and District V&MC architecture, a specified Special Judge framework, prosecution arrangements and relief instruments. It is PROCEED/CLOSE WITH LIMITATIONS. Sixteen residuals remain open, including current Rule 9/10 appointments, investigation-allocation conflict, current court/prosecution rosters, current meetings, current case/relief data and post-BNS/BNSS/BSA workflow verification.
+
 ## Lakshadweep Phase 1 Position
 
 Lakshadweep was researched on 2026-09-06 using the Phase 1 control matrix, primary-source hierarchy, currentness rules and reopening controls. The primary baseline includes the Constitution (Scheduled Tribes) Order, current 2026 UT territorial and administrative sources, historical official PoA implementation reports, the 2026 draft Protection Scheduled Tribes Regulation amendment notice, the 2026 Directorate of Prosecution establishment notification, current BNSS implementation rules, current Central scheme data, current DLSA evidence and official MHA/NCRB statistics through 2023. The jurisdiction is PROCEED/CLOSE WITH LIMITATIONS, not an unqualified 2026 implementation census.
@@ -119,7 +125,7 @@ Current residuals include Rule 8 Protection Cell, Rule 9 Nodal Officer, Rule 3 i
 
 ## Closed for This Workstream
 
-No Puducherry research.
+Puducherry Phase 1 research completed; no Phase 2 case-law research.
 No Bill drafting.
 No policy-superiority or necessity analysis.
 No constitutional-validity analysis.
@@ -151,8 +157,12 @@ PH1-ISSUE-021: remains a qualified publication limitation because live Pages URL
 
 Phase 1 substantive acceptance remains NOT YET SATISFIED.
 
-Next authorized substantive workstream: Puducherry Phase 1 State/UT research.
+Next authorized substantive workstream: cumulative Phase 1 acceptance audit and reconciliation, not new jurisdiction research.
 
 ## Latest Controlled Update
 
 2026-09-06: completed Lakshadweep Phase 1 State/UT inventory as the 35th jurisdiction; created `legislation/states/LAKSHADWEEP.md`, `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` and `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md`; classified Lakshadweep PROCEED/CLOSE WITH LIMITATIONS; preserved all 18 open residuals; updated the State/UT master inventory; did not modify the master State Implementation Source Ledger or reopen completed jurisdictions.
+
+## Puducherry Completion Record
+
+Artifacts: `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`, `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`. The source ledger remains jurisdiction-specific and was not promoted into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.

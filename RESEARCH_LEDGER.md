@@ -166,3 +166,12 @@ This section is reconciliation metadata only. It does not create new cumulative 
 | Lakshadweep | `legislation/states/LAKSHADWEEP.md` | `research/states/LAKSHADWEEP_SOURCE_LEDGER.md` | `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` | `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md` | PROCEED/CLOSE WITH LIMITATIONS | LAK-001 through LAK-019 | PH1-ISSUE-LK-001 through PH1-ISSUE-LK-018 | DEC-LK-2026-09-06-001 through DEC-LK-2026-09-06-010 |
 
 Control note: Lakshadweep is the 35th completed jurisdiction. Its jurisdiction-specific source, residual and decision IDs remain governed by the jurisdiction-specific artifacts. No cumulative PH1, PH1-ISSUE or DEC ID has been fabricated, renumbered or promoted.
+
+
+## Jurisdiction Control Index: Puducherry, 2026-09-06
+
+Control-only reconciliation index. No cumulative ID is created, renumbered or promoted.
+
+| Jurisdiction | Record | Source | Status |
+|---|---|---|---|
+| Puducherry | `legislation/states/PUDUCHERRY.md` | `research/states/PUDUCHERRY_SOURCE_LEDGER.md` | `project-state/PUDUCHERRY_ISSUES_2026-09-06.md` | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | PROCEED/CLOSE WITH LIMITATIONS | PU-001 through PU-018 | PH1-ISSUE-PY-001 through PH1-ISSUE-PY-016 | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 |

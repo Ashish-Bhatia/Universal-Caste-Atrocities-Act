@@ -36,10 +36,9 @@ Independent artifact inspection verified 84 HTML pages, 33 completed-jurisdictio
 The connector still lacks direct browser-level Pages settings inspection and independent live-URL HTTP verification. Do not convert deployment success into a live-site HTTP claim.
 
 ## Current State/UT Position
-35 of 36 States/UTs have substantive Phase 1 inventories. Ladakh is the 34th completed jurisdiction and Lakshadweep is the 35th. Both are classified PROCEED/CLOSE WITH LIMITATIONS. Their residuals remain in their jurisdiction-specific issue records.
+36 of 36 States/UTs have substantive Phase 1 inventories. Ladakh is the 34th, Lakshadweep the 35th and Puducherry the 36th completed jurisdiction. All three are classified PROCEED/CLOSE WITH LIMITATIONS. Their residuals remain in jurisdiction-specific issue records.
 
-Remaining unresearched jurisdiction:
-1. Puducherry
+Remaining unresearched jurisdiction: None
 
 ## Lakshadweep Completion Record
 
@@ -61,7 +60,7 @@ Ladakh remains complete for its defined first-pass inventory and classified PROC
 Central later-instrument/current-law completeness remains open. BNS/BNSS/BSA transition verification remains open. Existing jurisdiction-specific issues remain open. Ladakh and Lakshadweep residuals remain jurisdiction-specific and are not to be collapsed into central residuals.
 
 ## Next Authorized Workstream
-Begin the remaining Phase 1 State/UT inventory with Puducherry, using `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, the evidence hierarchy, currentness rules and reopening controls.
+Begin the cumulative Phase 1 acceptance audit and reconciliation using `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, the cumulative ledgers and all 36 jurisdiction records. Do not reopen completed jurisdiction research unless a qualifying defect is identified.
 
 Before beginning Puducherry:
 1. Read `PROJECT_STATE.md`.
@@ -70,6 +69,10 @@ Before beginning Puducherry:
 4. Read current `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` for the cumulative control position.
 5. Read the completed-jurisdiction artifacts only if needed to preserve methodology or control boundaries. Do not repeat their substantive research.
 6. Preserve the exact 377-ID source-ledger discrepancy and do not alter the master source ledger for website synchronization.
+
+## Puducherry Completion Record
+
+Read only if a qualifying defect is identified: `legislation/states/PUDUCHERRY.md`, `research/states/PUDUCHERRY_SOURCE_LEDGER.md`, `project-state/PUDUCHERRY_ISSUES_2026-09-06.md`, `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md`. Puducherry is the 36th completed jurisdiction and PROCEED/CLOSE WITH LIMITATIONS. Preserve all 16 residuals.
 
 ## Do NOT Repeat
 
@@ -94,8 +97,8 @@ Continue the Universal Caste Atrocities Act project from the completed 2026-09-0
 
 First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and the Lakshadweep artifacts `legislation/states/LAKSHADWEEP.md`, `research/states/LAKSHADWEEP_SOURCE_LEDGER.md`, `project-state/LAKSHADWEEP_ISSUES_2026-09-06.md` and `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md`.
 
-Lakshadweep is complete for its defined first-pass inventory and classified PROCEED/CLOSE WITH LIMITATIONS. Preserve its 18 open residuals. Do not repeat Lakshadweep unless the formal reopening rule is met. The next authorized workstream is substantive Phase 1 research for Puducherry.
+Lakshadweep is complete for its defined first-pass inventory and classified PROCEED/CLOSE WITH LIMITATIONS. Preserve its 18 open residuals. Do not repeat Lakshadweep unless the formal reopening rule is met. The next authorized workstream is cumulative Phase 1 acceptance audit and reconciliation. Puducherry research is complete for its defined first-pass inventory.
 
 The website/source-ledger remediation remains CLOSED AND VERIFIED. The exact control baseline remains `MASTER_IDS=261`, `JURISDICTION_LEDGER_FILES=29`, `JURISDICTION_LEDGER_IDS=571`, `MISSING_FROM_MASTER=377`, `MASTER_ONLY_IDS=67`. Do not repeat the remediation or treat the discrepancy as resolved.
 
-Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed Jammu and Kashmir or Ladakh work. Do not repeat completed Lakshadweep work.
+Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. Do not repeat completed Jammu and Kashmir, Ladakh, Lakshadweep or Puducherry work unless a qualifying reopening trigger is established.

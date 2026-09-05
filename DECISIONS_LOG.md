@@ -126,3 +126,12 @@ This section indexes existing Lakshadweep local decision records into the cumula
 | Lakshadweep | DEC-LK-2026-09-06-001 through DEC-LK-2026-09-06-010 | `project-state/LAKSHADWEEP_DECISIONS_2026-09-06.md` | ACTIVE |
 
 Indexed decisions cover independent jurisdictional research, beneficiary-scope instruments, current-versus-historical evidence separation, draft local tribal-protection amendment status, Directorate of Prosecution, BNSS implementation, scheme-specific relief reporting, NCRB statistics and the PROCEED/CLOSE WITH LIMITATIONS disposition. The jurisdiction-specific decision file remains authoritative.
+
+
+## Jurisdiction Decision-Control Index: Puducherry, 2026-09-06
+
+Control-only reconciliation index. No cumulative ID is created, renumbered or promoted.
+
+| Jurisdiction | Record | Source | Status |
+|---|---|---|---|
+| Puducherry | DEC-PY-2026-09-06-001 through DEC-PY-2026-09-06-010 | `project-state/PUDUCHERRY_DECISIONS_2026-09-06.md` | ACTIVE |
