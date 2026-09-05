@@ -105,3 +105,53 @@ Phase 0 baseline complete. Phase 1 substantive research active.
 ## Current research stopping point
 
 The SC/ST Act and Rules baseline/extractions remain authoritative. The Rules clause extraction is complete with the Annexure-II source discrepancy preserved. The section 3 BNS crosswalk is advanced with qualification. The BNSS procedural crosswalk is advanced with qualification. The BSA evidence/presumption crosswalk is advanced with qualification. PCR, Manual Scavengers and Bonded Labour comparisons are complete with qualifications. The remaining Priority 2 Central legislation queue has been screened at screening level. State inventories through Manipur have now been independently researched with explicit currentness qualifications. Maharashtra's master-ledger integration was completed and verified before Manipur began. Manipur remains active for current-instrument closure, especially Rule 9, Protection Cell/Special Police Station, Rule 10/sensitive areas, V&MCs, Special/Exclusive Special Courts, SPP/ESPP continuation, relief/payment, PoA-specific SOP/digital systems, related-law interfaces, annual-report submission and post-BNS/BNSS/BSA State instructions. Final primary-text freezes, later-instrument completeness, known source discrepancy resolution, transition reconciliation, remaining State/UT inventory and Pages verification remain open. No Bill drafting or policy/constitutional conclusion has begun.
+
+## Cumulative Phase 1 jurisdiction-control index
+
+The following index is a reconciliation-only control layer. It does not recreate or replace jurisdiction-specific substantive research. It records artifact traceability already verified in `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`.
+
+| Sequence | Jurisdiction | Inventory | Source ledger | Issue record | Decision record | Control disposition |
+|---:|---|---|---|---|---|---|
+| 1 | Andhra Pradesh | `legislation/states/ANDHRA_PRADESH.md` | ABSENT/INDEXED | ABSENT/INDEXED | ABSENT/INDEXED | Completed with qualification; residuals carried in cumulative controls. |
+| 2 | Arunachal Pradesh | `legislation/states/ARUNACHAL_PRADESH.md` | ABSENT/INDEXED | ABSENT/INDEXED | ABSENT/INDEXED | Completed with currentness residuals. |
+| 3 | Assam | `legislation/states/ASSAM.md` | ABSENT/INDEXED | ABSENT/INDEXED | ABSENT/INDEXED | Completed with currentness and instrument residuals. |
+| 4 | Bihar | `legislation/states/BIHAR.md` | `research/states/BIHAR_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with currentness and instrument residuals. |
+| 5 | Chhattisgarh | `legislation/states/CHHATTISGARH.md` | ABSENT/INDEXED | ABSENT/INDEXED | ABSENT/INDEXED | Completed with currentness, instrument and related-law residuals. |
+| 6 | Goa | `legislation/states/GOA.md` | `research/states/GOA_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with qualifications. |
+| 7 | Gujarat | `legislation/states/GUJARAT.md` | `research/states/GUJARAT_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current instrument/workflow residuals. |
+| 8 | Haryana | `legislation/states/HARYANA.md` | `research/states/HARYANA_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current instrument residuals. |
+| 9 | Himachal Pradesh | `legislation/states/HIMACHAL_PRADESH.md` | `research/states/HIMACHAL_PRADESH_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with qualification; supplemental ledger append preserved. |
+| 10 | Jharkhand | `legislation/states/JHARKHAND.md` | `research/states/JHARKHAND_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current instrument residuals. |
+| 11 | Karnataka | `legislation/states/KARNATAKA.md` | `research/states/KARNATAKA_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current instrument and transition residuals. |
+| 12 | Kerala | `legislation/states/KERALA.md` | `research/states/KERALA_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current and historical/current reconciliation residuals. |
+| 13 | Madhya Pradesh | `legislation/states/MADHYA_PRADESH.md` | `research/states/MADHYA_PRADESH_SOURCE_LEDGER.md` | ABSENT/INDEXED | ABSENT/INDEXED | Completed with current instrument/source-grade residuals. |
+| 14 | Maharashtra | `legislation/states/MAHARASHTRA.md` | `research/states/MAHARASHTRA_SOURCE_LEDGER.md` | `project-state/MAHARASHTRA_ISSUES_ADDENDUM.md` | ABSENT/INDEXED | PH1-ISSUE-163 through PH1-ISSUE-178 preserved in jurisdiction addendum. |
+| 15 | Manipur | `legislation/states/MANIPUR.md` | `research/states/MANIPUR_SOURCE_LEDGER.md` | `project-state/MANIPUR_ISSUES_ADDENDUM.md` | `project-state/MANIPUR_DECISIONS_ADDENDUM.md` and controlled continuation records | PH1-ISSUE-179 through PH1-ISSUE-195 preserved. |
+| 16 | Meghalaya | `legislation/states/MEGHALAYA.md` | `research/states/MEGHALAYA_SOURCE_LEDGER.md` | `project-state/MEGHALAYA_ISSUES_2026-09-05.md` | `project-state/MEGHALAYA_DECISIONS_2026-09-05.md` | PH1-ISSUE-256 through PH1-ISSUE-265 open; PROCEED/CLOSE WITH LIMITATIONS. |
+| 17 | Mizoram | `legislation/states/MIZORAM.md` | `research/states/MIZORAM_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 open. |
+| 18 | Nagaland | `legislation/states/NAGALAND.md` | `research/states/NAGALAND_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-NG-001 through PH1-ISSUE-NG-018 open. |
+| 19 | Odisha | `legislation/states/ODISHA.md` | `research/states/ODISHA_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-OD-001 through PH1-ISSUE-OD-018 open. |
+| 20 | Punjab | `legislation/states/PUNJAB.md` | `research/states/PUNJAB_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-PB-001 through PH1-ISSUE-PB-016 open. |
+| 21 | Rajasthan | `legislation/states/RAJASTHAN.md` | `research/states/RAJASTHAN_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-RJ-001 through PH1-ISSUE-RJ-016 open. |
+| 22 | Sikkim | `legislation/states/SIKKIM.md` | `research/states/SIKKIM_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | Current Rule 9 and other instrument residuals preserved. |
+| 23 | Tamil Nadu | `legislation/states/TAMIL_NADU.md` | `research/states/TAMIL_NADU_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-TN-001 through PH1-ISSUE-TN-016 open. |
+| 24 | Telangana | `legislation/states/TELANGANA.md` | `research/states/TELANGANA_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-TG-001 through PH1-ISSUE-TG-016 open. |
+| 25 | Tripura | `legislation/states/TRIPURA.md` | `research/states/TRIPURA_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-TR-001 through PH1-ISSUE-TR-016 open; Rule 8 contradiction preserved. |
+| 26 | Uttar Pradesh | `legislation/states/UTTAR_PRADESH.md` | `research/states/UTTAR_PRADESH_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 open. |
+| 27 | Uttarakhand | `legislation/states/UTTARAKHAND.md` | `research/states/UTTARAKHAND_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016 open. |
+| 28 | West Bengal | `legislation/states/WEST_BENGAL.md` | `research/states/WEST_BENGAL_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-WB-001 through PH1-ISSUE-WB-016 open. |
+| 29 | Andaman and Nicobar Islands | `legislation/states/ANDAMAN_NICOBAR.md` | `research/states/ANDAMAN_NICOBAR_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-AN-001 through PH1-ISSUE-AN-016 open plus controlled interface residual. |
+| 30 | Chandigarh | `legislation/states/CHANDIGARH.md` | `research/states/CHANDIGARH_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-CH-001 through PH1-ISSUE-CH-016 open. |
+| 31 | Dadra and Nagar Haveli and Daman and Diu | `legislation/states/DADRA_NAGAR_HAVELI_DAMAN_DIU.md` | `research/states/DADRA_NAGAR_HAVELI_DAMAN_DIU_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-DD-001 through PH1-ISSUE-DD-016 open. |
+| 32 | Delhi (NCT) | `legislation/states/DELHI.md` | `research/states/DELHI_SOURCE_LEDGER.md` | jurisdiction-specific record present | jurisdiction-specific record present | PH1-ISSUE-DL-001 through PH1-ISSUE-DL-016 open. |
+| 33 | Jammu and Kashmir | `legislation/states/JAMMU_KASHMIR.md` | `research/states/JAMMU_KASHMIR_SOURCE_LEDGER.md` | `project-state/JAMMU_KASHMIR_ISSUES_2026-09-05.md` | `project-state/JAMMU_KASHMIR_DECISIONS_2026-09-05.md` | PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 open; Rule 8 contradiction preserved. |
+
+### Control-layer rules
+
+1. This index is an artifact-control index, not a substitute for the jurisdiction-specific substantive record.
+2. `ABSENT/INDEXED` means the reconciliation verified the absence of a dedicated file and explicitly recorded the control path. It does not mean the underlying evidence is absent.
+3. Existing cumulative IDs PH1-001 through PH1-044 remain unchanged.
+4. No new substantive research findings are created by this index.
+5. The three remaining jurisdictions, Ladakh, Lakshadweep and Puducherry, remain unresearched.
+6. `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` remain outside this repair.
+7. The cumulative control layer is synchronized as of 2026-09-06, subject to independent post-write verification.
