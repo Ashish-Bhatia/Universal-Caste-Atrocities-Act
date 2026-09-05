@@ -35,7 +35,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Goa | IN PROGRESS | `legislation/states/GOA.md` |
 | Gujarat | IN PROGRESS | `legislation/states/GUJARAT.md` |
 | Haryana | IN PROGRESS | `legislation/states/HARYANA.md` |
-| Himachal Pradesh | NOT STARTED | — |
+| Himachal Pradesh | IN PROGRESS | `legislation/states/HIMACHAL_PRADESH.md` |
 | Jharkhand | NOT STARTED | — |
 | Karnataka | NOT STARTED | — |
 | Kerala | NOT STARTED | — |
@@ -66,11 +66,15 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has received an independent official-source inventory with qualifications. Gujarat has received an independent official-source inventory with qualifications. Haryana has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has received an independent official-source inventory with qualifications. Gujarat has received an independent official-source inventory with qualifications. Haryana has received an independent official-source inventory with qualifications. Himachal Pradesh has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
 Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
+
+## Himachal Pradesh Status Summary
+
+Himachal Pradesh is sufficiently inventoried for progression with qualifications. The 2024 State annual report provides detailed State-specific implementation reporting: Director ESOMSA as Rule 9 nodal officer for the reporting period, State CID Protection Cell under DGP supervision, no Special Police Stations in the 12 districts, Additional District Magistrates as Rule 10 Special Officers, no atrocity-prone areas identified, State/District/Sub-Divisional V&MC architecture, District and Sessions Judge Special Courts, District Attorneys-cum-Public Prosecutors as SPPs, no ESPPs specified, Rs.2,70,80,639 relief to 415 victims in 2024, seven-day relief/treasury authorization architecture and a Rule 15 contingency plan. Current HP Police CCTNS services and 2024 crime review provide current digital/reporting interfaces. Current 2026 appointments, operative orders, complete court/prosecutor matrix, payment/DBT workflow, PoA-specific digital workflow and several related-law instruments remain open.
 
 ## Haryana Status Summary
 
@@ -86,4 +90,4 @@ Goa is sufficiently inventoried for progression, with qualifications. The 2023 G
 
 ## Status
 
-Haryana has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa and Gujarat residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
+Himachal Pradesh has been added as the current completed jurisdiction for this sequence, with qualifications. Its residual closure items must remain separate from AP, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa and Gujarat residual items. Final Central later-instrument completeness and BNS/BNSS/BSA transition verification remain separate workstreams.
