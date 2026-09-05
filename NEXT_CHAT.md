@@ -18,67 +18,37 @@ Remaining unresearched jurisdictions:
 2. Lakshadweep
 3. Puducherry
 
-## Reconciliation Workstream
-A detailed audit is recorded at `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`.
+## Repaired Cumulative Control Layer
+The 2026-09-06 cumulative control synchronization is complete and independently re-verified after write.
 
-Verified during the audit:
-- all 33 inventory files exist;
-- dedicated source ledgers exist for 28 jurisdictions;
-- dedicated source ledgers are absent for Andhra Pradesh, Arunachal Pradesh, Assam and Chhattisgarh, and the absence is explicitly recorded;
-- dedicated issue/decision records exist for Manipur and Meghalaya through Jammu and Kashmir;
-- dedicated issue/decision records are absent for Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra, and the absence is explicitly recorded;
-- supplemental Manipur, Maharashtra and ledger-append records are controlled records and are not independent sources of truth;
-- Git chronology supports the substantive sequence through Jammu and Kashmir.
-
-## Remaining Reconciliation Defects
-The cumulative control layer is NOT YET synchronized.
-
-1. `RESEARCH_LEDGER.md` stops at PH1-044, Manipur. It must be extended with a reconciliation-only control index for Meghalaya through Jammu and Kashmir.
-2. `ISSUES_REGISTER.md` stops at PH1-ISSUE-162, Madhya Pradesh. It must be extended with a reconciliation-only residual index covering Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi and Jammu and Kashmir, while preserving all existing issue IDs.
-3. `DECISIONS_LOG.md` reaches DEC-0123 and covers Manipur. It must be extended with a reconciliation-only jurisdiction decision index for Meghalaya through Jammu and Kashmir.
-
-Do not invent substantive records to repair these defects. Use repository artifact existence and jurisdiction-specific records as the basis for the control indexes.
+- `RESEARCH_LEDGER.md` now contains an explicit 33-jurisdiction artifact-control index.
+- `ISSUES_REGISTER.md` now contains an explicit residual-control index covering Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi and Jammu and Kashmir, while preserving existing IDs.
+- `DECISIONS_LOG.md` now contains an explicit jurisdiction-decision control index through Jammu and Kashmir without fabricating cumulative decision IDs.
+- `BASELINE_AUDIT.md` now explicitly warns that it is a historical Phase 0 initialization record and its `Phase 1: NOT STARTED` wording is historical only.
 
 ## Master State Files
 Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
 Do not modify `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`.
-Do not reconstruct the master source ledger from truncated connector output.
+Do not reconstruct either master file from truncated connector output.
 
-## Explicitly Closed
-- Jammu and Kashmir baseline research.
-- All completed jurisdiction baselines unless a genuine evidentiary/control defect is established.
-- Phase 2 case-law research.
-- Bill drafting.
-- Policy-superiority/necessity analysis.
-- Constitutional-validity analysis.
-- New substantive research for Ladakh, Lakshadweep or Puducherry.
+## Explicitly Closed for This Workstream
+- No Ladakh research.
+- No Lakshadweep research.
+- No Puducherry research.
+- No other new State/UT substantive research.
+- No Bill drafting.
+- No policy-superiority/necessity analysis.
+- No constitutional-validity analysis.
+- No Phase 2 case-law research.
+- No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
+
+## Decision Gate
+CUMULATIVE CONTROL RECONCILIATION: PASS.
+
+This is a control-layer pass only. Phase 1 substantive acceptance remains NOT YET SATISFIED because Central later-instrument/current-law completeness, BNS/BNSS/BSA transition verification, currentness residuals and the three remaining State/UT inventories remain open.
 
 ## Exact Next Task
-Repair and re-verify only the three cumulative control files named above. Do not begin Ladakh or any other substantive research in the same workstream.
-
-## Acceptance Criteria
-The reconciliation gate remains BLOCKED until:
-1. `RESEARCH_LEDGER.md` reflects the actual completed sequence through Jammu and Kashmir.
-2. `ISSUES_REGISTER.md` reflects the actual unresolved issue universe, directly or through explicit jurisdictional residual indexes.
-3. `DECISIONS_LOG.md` reflects material decisions through Jammu and Kashmir, directly or through explicit jurisdictional decision indexes.
-4. `PROJECT_STATE.md` agrees with those cumulative records.
-5. This file agrees with the corrected state.
-6. `BASELINE_AUDIT.md` is clearly historical and cannot be mistaken for current state.
-7. All 33 completed jurisdictions remain traceable.
-8. All residuals and controlled artifact absences remain traceable.
-9. Ladakh, Lakshadweep and Puducherry remain correctly identified as unresearched.
-10. No Phase 2 work is recorded as started.
-11. No substantive new legal research is performed during the repair.
-12. No unsupported completion claim is introduced.
-
-## Required Outputs of the Repair
-- updated cumulative `RESEARCH_LEDGER.md`;
-- updated cumulative `ISSUES_REGISTER.md`;
-- updated cumulative `DECISIONS_LOG.md`;
-- re-verified `PROJECT_STATE.md`;
-- re-verified `NEXT_CHAT.md`;
-- historical warning in `BASELINE_AUDIT.md`;
-- final zero-drift consistency result and decision gate.
+No substantive research task is authorized by this handoff. If a later chat is expressly instructed to proceed beyond this reconciliation, its first substantive workstream may begin with Ladakh Phase 1 inventory. That work must start from the synchronized control layer and must not repeat this reconciliation or any completed jurisdiction audit.
 
 ## Continuation Instruction
-Continue the Universal Caste Atrocities Act project from the 06-09-2026 state-control reconciliation stopping point. Phase 1 remains ACTIVE. Do NOT begin Ladakh research. Do NOT perform any other new substantive research, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. First read `PROJECT_STATE.md`, `NEXT_CHAT.md` and `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`. Then repair only `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` using repository artifacts already verified by the reconciliation. Preserve all existing issue and decision IDs. Do not invent missing jurisdiction-specific records. Do not modify the master State Implementation Inventory or master State Implementation Source Ledger. Do not reopen completed jurisdiction research. The exact stopping point is the three cumulative control-file synchronization defects identified in the reconciliation report. The next task is one task only: cumulative control-file synchronization and re-verification. The gate remains BLOCKED until all acceptance criteria above are satisfied. Do not repeat the completed repository inventory audit or any substantive State baseline research.
+Continue the Universal Caste Atrocities Act project from the 06-09-2026 cumulative Phase 1 state-control reconciliation completion point. The authoritative repository is the source of truth. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md` and `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`. The cumulative control layer has already been repaired and independently re-verified. Do NOT repeat the repository inventory audit, cumulative-control reconciliation, completed State/UT audits, or Jammu and Kashmir substantive research. Do NOT begin Ladakh, Lakshadweep or Puducherry research unless a later user instruction expressly authorizes the next substantive workstream. Do NOT perform Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research unless separately authorized. Preserve PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 and all other existing IDs. Treat the cumulative indexes as control metadata and the jurisdiction-specific records as substantive authority. Do not modify `legislation/STATE_IMPLEMENTATION_INVENTORY.md` or `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` during continuity work unless separately authorized. Current gate: cumulative control reconciliation PASS; Phase 1 substantive acceptance NOT YET SATISFIED.
