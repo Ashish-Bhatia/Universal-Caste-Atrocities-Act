@@ -7,61 +7,65 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 ## Completed This Session
 
 - Read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `BASELINE_AUDIT.md` before continuing.
-- Did not repeat Phase 0, the initial Phase 1 source map, the completed SC/ST Act extraction or the completed Rules extraction.
-- Built `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`.
-- Mapped every section 3(1) conduct against exact, partial or absent BNS correspondence, while preserving special SC/ST Act elements.
-- Mapped section 3(2)(i)-(vii) against BNS correspondence classes.
-- Mapped all 32 distinct IPC references in the Act Schedule under section 3(2)(va), including merged BNS sections and relevant subsections.
-- Applied the transition framework of S.O. 2790(E), dated 16-07-2024, BNS s.358 and General Clauses Act s.8 without assuming section-number equivalence.
-- Mapped Rule 2(ga)'s IPC s.39 “voluntarily” reference to BNS s.2(33).
-- Recorded material differences including BNS consolidation, IPC 320/BNS 116's 20-day to 15-day grievous-hurt threshold, IPC 148/BNS 191(3)'s 3-year to 5-year maximum, changed fines, IPC 506/BNS 351 consolidation and IPC 376C/BNS 68 restructuring.
+- Did not repeat Phase 0, the initial Phase 1 source map, the completed SC/ST Act extraction, the completed Rules extraction, the completed section 3 BNS crosswalk or the completed BNSS procedural crosswalk.
+- Corrected the repository-control defect by recording the BNSS crosswalk as `PH1-025` in `RESEARCH_LEDGER.md`.
+- Built `legislation/SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md`.
+- Mapped Act s.8(a)-(b) special presumptions against BSA general burden/presumption architecture and verified that no BSA equivalent to the two SC/ST Act presumptions was identified.
+- Mapped BSA s.2 definitions, including document, evidence, may presume and shall presume.
+- Mapped BSA ss.3-14 relevance provisions, ss.54-60 oral/documentary proof, ss.61-63 electronic records, ss.74-93 public documents/document presumptions, ss.104-119 burden/presumption provisions, ss.124-139 witness rules and ss.140-168 examination/production interfaces.
+- Mapped evidence-related aspects of Act s.3(2)(i)-(ii) and (vi), plus materially relevant interfaces for the remaining aggravated offences.
+- Mapped Rules 5-7, 12 and materially relevant implementation/reporting records as potential documentary/electronic evidence interfaces without inventing special evidentiary presumptions.
+- Mapped BSA s.170 repeal/savings and the proceeding-status distinction for the Indian Evidence Act.
+- Incorporated S.O. 2790(E), dated 16-07-2024, as the controlled legacy-reference transition instrument for Indian Evidence Act references.
+- Preserved the Schedule item 43 / Annexure-II disability-notification discrepancy without harmonisation.
 - Updated `PROJECT_STATE.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md`.
 
 ## New Artifact
 
-- `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`
+- `legislation/SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md`
+
+## Verified BSA Findings
+
+- BSA came into force on 01-07-2024.
+- BSA s.170(1) repeals the Indian Evidence Act, 1872.
+- BSA s.170(2) preserves the former Evidence Act for applications, trials, inquiries, investigations, proceedings and appeals pending immediately before BSA commencement.
+- BSA s.2(d)-(e) expressly includes electronic/digital records within “document” and “evidence”, including electronically given statements and specified digital records.
+- BSA s.2(l) defines “shall presume”.
+- BSA ss.61-63 provide the current electronic-record admissibility/proof framework, including the s.63(4) certificate requirement.
+- BSA ss.104-109 provide general burden-of-proof rules. BSA s.115 is a different presumption and is not an analogue of Act s.8.
+- Act s.8(a)-(b) remains a special-law presumption layer. The BSA general code does not itself reproduce those two SC/ST-specific presumptions.
+- Evidence-related Act s.3(2)(i)-(ii) and (vi) offences use the BSA general relevance, proof, burden and witness framework; BSA does not replace their substantive elements.
+- Rules-generated reports and records are not automatically conclusive evidence merely because the Rules require their creation.
 
 ## Exact Stopping Point
 
-The section 3 BNS crosswalk is substantially complete but deliberately not frozen. The remaining qualification is exact primary-text punishment capture for merged BNS Schedule clusters and final reconciliation of the statutory Schedule count/current text. The Rules-specific Annexure-II discrepancy remains open. Post-2018 Act/Rules instrument completeness remains provisional pending the final Gazette/Legislative Department index pass.
+Stop after the BSA evidence/presumption crosswalk. Phase 1 remains active and is not frozen.
 
 ## Next Discrete Workstream
 
-Build the BNSS procedural crosswalk. Cover, at minimum:
+Proceed to the remaining Phase 1 existing-law comparisons, prioritising the PCR Act and PCR Rules section/rule-level comparison, followed by priority Central legislation screening and State-by-State legislation/implementation-rule inventory. Before Phase 1 freeze, perform the final Gazette/Legislative Department completeness check and reconcile the BNS, BNSS and BSA transition matrices. Continue to preserve the Annexure-II discrepancy without harmonisation.
 
-- Act s.2 Code definition and legacy CrPC references.
-- s.4 investigation, FIR, statements, charge-sheet and the 60-day framework.
-- s.7 property forfeiture/attachment interface.
-- s.9 police powers.
-- ss.10-13 externment, arrest/removal, measurements and non-compliance.
-- s.14 and s.14A Special/Exclusive Special Courts, direct cognizance, trial/disposal targets and High Court appeals.
-- s.15 prosecution interface.
-- s.15A victim/witness rights and procedural participation.
-- s.17 preventive-action interface.
-- s.18 and s.18A anticipatory-bail/arrest/preliminary-inquiry interfaces, including BNSS s.482.
-- s.19 probation/sentencing interface.
-- s.20 override and conflict interaction.
-- Rules, especially Rule 7's 60-day investigation/charge-sheet framework and other procedural references.
-- BNSS repeal/savings under s.531 and corresponding transition basis.
-
-Do not begin Bill drafting or policy/constitutional conclusions.
+Do not begin Bill drafting, policy analysis, necessity analysis, superiority analysis or constitutional conclusions.
 
 ## Must Not Repeat
 
-Do not repeat Phase 0 repository audit. Do not recreate initialization artifacts. Do not recreate `legislation/SOURCE_MAP.md` or `legislation/EXISTING_LAW_BASELINE.md`. Do not repeat the completed Act extraction or Rules extraction. Do not repeat the BNS crosswalk except for targeted correction or primary-text verification. Do not treat India Code's 19-11-2018 metadata as proof of no later instruments. Do not treat targeted searches as a final completeness declaration. Do not infer policy necessity, desirability, superiority or constitutionality.
+Do not repeat Phase 0 repository audit. Do not recreate initialization artifacts. Do not recreate `legislation/SOURCE_MAP.md` or `legislation/EXISTING_LAW_BASELINE.md`. Do not repeat the completed SC/ST Act extraction, Rules extraction, BNS crosswalk, BNSS procedural crosswalk or BSA statutory crosswalk except for targeted correction or final primary-text verification. Do not treat India Code metadata dates as proof of legal completeness. Do not treat targeted search silence as a final absence declaration. Do not infer policy necessity, desirability, superiority or constitutionality.
 
 ## Open Issues Relevant to Next Workstream
 
 - PH1-ISSUE-001: final Act current-law completeness check remains open.
-- PH1-ISSUE-003: BNS crosswalk is advanced with qualification pending final primary-text freeze.
-- PH1-ISSUE-004: BNSS interface incomplete.
-- PH1-ISSUE-005: BSA interface incomplete.
-- PH1-ISSUE-008: final later-instrument Gazette/Legislative Department completeness check remains open.
-- PH1-ISSUE-009: Act legacy IPC/CrPC/Indian Evidence Act references require controlled transition analysis.
-- PH1-ISSUE-010: Rule 2(ga) IPC s.39 correspondence is identified as BNS s.2(33), but full transition matrix remains open.
+- PH1-ISSUE-003: BNS crosswalk remains advanced with qualification pending final primary-text freeze.
+- PH1-ISSUE-004: BNSS interface remains advanced with qualification, including former-CrPC subject expansion and Rule 7 delay consequences.
+- PH1-ISSUE-005: BSA interface remains advanced with qualification; judicial operation/rebuttal of Act s.8 remains a later case-law issue.
+- PH1-ISSUE-006: PCR Act and Rules section-level comparison remains incomplete.
+- PH1-ISSUE-007: State legislation and implementation rules remain incompletely mapped.
+- PH1-ISSUE-008: final later-central-instrument Gazette/Legislative Department completeness check remains open.
+- PH1-ISSUE-009: final SC/ST Act legacy IPC/CrPC/Indian Evidence Act transition matrix remains open.
+- PH1-ISSUE-010: Rule 2(ga) IPC s.39 -> BNS s.2(33) correspondence is verified but final transition matrix remains open.
 - PH1-ISSUE-014: Schedule item 43 / Annexure-II primary-source discrepancy remains open.
-- BNS-XW-001 through BNS-XW-012: crosswalk structural, punishment, element and completeness issues remain open until final Phase 1 freeze.
+- BNS-XW-001 through BNS-XW-015: retain unresolved items recorded in `ISSUES_REGISTER.md` until final Phase 1 freeze.
+- BSA-XW-001 through BSA-XW-010: retain unresolved or qualified evidence/presumption issues recorded in `ISSUES_REGISTER.md` until later verification/case-law work.
 
 ## Continuation Instruction
 
-Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md`. Do not repeat Phase 0, the initial Phase 1 source map, the completed SC/ST Act extraction, the completed Rules clause extraction, or the completed section 3 BNS crosswalk except for targeted primary-text verification. The current BNS artifact is `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`; it maps all section 3 conduct and all 32 IPC references in the statutory Schedule under s.3(2)(va), using S.O. 2790(E), BNS s.358 and GCA s.8, and maps Rule 2(ga)'s IPC s.39 to BNS s.2(33). One Rules issue remains open: Schedule item 43 cites a 01-06-2001 disability notification while attached Annexure-II material begins with a 06-08-1986 notification. Do not silently harmonise it. The next task is the BNSS procedural crosswalk, including the Act's special court, investigation, arrest, bail, trial, appeal, externment, preventive-action, victim/witness and 60-day investigation interfaces, plus Rules procedural references. Use primary BNSS text and BNSS s.531 for transition. Record exact provision correspondence, residual differences, commencement/transition basis, Act/Rules interaction, duplication, conflict, gap, ambiguity and verification status. Keep post-2018 instrument completeness provisional pending final Gazette/Legislative Department verification. Do not begin Bill drafting or policy/constitutional conclusions. Do not repeat completed work unless correcting or extending it.
+Continue the Universal Caste Atrocities Act project from Phase 1, Existing-Law Baseline and Source Map. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, and `BASELINE_AUDIT.md`. Do not repeat Phase 0, the initial Phase 1 source map, the completed SC/ST Act extraction, the completed Rules clause extraction, the completed section 3 BNS crosswalk, the completed BNSS procedural crosswalk, or the completed BSA statutory crosswalk except for targeted correction or final primary-text verification. The BNS artifact is `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`. The BNSS artifact is `legislation/SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md`. The BSA artifact is `legislation/SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md`. The BSA crosswalk maps Act s.8(a)-(b) special presumptions, evidence-related Act s.3(2) interfaces, Rules evidence/document interfaces, BSA definitions, relevance, documentary/electronic evidence, burdens, presumptions, witnesses, production and s.170 transition. It establishes only that no BSA equivalent to Act s.8 was identified and preserves Act s.8 as the special-law presumption layer. The next discrete task is PCR Act and PCR Rules section/rule-level comparison, followed by priority Central legislation screening and State-by-State inventory. Keep post-2018 Act/Rules instrument completeness provisional pending final Gazette/Legislative Department verification. Preserve the Schedule item 43 / Annexure-II disability-notification discrepancy. Do not begin Bill drafting, policy analysis or constitutional conclusions. Do not repeat completed work.
