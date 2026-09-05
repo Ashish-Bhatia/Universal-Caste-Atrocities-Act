@@ -6,48 +6,43 @@ Phase 1, Existing-Law Baseline and Source Map: ACTIVE.
 
 ## Completed This Session
 
-- Read the project control files before continuation.
-- Integrated the Jharkhand and Karnataka source entries into `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` using a complete-file preservation/reconstruction operation. Existing jurisdiction records were preserved. Integration commit: `15520f73d4851959bcaa474b0d2ba878263bb92e`.
-- Added Madhya Pradesh to `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
-- Created `legislation/states/MADHYA_PRADESH.md`.
-- Created `research/states/MADHYA_PRADESH_SOURCE_LEDGER.md` with MP-STATE-001 through MP-STATE-020.
-- Added Madhya Pradesh research entry PH1-042 to `RESEARCH_LEDGER.md`.
-- Added Madhya Pradesh residual issues PH1-ISSUE-147 through PH1-ISSUE-162 to `ISSUES_REGISTER.md`.
-- Added Madhya Pradesh decisions DEC-0097 through DEC-0101 to `DECISIONS_LOG.md`.
-- Updated `PROJECT_STATE.md` to record Madhya Pradesh as the latest completed jurisdiction.
+- Read PROJECT_STATE.md, NEXT_CHAT.md, RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and BASELINE_AUDIT.md before continuation.
+- Confirmed Maharashtra is the next uncompleted jurisdiction after Madhya Pradesh.
+- Created `legislation/states/MAHARASHTRA.md`.
+- Created `research/states/MAHARASHTRA_SOURCE_LEDGER.md` with MH-STATE-001 through MH-STATE-020.
+- Maharashtra research used current/recent official Maharashtra State Police, Maharashtra Home Department, Social Justice & Special Assistance Department, Social Welfare Commissionerate, Government of Maharashtra GR repository, official Bombay High Court material and official Ministry of Social Justice & Empowerment reports/data.
 
-## Madhya Pradesh Verified Findings
+## Maharashtra Verified Findings
 
-- Current Madhya Pradesh CM Helpline scheme directory, last updated 20-08-2026, lists “अत्याचार निवारण अधिनियम” under the Tribal Affairs Department and separately lists an ST relief scheme.
-- Current State Social Justice and Disabled Persons Welfare Department publication, circular and archive infrastructure is active in 2026.
-- Current High Court of Madhya Pradesh Judicial Information records Special Judge SC/ST (P.A.) Act postings in multiple districts as on 15-05-2026. The High Court Transfer/Posting archive records 16-03-2026 communication 248-Confdl-2026 concerning Special Judge SC/ST PA Act postings.
-- Current Datia Police reported a 15-03-2026 workshop involving police, prosecution and judicial participants on PoA investigation/evidence, BNS/BNSS timing, electronic evidence and forensic workflow.
-- Current Balaghat Police RTI material identifies an SC/ST/AJAK police station and DSP Ajak post, but this is district-specific evidence and not a statewide census.
-- Official Central reports for their respective reporting periods record an ADGP-led State SC/ST Protection Cell, 51 Special Police Stations, State/District V&MC architecture, Secretary-level Rule 9 nodal architecture and DSP-level Rule 7 investigation. The 2022 report records 6,083 investigations/charge-sheets within 60 days and 4,038 later than 60 days.
-- Current Central scheme data records Madhya Pradesh relief coverage of 9,951, 10,081, 6,582, 10,834 and 19,359 persons in 2020-21 through 2024-25, with central assistance of Rs.83.49 crore, Rs.103.41 crore, Rs.31.82 crore, Rs.63.49 crore and Rs.88.12 crore respectively.
-- A Rs.25 crore 2025-26 State budget figure was located only through secondary reporting and remains Grade C until the underlying State budget record is retrieved.
+- Current Maharashtra Home Department publishes the SC/ST PoA Act, Maharashtra Atrocities Rules 1995 and PCR Act.
+- Maharashtra Police maintains a dedicated Civil Rights Protection section with PoA procedure material, related GR/circular material and a monthly SC/ST/PCR statistics publication dated 21-08-2026.
+- A primary Home Department decision dated 27-03-2026 extended the temporary ADGP, Civil Rights Protection post from 01-03-2026 through 31-08-2026. Status after 31-08-2026 is unresolved and must not be inferred.
+- A 26-02-2019 Maharashtra Home Department circular provides prevention guidance covering sensitive-area identification, committees, special police deployment, quarterly review, investigation, seven-day immediate assistance and training.
+- Current Social Justice material describes financial assistance for SC/ST atrocity victims and identifies the 23-12-2016 GR as its relief basis, with police reporting, Assistant Commissioner and District Collector stages.
+- Official Central Maharashtra reports record Rule 9, Special Court, Exclusive Special Court and sensitive-area arrangements for 2019 and 2022. These are reporting-period evidence only. The 2019 report identified Dhule, Nandurbar, Jalgaon, Akola, Gadchiroli and Parbhani as atrocity-prone areas, while the 2022 report recorded no identified atrocity-prone area.
+- Current Central scheme data records Maharashtra relief recipients of 2,245, 3,339, 2,869, 3,339 and 5,661 for 2020-21 through 2024-25 and Central assistance of Rs.58.13 crore, Rs.7.73 crore, Rs.12.83 crore, Rs.37.28 crore and Rs.24.52 crore respectively. These are scheme-level figures.
+- Official Bombay High Court judgments show functioning Special Judges under the Atrocities Act in identified districts, but do not establish a complete 2026 statewide court matrix.
 
-## Madhya Pradesh Residual Closure Items
+## Maharashtra Residuals
 
-- PH1-ISSUE-147 through PH1-ISSUE-162 remain OPEN and are recorded in `ISSUES_REGISTER.md`.
-- Current Rule 9/10 instruments, Protection Cell staffing, complete police-unit matrix, V&MC matrix, current court/prosecutor matrix, relief-payment workflow, PoA-specific executive/digital instruments, related-law instruments and post-BNSS instructions remain open.
-- Current atrocity-prone/sensitive-area primary notifications and the detailed 09-07-2024 Assembly annexure remain open.
-- The secondary Rs.25 crore budget lead must not be treated as primary evidence until the underlying State budget document is retrieved.
+The Maharashtra source ledger records 19 residual closure items, including current Rule 9 designation, post-31-08-2026 Civil Rights Protection status, current Protection Cell and police-unit matrix, Rule 10/sensitive-area notifications, V&MCs, Special Courts, SPP/ESPP appointments, Maharashtra Rules and PoA procedure extraction, relief/DBT workflow, contingency plan, digital workflow, 21-08-2026 statistics extraction, related-law interfaces, post-BNS/BNSS/BSA instructions and current State budget records.
 
-## Master-Ledger Integration Status
+## Master-Ledger Status
 
-- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` now contains the Jharkhand and Karnataka source entries and preserves the existing jurisdiction records.
-- The complete-file integration was verified through the Git tree/commit path and the resulting master blob. The master ledger now has a Madhya Pradesh next-jurisdiction pointer while retaining all prior jurisdiction records.
-- `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md` and `DECISIONS_LOG.md` contain the corresponding control entries.
+`research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` was verified as containing the prior jurisdiction records, but the connector exposes the file in truncated form. Maharashtra's supplemental ledger therefore has not yet been integrated into the master ledger in this session. A controlled complete-file preservation/reconstruction operation is required before claiming master integration.
 
 ## Separate Closure Workstreams
 
 - Final Central later-instrument completeness remains separate.
 - BNS/BNSS/BSA transition verification remains separate.
-- All completed-jurisdiction residual issues remain separate from the next State inventory.
+- All completed-jurisdiction residuals remain separate from Maharashtra residuals and the next jurisdiction.
 - GitHub Pages configuration/live URL remains unverified.
 - No Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusion has begun.
 
 ## Exact Next Action
 
-Proceed to the next uncompleted jurisdiction after Madhya Pradesh using independent current/recent official-source research. Preserve all completed-jurisdiction residual issues separately. Do not repeat any completed jurisdiction or completed Central workstream. Keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy analysis, necessity/superiority analysis or constitutional conclusions. Do not treat search silence as proof of absence. Do not infer current State arrangements from another jurisdiction. Do not treat the Jharkhand 22-11-2023 lower-rank investigation authorization as settled law without instrument-level verification.
+First update the authoritative control records for Maharashtra, including RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and PROJECT_STATE.md, without reopening completed jurisdictions. Then perform the controlled master-ledger integration for `research/states/MAHARASHTRA_SOURCE_LEDGER.md`, preserving all existing entries. After integration, proceed to the next uncompleted jurisdiction, Manipur. Do not repeat Maharashtra research unless new evidence changes a recorded status.
+
+## Continuation Instruction
+
+Continue Phase 1, Existing-Law Baseline and Source Map. Read PROJECT_STATE.md, NEXT_CHAT.md, RESEARCH_LEDGER.md, ISSUES_REGISTER.md, DECISIONS_LOG.md and BASELINE_AUDIT.md first. Maharashtra is the latest completed jurisdiction, with `legislation/states/MAHARASHTRA.md` and `research/states/MAHARASHTRA_SOURCE_LEDGER.md` containing MH-STATE-001 through MH-STATE-020. Do not repeat Phase 0, initial source map, SC/ST Act/Rules extraction, BNS/BNSS/BSA crosswalks, PCR/Manual Scavengers/Bonded Labour comparisons, Central screening, PH1-AUDIT-001 remediation, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh or Maharashtra inventory research. Complete the authoritative control-record updates and controlled Maharashtra master-ledger integration first, preserving every existing jurisdiction entry. Then begin Manipur using independent current/recent official-source research. Preserve reporting periods, do not infer current arrangements from another jurisdiction, do not treat search silence as absence, keep jurisdiction residuals separate, and keep Central later-instrument completeness and BNS/BNSS/BSA transition verification separate. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
