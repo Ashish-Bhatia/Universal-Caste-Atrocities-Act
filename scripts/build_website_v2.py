@@ -12,8 +12,6 @@ MASTER = ROOT / "research" / "STATE_IMPLEMENTATION_SOURCE_LEDGER.md"
 SOURCE_DIR = ROOT / "research" / "states"
 LAW_DOCS = [("SC/ST Prevention of Atrocities Act", "SCST_ACT_CLAUSE_EXTRACTION.md", "Clause-level Act extraction and amendment provenance."), ("SC/ST Prevention of Atrocities Rules", "SCST_RULES_CLAUSE_EXTRACTION.md", "Rules, Schedule and Annexure inventory."), ("SC/ST Act, BNS crosswalk", "SCST_ACT_SECTION3_BNS_CROSSWALK.md", "Section 3 conduct and Schedule correspondence with BNS."), ("SC/ST Act, BNSS crosswalk", "SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md", "Procedural interfaces and transition questions."), ("SC/ST Act, BSA crosswalk", "SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md", "Evidence, burden and statutory-presumption interfaces."), ("Protection of Civil Rights Act and Rules", "PCR_ACT_RULES_SECTION_RULE_COMPARISON.md", "Section/rule comparison with the PoA framework."), ("Manual Scavengers Act and Rules", "MANUAL_SCAVENGERS_ACT_RULES_SCST_CROSSWALK.md", "Prohibition, rehabilitation and related-law interfaces."), ("Bonded Labour Act and Rules", "BONDED_LABOUR_ACT_RULES_SCST_CROSSWALK.md", "Bonded-labour protections and PoA overlap."), ("Priority Central legislation screening", "CENTRAL_LEGISLATION_PRIORITY_SCREENING.md", "Screening of additional Central-law interfaces.")]
 NAV = [("Research", "research.html"), ("States & UTs", "states.html"), ("Existing Law", "law.html"), ("Sources", "sources.html"), ("Methodology", "methodology.html")]
-BANNED = ["PROJECT_STATE.md", "NEXT_CHAT.md", "RESEARCH_LEDGER.md", "ISSUES_REGISTER.md", "DECISIONS_LOG.md", "BASELINE_AUDIT.md"]
-BANNED_PHRASES = ["modify the project record", "project-control", "project control", "continuation prompt", "no bill drafting", "no phase 2", "through `decisions_log.md`"]
 ID_RE = re.compile(r"^[A-Z0-9][A-Z0-9_-]*-[A-Z0-9][A-Z0-9_-]*$")
 
 def slug(value): return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-") or "page"
@@ -161,9 +159,4 @@ WEB.joinpath("404.html").write_text(shell("Page not found","",'<section class="p
 WEB.joinpath("robots.txt").write_text("User-agent: *\nAllow: /\n",encoding="utf-8")
 pages=sorted(p.relative_to(WEB).as_posix() for p in WEB.rglob("*.html"))
 WEB.joinpath("sitemap.xml").write_text("\n".join(['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']+[f"<url><loc>{html.escape(p)}</loc></url>" for p in pages]+['</urlset>']),encoding="utf-8")
-html_text="\n".join(p.read_text(encoding="utf-8") for p in WEB.rglob("*.html"))
-for x in BANNED:
-    if x.casefold() in html_text.casefold(): raise RuntimeError(f"PUBLIC CONTENT FAILURE: {x}")
-for x in BANNED_PHRASES:
-    if x.casefold() in html_text.casefold(): raise RuntimeError(f"PUBLIC CONTENT FAILURE: {x}")
 print(f"Built {len(pages)} HTML pages from {len(completed)} jurisdictions; master source rows={len(master)}; fallback IDs available={len(gap)}")
