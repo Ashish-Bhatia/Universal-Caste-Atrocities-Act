@@ -1,0 +1,1 @@
+2026-09-06 controlled master source-ledger integration trigger. Temporary control marker; retained for audit traceability.
