@@ -71,7 +71,6 @@ jobs:
           s=s.replace('<div class="panel-note">Three jurisdictions remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>','<div class="panel-note">{total - completed_count} jurisdiction(s) remain outside the completed sequence. The public library does not treat this as a policy or constitutional conclusion.</div>')
           if '33<span>/36</span>' in s: raise SystemExit('hard-coded hero count remains')
           p.write_text(s,encoding='utf-8')
-
           p=root/'.devcontainer/devcontainer.json'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
           p=root/'.github/workflows/pages.yml'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
           p=root/'.gitignore'; existing=p.read_text(encoding='utf-8') if p.exists() else ''; rules='website/*.html\\nwebsite/states/\\nwebsite/law/\\nwebsite/sources/\\nwebsite/robots.txt\\nwebsite/sitemap.xml\\n'
@@ -109,10 +108,10 @@ jobs:
           assert len(files)==90, len(files)
           bad=[]
           for p in files:
-              h1=len(re.findall(r'<h1\\b',p.read_text(encoding='utf-8'),re.I))
+              h1=len(re.findall(r'<h1\b',p.read_text(encoding='utf-8'),re.I))
               if h1>1 or (('states/' in str(p) or 'law/' in str(p)) and h1!=1): bad.append((str(p),h1))
           assert not bad,bad[:10]
-          text='\\n'.join(p.read_text(encoding='utf-8') for p in files)
+          text='\n'.join(p.read_text(encoding='utf-8') for p in files)
           assert '33/36' not in text
           assert '36<span>/36</span>' in text
           assert len(list(Path('website/states').glob('*.html')))==36
