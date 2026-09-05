@@ -51,10 +51,13 @@ Overall Phase 1 acceptance remains NOT YET SATISFIED because:
 4. Jurisdiction currentness and instrument-level residuals remain open.
 5. Live Pages HTTP/settings verification remains unavailable through the connector.
 
-## Central-law Closure Recorded 2026-09-06
-`project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md` records the controlled closure of PH1-ISSUE-001 with qualification and PH1-ISSUE-014. It does not close PH1-ISSUE-008 or the broader Central-law freeze.
+## Central-law Reconciliation Recorded 2026-09-06
+`project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md` records the controlled reconciliation of stale PH1-ISSUE-001 and PH1-ISSUE-014 entries against `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`.
 
-The official Ministry of Tribal Affairs Rules PDF resolves the apparent Annexure-II 1986/2001 discrepancy: Annexure-II is the 01-06-2001 notification, which itself reviews the earlier 06-08-1986 guideline.
+PH1-ISSUE-001 reconciled to CLOSED WITH QUALIFICATION. PH1-ISSUE-014 reconciled to CLOSED. The physical rows in `ISSUES_REGISTER.md` remain to be synchronized to the reconciliation record and must not be treated as independently current until synchronized.
+
+## Manual Scavengers BNSS Transition Update
+`project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md` advances PH1-ISSUE-016 from OPEN to ADVANCED WITH QUALIFICATION based on primary statutory sources. MS Act section 10 remains a special three-month cognizance limitation. MS Act section 21 retains its special Executive Magistrate/Judicial Magistrate first-class and summary-trial architecture. BNSS sections 3-5 provide the current construction-of-references, other-law and special-law framework. State-specific post-01-07-2024 empowerment orders remain open.
 
 ## Jurisdiction Residual Rule
 Preserve all jurisdiction-specific residuals. Do not reopen a completed jurisdiction unless the formal reopening rule is met.
@@ -65,11 +68,11 @@ Ladakh: PH1-ISSUE-LA-001 through PH1-ISSUE-LA-018 remain open.
 Jammu and Kashmir: PH1-ISSUE-JK-001 through PH1-ISSUE-JK-018 remain open, including the Rule 8 contradiction.
 
 ## Next Authorized Workstream
-Continue controlled closure of the remaining Phase 1 acceptance dependencies. Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+First synchronize the physical `ISSUES_REGISTER.md` rows for PH1-ISSUE-001 and PH1-ISSUE-014 with `project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md`. Do not alter any other issue row during that synchronization.
 
-The website synchronization and rendering-control workstream is closed for the identified defects. Do not repeat run #438 or #448 artifact extraction, the full website audit, or the historical 377-ID comparison unless a new qualifying control defect requires targeted verification.
+Then continue controlled closure of the remaining Phase 1 acceptance dependencies. The next substantive Central/transition priorities are PH1-ISSUE-015 later-instrument completeness for the Manual Scavengers Act/Rules, PH1-ISSUE-017 section 39 exemption-instrument verification, the broader Central later-instrument freeze under PH1-ISSUE-008, and the remaining BNS/BNSS/BSA transition matrix.
 
-Next substantive priority: close one remaining Central-law or transition dependency using primary-source closure rules, then move to targeted jurisdiction residuals only where the formal reopening/closure rule permits. Do not reopen completed State/UT research merely because a residual remains open.
+Do not begin Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
 
 ## Required Reading Before Next Work
 1. `PROJECT_STATE.md`
@@ -77,12 +80,11 @@ Next substantive priority: close one remaining Central-law or transition depende
 3. `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`
 4. `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`
 5. `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`
-6. `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`
-7. `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`
-8. `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`
-9. `ISSUES_REGISTER.md`
-10. `DECISIONS_LOG.md`
-11. `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
+6. `project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md`
+7. `project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md`
+8. `ISSUES_REGISTER.md`
+9. `DECISIONS_LOG.md`
+10. `legislation/STATE_IMPLEMENTATION_INVENTORY.md`
 
 Read Puducherry, Ladakh or Lakshadweep substantive artifacts only if a qualifying reopening or targeted verification trigger exists.
 
@@ -102,19 +104,24 @@ Do NOT begin Bill drafting.
 Do NOT conduct policy-superiority/necessity analysis.
 Do NOT conduct constitutional-validity analysis.
 Do NOT begin Phase 2 case-law research.
+Do NOT repeat the SC/ST Act current-version closure, SC/ST Rules Annexure-II discrepancy resolution, or the completed Manual Scavengers crosswalk except for targeted verification.
 
 ## Exact Continuation Instruction
 
 Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Phase 1 website full-audit closure point and cumulative Phase 1 acceptance audit.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`, `project-state/WEBSITE_PHASE1_SYNC_VERIFICATION_2026-09-06.md`, `project-state/WEBSITE_FULL_AUDIT_2026-09-06.md`, `project-state/PH1_SOURCE_LEDGER_POST_BASELINE_DELTA_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LAW_CLOSURE_2026-09-06.md`, `project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md` and `legislation/STATE_IMPLEMENTATION_INVENTORY.md`.
 
-36/36 State/UT inventories are complete. Puducherry is the 36th and remains PROCEED/CLOSE WITH LIMITATIONS with 16 open residuals. Do not repeat completed jurisdiction research unless the formal reopening rule is met.
+36/36 State/UT inventories are complete. No State/UT remains unresearched. Do not repeat completed jurisdiction research unless the formal reopening rule is met.
 
 The preserved historical source-ledger baseline remains `MASTER_IDS=261`, `JURISDICTION_LEDGER_FILES=29`, `JURISDICTION_LEDGER_IDS=571`, `MISSING_FROM_MASTER=377`, `MASTER_ONLY_IDS=67`. The later 32-file/628-ID/434-gap filesystem enumeration is a post-baseline delta only. Do not modify the master ledger for website synchronization.
 
-The current Pages artifact is verified by run #448 after remediation of the run #446 heading-hierarchy defects. The full static audit is PASS. Live HTTP/settings verification remains unavailable through the connector. Do not repeat the website audit absent a new control defect.
+The current Pages artifact is verified by run #452 after remediation of the run #446 heading-hierarchy defects. The full static audit is PASS. Live HTTP/settings verification remains unavailable through the connector. Do not repeat the website audit absent a new control defect.
 
-The SC/ST Act current-text/version question is closed with qualification. The SC/ST Rules Annexure-II apparent 1986/2001 discrepancy is closed using the official Ministry-hosted Rules PDF. The broader Central current-law freeze, BNS/BNSS/BSA transition freeze and jurisdiction currentness residuals remain open.
+The SC/ST Act current-text/version question is closed with qualification. The SC/ST Rules Annexure-II apparent 1986/2001 discrepancy is closed using the official Ministry-hosted Rules PDF.
 
-Continue with the remaining Phase 1 acceptance dependencies. Do not repeat completed work, the historical 377-ID comparison, run #397, run #438, run #448 artifact inspection, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+The stale PH1-ISSUE-001 and PH1-ISSUE-014 rows have an authoritative reconciliation record in `project-state/PH1_ISSUES_REGISTER_RECONCILIATION_2026-09-06.md`; synchronize only those two physical rows before further substantive work.
+
+PH1-ISSUE-016 has been advanced to ADVANCED WITH QUALIFICATION by `project-state/PH1_MANUAL_SCAVENGERS_BNSS_TRANSITION_2026-09-06.md`. Do not repeat that targeted verification. Next substantive work should address PH1-ISSUE-015, PH1-ISSUE-017, PH1-ISSUE-008 or another specifically selected unresolved Central/transition dependency using primary-source closure rules.
+
+Do not repeat completed work, the historical 377-ID comparison, run #397, run #438, run #448 artifact inspection, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
