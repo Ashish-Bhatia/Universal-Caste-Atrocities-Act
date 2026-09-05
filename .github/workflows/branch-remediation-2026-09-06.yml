@@ -19,7 +19,6 @@ jobs:
           from pathlib import Path
           import re
           root=Path('.')
-
           p=root/'scripts/build_website_v2.py'
           s=p.read_text(encoding='utf-8')
           start=s.index('def md_html(text):')
@@ -82,19 +81,16 @@ jobs:
 
           p=root/'.devcontainer/devcontainer.json'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
           p=root/'.github/workflows/pages.yml'; s=p.read_text(encoding='utf-8').replace('python3 scripts/build_website.py','python3 scripts/build_website_v2.py'); p.write_text(s,encoding='utf-8')
-
           p=root/'.gitignore'; existing=p.read_text(encoding='utf-8') if p.exists() else ''; rules='website/*.html\\nwebsite/states/\\nwebsite/law/\\nwebsite/sources/\\nwebsite/robots.txt\\nwebsite/sitemap.xml\\n';
           if 'website/*.html' not in existing: p.write_text(existing.rstrip()+'\\n\\n# Generated GitHub Pages output\\n'+rules,encoding='utf-8')
           import shutil
           for x in list((root/'website').glob('*.html'))+[(root/'website'/'robots.txt'),(root/'website'/'sitemap.xml')]: x.unlink(missing_ok=True)
           for d in [root/'website/states',root/'website/law',root/'website/sources']:
               if d.exists(): shutil.rmtree(d)
-
           p=root/'ISSUES_REGISTER.md'; s=p.read_text(encoding='utf-8')
           s=s.replace('| PH1-ISSUE-001 | SC/ST Act clause-level extraction and current-version verification were incomplete. | OPEN | Act baseline not yet frozen. | Final Gazette/Legislative Department index check and preserve clause extraction. |','| PH1-ISSUE-001 | SC/ST Act clause-level extraction and current-version verification were incomplete. | CLOSED WITH QUALIFICATION | Act current-text/version question is controlled-closed, while broader later-instrument completeness remains open under PH1-ISSUE-008. | Preserve the verified 21-09-2025 consolidated Act text; do not infer absence of later subordinate instruments. |')
           s=s.replace('| PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | OPEN | Controlling Annexure-II source cannot be frozen. | Locate and verify operative Gazette/Department attachment. |','| PH1-ISSUE-014 | Schedule item 43 cites a 2001 disability notification while attached Annexure-II material begins with a 1986 notification. | CLOSED | The official Ministry-hosted Rules PDF identifies Annexure-II as the 01-06-2001 notification and treats the 1986 instrument as the earlier guideline reviewed by it. | Retain the resolution; broader final Rules source freeze remains under PH1-ISSUE-002. |')
           p.write_text(s,encoding='utf-8')
-
           p=root/'README.md'; s=p.read_text(encoding='utf-8'); s=re.sub(r'33/36','36/36',s); s=s.replace('Ladakh, Lakshadweep and Puducherry remain unresearched.','All 36 States/UTs now have substantive Phase 1 inventories. Central-law, transition and currentness residuals remain open.'); p.write_text(s,encoding='utf-8')
           p=root/'project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md'; s=p.read_text(encoding='utf-8'); s=s if s.startswith('> HISTORICAL CONTROL RECORD') else '> HISTORICAL CONTROL RECORD: superseded for current State/UT count by the 2026-09-06 cumulative Phase 1 acceptance audit and current inventory.\\n\\n'+s; p.write_text(s,encoding='utf-8')
           p=root/'DECISIONS_LOG.md'; s=p.read_text(encoding='utf-8'); marker='## Central Transition Decision Index 2026-09-06'; s=s if marker in s else s+'\\n\\n'+marker+'\\n\\nIndexed from `project-state/CONTROL_DECISIONS_CENTRAL_TRANSITION_2026-09-06.md`: DEC-CENTRAL-2026-09-06-001, DEC-CENTRAL-2026-09-06-002, DEC-CENTRAL-2026-09-06-003, DEC-CENTRAL-2026-09-06-004. Detailed reasoning remains in the dated control record.\\n'; p.write_text(s,encoding='utf-8')
@@ -109,6 +105,7 @@ jobs:
         run: |
           python3 scripts/build_website_v2.py
           python3 scripts/sync_phase1_website.py
+          cat website/assets/site-overrides.css >> website/assets/site.css
           python3 scripts/verify_pages_rendering_controls.py
           python3 scripts/sanitize_public_html.py
           python3 scripts/validate_public_site.py
