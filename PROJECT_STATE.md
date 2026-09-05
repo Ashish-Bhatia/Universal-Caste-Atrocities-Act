@@ -3,12 +3,12 @@
 ## Project State
 
 - Project phase: 1, Existing-Law Baseline and Source Map
-- Status: ACTIVE, SC/ST Act and Rules extraction advanced; section 3 BNS crosswalk substantially completed with qualification; Phase 1 acceptance criteria NOT YET SATISFIED
+- Status: ACTIVE, SC/ST Act and Rules extraction advanced; BNS and BNSS procedural crosswalks advanced with qualifications; Phase 1 acceptance criteria NOT YET SATISFIED
 - Authoritative repository: `Ashish-Bhatia/Universal-Caste-Atrocities-Act`
 - Default branch: `main`
 - Phase 1 start date: 2026-09-05
 - Baseline artifact: `BASELINE_AUDIT.md`
-- Phase 1 artifacts: `legislation/EXISTING_LAW_BASELINE.md`, `legislation/SOURCE_MAP.md`, `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`, `legislation/SCST_RULES_VERSION_MATRIX.md`, `legislation/SCST_RULES_CLAUSE_EXTRACTION.md`, `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`
+- Phase 1 artifacts: `legislation/EXISTING_LAW_BASELINE.md`, `legislation/SOURCE_MAP.md`, `legislation/SCST_ACT_CLAUSE_EXTRACTION.md`, `legislation/SCST_RULES_VERSION_MATRIX.md`, `legislation/SCST_RULES_CLAUSE_EXTRACTION.md`, `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`, `legislation/SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md`
 - Methodology: evidence-first, primary-source preference, explicit evidence grading, constitutional and legislative stress-testing
 
 ## Zero-Drift Rules
@@ -58,17 +58,20 @@
 - The section 3 BNS crosswalk maps every section 3(1) conduct at the level of exact, partial or absent BNS correspondence and maps all 32 distinct IPC references in the Act Schedule under section 3(2)(va).
 - Material BNS differences identified include consolidation of IPC clusters into BNS sections 61, 115-118, 124, 126, 137, 140, 189, 191 and 351; the BNS grievous-hurt 15-day threshold; increased punishment ceiling for armed rioting; changed fines; and restructuring of IPC 376C into BNS 68.
 - Rule 2(ga)'s IPC section 39 reference corresponds to BNS section 2(33), with the core intention/knowledge test retained.
+- BNSS section 4(2) makes BNSS procedure applicable to offences under other laws subject to special enactments regulating manner/place; section 5 preserves special/local laws and special jurisdiction/procedure.
+- BNSS section 531 repeals the CrPC and preserves specified pending appeals, applications, trials, inquiries and investigations under the CrPC as at 01-07-2024, while deeming specified pre-existing procedural instruments to correspond to BNSS provisions.
+- The BNSS procedural crosswalk maps the defined Act/Rules interfaces covering special courts/direct cognizance, investigation/FIR, Rule 7 DSP-level investigation and 60-day charge-sheet framework, arrest, bail/anticipatory bail, appeals, externment, preventive action, victim/witness rights, property attachment/forfeiture, probation and override.
 
 ## Phase 1 Acceptance Gaps
 
 1. Final Gazette/Legislative Department completeness verification for post-2018 Act and Rules instruments remains open.
 2. Final primary-text freeze of the BNS crosswalk remains open for exact punishment capture in merged clusters.
-3. BNSS special-law interface crosswalk remains incomplete.
+3. BNSS crosswalk remains advanced with qualification for exact former-CrPC subject expansion and consequences of Rule 7 delay.
 4. BSA evidence/presumption crosswalk remains incomplete.
 5. PCR Act and Rules section-level comparison remains incomplete.
 6. Priority Central legislation screening remains incomplete.
 7. State-by-State legislation and implementation-rule inventory remains incomplete.
-8. Duplication/conflict/gap/ambiguity register remains incomplete beyond the BNS workstream.
+8. Duplication/conflict/gap/ambiguity register remains incomplete beyond the BNS/BNSS workstreams.
 9. Annexure-II disability attachment/reference discrepancy remains open for primary-source resolution.
 
 ## Tool Capability Boundaries
@@ -78,8 +81,8 @@
 
 ## Exact Current Position
 
-The first Phase 1 source map and baseline remain authoritative and have not been recreated. The SC/ST Act is extracted from the India Code consolidation marked 21-09-2025. The SC/ST Rules amendment history through 2018 is recorded and verified at instrument level. The consolidated Rules clause extraction is recorded in `legislation/SCST_RULES_CLAUSE_EXTRACTION.md`, including Rules 1-18, all identified sub-rules, 47 Schedule items, Annexure-I and Annexure-II structure. The Rules workstream remains complete with qualification pending primary-source resolution of Annexure-II. The new artifact `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md` records the section 3 conduct-by-conduct BNS crosswalk, the complete statutory Schedule mapping and Rule 2(ga) transition. No Bill drafting has begun. No policy, necessity, superiority or constitutional-validity conclusion has been reached.
+The first Phase 1 source map and baseline remain authoritative and have not been recreated. The SC/ST Act is extracted from the India Code consolidation marked 21-09-2025. The SC/ST Rules amendment history through 2018 is recorded and verified at instrument level. The consolidated Rules clause extraction is recorded in `legislation/SCST_RULES_CLAUSE_EXTRACTION.md`, including Rules 1-18, all identified sub-rules, 47 Schedule items, Annexure-I and Annexure-II structure. The Rules workstream remains complete with qualification pending primary-source resolution of Annexure-II. The BNS crosswalk remains advanced with qualification. The new artifact `legislation/SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md` records the defined BNSS procedural crosswalk and preserves special-law interfaces and transition issues. No Bill drafting has begun. No policy, necessity, superiority or constitutional-validity conclusion has been reached.
 
 ## Exact Stopping Point
 
-Stop after the section 3 BNS crosswalk. The next discrete workstream is the BNSS procedural crosswalk, including the Act's special court, investigation, arrest, bail, trial, appeal, externment, preventive-action, victim/witness and 60-day investigation interfaces. Do not repeat the Act extraction, Rules extraction or BNS crosswalk except for targeted correction or final primary-text verification.
+Stop after the BNSS procedural crosswalk. The next discrete workstream is the BSA evidence/presumption crosswalk. Before final Phase 1 freeze, retain open work on exact former-CrPC subject expansion, Rule 7 delay consequences, later-instrument completeness, BNS final punishment/source freeze, Annexure-II source discrepancy, PCR comparison, priority Central legislation and State inventory. Do not repeat the Act extraction, Rules extraction, BNS crosswalk or completed BNSS mapping except for targeted correction or final primary-text verification.
