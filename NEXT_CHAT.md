@@ -17,9 +17,8 @@ Remaining unresearched jurisdictions:
 
 ## Current Control-Remediation Gate
 
-The required next workstream is control remediation only. Do not begin a new jurisdiction.
-
-Authoritative control matrix: `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`.
+The master State Implementation Inventory reconciliation is complete.
+The master State Implementation Source Ledger integration is complete.
 
 Completed remediation:
 - Formal definitions established for COMPLETED, VERIFIED, CURRENT, OPEN, QUALIFIED and PROCEED/CLOSE WITH LIMITATIONS.
@@ -28,12 +27,26 @@ Completed remediation:
 - Reopening rule established.
 - Master-index reconciliation standard established.
 - `legislation/STATE_IMPLEMENTATION_INVENTORY.md` reconciled against the 33 substantive jurisdiction artifacts.
+- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` controlled integration completed.
+- 164 pre-existing master source IDs preserved; 97 later source IDs added; post-write master contains 261 source IDs.
+- No duplicate source IDs were reported by the controlled integration operation.
+- Independent repository read-back confirmed the committed integration tail.
+- Git comparison against the pre-integration control commit `57f6a8006844f45e301e99f7f13d937297957cbe` showed no deletion of prior master content; only final-newline normalization was non-additive.
 
-Open remediation:
-- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` remains substantively integrated through Maharashtra.
-- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md` records the controlled comparison against jurisdiction-specific ledgers and preserves the distinction between existing master integration and later jurisdiction-specific ledgers.
-- A controlled later-row master-ledger integration write remains required. It must preserve all existing master rows and source IDs, add verified later-jurisdiction source rows without fabricating or renumbering IDs, and be independently re-read after write.
-- After that write, re-test cumulative indexes and zero-drift.
+Control records:
+- `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`
+- `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`
+- `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`
+
+## Website / Repository State
+
+The public website build is now repository-driven. `scripts/build_website.py` generates the main research interface from `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` at GitHub Pages deployment time. The UI has a responsive Material-inspired layout and interactive State/UT search/filtering.
+
+`pages.yml` now builds the site before deployment.
+
+GitHub Pages live publication is NOT independently verified because Pages administration/live-site verification is not exposed by the connector.
+
+Codespaces administration/synchronization is NOT exposed by the connector. All completed work is committed on `main`; GitHub remains authoritative.
 
 ## Explicitly Closed for This Workstream
 - No Ladakh research.
@@ -46,13 +59,19 @@ Open remediation:
 - No Phase 2 case-law research.
 - No reopening of completed jurisdiction baselines absent a genuine evidentiary/control defect.
 - Do not repeat the 2026-09-06 cumulative state-control reconciliation or independent audit.
+- Do not repeat the completed master source-ledger integration unless a new control defect is identified.
+
+## Remaining Phase 1 Work
+
+The control-remediation gate for the master State Implementation Source Ledger is closed. Phase 1 substantive acceptance remains open because national current-law completeness, State residuals, later Central instruments and BNS/BNSS/BSA transition verification remain unresolved.
+
+The next substantive jurisdiction in sequence is Ladakh, but it is not authorized by this handoff unless the project state explicitly opens the next jurisdictional workstream.
 
 ## Continuity Constraints
 
 Preserve all existing jurisdiction-specific issue IDs, decision IDs and source IDs. Do not fabricate cumulative IDs. Treat cumulative indexes as control metadata and jurisdiction-specific records as substantive authority. Do not treat search silence as absence. Do not repeat a materially identical search without a new retrieval route, repository update, document identifier or reasoned search expansion.
 
 ## Exact Next Task
-Complete the controlled later-row integration of `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md` using the verified jurisdiction-specific ledgers already identified in `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, or, if the repository tooling cannot safely preserve the complete master file, document the access limitation rather than reconstructing/truncating the master. Then independently re-read the master ledger, reconcile the cumulative indexes and run the zero-drift control test. Do not begin substantive jurisdiction research until this remediation gate is closed.
+Do not begin Ladakh automatically. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `project-state/PH1_MASTER_SOURCE_LEDGER_INTEGRATION_REPORT_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. Treat the completed source-ledger integration as closed control work. Determine whether a new control or substantive workstream has been explicitly authorized. If no authorization exists, preserve the current gate and do not begin new State/UT research.
 
-## Continuation Instruction
-Continue the Universal Caste Atrocities Act project from the 2026-09-06 Phase 1 control-remediation stopping point. First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `BASELINE_AUDIT.md`, `project-state/PH1_STATE_CONTROL_RECONCILIATION_2026-09-06.md`, `project-state/PH1_COMPLETENESS_AUDIT_2026-09-05.md`, `project-state/PH1_CONTROL_MATRIX_2026-09-06.md`, `research/STATE_IMPLEMENTATION_SOURCE_LEDGER_RECONCILIATION_2026-09-06.md`, `legislation/STATE_IMPLEMENTATION_INVENTORY.md` and `research/STATE_IMPLEMENTATION_SOURCE_LEDGER.md`. The master State Implementation Inventory has been reconciled. The master source ledger remains substantively integrated through Maharashtra, with a controlled reconciliation record for later jurisdiction-specific ledgers. Complete only the controlled master-ledger integration and subsequent zero-drift re-test. Do not repeat the cumulative state-control reconciliation, the independent audit, completed State/UT inventories, Jammu and Kashmir research, Central Priority 2 screening, completed SC/ST Act/Rules extraction, PCR, Manual Scavengers or Bonded Labour workstreams, existing BNS/BNSS/BSA crosswalk research, or Git-history audit. Do not begin Ladakh, Lakshadweep or Puducherry. Do not draft the Bill, conduct policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research. If the connector cannot safely update the complete master source ledger without reconstructing or truncating content, stop and record the tooling limitation rather than risking source loss. Preserve all existing IDs and do not fabricate cumulative IDs.
+Do NOT repeat the independent 2026-09-06 audit, cumulative state-control reconciliation, master State Implementation Inventory reconciliation, or completed master source-ledger integration. Do NOT repeat completed State/UT inventories or Jammu and Kashmir research. Do NOT begin Ladakh, Lakshadweep or Puducherry without an explicit authorized workstream. Do NOT draft the Bill. Do NOT conduct policy-superiority/necessity analysis. Do NOT conduct constitutional-validity analysis. Do NOT begin Phase 2 case-law research.
