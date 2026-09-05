@@ -135,12 +135,40 @@ The public website control path was extended without altering the master source 
 4. The existing source-ledger control comparison remains unchanged.
 5. The existing jurisdiction-ledger fallback remains explicitly labelled and does not alter master-ledger integration.
 
-## 9. Acceptance decision
+## 9. Subsequent website verification update
+
+Run #491 of the Deploy GitHub Pages workflow completed successfully. The resulting `github-pages` artifact was inspected and verified at artifact level.
+
+- Run ID: `33994656136`
+- Head commit: `076337243ff1f837b163a8b2e5c1eac61326adb1`
+- Artifact ID: `9977739622`
+- Digest: `sha256:23a586181daa4d92064fc818fee8ccd4c05eda5fe07e2ab66089fb24ba623489`
+- 90 HTML pages.
+- 36 State/UT pages, 36 source pages and 9 law pages.
+- 90 sitemap entries.
+- 36/36 jurisdiction count.
+- No stale 33/36 or equivalent 33-jurisdiction text.
+- Tabler 1.4.0/Open Props 1.7.23 foundation precedes project CSS, with final project presentation rules present in generated `assets/site.css`.
+- Tables use fixed layout, explicit proportions, wrapping/overflow handling and left alignment.
+- Desktop long-form paragraphs/list items are justified; mobile rules switch them to left alignment.
+- Responsive media queries and focus-visible controls are present.
+- 180 `aria-label` attributes were detected.
+- Zero broken local links and zero heading-level jumps.
+- One H1, viewport metadata and description metadata were detected on every HTML page.
+- No inline style attributes or script tags were detected in generated HTML.
+
+The dedicated record is `project-state/WEBSITE_RUN_491_ARTIFACT_VERIFICATION_2026-09-06.md`.
+
+This resolves the pending current-redesign artifact-verification dependency. It does not resolve `PH1-ISSUE-021`: live Pages HTTP/settings remain independently unverified because the connector lacks browser-level verification.
+
+## 10. Acceptance decision
 
 PHASE 1 ACCEPTANCE: NOT YET SATISFIED.
 
 The State/UT inventory-completeness component is now satisfied: 36/36 substantive inventories exist.
 
-The overall Phase 1 gate remains open because the acceptance criterion requires the broader existing-law baseline to be materially mapped to authoritative sources without material dependence on unverified secondary evidence, and the Central current-law freeze, BNS/BNSS/BSA transition freeze, and jurisdiction currentness/instrument residuals remain open.
+The website current-redesign artifact-verification dependency is satisfied by run #491.
+
+The overall Phase 1 gate remains open because the acceptance criterion requires the broader existing-law baseline to be materially mapped to authoritative sources without material dependence on unverified secondary evidence, and the Central current-law freeze, BNS/BNSS/BSA transition, and jurisdiction currentness/instrument residuals remain open.
 
 The next workstream is controlled closure of the remaining Phase 1 acceptance dependencies, not Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
