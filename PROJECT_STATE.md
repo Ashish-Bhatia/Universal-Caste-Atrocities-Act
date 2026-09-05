@@ -45,7 +45,7 @@
 
 - SC/ST Act extraction, Rules matrix/extraction, BNS/BNSS/BSA crosswalks, PCR, Manual Scavengers and Bonded Labour comparisons completed with recorded qualifications.
 - Priority 2 Central screening completed at screening level.
-- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura and Uttar Pradesh inventories completed with qualifications.
+- Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh and Uttarakhand inventories completed with qualifications.
 - Meghalaya: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-256 through PH1-ISSUE-265 remain open.
 - Manipur remains closed for the current sequence with documented residuals.
 - Mizoram: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-MZ-001 through PH1-ISSUE-MZ-016 remain open.
@@ -58,31 +58,36 @@
 - Telangana: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-TG-001 through PH1-ISSUE-TG-016 remain open.
 - Tripura: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-TR-001 through PH1-ISSUE-TR-016 remain open.
 - Uttar Pradesh: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-UP-001 through PH1-ISSUE-UP-016 remain open.
+- Uttarakhand: PROCEED/CLOSE WITH LIMITATIONS; PH1-ISSUE-UK-001 through PH1-ISSUE-UK-016 remain open.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Tripura was the 25th completed State/UT inventory and Uttar Pradesh is now the 26th completed State/UT inventory in the controlled sequence. Ten jurisdictions remain unresearched after Uttar Pradesh.
+Phase 1 remains active. Uttar Pradesh was the 26th completed State/UT inventory and Uttarakhand is now the 27th completed State/UT inventory in the controlled sequence. Nine jurisdictions remain unresearched after Uttarakhand.
 
-Uttar Pradesh has substantial documented implementation machinery. The 2022 Ministry Section 21(4) report records a State-level Special Investigation Cell comprising DGP, IGP, DIG, SP, Additional SP and nine DySPs, plus district Special Investigation Cells with one SI, one head constable and two constables, with DySP investigation. It records State/District V&MC architecture, no State-level V&MC meeting during 2022, and 143 District V&MC meetings across 75 districts. It records 11,172 charge-sheets within 60 days and 1,023 after 60 days.
+Uttarakhand has documented State, District and Sub-Divisional V&MC architecture, with no State-level meeting, 41 District meetings across 13 districts and 5 Sub-Divisional meetings during 2022. The Ministry's 2022 Section 21(4) report records a Special Inquiry Cell in each district under the Superintendent of Police, with atrocities investigated by Deputy Superintendents of Police. It also records the Director, Social Welfare, Uttarakhand as the Rule 9 Nodal Officer for that reporting period.
 
-Historical Ministry reporting records a Rule 9 Nodal Officer, no identified atrocity-prone area in the relevant snapshot, and 65 Exclusive Special Courts in Uttar Pradesh with Special Courts in the remaining districts. Current Allahabad High Court notifications in June and August 2026 corroborate continuing PoA Special Judge appointments in multiple districts. Current named Rule 9/Rule 10 officers, current Special Police Station census, current V&MC compliance, current SPP/ESPP roster and complete 2026 court census remain open.
+Historical Ministry reporting records two Exclusive Special Courts at Nainital and Haridwar, with District and Sessions Courts designated as Special Courts elsewhere. Current 2026 Supreme Court and Uttarakhand High Court decisions corroborate continuing Special Judge (SC/ST Act) proceedings in Dehradun and Nainital. A complete 2026 court census remains open.
 
-Current Ministry CSS data records Uttar Pradesh relief recipients of 23,592, 20,278, 23,828, 19,240 and 20,074 for 2020-21 through 2024-25 and central assistance of Rs. 113.03 crore, Rs. 126.72 crore, Rs. 91.54 crore, Rs. 97.95 crore and Rs. 89.49 crore. These are scheme-reporting figures and do not establish individual statutory payment compliance.
+The 2022 charge-sheet timing data records 77 completed within 60 days and 16 after 60 days. The 2022 report records zero atrocity-prone districts. These are reporting-period findings only, not current 2026 absence or compliance conclusions.
 
-Current/recent judicial corroboration includes 2026 Allahabad High Court Special Judge notifications and the 2025 Supreme Court decision in Manish Yadav v. State of Uttar Pradesh, which records proceedings before a Special Judge, SC/ST Act, Ghazipur. Phase 2 case-law research remains unopened.
+Current Ministry CSS data records Uttarakhand relief recipients of 119, 103, 116, 154 and 229 for 2020-21 through 2024-25, and central assistance of Rs. 0.95 crore, Rs. 0.78 crore, Rs. 0.00 crore, Rs. 1.01 crore and Rs. 1.18 crore. These are scheme-reporting figures and do not establish individual statutory payment compliance.
 
-Uttar Pradesh residuals are recorded in `project-state/UTTAR_PRADESH_ISSUES_2026-09-05.md` and decisions in `project-state/UTTAR_PRADESH_DECISIONS_2026-09-05.md`. The source ledger is `research/states/UTTAR_PRADESH_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/UTTAR_PRADESH.md`.
+The current Uttarakhand Social Welfare Department publishes the PoA Act, PCR Act, a live PoA implementation page and the combined CSS scheme in its DBT portal. The current PoA page displays relief amounts attributed to the 2011 Rules, so current statutory rates require controlled reconciliation with later central amendments.
+
+Current Rule 8 command/staffing, dedicated Special Police Station census, current Rule 9/Rule 10 instruments, current V&MC compliance, complete court census, current SPP/ESPP roster, payment workflow, contingency plan, later Section 21(4) reports and post-BNS/BNSS/BSA transition instructions remain open.
+
+Uttarakhand residuals are recorded in `project-state/UTTARAKHAND_ISSUES_2026-09-05.md` and decisions in `project-state/UTTARAKHAND_DECISIONS_2026-09-05.md`. The source ledger is `research/states/UTTARAKHAND_SOURCE_LEDGER.md` and jurisdiction baseline is `legislation/states/UTTARAKHAND.md`.
 
 Central later-instrument/current-law completeness remains separate. BNS/BNSS/BSA transition verification remains separate and unfrozen. No blanket numerical substitution is permitted.
 
-Phase 1 acceptance criteria remain NOT YET SATISFIED because ten jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
+Phase 1 acceptance criteria remain NOT YET SATISFIED because nine jurisdictions remain unresearched, completed jurisdictions retain currentness/instrument-level residuals, Central current-law completeness remains open, BNS/BNSS/BSA transition verification remains open, and the master State inventory remains unsynchronized pending authorization.
 
 No Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law work has begun.
 
 ## Next Discrete Workstream
 
-Begin the next unresearched State/UT Phase 1 inventory after Uttar Pradesh, following the repository jurisdiction sequence. First inspect for existing jurisdiction-specific artifacts. Preserve all prior residuals. Do not reopen completed baseline research.
+Begin the next unresearched State/UT Phase 1 inventory after Uttarakhand, following the repository jurisdiction sequence. The next jurisdiction is West Bengal. First inspect for existing jurisdiction-specific artifacts. Preserve all prior residuals. Do not reopen completed baseline research.
 
 ## Website Status
 
@@ -90,9 +95,10 @@ The repository contains a multi-page static research website and GitHub Actions 
 
 ## Latest Controlled Update
 
-- 2026-09-05: Repository search found no pre-existing Uttar Pradesh-specific jurisdiction inventory, source ledger, issue register or decision addendum. Generic/master files were not treated as Uttar Pradesh-specific artifacts and were not modified.
-- 2026-09-05: Uttar Pradesh State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
-- 2026-09-05: Uttar Pradesh source ledger, issue register and decision addendum created.
-- 2026-09-05: Current 2026 Allahabad High Court Special Judge notifications were added as institutional corroboration without treating them as a complete district court census.
+- 2026-09-05: Repository search found no pre-existing Uttarakhand-specific jurisdiction inventory, source ledger, issue register or decision addendum. Generic/master files were not treated as Uttarakhand-specific artifacts and were not modified.
+- 2026-09-05: Uttarakhand State/UT Phase 1 inventory completed with PROCEED/CLOSE WITH LIMITATIONS disposition.
+- 2026-09-05: Uttarakhand source ledger, issue register and decision addendum created.
+- 2026-09-05: Primary Ministry 2022 reporting was used for V&MCs, Special Inquiry Cells, Rule 9 and charge-sheet timing; current departmental and judicial sources were used only for current institutional corroboration.
+- 2026-09-05: The current Uttarakhand Social Welfare PoA webpage was flagged for controlled relief-rate reconciliation because its displayed table is tied to the 2011 Rules.
 - 2026-09-05: Master State Implementation Inventory and master State Implementation Source Ledger intentionally left untouched.
 - 2026-09-05: Tripura State/UT Phase 1 inventory remained preserved with PH1-ISSUE-TR-001 through PH1-ISSUE-TR-016 open, including the unresolved Rule 8 Protection Cell contradiction.
