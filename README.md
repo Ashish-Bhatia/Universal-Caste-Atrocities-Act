@@ -20,7 +20,7 @@ Evidence-first legislative and constitutional research project for India.
 | `legislation/states/` | Jurisdiction-specific inventories |
 | `research/` | Research ledgers and source records |
 | `project-state/` | Control, audit and continuity records |
-| `website/` | Public static research interface |
+| `website/` | Public static research interface generated from substantive research |
 | `scripts/` | Reproducible build and control tooling |
 | `.github/workflows/` | GitHub Actions automation |
 | `.devcontainer/` | Reproducible GitHub Codespaces configuration |
@@ -51,6 +51,10 @@ Read these before substantive project work:
 
 ## Public research site
 
-The Pages site is generated from the State Implementation Inventory and master State Implementation Source Ledger during deployment.
+The Pages build generates a multi-page public research library from the substantive State Implementation Inventory, jurisdiction research records, existing-law research and master source ledger.
 
-The repository is the authoritative source of truth.
+The public site contains research content only. Project-state controls, issue registers, decision logs and continuity records are not published as public research pages.
+
+Every completed jurisdiction receives its own research page and source-set page. Existing-law research documents receive individual pages. The build also creates a sitemap and 404 page.
+
+The repository remains the authoritative source of truth.
