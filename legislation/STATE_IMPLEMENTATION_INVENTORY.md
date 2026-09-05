@@ -33,7 +33,7 @@ Searches must distinguish current material from historical reports. Search silen
 | Bihar | IN PROGRESS | `legislation/states/BIHAR.md` |
 | Chhattisgarh | IN PROGRESS | `legislation/states/CHHATTISGARH.md` |
 | Goa | IN PROGRESS | `legislation/states/GOA.md` |
-| Gujarat | NOT STARTED | — |
+| Gujarat | IN PROGRESS | `legislation/states/GUJARAT.md` |
 | Haryana | NOT STARTED | — |
 | Himachal Pradesh | NOT STARTED | — |
 | Jharkhand | NOT STARTED | — |
@@ -66,19 +66,15 @@ Searches must distinguish current material from historical reports. Search silen
 
 ## Coverage Status
 
-Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
+Andhra Pradesh has completed targeted verification with qualifications. Arunachal Pradesh has received a targeted official-source inventory with qualifications. Assam has received an independent official-source inventory with qualifications. Bihar has received an independent official-source inventory with qualifications. Chhattisgarh has received an independent official-source inventory with qualifications. Goa has received an independent official-source inventory with qualifications. Gujarat has now received an independent official-source inventory with qualifications. The remaining jurisdictions are deliberately unresearched and must be processed individually. No State is treated as representative of another jurisdiction.
 
 ## Evidence Rule
 
 Material legal or operational claims require a traceable official source. Historical Ministry reports are retained as context and source leads but do not establish current State practice without current State-source verification.
 
-## Bihar Status Summary
+## Gujarat Status Summary
 
-Bihar is sufficiently inventoried for progression, with qualifications. Current State evidence establishes an active SC & ST Welfare Department PoA publication layer and a 13-08-2026 State-level V&MC reconstitution notice. Current Patna High Court records establish continuing Exclusive Special Court under SC/ST Act postings and operation. Historical official records establish the Protection Cell, Rule 9/10 architecture, 33 sensitive districts, Special Courts and SPP/ESPP arrangements. Current statewide nodal, Protection Cell, Rule 10, court, prosecutor, committee, relief/payment and PoA-specific Gazette/SOP details remain incompletely frozen.
-
-## Chhattisgarh Status Summary
-
-Chhattisgarh is sufficiently inventoried for progression, with qualifications. The official 2022-23 State administrative report identifies the Commissioner, Tribal and Scheduled Caste Development as Rule 9 Nodal Officer, a Chief Minister-chaired State V&MC, District V&MCs in all 28 districts, police/court architecture and relief activity. Official 2024 State notices show district-level V&MC activity, while current 2026 Chhattisgarh High Court records establish continuing Special Judge under SC/ST (P.A.) Act operation at identified locations. Current 2026 Rule 9, Protection Cell, Rule 10, committee, court notification, prosecutor, relief workflow, Gazette/SOP and digital workflow details remain incompletely frozen.
+Gujarat is sufficiently inventoried for progression, with qualifications. The current Government of Gujarat Social Justice & Empowerment publication identifies State-level nodal architecture, a State Police Protection Cell, State/District/City/Taluka vigilance structures, Special Officers and 11 sensitive districts. A current Directorate page states that 19 Special Courts are functional at identified locations. The State also publishes Special Public Prosecutor arrangements, Rule 12(4) relief norms, the Veer Megh Maya Contingency Scheme, atrocity-data/statistics functions and current/recent Manual Scavengers implementation instruments. Current individual appointments, underlying notifications, complete court/prosecutor matrices, payment workflow, PoA-specific digital workflow, current bonded-labour instruments and other primary-instrument details remain open for final Phase 1 closure.
 
 ## Goa Status Summary
 
