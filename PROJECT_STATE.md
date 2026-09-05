@@ -52,17 +52,21 @@
 - Jharkhand, Karnataka, Kerala, Madhya Pradesh and Maharashtra independent official-source inventories completed with qualifications.
 - Jharkhand and Karnataka source entries are integrated into the master State Implementation Source Ledger using complete-file preservation.
 - Maharashtra source entries MH-STATE-001 through MH-STATE-020 are integrated into the master State Implementation Source Ledger after controlled complete-file preservation and verification.
-- Manipur inventory has been extended using current/recent official-source verification. Manipur source ledger contains MN-STATE-001 through MN-STATE-031.
-- Manipur current-verification addendum now records MN-STATE-032 through MN-STATE-035 in `research/states/MANIPUR_VERIFICATION_2026-09-05.md`.
+- Manipur inventory has been extended using current/recent official-source verification. Manipur source ledger now contains MN-STATE-001 through MN-STATE-039.
+- Manipur current-verification addendum now records MN-STATE-032 through MN-STATE-039 in `research/states/MANIPUR_VERIFICATION_2026-09-05.md`.
 - Multi-page static website architecture continues. Website publication remains unverified.
 
 ## Exact Current Position
 
-Phase 1 remains active. Manipur is the current jurisdiction workstream. The supplemental Manipur source ledger remains jurisdiction-specific. New verification found an NCSC-hosted 2023 Manipur State report recording Ukhrul District Session Court as the SC/ST Special Court and the Ukhrul Sessions Public Prosecutor as Special Public Prosecutor, with Nil reported for the remaining 15 districts. This is a reporting-period snapshot, not a 2026 census. Current 2026-27 Manipur budget documents establish substantial SC/ST/tribal welfare expenditure architecture but do not establish a PoA-specific victim-relief allocation or payment workflow. The current Central PoA archive confirms publication of the 2022 annual report, but Manipur-specific extraction from that report remains open.
+Phase 1 remains active. Manipur is the current jurisdiction workstream. The Manipur supplemental source ledger remains jurisdiction-specific. New verification added a controlled extraction of four Manipur fields from a secondary reproduction of the Central 2022 Section 21(4) PoA table, expressly attributed to the Ministry report: charge-sheets within 60 days, charge-sheets after 60 days, atrocity-prone districts and legal aid were all reported as hyphen/blank. These are treated as non-reporting/blank values, not zeros. Direct primary extraction of the full Manipur section of the official 2022 report remains open because the Ministry archive/PDF endpoint did not expose the document contents through the available retrieval path.
 
-The BPRD 01-01-2024 zero Special Police Station finding and the 21-11-2023 Protection Cell finding remain dated snapshots, not 2026 absence conclusions. Current Police FIRs continue to show PoA/BNS coexistence. The 17-01-2019 SPP order remains a verified State instrument, with continuation/replacement unresolved. The 2023 NCSC report adds a later reporting-period court/prosecutor snapshot for Ukhrul.
+The 2024 MHA SC/ST-W dispatch record confirms Central administrative correspondence addressed to the Manipur DGP. A November 2024 secondary report of the Chief Secretary's PoA/PCR review describes discussion of Protection Cell and Special Police Station functioning/strengthening. This narrows the dated Protection Cell/Special Police Station residuals but does not establish a 2026 primary institutional matrix. A secondary reproduction of 2021 Ministry reporting records 10 Manipur Special Police Stations, while the official BPRD 01-01-2024 dataset records zero actual special-purpose police stations for crimes against SC/ST/weaker sections. This is a temporal/source discrepancy requiring instrument-level reconciliation, not a current presence/absence conclusion.
 
-Maharashtra residuals remain separate under PH1-ISSUE-163 through PH1-ISSUE-178. Manipur residuals remain PH1-ISSUE-179 through PH1-ISSUE-195, with current dispositions recorded in `research/states/MANIPUR_VERIFICATION_2026-09-05.md`. Do not merge or reopen residual ranges without new evidence directly changing status.
+The NCSC 2023 report remains a reporting-period snapshot showing Ukhrul District Session Court and Ukhrul Sessions Public Prosecutor as the SC/ST Special Court/SPP, with Nil for the remaining 15 districts. It is not a 2026 census. The 2019 State SPP order remains verified, with current continuation/replacement unresolved.
+
+Current 2026-27 State budget documents establish SC/ST/related welfare expenditure architecture but do not establish PoA-specific relief rates, sanction workflow or payment. The Central archive confirms publication of the 2022 PoA annual report. Later annual-report receipt/submission status remains unresolved.
+
+Manipur residuals remain PH1-ISSUE-179 through PH1-ISSUE-195, with current dispositions recorded in `research/states/MANIPUR_VERIFICATION_2026-09-05.md` and `project-state/MANIPUR_ISSUES_ADDENDUM.md`. Do not merge or reopen residual ranges without new evidence directly changing status.
 
 ## Master-ledger integration status
 
@@ -83,16 +87,24 @@ The repository contains a multi-page static research website and GitHub Actions 
 ## Next Discrete Workstream
 
 Continue Manipur Phase 1 current/recent official-source verification. Prioritise:
-1. current Rule 9 designation and office-holder;
-2. post-2023 Protection Cell establishment/reorganization and post-2024 Special Police Station or SC/ST police-unit status;
-3. current Rule 10 Special Officers and sensitive/atrocity-prone-area instruments;
-4. current State/District/Sub-Divisional V&MC constitution and meeting records;
-5. current Special/Exclusive Special Court notifications and jurisdiction matrix, including post-2023 changes to the Ukhrul reporting snapshot;
-6. SPP/ESPP continuation/replacement after the 2019 order and current appointment register;
-7. current relief rates, sanction and payment workflow;
-8. PoA-specific FIR/CCTNS/case-management/SOP instruments;
-9. PCR/Manual Scavengers/bonded-labour/land/local-government interfaces;
-10. extraction of Manipur-specific entries from the Central 2022 PoA annual report and later annual-report receipt/submission status;
-11. post-BNS/BNSS/BSA State Police, Prosecution and judicial instructions.
+1. primary extraction of the complete Manipur section from the Central 2022 PoA annual report;
+2. current Rule 9 designation and office-holder;
+3. post-2023 Protection Cell establishment/reorganization and post-2024 Special Police Station or SC/ST police-unit status, including reconciliation of the 2021 secondary 10-station report with the 01-01-2024 BPRD zero snapshot;
+4. current Rule 10 Special Officers and sensitive/atrocity-prone-area instruments;
+5. current State/District/Sub-Divisional V&MC constitution and meeting records;
+6. current Special/Exclusive Special Court notifications and jurisdiction matrix, including post-2023 changes to the Ukhrul reporting snapshot;
+7. SPP/ESPP continuation/replacement after the 2019 order and current appointment register;
+8. current relief rates, sanction and treasury/DBT/case-level payment workflow;
+9. PoA-specific FIR/CCTNS/case-management/SOP instruments;
+10. PCR/Manual Scavengers/bonded-labour/land/local-government interfaces;
+11. latest annual-report receipt/submission status after 2022;
+12. post-BNS/BNSS/BSA State Police, Prosecution and judicial instructions.
 
 Do not repeat Maharashtra or earlier-jurisdiction research. Do not reconstruct the master ledger from truncated output. Do not merge Manipur residuals with Maharashtra residuals. Do not treat search silence as absence. Do not begin Bill drafting, policy necessity/superiority analysis or constitutional conclusions.
+
+## Latest Controlled Update
+
+- 2026-09-05: MN-STATE-036 through MN-STATE-039 added.
+- 2026-09-05: Manipur verification addendum, issue addendum and decision addendum updated.
+- 2026-09-05: Manipur legislation inventory updated.
+- 2026-09-05: Central 2022 report primary extraction remains the first unresolved high-priority task; only four fields are presently available through a secondary reproduction and are explicitly graded C.
