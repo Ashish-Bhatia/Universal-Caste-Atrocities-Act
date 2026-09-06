@@ -12,45 +12,34 @@ Phase 1 acceptance: NOT YET SATISFIED.
 
 ## Verified current position
 
-- PH1-ISSUE-015: CLOSED WITH QUALIFICATION.
-- PH1-ISSUE-016: ADVANCED WITH QUALIFICATION.
-- PH1-ISSUE-017: CLOSED WITH QUALIFICATION.
 - PH1-ISSUE-008: OPEN for broader Central later-instrument completeness.
-- PCA section 29A is fixed at a qualified negative-source endpoint after Extension 08. Do not state that no section 29A rules exist.
-- RPA / Conduct of Elections Rules dependency is ADVANCED WITH QUALIFICATION after Extension 09.
-- Child and Adolescent Labour later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 10.
-- Forest Rights later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 11, including the Act 34 of 2019 correction.
-- PWDVA later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 12.
-- POCSO later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 13.
-- POCSO prior endpoint is G.S.R. 165(E), 09-03-2020. It remains the qualified Rules endpoint boundary and is not reopened.
-- Extension 13 targeted post-2020 Central amendment Acts, later Central POCSO Rules amendments/replacement Rules, Central notifications/orders under POCSO statutory powers, and parliamentary legislative-history material.
-- No post-2020 enacted Central POCSO amendment Act was retrieved in the defined official-source search. This is retrieval silence, not legal absence.
-- No later Central POCSO Rules amendment or replacement instrument after G.S.R. 165(E) was retrieved. This is retrieval silence, not legal absence.
-- No post-2020 Central notification/order expressly made under POCSO statutory powers and altering Act/Rules machinery was retrieved. This is retrieval silence, not legal absence.
-- The Protection of Children from Sexual Offences (Amendment) Bill, 2024 is a Private Member's Bill. Official parliamentary material shows consideration in 2025 remained inconclusive. It is not enacted law.
-- Current MWCD, NCPCR and India Code listings are current-source indicators, not exhaustive Gazette registers.
-- Administrative/programme materials such as fast-track-court and Mission Vatsalya measures are not classified as POCSO Act/Rules amendments without a demonstrated statutory instrument basis.
-- Extension 13 research records: `research/central/PH1_POCSO_EXTENSION_13_2026-09-06.md` and `research/central/PH1_POCSO_RESEARCH_LEDGER_EXTENSION_13_2026-09-06.md`.
-- `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_13.md` remains the authorization record and `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_13.md` remains the decision record.
+- PCA Extensions 06-08 section 29A Rules census remains at a qualified negative-source endpoint and is not reopened.
+- PCA Extension 14 is ADVANCED WITH QUALIFICATION.
+- Extension 14 verified Act 34 of 2019, section 95/Fifth Schedule item 75, removing the former J&K exclusion from PCA section 1(2), effective 31-10-2019.
+- Extension 14 verified S.O. 1123(E), 18-03-2020, Jammu and Kashmir Reorganisation (Adaptation of Central Laws) Order, 2020, inserting PCA sections 17B-17G for J&K, including Anti-Corruption Bureau establishment and seizure/attachment/forfeiture machinery.
+- An official eGazette result dated 31-05-2025 records a Central notification amending S.O. 8 dated 28-12-2015 concerning the CBI Special Public Prosecutor arrangement for PCA cases in Madhya Pradesh. Exact notification number and full enabling language remain a verification residual because the PDF endpoint returned HTTP 502.
+- No separate later Central PCA amendment Act was retrieved after Act 34 of 2019 in the defined search. This is retrieval silence, not legal absence.
+- Central section 3 Special Judge notifications were not exhaustively censused in Extension 14. Do not infer absence.
+- Research records: `research/central/PH1_PCA_EXTENSION_14_2026-09-06.md` and `research/central/PH1_PCA_RESEARCH_LEDGER_EXTENSION_14_2026-09-06.md`.
 - BNS/BNSS/BSA transition remains CONTROLLED FREEZE WITH QUALIFICATIONS.
-- GitHub Pages run #491 remains artifact-verified and complete. Live Pages HTTP/settings verification remains open as an infrastructure limitation.
+- Website live HTTP/browser verification remains unverified. Do not reopen website work unless required by the independent publication gate.
 
 ## Do NOT repeat
 
-Do not repeat State/UT research, Jammu and Kashmir, Ladakh, Lakshadweep, Puducherry, SC/ST Act version closure, Rules Annexure-II resolution, Manual Scavengers Gazette census, Manual Scavengers section 39 search, Manual Scavengers BNSS transition verification, historical 377-ID comparison, prior Pages artifact inspections, run #491 artifact verification, PCA Extensions 06-08, RPA Extension 09, Child and Adolescent Labour Extension 10, Forest Rights Extension 11, PWDVA Extension 12, earlier POCSO endpoint work, section 3(2)(v), BNS/BNSS/BSA controlled freeze, RPwD/JJ residuals, Bill drafting, policy analysis, constitutional analysis or Phase 2 case-law research.
+Do not repeat State/UT research, SC/ST Act version closure, Rules Annexure-II resolution, Manual Scavengers later-instrument/section 39/BNSS completed work, historical 377-ID comparison, prior Pages artifact inspections, PCA Extensions 06-08, RPA Extension 09, Child and Adolescent Labour Extension 10, Forest Rights Extension 11, PWDVA Extension 12, POCSO Extension 13, POCSO G.S.R. 165(E) endpoint work, section 3(2)(v), BNS/BNSS/BSA controlled freeze, RPwD/Juvenile Justice residuals, Bill drafting, policy analysis, constitutional analysis or Phase 2 case-law research.
 
-Do not repeat G.S.R. 165(E), 09-03-2020 substantive Rules research unless new primary evidence requires correction. Treat it only as the prior endpoint boundary.
+Do not convert retrieval silence into legal absence. Do not silently close PH1-ISSUE-008 or Phase 1 acceptance.
 
-Do not convert retrieval silence into legal absence. Do not silently close PH1-ISSUE-008 or Phase 1 acceptance. Do not restart completed work unless new primary evidence requires correction or extension.
+## Next authorized position
 
-## Next authorized workstream
+Extension 14 PCA research has reached an ADVANCED WITH QUALIFICATION endpoint. The immediate unresolved PCA residual is primary-source re-verification of the 31-05-2025 Central eGazette notification metadata and, separately, whether the project's broader Central later-instrument completeness controls require a targeted final Central PCA section 3 notification census. Do not repeat the completed section 29A Rules census.
 
-POCSO Extension 13 is now complete at an ADVANCED WITH QUALIFICATION endpoint. The next Central later-instrument dependency must be selected from the existing Priority 2 screening record and current authoritative controls. Do not infer or announce a new workstream until the controlled selection record is created.
+Before any new substantive Central extension, inspect the current Priority 2 screening and project controls and create a controlled authorization record. Do not infer a new workstream solely from this handoff.
 
 ## Exact continuation instruction
 
-Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 13 POCSO advanced-with-qualification endpoint.
+Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 14 PCA advanced-with-qualification endpoint.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `research/central/PH1_POCSO_EXTENSION_13_2026-09-06.md`, `research/central/PH1_POCSO_RESEARCH_LEDGER_EXTENSION_13_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_13.md`, and `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_13.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_14.md`, `research/central/PH1_PCA_EXTENSION_14_2026-09-06.md`, and `research/central/PH1_PCA_RESEARCH_LEDGER_EXTENSION_14_2026-09-06.md`.
 
-Do not repeat POCSO Extension 13, PWDVA Extension 12, Forest Rights Extension 11, Child and Adolescent Labour Extension 10, RPA Extension 09, PCA Extensions 06-08, POCSO G.S.R. 165(E) endpoint work, State/UT research, completed Central work, section 3(2)(v), the BNS/BNSS/BSA freeze, RPwD/JJ residuals, website verification, drafting, policy analysis, constitutional analysis or Phase 2 case-law research. Select only the next unresolved Central later-instrument dependency from the existing Priority 2 screening record and create a controlled authorization record before substantive research. Preserve evidence grades and the distinction between retrieval silence and legal absence. Keep PH1-ISSUE-008 OPEN and Phase 1 acceptance NOT YET SATISFIED. Do not restart completed work unless new primary evidence requires correction or extension.
+Do not repeat PCA Extensions 06-08, the section 29A Rules census, POCSO Extension 13, PWDVA Extension 12, Forest Rights Extension 11, Child and Adolescent Labour Extension 10, RPA Extension 09, POCSO G.S.R. 165(E) endpoint work, State/UT research, completed Central work, section 3(2)(v), the BNS/BNSS/BSA freeze, RPwD/Juvenile Justice residuals, website verification, drafting, policy analysis, constitutional analysis or Phase 2 case-law research. Preserve evidence grades and the distinction between retrieval silence and legal absence. Keep PH1-ISSUE-008 OPEN and Phase 1 acceptance NOT YET SATISFIED. Do not treat the 31-05-2025 eGazette metadata as fully verified until the primary PDF is independently retrieved. Do not repeat completed research unless new primary evidence requires correction or extension.
