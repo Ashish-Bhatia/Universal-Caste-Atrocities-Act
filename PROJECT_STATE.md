@@ -44,9 +44,11 @@ Extension 04 preserves RPwD G.S.R. 175(E) and G.S.R. 343(E) direct-endpoint resi
 
 Extension 05 advances Forest Rights Rules to the Government-hosted 2012 amended text, Domestic Violence Rules to G.S.R. 644(E), 17-10-2006, POCSO Rules to G.S.R. 165(E), 09-03-2020 and Child and Adolescent Labour Rules to G.S.R. 543(E), 02-06-2017. These are qualified endpoints, not legal-absence conclusions.
 
-Extension 06 advances the Prevention of Corruption Rules residual. Section 29A expressly authorises Central rule-making. Targeted DoPT, Legislative Department and official eGazette searches did not retrieve a qualifying section 29A Rules instrument. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 and related records establish administrative prosecution-sanction guidance, not automatically section 29A rules. The PCA residual remains OPEN and requires a parliamentary-laying/archive and notification-number search.
+Extension 06 advances the Prevention of Corruption Rules residual. Section 29A expressly authorises Central rule-making. Targeted DoPT, Legislative Department and official eGazette searches did not retrieve a qualifying section 29A Rules instrument. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 and related records establish administrative prosecution-sanction guidance, not automatically section 29A rules.
 
 Extension 07 advances the PCA search further. Targeted Parliament Digital Library/eParlib, DoPT, Legislative Department and official Gazette searches did not retrieve a qualifying section 29A Rules instrument or parliamentary laying record. Retrieved parliamentary answers and DoPT Annual Reports classify the 2006/2012 prosecution-sanction sequence as administrative guidelines/instructions. No section 9 commercial-organisation or section 19 prosecution-sanction instrument was retrieved with a section 29A parent-power citation. This remains a qualified retrieval result, not legal absence. Research record: `research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`.
+
+Extension 08 completes the final targeted parliamentary laying-register/appendix and Gazette archival notification-number census. No qualifying section 29A Central Rules instrument, notification number, operative Gazette text or parliamentary laying record was retrieved. India Code's blank Rules area remains an index result only. The Lokpal (Complaint) Rules, 2020, G.S.R. 148(E), were expressly excluded because their parent power is section 59 of the Lokpal and Lokayuktas Act, 2013. The PCA residual is therefore fixed at a qualified negative-source endpoint, not legal absence. Research record: `research/central/PH1_PCA_RULES_EXTENSION_08_2026-09-06.md`.
 
 ## BNS/BNSS/BSA Transition Control
 
@@ -64,11 +66,11 @@ MANUAL SCAVENGERS LATER-INSTRUMENT CENSUS: CLOSED WITH QUALIFICATION, PH1-ISSUE-
 MANUAL SCAVENGERS SECTION 39 CENTRAL INSTRUMENT CENSUS: CLOSED WITH QUALIFICATION, PH1-ISSUE-017.
 MANUAL SCAVENGERS BNSS TRANSITION: ADVANCED WITH QUALIFICATION, PH1-ISSUE-016.
 CENTRAL LATER-INSTRUMENT COMPLETENESS: OPEN, PH1-ISSUE-008.
-PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, ADVANCED WITH QUALIFICATION AFTER EXTENSION 07.
+PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, QUALIFIED NEGATIVE-SOURCE ENDPOINT AFTER EXTENSION 08.
 BNS/BNSS/BSA TRANSITION FREEZE: CONTROLLED FREEZE WITH QUALIFICATIONS.
 JURISDICTION CURRENTNESS/INSTRUMENT RESIDUALS: OPEN.
 PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: Extension 07 completed a targeted parliamentary, DoPT, Legislative Department and Gazette primary-source search for PCA section 29A rules, including section 9 commercial-organisation guidance and section 19 prosecution-sanction guidance. No qualifying section 29A Central Rules instrument or parliamentary laying record was retrieved. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 remains classified as administrative guidance. PCA remains OPEN under PH1-ISSUE-008. Extension record: `research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`.
+2026-09-06: Extension 08 completed the final targeted parliamentary laying-register/appendix and Gazette archival notification-number census for PCA section 29A. No qualifying section 29A Central Rules instrument, notification number, operative Gazette text or parliamentary laying record was retrieved. This is a qualified negative-source finding, not legal absence. DoPT O.M. No. 372/19/2012-AVD-III remains administrative guidance. PCA remains OPEN under PH1-ISSUE-008. Extension record: `research/central/PH1_PCA_RULES_EXTENSION_08_2026-09-06.md`.
