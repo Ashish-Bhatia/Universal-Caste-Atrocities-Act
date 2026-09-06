@@ -26,6 +26,7 @@ Phase 1 acceptance: NOT YET SATISFIED.
 - Juvenile Justice Model Rules remain at qualified G.S.R. 678(E), 01-09-2022 endpoint. Do not reopen absent a qualifying trigger.
 - Extension 05 advanced Forest Rights Rules to G.S.R. 669(E), 06-09-2012; Domestic Violence Rules to G.S.R. 644(E), 17-10-2006; POCSO Rules to G.S.R. 165(E), 09-03-2020; and Child and Adolescent Labour Rules to G.S.R. 543(E), 02-06-2017. These are qualified endpoints, not legal-absence conclusions.
 - Extension 06 advanced the Prevention of Corruption Rules residual. PCA section 29A expressly authorises Central rule-making. Targeted DoPT, Legislative Department and official eGazette searches did not retrieve a qualifying section 29A Rules instrument. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 is classified as administrative prosecution-sanction guidance, not automatically as a section 29A rule.
+- Extension 07 further searched Parliament Digital Library/eParlib, DoPT, Legislative Department and official Gazette sources. No qualifying section 29A Central Rules instrument or parliamentary laying record was retrieved. Retrieved parliamentary answers and DoPT Annual Reports classify the 2006/2012 prosecution-sanction sequence as guidelines/instructions. No section 9 commercial-organisation or section 19 prosecution-sanction instrument was retrieved with a section 29A parent-power citation. PCA remains OPEN and this result is not legal-absence evidence.
 - Section 3(2)(v) remains controlled as an offence-specific BNS punishment-threshold question. The ten-year threshold is not determined by numerical substitution.
 - Rule 7 remains mapped to BNSS by subject matter, with the special 60-day investigation/charge-sheet duty kept distinct from BNSS section 187 custody/default-bail periods.
 - BSA sections 104-109 and 115 remain distinguished from SC/ST Act section 8. Judicial operation remains deferred.
@@ -37,26 +38,33 @@ Do not repeat State/UT research, Jammu and Kashmir, Ladakh, Lakshadweep, Puduche
 
 Do not repeat completed SC/ST Rules endpoint verification, Extension 04 RPwD/JJ work, Extension 05 Forest Rights/Domestic Violence/POCSO/Child Labour endpoint work, resolved BLSA 1978/1983 reconciliation, Rule 7 primary-text correspondence or the BSA ss.104-109/115 versus s.8 distinction unless new primary evidence requires correction or extension.
 
+Do not repeat the Extension 06 PCA DoPT/Legislative Department/eGazette search. Extension 07 already performed the parliamentary/eParlib, DoPT, Legislative Department and Gazette search described below.
+
 ## Next authorized workstream
 
-1. Continue PH1-ISSUE-008, prioritising the Prevention of Corruption Rules residual.
-2. Search official parliamentary laying records and archives for rules made under PCA section 29A, especially section 9 commercial-organisation guidelines and section 19 prosecution-sanction guidelines.
-3. Search DoPT and Legislative Department archives by Gazette notification number and exact rule terminology. Do not treat DoPT OMs, CVC guidance, Lokpal rules, service rules or State rules as PCA section 29A rules without parent-power evidence.
-4. Preserve the RPwD direct-endpoint residuals and qualified JJ 2022 endpoint.
-5. Preserve the controlled BNS/BNSS/BSA freeze. Do not reopen the completed section 3(2)(v) threshold matrix unless new primary evidence identifies a genuine gap.
-6. Do not reopen completed State/UT inventories absent a qualifying trigger.
+1. Continue PH1-ISSUE-008 only through a final authoritative parliamentary laying-register/appendix and Gazette archival notification-number census for PCA section 29A.
+2. Preserve the Extension 07 finding: no qualifying section 29A Central Rules instrument or parliamentary laying record was retrieved in the targeted searches.
+3. Preserve the classification of DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 and related OMs as administrative guidance unless parent-power evidence establishes section 29A authority.
+4. Preserve separate section 9 commercial-organisation and section 19 prosecution-sanction guideline search targets.
+5. If a qualifying instrument is found, verify title, notification number, date, parent statutory power, operative text, commencement, amendments, repeal/supersession and parliamentary laying before changing status.
+6. If the final repository census remains negative, record only a qualified negative-source finding unless the authoritative repository provides an explicit complete-rules register.
+7. Preserve the RPwD/JJ residuals and controlled BNS/BNSS/BSA freeze.
+8. Do not reopen completed State/UT inventories absent a qualifying trigger.
 
-## Current PCA research record
+## Current PCA research records
 
 `research/central/PH1_PCA_RULES_RESIDUAL_2026-09-06.md`
+`research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`
 `project-state/PH1_PCA_RULES_PRIMARY_SOURCE_ADVANCE_2026-09-06.md`
 `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_06.md`
 `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_06.md`
+`project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_07.md`
+`project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_07.md`
 
 ## Exact continuation instruction
 
-Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 06 PCA Rules residual point.
+Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 07 PCA Rules residual point.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_05.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_RESEARCH_ADDENDUM_2026-09-06_05.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_05.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_05.md`, `research/central/PH1_PCA_RULES_RESIDUAL_2026-09-06.md`, `project-state/PH1_PCA_RULES_PRIMARY_SOURCE_ADVANCE_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_06.md`, `project-state/PH1_CENTRAL_TRANSITION_PRIMARY_SOURCE_ADVANCE_2026-09-06.md`, `legislation/SCST_ACT_SECTION3_2V_BNS_THRESHOLD_MATRIX.md`, `legislation/SCST_ACT_SECTION3_BNS_CROSSWALK.md`, `legislation/SCST_ACT_BNSS_PROCEDURAL_CROSSWALK.md`, and `legislation/SCST_ACT_BSA_EVIDENCE_PRESUMPTION_CROSSWALK.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `research/central/PH1_PCA_RULES_RESIDUAL_2026-09-06.md`, `research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_07.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_07.md`, and the earlier PCA/central control records as needed.
 
-Do not repeat any completed work listed above. Continue only the unresolved PCA section 29A primary-source search and any directly qualifying primary evidence. Preserve all evidence grades, distinguish indexed absence from legal absence, preserve the RPwD/JJ residuals, preserve the BNS/BNSS/BSA freeze, and do not use numerical renumbering as a substitute for subject-matter correspondence.
+Do not repeat any completed work listed above, including the Extension 06 PCA DoPT/Legislative Department/eGazette search or the Extension 07 searches already completed. Continue only the final authoritative parliamentary laying-register/appendix and Gazette archival notification-number census for section 29A, or directly qualifying primary evidence. Preserve all evidence grades, distinguish indexed absence from legal absence, preserve the RPwD/JJ residuals, preserve the BNS/BNSS/BSA freeze, and do not use numerical renumbering as a substitute for subject-matter correspondence.
