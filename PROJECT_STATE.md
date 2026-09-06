@@ -46,6 +46,8 @@ Extension 05 advances Forest Rights Rules to the Government-hosted 2012 amended 
 
 Extension 06 advances the Prevention of Corruption Rules residual. Section 29A expressly authorises Central rule-making. Targeted DoPT, Legislative Department and official eGazette searches did not retrieve a qualifying section 29A Rules instrument. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 and related records establish administrative prosecution-sanction guidance, not automatically section 29A rules. The PCA residual remains OPEN and requires a parliamentary-laying/archive and notification-number search.
 
+Extension 07 advances the PCA search further. Targeted Parliament Digital Library/eParlib, DoPT, Legislative Department and official Gazette searches did not retrieve a qualifying section 29A Rules instrument or parliamentary laying record. Retrieved parliamentary answers and DoPT Annual Reports classify the 2006/2012 prosecution-sanction sequence as administrative guidelines/instructions. No section 9 commercial-organisation or section 19 prosecution-sanction instrument was retrieved with a section 29A parent-power citation. This remains a qualified retrieval result, not legal absence. Research record: `research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`.
+
 ## BNS/BNSS/BSA Transition Control
 
 The transition framework remains a CONTROLLED FREEZE WITH QUALIFICATIONS under `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`. S.O. 2790(E), 16-07-2024 controls construction of legacy references without blanket numerical substitution. SC/ST Act BNS/BNSS/BSA crosswalks remain advanced with qualification. The section 3(2)(v) threshold matrix remains controlled and is not reopened absent new primary evidence identifying a genuine correspondence gap.
@@ -62,11 +64,11 @@ MANUAL SCAVENGERS LATER-INSTRUMENT CENSUS: CLOSED WITH QUALIFICATION, PH1-ISSUE-
 MANUAL SCAVENGERS SECTION 39 CENTRAL INSTRUMENT CENSUS: CLOSED WITH QUALIFICATION, PH1-ISSUE-017.
 MANUAL SCAVENGERS BNSS TRANSITION: ADVANCED WITH QUALIFICATION, PH1-ISSUE-016.
 CENTRAL LATER-INSTRUMENT COMPLETENESS: OPEN, PH1-ISSUE-008.
-PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, ADVANCED WITH QUALIFICATION.
+PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, ADVANCED WITH QUALIFICATION AFTER EXTENSION 07.
 BNS/BNSS/BSA TRANSITION FREEZE: CONTROLLED FREEZE WITH QUALIFICATIONS.
 JURISDICTION CURRENTNESS/INSTRUMENT RESIDUALS: OPEN.
 PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: Extension 06 completed a targeted primary-source PCA Rules search. Section 29A rule-making authority was confirmed from the current India Code Act text. DoPT primary records confirm prosecution-sanction administrative guidance, including O.M. No. 372/19/2012-AVD-III dated 03-05-2012, but no qualifying section 29A Rules instrument was retrieved from the targeted DoPT, Legislative Department and eGazette searches. PCA remains OPEN under PH1-ISSUE-008. Research record: `research/central/PH1_PCA_RULES_RESIDUAL_2026-09-06.md`.
+2026-09-06: Extension 07 completed a targeted parliamentary, DoPT, Legislative Department and Gazette primary-source search for PCA section 29A rules, including section 9 commercial-organisation guidance and section 19 prosecution-sanction guidance. No qualifying section 29A Central Rules instrument or parliamentary laying record was retrieved. DoPT O.M. No. 372/19/2012-AVD-III dated 03-05-2012 remains classified as administrative guidance. PCA remains OPEN under PH1-ISSUE-008. Extension record: `research/central/PH1_PCA_RULES_EXTENSION_07_2026-09-06.md`.
