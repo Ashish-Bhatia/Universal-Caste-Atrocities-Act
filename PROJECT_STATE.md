@@ -30,6 +30,8 @@ The exact preserved historical comparison remains:
 
 The 377-ID discrepancy remains unresolved as a historical classification/integration question. Jurisdiction-ledger fallback remains a public rendering tier only and is not master-ledger integration. The later post-baseline filesystem delta remains recorded separately and is not integrated into the master ledger.
 
+Extension-specific Central research ledgers remain dedicated traceability artifacts and are not silently promoted into the cumulative ledger without controlled integration.
+
 ## Website Control Status
 
 The current redesign artifact remains verified for run #491 with 90 HTML pages, 36/36 jurisdictions, zero stale 33/36 text, zero broken local links, zero heading-level jumps, complete metadata, Tabler/Open Props foundation and responsive/accessibility controls. Live Pages HTTP/settings verification remains open because the connector does not provide independent browser-level verification.
@@ -56,6 +58,10 @@ Extension 10 advances the Child and Adolescent Labour later-instrument dependenc
 
 Extension 11 advances and corrects the Forest Rights later-instrument dependency. New primary evidence establishes that the Jammu and Kashmir Reorganisation Act, 2019, Act 34 of 2019, section 95 and Fifth Schedule removed the former Jammu and Kashmir exclusion from section 1(2) of the Forest Rights Act, effective 31-10-2019. This corrects the prior Extension 05 proposition that no post-2018 Central amendment Act had been located. Extension 11 also identifies MHA S.O. 2631(E), 07-06-2022, under Article 239(1), directing the Administrator of Andaman and Nicobar Islands to exercise State Government powers/functions under the Forest Rights Act. G.S.R. 669(E), 06-09-2012 remains the identified Central Rules amendment endpoint. Targeted later-Rule searches remain qualified retrieval results, not legal-absence conclusions. Research record: `research/central/PH1_FOREST_RIGHTS_EXTENSION_11_2026-09-06.md`.
 
+Extension 12 advances the Protection of Women from Domestic Violence Act/Rules dependency. Act 34 of 2019, Schedule V item 87 removed the former Jammu and Kashmir exclusion from PWDVA section 1(2), effective 31-10-2019. G.S.R. 644(E), 17-10-2006 remains the identified Central Rules instrument and qualified Rules endpoint. S.O. 1838(E), 26-10-2007 is an Article 239(1) UT delegation instrument, not a Rules amendment. The 2024 and 2025 Private Member's Bills are retained as legislative activity, not enacted law. No later Central Rules amendment was retrieved in the defined official-source search. This is retrieval silence, not legal absence. Research record: `research/central/PH1_DOMESTIC_VIOLENCE_EXTENSION_12_2026-09-06.md`.
+
+Extension 13 advances the Protection of Children from Sexual Offences Act/Rules later-instrument dependency beyond the prior qualified G.S.R. 165(E), 09-03-2020 endpoint. Targeted official-source research did not retrieve a post-2020 enacted Central amendment Act, a later Central POCSO Rules amendment/replacement instrument, or a post-2020 Central notification/order expressly made under POCSO statutory powers and altering the Act/Rules machinery. The Protection of Children from Sexual Offences (Amendment) Bill, 2024 is verified legislative activity and not enacted law; official parliamentary material records consideration in 2025 remained inconclusive. Current MWCD, NCPCR and India Code listings are current-source indicators, not exhaustive Gazette registers. The POCSO result is therefore ADVANCED WITH QUALIFICATION and remains retrieval silence, not legal absence. Research record: `research/central/PH1_POCSO_EXTENSION_13_2026-09-06.md`; research ledger: `research/central/PH1_POCSO_RESEARCH_LEDGER_EXTENSION_13_2026-09-06.md`.
+
 ## BNS/BNSS/BSA Transition Control
 
 The transition framework remains a CONTROLLED FREEZE WITH QUALIFICATIONS under `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`. S.O. 2790(E), 16-07-2024 controls construction of legacy references without blanket numerical substitution. SC/ST Act BNS/BNSS/BSA crosswalks remain advanced with qualification. The section 3(2)(v) threshold matrix remains controlled and is not reopened absent new primary evidence identifying a genuine correspondence gap.
@@ -76,10 +82,12 @@ PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, QUALIFIED NEGATIVE-SOURCE ENDPOIN
 REPRESENTATION OF THE PEOPLE / CONDUCT OF ELECTIONS RULES DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 09.
 CHILD AND ADOLESCENT LABOUR LATER-INSTRUMENT DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 10.
 FOREST RIGHTS LATER-INSTRUMENT DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 11; PRIOR EXTENSION 05 ACT-AMENDMENT PROPOSITION CORRECTED.
+PWDVA LATER-INSTRUMENT DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 12.
+POCSO LATER-INSTRUMENT DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 13; G.S.R. 165(E), 09-03-2020 remains the qualified prior Rules endpoint; no post-2020 Central Act/Rules/statutory-instrument amendment was retrieved in the defined search.
 BNS/BNSS/BSA TRANSITION FREEZE: CONTROLLED FREEZE WITH QUALIFICATIONS.
 JURISDICTION CURRENTNESS/INSTRUMENT RESIDUALS: OPEN.
 PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: Extension 11 advanced and corrected the Forest Rights later-instrument dependency. Act 34 of 2019, section 95 and Fifth Schedule removed the former Jammu and Kashmir exclusion from FRA section 1(2), effective 31-10-2019. S.O. 2631(E), 07-06-2022 was identified as a Central Article 239(1) administrative instrument for exercise of State Government powers/functions under the FRA in Andaman and Nicobar Islands. G.S.R. 669(E), 06-09-2012 remains the identified Central Rules amendment endpoint. The prior Extension 05 statement that no post-2018 Central amendment Act had been located is corrected. Broader Central later-instrument completeness and Phase 1 acceptance remain open.
+2026-09-06: Extension 13 advanced the POCSO later-instrument dependency beyond the G.S.R. 165(E), 09-03-2020 qualified Rules endpoint. No post-2020 enacted Central amendment Act, later Central POCSO Rules amendment/replacement instrument, or post-2020 Central notification/order expressly made under POCSO statutory powers and altering Act/Rules machinery was retrieved in the defined official-source search. The 2024 Private Member's Bill remains legislative activity, not enacted law. The endpoint is qualified retrieval silence, not legal absence. PH1-ISSUE-008 remains OPEN and Phase 1 acceptance remains NOT YET SATISFIED.
