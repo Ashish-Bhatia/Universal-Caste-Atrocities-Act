@@ -50,6 +50,8 @@ Extension 07 advances the PCA search further. Targeted Parliament Digital Librar
 
 Extension 08 completes the final targeted parliamentary laying-register/appendix and Gazette archival notification-number census. No qualifying section 29A Central Rules instrument, notification number, operative Gazette text or parliamentary laying record was retrieved. India Code's blank Rules area remains an index result only. The Lokpal (Complaint) Rules, 2020, G.S.R. 148(E), were expressly excluded because their parent power is section 59 of the Lokpal and Lokayuktas Act, 2013. The PCA residual is therefore fixed at a qualified negative-source endpoint, not legal absence. Research record: `research/central/PH1_PCA_RULES_EXTENSION_08_2026-09-06.md`.
 
+Extension 09 advances the Representation of the People Act / Conduct of Elections Rules dependency. Primary and official parliamentary evidence identifies nine post-2018 amendment instruments: S.O. 1023(E), 26-02-2019; S.O. 3786(E), 22-10-2019; S.O. 1964(E), 19-06-2020; S.O. 3667(E), 19-10-2020; S.O. 72(E), 06-01-2022; S.O. 2804(E), 17-06-2022; S.O. 3778(E), 23-08-2023; G.S.R. 995(E), 01-03-2024; and S.O. 5517(E), 20-12-2024. India Code's displayed Rules table does not show the later 2023/2024 instruments, so it is not treated as an exhaustive current register. Targeted official Gazette and parliamentary searches for 2025-2026 did not retrieve a qualifying Conduct of Elections Rules amendment instrument. This is retrieval silence, not legal absence. Research record: `research/central/PH1_RPA_RULES_EXTENSION_09_2026-09-06.md`.
+
 ## BNS/BNSS/BSA Transition Control
 
 The transition framework remains a CONTROLLED FREEZE WITH QUALIFICATIONS under `project-state/PH1_BNS_BNSS_BSA_TRANSITION_FREEZE_2026-09-06.md`. S.O. 2790(E), 16-07-2024 controls construction of legacy references without blanket numerical substitution. SC/ST Act BNS/BNSS/BSA crosswalks remain advanced with qualification. The section 3(2)(v) threshold matrix remains controlled and is not reopened absent new primary evidence identifying a genuine correspondence gap.
@@ -67,10 +69,11 @@ MANUAL SCAVENGERS SECTION 39 CENTRAL INSTRUMENT CENSUS: CLOSED WITH QUALIFICATIO
 MANUAL SCAVENGERS BNSS TRANSITION: ADVANCED WITH QUALIFICATION, PH1-ISSUE-016.
 CENTRAL LATER-INSTRUMENT COMPLETENESS: OPEN, PH1-ISSUE-008.
 PREVENTION OF CORRUPTION RULES RESIDUAL: OPEN, QUALIFIED NEGATIVE-SOURCE ENDPOINT AFTER EXTENSION 08.
+REPRESENTATION OF THE PEOPLE / CONDUCT OF ELECTIONS RULES DEPENDENCY: ADVANCED WITH QUALIFICATION AFTER EXTENSION 09.
 BNS/BNSS/BSA TRANSITION FREEZE: CONTROLLED FREEZE WITH QUALIFICATIONS.
 JURISDICTION CURRENTNESS/INSTRUMENT RESIDUALS: OPEN.
 PHASE 1 SUBSTANTIVE ACCEPTANCE: NOT YET SATISFIED.
 
 ## Latest Controlled Update
 
-2026-09-06: Extension 08 completed the final targeted parliamentary laying-register/appendix and Gazette archival notification-number census for PCA section 29A. No qualifying section 29A Central Rules instrument, notification number, operative Gazette text or parliamentary laying record was retrieved. This is a qualified negative-source finding, not legal absence. DoPT O.M. No. 372/19/2012-AVD-III remains administrative guidance. PCA remains OPEN under PH1-ISSUE-008. Extension record: `research/central/PH1_PCA_RULES_EXTENSION_08_2026-09-06.md`.
+2026-09-06: Extension 09 advanced the Representation of the People Act / Conduct of Elections Rules later-instrument dependency. Primary and official parliamentary evidence identified nine post-2018 amendment instruments through S.O. 5517(E), 20-12-2024, including S.O. 1023(E), 26-02-2019 and S.O. 3667(E), 19-10-2020. Targeted 2025-2026 official Gazette/parliamentary searches did not retrieve a qualifying Conduct of Elections Rules amendment instrument. This is a qualified retrieval result, not legal absence. RPA remains OPEN within PH1-ISSUE-008. Extension record: `research/central/PH1_RPA_RULES_EXTENSION_09_2026-09-06.md`.
