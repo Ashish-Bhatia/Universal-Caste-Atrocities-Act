@@ -18,61 +18,39 @@ Phase 1 acceptance: NOT YET SATISFIED.
 - PH1-ISSUE-008: OPEN for broader Central later-instrument completeness.
 - PCA section 29A is fixed at a qualified negative-source endpoint after Extension 08. Do not state that no section 29A rules exist.
 - RPA / Conduct of Elections Rules dependency is ADVANCED WITH QUALIFICATION after Extension 09.
-- Extension 09 identifies nine post-2018 Conduct of Elections Rules amendment instruments: S.O.1023(E) 26-02-2019; S.O.3786(E) 22-10-2019; S.O.1964(E) 19-06-2020; S.O.3667(E) 19-10-2020; S.O.72(E) 06-01-2022; S.O.2804(E) 17-06-2022; S.O.3778(E) 23-08-2023; G.S.R.995(E) 01-03-2024; S.O.5517(E) 20-12-2024.
-- Targeted official Gazette/parliamentary searches for 2025-2026 did not retrieve a qualifying Conduct of Elections Rules amendment instrument. This is retrieval silence, not legal absence.
-- India Code's displayed RPA Rules table is not treated as an exhaustive Gazette register because later 2023/2024 instruments were retrieved from primary Gazette/parliamentary sources despite not appearing in that table.
 - Child and Adolescent Labour later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 10.
-- Extension 10 identifies S.O.2948(E) 14-08-2019, S.O.4811(E) 15-09-2022 and S.O.2284(E) 06-05-2026 as Technical Advisory Committee constitution instruments under section 5 read with rule 3.
-- The 2022-23 Ministry Annual Report records the TAC's 31-10-2022 review of Schedule Parts A and B and transmission of recommended revised Schedule text. No later qualifying Schedule amendment Gazette instrument was retrieved.
-- Targeted official-source searches did not retrieve a Central Rules amendment after G.S.R.543(E), 02-06-2017 or a post-2018 Central amendment Act to Act 61 of 1986. These are qualified retrieval results, not legal absence conclusions.
-- The Ministry's 01-08-2018 Task Force circular and 19-03-2025 NCLP/Samagra Shiksha merger entry are administrative/programme material and are not treated as Act/Rules amendments.
-- Forest Rights later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 11.
-- Extension 11 identifies Act 34 of 2019, section 95 and Fifth Schedule as a post-2018 Central amendment removing the former Jammu and Kashmir exclusion from FRA section 1(2), effective 31-10-2019.
-- Extension 11 identifies MHA S.O.2631(E), 07-06-2022 as a Central Article 239(1) administrative instrument directing the Administrator of Andaman and Nicobar Islands to exercise State Government powers/functions under the FRA.
-- G.S.R.669(E), 06-09-2012 remains the identified Central Rules amendment endpoint. No later Central Rules amendment was retrieved in the defined official-source search. This is retrieval silence, not legal absence.
-- Extension 11 corrects the prior Extension 05 proposition that no post-2018 Central amendment Act to the Forest Rights Act had been located. Do not repeat the superseded proposition.
-- The 2025 J&K Government nodal-department order is corroborative implementation evidence only and is not classified as a Central instrument.
-- Broader BNS/BNSS/BSA transition: CONTROLLED FREEZE WITH QUALIFICATIONS.
-- PCR transition class: advanced with qualification in `legislation/PCR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`.
-- Bonded Labour transition class: advanced with qualification in `legislation/BONDED_LABOUR_BNS_BNSS_BSA_TRANSITION_UPDATE_2026-09-06.md`.
-- RPwD G.S.R. 175(E) direct eGazette endpoint remains unresolved after HTTP 502.
-- RPwD G.S.R. 343(E) direct eGazette endpoint remains technically unavailable; operative text remains available from a Government-hosted Gazette mirror.
-- Juvenile Justice Model Rules remain at qualified G.S.R. 678(E), 01-09-2022 endpoint.
+- Forest Rights later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 11, including the Act 34 of 2019 correction.
+- PWDVA later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 12.
+- POCSO later-instrument dependency is ADVANCED WITH QUALIFICATION after Extension 13.
+- POCSO prior endpoint is G.S.R. 165(E), 09-03-2020. It remains the qualified Rules endpoint boundary and is not reopened.
+- Extension 13 targeted post-2020 Central amendment Acts, later Central POCSO Rules amendments/replacement Rules, Central notifications/orders under POCSO statutory powers, and parliamentary legislative-history material.
+- No post-2020 enacted Central POCSO amendment Act was retrieved in the defined official-source search. This is retrieval silence, not legal absence.
+- No later Central POCSO Rules amendment or replacement instrument after G.S.R. 165(E) was retrieved. This is retrieval silence, not legal absence.
+- No post-2020 Central notification/order expressly made under POCSO statutory powers and altering Act/Rules machinery was retrieved. This is retrieval silence, not legal absence.
+- The Protection of Children from Sexual Offences (Amendment) Bill, 2024 is a Private Member's Bill. Official parliamentary material shows consideration in 2025 remained inconclusive. It is not enacted law.
+- Current MWCD, NCPCR and India Code listings are current-source indicators, not exhaustive Gazette registers.
+- Administrative/programme materials such as fast-track-court and Mission Vatsalya measures are not classified as POCSO Act/Rules amendments without a demonstrated statutory instrument basis.
+- Extension 13 research records: `research/central/PH1_POCSO_EXTENSION_13_2026-09-06.md` and `research/central/PH1_POCSO_RESEARCH_LEDGER_EXTENSION_13_2026-09-06.md`.
+- `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_13.md` remains the authorization record and `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_13.md` remains the decision record.
+- BNS/BNSS/BSA transition remains CONTROLLED FREEZE WITH QUALIFICATIONS.
 - GitHub Pages run #491 remains artifact-verified and complete. Live Pages HTTP/settings verification remains open as an infrastructure limitation.
 
 ## Do NOT repeat
 
-Do not repeat State/UT research, Jammu and Kashmir, Ladakh, Lakshadweep, Puducherry, SC/ST Act version closure, Rules Annexure-II resolution, Manual Scavengers Gazette census, Manual Scavengers section 39 search, Manual Scavengers BNSS transition verification, historical 377-ID comparison, prior Pages artifact inspections, run #491 artifact verification, Bill drafting, policy-superiority/necessity analysis, constitutional-validity analysis or Phase 2 case-law research.
+Do not repeat State/UT research, Jammu and Kashmir, Ladakh, Lakshadweep, Puducherry, SC/ST Act version closure, Rules Annexure-II resolution, Manual Scavengers Gazette census, Manual Scavengers section 39 search, Manual Scavengers BNSS transition verification, historical 377-ID comparison, prior Pages artifact inspections, run #491 artifact verification, PCA Extensions 06-08, RPA Extension 09, Child and Adolescent Labour Extension 10, Forest Rights Extension 11, PWDVA Extension 12, earlier POCSO endpoint work, section 3(2)(v), BNS/BNSS/BSA controlled freeze, RPwD/JJ residuals, Bill drafting, policy analysis, constitutional analysis or Phase 2 case-law research.
 
-Do not repeat completed SC/ST Rules endpoint verification, Extension 04 RPwD/JJ work, Extension 05 Forest Rights/Domestic Violence/POCSO/Child Labour endpoint work, resolved BLSA 1978/1983 reconciliation, Rule 7 primary-text correspondence or the BSA ss.104-109/115 versus s.8 distinction unless new primary evidence requires correction or extension.
+Do not repeat G.S.R. 165(E), 09-03-2020 substantive Rules research unless new primary evidence requires correction. Treat it only as the prior endpoint boundary.
 
-Do not repeat RPA Extension 09 or Child and Adolescent Labour Extension 10 unless new primary evidence requires correction or extension.
-
-Do not repeat Forest Rights Extension 11. Its correction and new primary evidence are now controlled in the repository. Only reopen it if new primary evidence requires correction or extension.
+Do not convert retrieval silence into legal absence. Do not silently close PH1-ISSUE-008 or Phase 1 acceptance. Do not restart completed work unless new primary evidence requires correction or extension.
 
 ## Next authorized workstream
 
-1. Preserve PCA Extension 08 as a qualified negative-source endpoint. Do not reopen PCA absent a qualifying trigger.
-2. Preserve RPA Extension 09 as an advanced-with-qualification result. Do not convert the 2025-2026 retrieval result into legal absence.
-3. Preserve Child and Adolescent Labour Extension 10 as an advanced-with-qualification result. Do not convert the Rules/Act retrieval results into legal absence.
-4. Preserve Forest Rights Extension 11 as an advanced-with-qualification result. The Act 34 of 2019 correction is authoritative for the later-instrument record.
-5. Preserve India Code as a discovery/current-registry source, not an exhaustive Gazette register where primary later instruments contradict the displayed sequence.
-6. Move PH1-ISSUE-008 to the next unresolved Priority 2 Central later-instrument dependency after Forest Rights, using the existing Priority 2 screening record and current authoritative controls. The next authorized workstream is the Protection of Women from Domestic Violence Act/Rules class.
-7. Preserve the RPwD/JJ residuals and controlled BNS/BNSS/BSA freeze.
-8. Do not reopen completed State/UT inventories absent a qualifying trigger.
-
-## Forest Rights research records
-
-`research/central/PH1_FOREST_RIGHTS_EXTENSION_11_2026-09-06.md`
-`research/central/PH1_FOREST_RIGHTS_RESEARCH_LEDGER_EXTENSION_11_2026-09-06.md`
-`project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_11.md`
-`project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_11.md`
-`project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_11.md`
+POCSO Extension 13 is now complete at an ADVANCED WITH QUALIFICATION endpoint. The next Central later-instrument dependency must be selected from the existing Priority 2 screening record and current authoritative controls. Do not infer or announce a new workstream until the controlled selection record is created.
 
 ## Exact continuation instruction
 
-Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 11 Forest Rights advanced-with-qualification and correction endpoint.
+Continue the Universal Caste Atrocities Act project from the verified 2026-09-06 Central later-instrument Extension 13 POCSO advanced-with-qualification endpoint.
 
-First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `research/central/PH1_FOREST_RIGHTS_EXTENSION_11_2026-09-06.md`, `research/central/PH1_FOREST_RIGHTS_RESEARCH_LEDGER_EXTENSION_11_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ISSUES_ADDENDUM_2026-09-06_11.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_11.md`, and `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_11.md`.
+First read `PROJECT_STATE.md`, `NEXT_CHAT.md`, `RESEARCH_LEDGER.md`, `ISSUES_REGISTER.md`, `DECISIONS_LOG.md`, `project-state/PH1_ACCEPTANCE_AUDIT_2026-09-06.md`, `research/central/PH1_POCSO_EXTENSION_13_2026-09-06.md`, `research/central/PH1_POCSO_RESEARCH_LEDGER_EXTENSION_13_2026-09-06.md`, `project-state/PH1_CENTRAL_LATER_INSTRUMENT_ADVANCE_2026-09-06_13.md`, and `project-state/PH1_CENTRAL_LATER_INSTRUMENT_DECISIONS_ADDENDUM_2026-09-06_13.md`.
 
-Do not repeat PCA Extensions 06-08, RPA Extension 09, Child and Adolescent Labour Extension 10 or Forest Rights Extension 11. Do not repeat State/UT research, completed Central work, section 3(2)(v), the BNS/BNSS/BSA freeze, RPwD/JJ residuals, website verification, drafting, policy analysis, constitutional analysis or Phase 2 case-law research. Select only the next authorized unresolved Central later-instrument dependency after Forest Rights using the existing Priority 2 screening record and current authoritative controls. The next authorized workstream is the Protection of Women from Domestic Violence Act/Rules class. Preserve all evidence grades and the distinction between retrieval silence and legal absence. Do not silently close PH1-ISSUE-008 or Phase 1 acceptance. Do not repeat the superseded Extension 05 Forest Rights proposition that no post-2018 Central amendment Act had been located. Do not restart completed work unless new primary evidence requires correction or extension.
+Do not repeat POCSO Extension 13, PWDVA Extension 12, Forest Rights Extension 11, Child and Adolescent Labour Extension 10, RPA Extension 09, PCA Extensions 06-08, POCSO G.S.R. 165(E) endpoint work, State/UT research, completed Central work, section 3(2)(v), the BNS/BNSS/BSA freeze, RPwD/JJ residuals, website verification, drafting, policy analysis, constitutional analysis or Phase 2 case-law research. Select only the next unresolved Central later-instrument dependency from the existing Priority 2 screening record and create a controlled authorization record before substantive research. Preserve evidence grades and the distinction between retrieval silence and legal absence. Keep PH1-ISSUE-008 OPEN and Phase 1 acceptance NOT YET SATISFIED. Do not restart completed work unless new primary evidence requires correction or extension.
